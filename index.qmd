@@ -44,6 +44,10 @@ Scientific commentary by **iLo** on what the evidence supports, what it leaves u
 
 I-Chung Lo, writing as **iLo**, is a translational scientist interested in how biological evidence becomes decisions in drug discovery and development.
 
-[More about iLo](about.qmd){.text-link} &nbsp; [Email iLo](mailto:ichunglo@protonmail.com){.text-link}
+::: {.profile-links aria-label="iLo profile links"}
+[More about iLo](about.qmd){.text-link}
+[Email iLo](mailto:ichunglo@protonmail.com){.text-link}
+[LinkedIn](https://www.linkedin.com/in/ichunglo/){.text-link}
+:::
 :::
 :::

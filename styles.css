@@ -98,6 +98,9 @@ h3 { font-weight: 500; }
 .profile-portrait { width: 116px; height: 116px; object-fit: cover; filter: saturate(0.82); }
 .home-profile h3 { margin-top: 0; }
 .text-link { text-underline-offset: 0.22em; }
+.profile-links { display: flex; flex-wrap: wrap; align-items: center; gap: 0.45rem 0; }
+.profile-links p { display: contents; }
+.profile-links .text-link + .text-link { margin-left: 0.85rem; padding-left: 0.85rem; border-left: 1px solid var(--taupe); }
 
 .topic-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 2rem 0 3rem; }
 .topic-card { min-height: 250px; padding: 1.5rem; border-top: 3px solid var(--charcoal); background: var(--ivory-gray); }
