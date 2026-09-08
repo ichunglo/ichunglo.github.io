@@ -1,0 +1,17 @@
+---
+title: "Writing"
+description: "Paper analyses, translational perspectives, and industry briefs by iLo."
+page-layout: full
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  image-align: left
+  image-height: 180px
+  fields: [image, categories, title, description, date, reading-time]
+  categories: true
+  page-size: 10
+---
+
+Evidence-led commentary for readers working across biotech, pharma, and translational science.
+

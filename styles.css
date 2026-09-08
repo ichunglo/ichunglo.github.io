@@ -1,0 +1,155 @@
+:root {
+  --ivory-gray: #e9ebeb;
+  --blush: #ecdace;
+  --taupe: #9e9791;
+  --charcoal: #514a47;
+  --paper: #f8f7f5;
+  --blue: #718aa0;
+  --line: #d6d1cc;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-size: 1.075rem;
+  line-height: 1.72;
+  letter-spacing: 0.002em;
+}
+
+p { max-width: 72ch; }
+
+h1, h2, h3 { letter-spacing: -0.018em; }
+
+h1 { font-size: clamp(2.55rem, 6vw, 5.4rem); font-weight: 500; line-height: 0.98; }
+h2 { margin-top: 2.6rem; font-size: clamp(1.65rem, 3vw, 2.25rem); font-weight: 500; }
+h3 { font-weight: 500; }
+
+.navbar {
+  border-bottom: 1px solid rgba(81, 74, 71, 0.18);
+  backdrop-filter: blur(12px);
+  background: rgba(248, 247, 245, 0.94) !important;
+}
+
+.navbar-brand {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 1.35rem;
+  letter-spacing: -0.025em;
+}
+
+.nav-link { font-size: 0.9rem; letter-spacing: 0.02em; }
+
+.home-page #title-block-header {
+  display: none;
+}
+
+.home-hero {
+  min-height: 68vh;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(2rem, 7vw, 8rem);
+  padding: clamp(4.5rem, 9vw, 8rem) clamp(1.25rem, 6vw, 7rem);
+  width: 100%;
+  margin: 0 0 4.5rem;
+  background: linear-gradient(120deg, var(--blush) 0%, #f1e6df 58%, var(--ivory-gray) 58%);
+}
+
+.home-hero-copy { max-width: 830px; }
+.home-hero-copy h1 { margin: 0.5rem 0 1.25rem; }
+.home-hero-copy > p:not(.eyebrow) { font-family: "Newsreader", Georgia, serif; font-size: clamp(1.25rem, 2vw, 1.6rem); line-height: 1.45; }
+.eyebrow, .article-type { font: 600 0.76rem/1.2 "Inter", sans-serif; letter-spacing: 0.16em; color: #685f5a; }
+
+.hero-link, .button-link, .button-link-secondary {
+  display: inline-block;
+  padding: 0.78rem 1.05rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  font: 500 0.88rem/1 "Inter", sans-serif;
+  border: 1px solid var(--charcoal);
+}
+
+.hero-link, .button-link { background: var(--charcoal); color: white; }
+.hero-link:hover, .button-link:hover { background: #2e2927; color: white; }
+.button-link-secondary { color: var(--charcoal); margin-left: 0.35rem; }
+
+.section-heading { margin-bottom: 1.5rem; }
+
+.quarto-grid-item.card {
+  border: 0;
+  border-top: 1px solid var(--charcoal);
+  background: transparent;
+  box-shadow: none;
+  transition: transform 180ms ease;
+}
+.quarto-grid-item.card:hover { transform: translateY(-4px); }
+.quarto-grid-item .card-title { font-family: "Newsreader", Georgia, serif; font-size: 1.55rem; line-height: 1.15; }
+.quarto-grid-item .listing-categories .listing-category { border-color: var(--taupe); color: var(--charcoal); }
+
+.home-profile {
+  display: grid;
+  grid-template-columns: 116px minmax(0, 1fr);
+  gap: 1.6rem;
+  align-items: center;
+  max-width: 780px;
+  margin: 5.5rem auto 2rem;
+  padding: 1.4rem;
+  background: var(--ivory-gray);
+}
+.profile-portrait { width: 116px; height: 116px; object-fit: cover; filter: saturate(0.82); }
+.home-profile h3 { margin-top: 0; }
+.text-link { text-underline-offset: 0.22em; }
+
+.topic-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 2rem 0 3rem; }
+.topic-card { min-height: 250px; padding: 1.5rem; border-top: 3px solid var(--charcoal); background: var(--ivory-gray); }
+.topic-card:nth-child(2) { background: var(--blush); }
+.topic-card:nth-child(3) { background: #dedbd8; }
+.topic-card h3 { margin-top: 0; }
+.topic-pill { display: inline-block; margin: 0.2rem; padding: 0.45rem 0.75rem; border: 1px solid var(--taupe); border-radius: 2rem; text-decoration: none; font: 500 0.82rem/1 "Inter", sans-serif; }
+
+.about-layout { display: grid; grid-template-columns: minmax(210px, 0.42fr) minmax(0, 1fr); gap: clamp(2rem, 6vw, 5rem); align-items: start; margin-top: 2rem; }
+.about-portrait { width: 100%; max-width: 360px; aspect-ratio: 1; object-fit: cover; filter: saturate(0.82); }
+.about-copy h2 { margin-top: 0; font-size: clamp(2.2rem, 5vw, 4rem); }
+
+.quarto-title-block { max-width: 960px; margin: 4rem auto 2.2rem; }
+.quarto-title-block .title { font-size: clamp(2.75rem, 6vw, 5.2rem); }
+.article-type { margin-top: 3rem; }
+.article-deck { max-width: 780px; margin: 1rem 0 2rem; font-family: "Newsreader", Georgia, serif; font-size: 1.4rem; line-height: 1.45; color: #665d58; }
+.article-cover { width: 100%; max-height: 590px; object-fit: cover; margin: 1rem 0 2.8rem; }
+
+.evidence-card, .interpretation-note, .proposal-note, .next-experiment, .evidence-note {
+  margin: 2.2rem 0;
+  padding: 1.35rem 1.5rem;
+  border-left: 3px solid var(--charcoal);
+  background: var(--ivory-gray);
+}
+.evidence-card { background: var(--blush); }
+.next-experiment { border-left-color: var(--blue); background: #e9edf0; }
+.proposal-note { border-left-color: var(--taupe); background: #efebe8; }
+.evidence-card h3, .next-experiment h3, .evidence-note h3 { margin-top: 0; }
+.evidence-card p:last-child, .interpretation-note p:last-child, .proposal-note p:last-child, .next-experiment p:last-child, .evidence-note p:last-child { margin-bottom: 0; }
+
+.article-actions { display: flex; gap: 0.75rem; margin: 3rem 0; }
+.article-actions a { padding: 0.65rem 0.85rem; border: 1px solid var(--charcoal); text-decoration: none; font: 500 0.82rem/1 "Inter", sans-serif; }
+.article-disclosure { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--line); color: #6c635e; font-size: 0.88rem; }
+
+.page-footer { margin-top: 5rem; font-size: 0.82rem; }
+
+@media (max-width: 800px) {
+  body { font-size: 1rem; }
+  .home-hero { min-height: auto; grid-template-columns: 1fr; padding-top: 5rem; background: linear-gradient(155deg, var(--blush) 0%, #f1e6df 70%, var(--ivory-gray) 70%); }
+  .topic-grid, .about-layout { grid-template-columns: 1fr; }
+  .topic-card { min-height: 0; }
+  .about-portrait { max-width: 260px; }
+}
+
+@media (max-width: 520px) {
+  .home-profile { grid-template-columns: 80px minmax(0, 1fr); align-items: start; }
+  .profile-portrait { width: 80px; height: 80px; }
+  .article-actions { flex-direction: column; align-items: flex-start; }
+  .button-link-secondary { margin-left: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .quarto-grid-item.card { transition: none; }
+}

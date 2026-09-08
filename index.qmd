@@ -1,0 +1,49 @@
+---
+title: "The Edge of Evidence"
+title-block-banner: false
+page-layout: full
+body-classes: home-page
+toc: false
+listing:
+  id: latest-writing
+  contents: posts
+  sort: "date desc"
+  type: grid
+  grid-columns: 3
+  image-height: 250px
+  fields: [image, categories, title, description, date, reading-time]
+  categories: false
+  feed:
+    type: partial
+    title: "The Edge of Evidence"
+    description: "Scientific commentary by iLo"
+---
+
+::: {.home-hero}
+::: {.home-hero-copy}
+<p class="eyebrow">EVIDENCE · INTERPRETATION · TRANSLATION</p>
+
+# The Edge of Evidence
+
+Scientific commentary by **iLo** on what the evidence supports, what it leaves unresolved, and what it could mean for drug discovery and development.
+
+[Read the latest analysis](posts/2026-09-04-photoproximity-labeling-hidden-regulator-c-myc/index.qmd){.hero-link}
+:::
+:::
+
+## Latest writing {.section-heading}
+
+::: {#latest-writing}
+:::
+
+::: {.home-profile}
+<img src="assets/images/ilo-portrait.webp" class="profile-portrait" alt="Cartoon portrait of iLo">
+
+::: {.home-profile-copy}
+### About iLo
+
+I-Chung Lo, writing as **iLo**, is a translational scientist interested in how biological evidence becomes decisions in drug discovery and development.
+
+[More about iLo](about.qmd){.text-link} &nbsp; [Email iLo](mailto:ichunglo@protonmail.com){.text-link}
+:::
+:::

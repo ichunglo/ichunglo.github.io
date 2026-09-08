@@ -1,0 +1,33 @@
+---
+title: "Brief title"
+description: "The single development and why it matters."
+author: "iLo"
+date: "YYYY-MM-DD"
+categories:
+  - Industry Brief
+image: cover.png
+image-alt: "Describe the cover image"
+draft: true
+toc: false
+---
+
+::: {.article-type}
+INDUSTRY BRIEF
+:::
+
+::: {.evidence-card}
+### Bottom line
+
+Give the answer in two or three sentences.
+:::
+
+## What happened
+
+## What the evidence supports
+
+## What remains uncertain
+
+## Why it matters for development
+
+## Sources
+

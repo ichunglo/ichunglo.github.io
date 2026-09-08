@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">iL boundary mark for The Edge of Evidence</title>
+  <rect width="128" height="128" rx="18" fill="#ecdace"/>
+  <text x="22" y="89" fill="#514a47" font-family="Georgia, serif" font-size="78" font-style="italic">i</text>
+  <path d="M63 21 L57 107" stroke="#718aa0" stroke-width="3"/>
+  <text x="70" y="89" fill="#514a47" font-family="Georgia, serif" font-size="75">L</text>
+</svg>
+

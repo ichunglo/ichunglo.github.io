@@ -1,0 +1,19 @@
+/*-- scss:defaults --*/
+$body-bg: #f8f7f5;
+$body-color: #514a47;
+$primary: #514a47;
+$link-color: #655854;
+$link-hover-color: #2e2927;
+$navbar-bg: #f8f7f5;
+$navbar-fg: #514a47;
+$footer-bg: #e9ebeb;
+$font-family-sans-serif: "Inter", "Segoe UI", Arial, sans-serif;
+$font-family-serif: "Newsreader", Georgia, "Times New Roman", serif;
+$headings-font-family: $font-family-serif;
+$headings-color: #3d3734;
+$border-color: #d6d1cc;
+$border-radius: 0;
+
+/*-- scss:rules --*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap');
+

@@ -1,0 +1,49 @@
+---
+title: "Analysis title"
+description: "One-sentence statement of the decision-relevant tension."
+author: "iLo"
+date: "YYYY-MM-DD"
+categories:
+  - Paper Analysis
+image: cover.png
+image-alt: "Describe the cover image"
+draft: true
+toc: true
+---
+
+::: {.article-type}
+PAPER ANALYSIS
+:::
+
+::: {.evidence-card}
+### Bottom line
+
+State the real contribution, the central complication, and your answer.
+:::
+
+## Why this question matters
+
+## What the investigators did
+
+## What the evidence supports
+
+## What it does not establish
+
+## Translational implications
+
+## The experiment I would run next
+
+## What would change my mind?
+
+## Evidence note
+
+**Reported:**
+
+**Derived:**
+
+**Inferred:**
+
+**Proposed:**
+
+## References
+

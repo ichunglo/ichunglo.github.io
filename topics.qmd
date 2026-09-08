@@ -1,0 +1,41 @@
+---
+title: "Topics"
+description: "Browse The Edge of Evidence by editorial format and scientific subject."
+page-layout: full
+toc: false
+---
+
+## Editorial formats
+
+::: {.topic-grid}
+::: {.topic-card}
+### Paper Analysis
+
+Close readings of scientific papers: what the experiments establish, where uncertainty remains, and which result should change a development decision.
+
+[Browse Paper Analysis](writing.qmd#category=Paper%20Analysis){.text-link}
+:::
+
+::: {.topic-card}
+### Translational Perspective
+
+Durable essays on how biological findings move—or fail to move—from mechanism to medicine.
+
+*Perspectives will appear here as they are published.*
+:::
+
+::: {.topic-card}
+### Industry Brief
+
+Focused interpretations of consequential biotech and pharma developments.
+
+*Briefs will appear here as they are published.*
+:::
+:::
+
+## Scientific subjects
+
+[Chemical biology](writing.qmd#category=Chemical%20Biology){.topic-pill}
+[Oncology](writing.qmd#category=Oncology){.topic-pill}
+[Target discovery](writing.qmd#category=Target%20Discovery){.topic-pill}
+[Protein regulation](writing.qmd#category=Protein%20Regulation){.topic-pill}

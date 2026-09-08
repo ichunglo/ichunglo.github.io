@@ -1,0 +1,23 @@
+---
+title: "Editorial notes"
+description: "Evidence, corrections, AI use, and licensing at The Edge of Evidence."
+page-layout: article
+toc: false
+---
+
+## Evidence and citations
+
+Scientific claims link to primary sources wherever practical. Paper analyses distinguish reported observations from calculations, interpretation, and proposed experiments. Preprints are labeled explicitly.
+
+## Corrections
+
+Substantive corrections are dated and described in the affected article. Minor typographic changes may be made without a correction note.
+
+## AI-assisted artwork and editing
+
+Cover art may be AI-generated. Scientific interpretation is edited and reviewed by the author. Material AI involvement in an article's analysis will be disclosed on that article.
+
+## Rights and reuse
+
+Article prose and cover artwork are © I-Chung Lo and all rights are reserved unless stated otherwise. Original site code is available under the MIT License. Datasets explicitly released by the author may be licensed under CC BY 4.0.
+

@@ -1,0 +1,64 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "posts/**/*.qmd"
+    - "!templates/**"
+
+website:
+  title: "The Edge of Evidence"
+  site-url: "https://ichunglo.github.io"
+  description: "Scientific commentary on drug discovery, translational medicine, and the evidence behind new medicines."
+  favicon: assets/images/il-boundary-mark.svg
+  open-graph: true
+  twitter-card: true
+  search:
+    location: navbar
+    type: overlay
+    copy-button: true
+  navbar:
+    pinned: true
+    title: "The Edge of Evidence"
+    left:
+      - text: Writing
+        href: writing.qmd
+      - text: Topics
+        href: topics.qmd
+      - text: About
+        href: about.qmd
+    right:
+      - icon: rss
+        href: index.xml
+        aria-label: RSS feed
+  page-footer:
+    border: false
+    left: "© 2026 I-Chung Lo. Article text and cover artwork: all rights reserved."
+    right:
+      - text: "Email iLo"
+        href: "mailto:ichunglo@protonmail.com"
+      - text: LinkedIn
+        href: "https://www.linkedin.com/in/ichunglo/"
+      - text: Editorial notes
+        href: editorial-notes.qmd
+
+bibliography: references.bib
+csl: vancouver.csl
+lang: en
+
+format:
+  html:
+    theme:
+      - litera
+      - styles.scss
+    css: styles.css
+    toc: true
+    toc-location: right
+    smooth-scroll: true
+    link-external-newwindow: true
+    citations-hover: true
+    footnotes-hover: true
+    anchor-sections: true
+
+execute:
+  freeze: auto

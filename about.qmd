@@ -1,0 +1,31 @@
+---
+title: "About iLo"
+description: "About I-Chung Lo and The Edge of Evidence."
+page-layout: article
+toc: false
+---
+
+::: {.about-layout}
+::: {.about-portrait-wrap}
+![Cartoon portrait of I-Chung Lo, who writes as iLo](assets/images/ilo-portrait.webp){.about-portrait}
+:::
+
+::: {.about-copy}
+## I-Chung Lo
+
+**Translational scientist · Writer of The Edge of Evidence**
+
+I-Chung Lo, writing as **iLo**, is a translational scientist interested in how biological evidence becomes decisions in drug discovery and development. *The Edge of Evidence* examines what scientific findings support, what they leave unresolved, and what they may mean for new medicines.
+
+The publication is written for biotech and pharma scientists and scientifically literate industry professionals. Its purpose is not to summarize every result. It is to identify the decision-relevant evidence, expose the assumptions connecting experiments to claims, and ask what measurement would resolve the remaining uncertainty.
+
+[Email iLo](mailto:ichunglo@protonmail.com){.button-link} [LinkedIn](https://www.linkedin.com/in/ichunglo/){.button-link-secondary}
+:::
+:::
+
+## Editorial approach
+
+Articles separate **reported observations**, **derived quantities**, **inferences**, and **proposals**. Primary sources are linked wherever practical. Preprints are labeled, and substantive corrections are dated rather than silently overwritten.
+
+Views expressed are my own.
+

@@ -1,0 +1,38 @@
+name: Publish Quarto site
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Confirm publication approval
+        id: approval
+        shell: bash
+        run: |
+          if [[ -f .publish-approved ]]; then
+            echo "approved=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "approved=false" >> "$GITHUB_OUTPUT"
+            echo "Publishing is locked. Add .publish-approved only after final review."
+          fi
+
+      - name: Set up Quarto
+        if: steps.approval.outputs.approved == 'true'
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render and publish
+        if: steps.approval.outputs.approved == 'true'
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
