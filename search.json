@@ -1,0 +1,156 @@
+[
+  {
+    "objectID": "writing.html",
+    "href": "writing.html",
+    "title": "Writing",
+    "section": "",
+    "text": "Evidence-led commentary for readers working across biotech, pharma, and translational science.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow photoproximity labeling uncovered a hidden regulator of c-Myc\n\n\n\nPaper Analysis\n\nChemical Biology\n\nOncology\n\nTarget Discovery\n\nProtein Regulation\n\n\n\nSLK was not hidden because nobody had measured it. The relevant biology depended on an isoform entering the right compartment at the right time.\n\n\n\n\n\nSep 4, 2026\n\n8 min\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2026-09-04-photoproximity-labeling-hidden-regulator-c-myc/index.html",
+    "href": "posts/2026-09-04-photoproximity-labeling-hidden-regulator-c-myc/index.html",
+    "title": "How photoproximity labeling uncovered a hidden regulator of c-Myc",
+    "section": "",
+    "text": "iLo\n\n2026-09-04\nc-Myc is one of the best-studied cancer proteins, yet it remains difficult to drug directly. One alternative is to identify proteins that cancer cells use to maintain c-Myc expression or stability. The study by Milione and colleagues takes this approach and finds SLK—a kinase that conventional mutation- or expression-centered searches would have been unlikely to prioritize [1].\nWhat interested me most was not simply the addition of another kinase to the c-Myc network. It was why SLK had escaped detection for so long."
+  },
+  {
+    "objectID": "posts/2026-09-04-photoproximity-labeling-hidden-regulator-c-myc/index.html#the-relevant-signal-was-invisible-to-conventional-databases",
+    "href": "posts/2026-09-04-photoproximity-labeling-hidden-regulator-c-myc/index.html#the-relevant-signal-was-invisible-to-conventional-databases",
+    "title": "How photoproximity labeling uncovered a hidden regulator of c-Myc",
+    "section": "The relevant signal was invisible to conventional databases",
+    "text": "The relevant signal was invisible to conventional databases\nSLK would not stand out as an obvious cancer driver in a typical bioinformatics analysis. It is not commonly defined by recurrent cancer mutations, strong gene amplification, or a striking increase in bulk RNA or protein abundance. Although SLK and c-Myc show some degree of co-dependency in certain cancer cell lines, co-dependency alone does not reveal the biological connection between them.\nThe paper suggests that the important variable is neither total SLK expression nor mutation status. It is which SLK isoform is expressed and where that isoform is located.\nPC-3 cells preferentially express SLK-L, a longer splice isoform containing exon 13 and a putative nuclear localization signal. Total SLK abundance was similar among the prostate cell lines examined, but nuclear SLK was elevated in PC-3 cells. This brings SLK into the same compartment as c-Myc and creates an opportunity for a functional interaction [1].\nThis is the type of relationship that conventional cancer databases are poorly equipped to uncover. Gene-level RNA analysis often combines multiple transcripts into one value. Standard proteomics may quantify total SLK without reliably distinguishing SLK-L from SLK-S. Even a dependency screen can tell us only that a cell needs SLK. It cannot explain whether that dependency involves c-Myc, mitosis, focal adhesions, or another SLK function.\n\nMy interpretation. The paper supports SLK-L as the likely c-Myc-relevant isoform. It does not establish that only SLK-L can stabilize c-Myc, because the authors did not directly compare the two isoforms in a controlled rescue experiment. SLK-S might also support c-Myc if it were artificially directed into the nucleus. That distinction would show whether exon 13 contributes a unique molecular function or mainly provides nuclear access.\n\nThe broader conclusion is persuasive: a cancer dependency can arise from altered splicing and localization without producing a conspicuous change in total RNA or protein. A database search centered on mutation and expression would probably never have prioritized SLK as a c-Myc regulator."
+  },
+  {
+    "objectID": "posts/2026-09-04-photoproximity-labeling-hidden-regulator-c-myc/index.html#a-short-snapshot-of-the-c-myc-neighborhood",
+    "href": "posts/2026-09-04-photoproximity-labeling-hidden-regulator-c-myc/index.html#a-short-snapshot-of-the-c-myc-neighborhood",
+    "title": "How photoproximity labeling uncovered a hidden regulator of c-Myc",
+    "section": "A short snapshot of the c-Myc neighborhood",
+    "text": "A short snapshot of the c-Myc neighborhood\nThe authors found SLK using µMap, a photoproximity-labeling method. They attached an iridium photocatalyst to c-Myc in biochemically intact isolated nuclei, added a diazirine-biotin probe, and irradiated the sample with blue light for one minute. Light activation generated short-lived reactive carbenes that labeled proteins close to c-Myc—within an estimated radius of approximately 4 nm in this implementation [1,2].\nThis short labeling period is important. Methods such as BioID use a promiscuous biotin ligase and typically integrate proximity over much longer labeling windows [3]. That broad history can be useful, but it also creates a larger candidate list when the bait is a mobile nuclear protein associated with extensive chromatin complexes.\nIn a same-cell-line comparison in PC-3 cells, BioID yielded 1,563 proteins and µMap yielded 519. Both methods recovered comparable numbers of known c-Myc interactions, but SLK was enriched by µMap and not identified by BioID [1]. The smaller µMap result reduced the candidate space by roughly threefold.\nThe comparison does not prove that spatial resolution alone explains the difference. The experiments also differed in labeling duration, cellular compartment, fusion design, reaction chemistry, acquisition method, and proteasome-inhibitor treatment. BioID was performed in whole cells over 24 hours, whereas µMap captured a one-minute interval in isolated nuclei [1].\nFor me, the value of µMap is therefore not simply that it labels a smaller radius. Its more useful feature is experimental control. The investigator can choose the compartment and the moment in which the protein neighborhood is recorded. This may help uncover low-abundance or conditional interactions that disappear inside a large, time-integrated interactome."
+  },
+  {
+    "objectID": "posts/2026-09-04-photoproximity-labeling-hidden-regulator-c-myc/index.html#how-strongly-does-slk-regulate-c-myc",
+    "href": "posts/2026-09-04-photoproximity-labeling-hidden-regulator-c-myc/index.html#how-strongly-does-slk-regulate-c-myc",
+    "title": "How photoproximity labeling uncovered a hidden regulator of c-Myc",
+    "section": "How strongly does SLK regulate c-Myc?",
+    "text": "How strongly does SLK regulate c-Myc?\nThe functional data go well beyond the initial proximity signal. SLK co-immunoprecipitated with c-Myc in PC-3 cells. Knocking out SLK reduced c-Myc protein to approximately 20% of the wild-type level, while the reduction in MYC RNA was much smaller [1].\nThe c-Myc half-life decreased from 138 minutes to 60 minutes after SLK knockout. Under a first-order degradation model, the degradation-rate ratio is:\n\\[\n\\frac{k_{\\mathrm{KO}}}{k_{\\mathrm{WT}}}\n= \\frac{\\ln 2 / 60}{\\ln 2 / 138}\n= \\frac{138}{60}\n\\approx 2.3\n\\]\nThis derived estimate corresponds to an approximately 2.3-fold increase in the apparent degradation rate. Re-expressing c-Myc rescued target-gene expression, proliferation, cell-cycle progression, and cellular morphology after SLK loss. SLK-knockout cells also failed to establish tumors in the reported PC-3 xenograft experiment [1].\nTogether, these experiments make a strong case that SLK supports c-Myc stability and c-Myc-dependent growth in PC-3 cells."
+  },
+  {
+    "objectID": "posts/2026-09-04-photoproximity-labeling-hidden-regulator-c-myc/index.html#the-proposed-mechanism-is-not-yet-closed",
+    "href": "posts/2026-09-04-photoproximity-labeling-hidden-regulator-c-myc/index.html#the-proposed-mechanism-is-not-yet-closed",
+    "title": "How photoproximity labeling uncovered a hidden regulator of c-Myc",
+    "section": "The proposed mechanism is not yet closed",
+    "text": "The proposed mechanism is not yet closed\nThe authors propose that SLK phosphorylates c-Myc at serine 329, which reduces GSK3β-dependent phosphorylation at threonine 58 and protects c-Myc from degradation. Recombinant SLK phosphorylated c-Myc at S329 in vitro; an S329A c-Myc mutant was less stable, whereas the phosphomimetic S329D mutant was more stable. In vitro experiments and a cellular proximity-ligation assay also support competition between SLK and GSK3β for c-Myc binding [1].\nHowever, the paper does not demonstrate that endogenous S329 phosphorylation falls after SLK knockout. It also does not show that wild-type SLK rescues c-Myc stability while kinase-dead SLK fails to do so. SLK may phosphorylate c-Myc directly in cells, but it could also stabilize c-Myc partly by acting as a scaffold or by interfering with GSK3β binding.\n\nThe experiment I would run next\nCompare SLK-L, kinase-dead SLK-L, SLK-S, and nuclear-targeted SLK-S in SLK-knockout PC-3 cells. Measure endogenous c-Myc S329 and T58 phosphorylation together with c-Myc half-life.\n\nIf only catalytically active SLK-L rescues the phenotype, kinase activity and isoform context are both required.\nIf nuclear-targeted SLK-S rescues, exon 13 may act mainly through localization.\nIf kinase-dead nuclear SLK still provides partial rescue, scaffolding or competition with GSK3β probably contributes.\n\n\nThat comparison would separate catalytic activity from localization and scaffolding."
+  },
+  {
+    "objectID": "posts/2026-09-04-photoproximity-labeling-hidden-regulator-c-myc/index.html#could-µmap-help-identify-e3-ligase-substrates",
+    "href": "posts/2026-09-04-photoproximity-labeling-hidden-regulator-c-myc/index.html#could-µmap-help-identify-e3-ligase-substrates",
+    "title": "How photoproximity labeling uncovered a hidden regulator of c-Myc",
+    "section": "Could µMap help identify E3-ligase substrates?",
+    "text": "Could µMap help identify E3-ligase substrates?\nThe study also made me think about a broader application. Photoproximity labeling may be particularly useful for finding substrates of E3 ubiquitin ligases.\nE3–substrate interactions are often weak and transient. Once ubiquitinated, the substrate may leave the ligase complex and be degraded rapidly. A long labeling window can accumulate many proteins that share a compartment with the E3 ligase but are not substrates. A short pulse could provide a cleaner snapshot of proteins present near the ligase during substrate recognition.\nCompartment control would add another advantage. The same E3 ligase can encounter different substrates in the nucleus, cytoplasm, or at specific membranes. Restricting µMap to one compartment could reduce unrelated proteins and expose context-specific substrates.\n\nProposed application—not established by this paper. Proximity alone would not show that a labeled protein is an E3 substrate. Useful controls would include a ligase-dead mutant, acute proteasome inhibition, time-resolved labeling, and direct measurements of ubiquitination or protein stability. Comparing active and inactive ligases could distinguish proteins that merely occupy the same space from proteins whose proximity depends on catalytic substrate engagement.\n\nThat may be where photoproximity labeling has its greatest value. It does not replace genetics, biochemistry, or ubiquitin proteomics. It gives those methods a shorter and more biologically focused list of candidates to test."
+  },
+  {
+    "objectID": "posts/2026-09-04-photoproximity-labeling-hidden-regulator-c-myc/index.html#what-would-change-my-mind",
+    "href": "posts/2026-09-04-photoproximity-labeling-hidden-regulator-c-myc/index.html#what-would-change-my-mind",
+    "title": "How photoproximity labeling uncovered a hidden regulator of c-Myc",
+    "section": "What would change my mind?",
+    "text": "What would change my mind?\nMy interpretation would weaken if controlled isoform-rescue experiments showed that SLK-S supports c-Myc stability without nuclear localization, if loss of SLK left endogenous c-Myc S329 phosphorylation unchanged under conditions with verified assay sensitivity, or if the SLK–c-Myc dependency failed to reproduce beyond the reported cellular contexts.\nThe current study nevertheless illustrates a useful principle. SLK was not hidden because nobody had measured its RNA or protein. It was hidden because the relevant biology depended on an isoform entering the right compartment and approaching c-Myc during a limited interaction window. µMap provided a way to see that event.\n\nEvidence note\nReported: interactome sizes, localization, co-immunoprecipitation, knockout effects, half-lives, rescue experiments, xenograft outcome, and the biochemical S329/GSK3β experiments come from Milione and colleagues [1].\nDerived: the approximately 2.3-fold change in apparent degradation rate is calculated above from the reported half-lives, assuming first-order degradation.\nInferred: SLK-L is probably the c-Myc-relevant isoform, but isoform specificity and the necessity of SLK catalytic activity remain incompletely tested.\nProposed: the E3-ligase application and the four-arm SLK rescue experiment are the author’s suggestions.\n\n\nShare on LinkedIn Email iLo"
+  },
+  {
+    "objectID": "posts/2026-09-04-photoproximity-labeling-hidden-regulator-c-myc/index.html#references",
+    "href": "posts/2026-09-04-photoproximity-labeling-hidden-regulator-c-myc/index.html#references",
+    "title": "How photoproximity labeling uncovered a hidden regulator of c-Myc",
+    "section": "References",
+    "text": "References\n\n\n[1] Milione RR, Tong F, Wolfe KL, Douglas CJ, Linker SB, Mu XJ, et al. Photoproximity labeling of c-myc reveals SLK as a cancer-specific co-regulator. Nature Chemical Biology 2026. https://doi.org/10.1038/s41589-026-02284-0.\n\n\n[2] Seath CP, Burton AJ, Sun X, Lee G, Kleiner RE, MacMillan DWC, et al. Tracking chromatin state changes using nanoscale photo-proximity labelling. Nature 2023;616:574–80. https://doi.org/10.1038/s41586-023-05914-y.\n\n\n[3] Roux KJ, Kim DI, Raida M, Burke B. A promiscuous biotin ligase fusion protein identifies proximal and interacting proteins in mammalian cells. Journal of Cell Biology 2012;196:801–10. https://doi.org/10.1083/jcb.201112098.\n\n\n\nArticle history: First published September 4, 2026. No substantive corrections.\nCover note: Cover art may be AI-generated. Scientific interpretation is edited and reviewed by the author."
+  },
+  {
+    "objectID": "editorial-notes.html",
+    "href": "editorial-notes.html",
+    "title": "Editorial notes",
+    "section": "",
+    "text": "Scientific claims link to primary sources wherever practical. Paper analyses distinguish reported observations from calculations, interpretation, and proposed experiments. Preprints are labeled explicitly."
+  },
+  {
+    "objectID": "editorial-notes.html#evidence-and-citations",
+    "href": "editorial-notes.html#evidence-and-citations",
+    "title": "Editorial notes",
+    "section": "",
+    "text": "Scientific claims link to primary sources wherever practical. Paper analyses distinguish reported observations from calculations, interpretation, and proposed experiments. Preprints are labeled explicitly."
+  },
+  {
+    "objectID": "editorial-notes.html#corrections",
+    "href": "editorial-notes.html#corrections",
+    "title": "Editorial notes",
+    "section": "Corrections",
+    "text": "Corrections\nSubstantive corrections are dated and described in the affected article. Minor typographic changes may be made without a correction note."
+  },
+  {
+    "objectID": "editorial-notes.html#ai-assisted-artwork-and-editing",
+    "href": "editorial-notes.html#ai-assisted-artwork-and-editing",
+    "title": "Editorial notes",
+    "section": "AI-assisted artwork and editing",
+    "text": "AI-assisted artwork and editing\nCover art may be AI-generated. Scientific interpretation is edited and reviewed by the author. Material AI involvement in an article’s analysis will be disclosed on that article."
+  },
+  {
+    "objectID": "editorial-notes.html#rights-and-reuse",
+    "href": "editorial-notes.html#rights-and-reuse",
+    "title": "Editorial notes",
+    "section": "Rights and reuse",
+    "text": "Rights and reuse\nArticle prose and cover artwork are © I-Chung Lo and all rights are reserved unless stated otherwise. Original site code is available under the MIT License. Datasets explicitly released by the author may be licensed under CC BY 4.0."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About iLo",
+    "section": "",
+    "text": "Cartoon portrait of I-Chung Lo, who writes as iLo\n\n\n\n\n\nTranslational scientist · Writer of The Edge of Evidence\nI-Chung Lo, writing as iLo, is a translational scientist interested in how biological evidence becomes decisions in drug discovery and development. The Edge of Evidence examines what scientific findings support, what they leave unresolved, and what they may mean for new medicines.\nThe publication is written for biotech and pharma scientists and scientifically literate industry professionals. Its purpose is not to summarize every result. It is to identify the decision-relevant evidence, expose the assumptions connecting experiments to claims, and ask what measurement would resolve the remaining uncertainty.\nEmail iLo LinkedIn"
+  },
+  {
+    "objectID": "about.html#i-chung-lo",
+    "href": "about.html#i-chung-lo",
+    "title": "About iLo",
+    "section": "",
+    "text": "Translational scientist · Writer of The Edge of Evidence\nI-Chung Lo, writing as iLo, is a translational scientist interested in how biological evidence becomes decisions in drug discovery and development. The Edge of Evidence examines what scientific findings support, what they leave unresolved, and what they may mean for new medicines.\nThe publication is written for biotech and pharma scientists and scientifically literate industry professionals. Its purpose is not to summarize every result. It is to identify the decision-relevant evidence, expose the assumptions connecting experiments to claims, and ask what measurement would resolve the remaining uncertainty.\nEmail iLo LinkedIn"
+  },
+  {
+    "objectID": "about.html#editorial-approach",
+    "href": "about.html#editorial-approach",
+    "title": "About iLo",
+    "section": "Editorial approach",
+    "text": "Editorial approach\nArticles separate reported observations, derived quantities, inferences, and proposals. Primary sources are linked wherever practical. Preprints are labeled, and substantive corrections are dated rather than silently overwritten.\nViews expressed are my own."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The Edge of Evidence",
+    "section": "",
+    "text": "EVIDENCE · INTERPRETATION · TRANSLATION\n\n\n\nScientific commentary by iLo on what the evidence supports, what it leaves unresolved, and what it could mean for drug discovery and development.\nRead the latest analysis"
+  },
+  {
+    "objectID": "index.html#latest-writing",
+    "href": "index.html#latest-writing",
+    "title": "The Edge of Evidence",
+    "section": "Latest writing",
+    "text": "Latest writing\n\n\n\n\n\n\n\n\n\n\nHow photoproximity labeling uncovered a hidden regulator of c-Myc\n\n8 min\n\n\nPaper Analysis\n\nChemical Biology\n\nOncology\n\nTarget Discovery\n\nProtein Regulation\n\n\n\nSLK was not hidden because nobody had measured it. The relevant biology depended on an isoform entering the right compartment at the right time.\n\n\n\nSep 4, 2026\n\n\n\n\n\n\nNo matching items\n\n\n\n\nAbout iLo\nI-Chung Lo, writing as iLo, is a translational scientist interested in how biological evidence becomes decisions in drug discovery and development.\nMore about iLo   Email iLo"
+  },
+  {
+    "objectID": "topics.html",
+    "href": "topics.html",
+    "title": "Topics",
+    "section": "",
+    "text": "Close readings of scientific papers: what the experiments establish, where uncertainty remains, and which result should change a development decision.\nBrowse Paper Analysis\n\n\n\nDurable essays on how biological findings move—or fail to move—from mechanism to medicine.\nPerspectives will appear here as they are published.\n\n\n\nFocused interpretations of consequential biotech and pharma developments.\nBriefs will appear here as they are published."
+  },
+  {
+    "objectID": "topics.html#editorial-formats",
+    "href": "topics.html#editorial-formats",
+    "title": "Topics",
+    "section": "",
+    "text": "Close readings of scientific papers: what the experiments establish, where uncertainty remains, and which result should change a development decision.\nBrowse Paper Analysis\n\n\n\nDurable essays on how biological findings move—or fail to move—from mechanism to medicine.\nPerspectives will appear here as they are published.\n\n\n\nFocused interpretations of consequential biotech and pharma developments.\nBriefs will appear here as they are published."
+  },
+  {
+    "objectID": "topics.html#scientific-subjects",
+    "href": "topics.html#scientific-subjects",
+    "title": "Topics",
+    "section": "Scientific subjects",
+    "text": "Scientific subjects\nChemical biology Oncology Target discovery Protein regulation"
+  }
+]

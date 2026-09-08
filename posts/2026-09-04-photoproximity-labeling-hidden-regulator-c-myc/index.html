@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="iLo">
+<meta name="dcterms.date" content="2026-09-04">
+<meta name="description" content="SLK was not hidden because nobody had measured it. The relevant biology depended on an isoform entering the right compartment at the right time.">
+
+<title>How photoproximity labeling uncovered a hidden regulator of c-Myc – The Edge of Evidence</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../assets/images/il-boundary-mark.svg" rel="icon" type="image/svg+xml">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-34ac6dff72811185fd0a1f4c2c59962a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": true,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="How photoproximity labeling uncovered a hidden regulator of c-Myc – The Edge of Evidence">
+<meta property="og:description" content="SLK was not hidden because nobody had measured it. The relevant biology depended on an isoform entering the right compartment at the right time.">
+<meta property="og:image" content="https://ichunglo.github.io/posts/2026-09-04-photoproximity-labeling-hidden-regulator-c-myc/cover.png">
+<meta property="og:site_name" content="The Edge of Evidence">
+<meta property="og:image:height" content="1024">
+<meta property="og:image:width" content="1536">
+<meta property="og:image:alt" content="Abstract warm-gray nuclear field crossed by a brief blue pulse connecting two subtle nodes">
+<meta name="twitter:title" content="How photoproximity labeling uncovered a hidden regulator of c-Myc – The Edge of Evidence">
+<meta name="twitter:description" content="SLK was not hidden because nobody had measured it. The relevant biology depended on an isoform entering the right compartment at the right time.">
+<meta name="twitter:image" content="https://ichunglo.github.io/posts/2026-09-04-photoproximity-labeling-hidden-regulator-c-myc/cover.png">
+<meta name="twitter:image-height" content="1024">
+<meta name="twitter:image-width" content="1536">
+<meta name="twitter:image:alt" content="Abstract warm-gray nuclear field crossed by a brief blue pulse connecting two subtle nodes">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">The Edge of Evidence</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../writing.html"> 
+<span class="menu-text">Writing</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../topics.html"> 
+<span class="menu-text">Topics</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../index.xml"> <i class="bi bi-rss" role="img" aria-label="RSS feed">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">In this analysis</h2>
+   
+  <ul>
+  <li><a href="#bottom-line" id="toc-bottom-line" class="nav-link active" data-scroll-target="#bottom-line">Bottom line</a></li>
+  <li><a href="#the-relevant-signal-was-invisible-to-conventional-databases" id="toc-the-relevant-signal-was-invisible-to-conventional-databases" class="nav-link" data-scroll-target="#the-relevant-signal-was-invisible-to-conventional-databases">The relevant signal was invisible to conventional databases</a></li>
+  <li><a href="#a-short-snapshot-of-the-c-myc-neighborhood" id="toc-a-short-snapshot-of-the-c-myc-neighborhood" class="nav-link" data-scroll-target="#a-short-snapshot-of-the-c-myc-neighborhood">A short snapshot of the c-Myc neighborhood</a></li>
+  <li><a href="#how-strongly-does-slk-regulate-c-myc" id="toc-how-strongly-does-slk-regulate-c-myc" class="nav-link" data-scroll-target="#how-strongly-does-slk-regulate-c-myc">How strongly does SLK regulate c-Myc?</a></li>
+  <li><a href="#the-proposed-mechanism-is-not-yet-closed" id="toc-the-proposed-mechanism-is-not-yet-closed" class="nav-link" data-scroll-target="#the-proposed-mechanism-is-not-yet-closed">The proposed mechanism is not yet closed</a>
+  <ul class="collapse">
+  <li><a href="#the-experiment-i-would-run-next" id="toc-the-experiment-i-would-run-next" class="nav-link" data-scroll-target="#the-experiment-i-would-run-next">The experiment I would run next</a></li>
+  </ul></li>
+  <li><a href="#could-µmap-help-identify-e3-ligase-substrates" id="toc-could-µmap-help-identify-e3-ligase-substrates" class="nav-link" data-scroll-target="#could-µmap-help-identify-e3-ligase-substrates">Could µMap help identify E3-ligase substrates?</a></li>
+  <li><a href="#what-would-change-my-mind" id="toc-what-would-change-my-mind" class="nav-link" data-scroll-target="#what-would-change-my-mind">What would change my mind?</a>
+  <ul class="collapse">
+  <li><a href="#evidence-note" id="toc-evidence-note" class="nav-link" data-scroll-target="#evidence-note">Evidence note</a></li>
+  </ul></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">How photoproximity labeling uncovered a hidden regulator of c-Myc</h1></header>
+
+<header id="title-block-header">
+
+<p class="author">iLo</p>
+
+<p class="date">2026-09-04</p>
+</header>
+
+
+<div class="article-type">
+<p>PAPER ANALYSIS · 12 MIN READ</p>
+</div>
+<div class="article-deck">
+<p>SLK was not hidden because nobody had measured its RNA or protein. It was hidden because the relevant biology depended on an isoform entering the right compartment and approaching c-Myc during a limited interaction window.</p>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="cover.png" class="article-cover img-fluid figure-img" alt="Abstract warm-gray nuclear field crossed by a brief blue pulse connecting two subtle nodes"></p>
+<figcaption>Abstract editorial interpretation of a brief light pulse revealing a hidden nuclear interaction. This is not experimental data.</figcaption>
+</figure>
+</div>
+<section id="bottom-line" class="level3 evidence-card">
+<h3 class="anchored" data-anchor-id="bottom-line">Bottom line</h3>
+<p>A recent <em>Nature Chemical Biology</em> study identifies STE20-like kinase (SLK) as a regulator of c-Myc stability in PC-3 prostate cancer cells <span class="citation" data-cites="milione2026">[<a href="#ref-milione2026" role="doc-biblioref">1</a>]</span>. The functional evidence is persuasive in this cellular context. The isoform-specific and catalytic mechanism is compelling but not yet fully closed: the decisive rescue experiment comparing SLK isoforms, localization, and kinase activity remains to be done.</p>
+</section>
+<p>c-Myc is one of the best-studied cancer proteins, yet it remains difficult to drug directly. One alternative is to identify proteins that cancer cells use to maintain c-Myc expression or stability. The study by Milione and colleagues takes this approach and finds SLK—a kinase that conventional mutation- or expression-centered searches would have been unlikely to prioritize <span class="citation" data-cites="milione2026">[<a href="#ref-milione2026" role="doc-biblioref">1</a>]</span>.</p>
+<p>What interested me most was not simply the addition of another kinase to the c-Myc network. It was <strong>why SLK had escaped detection for so long</strong>.</p>
+<section id="the-relevant-signal-was-invisible-to-conventional-databases" class="level2">
+<h2 class="anchored" data-anchor-id="the-relevant-signal-was-invisible-to-conventional-databases">The relevant signal was invisible to conventional databases</h2>
+<p>SLK would not stand out as an obvious cancer driver in a typical bioinformatics analysis. It is not commonly defined by recurrent cancer mutations, strong gene amplification, or a striking increase in bulk RNA or protein abundance. Although SLK and c-Myc show some degree of co-dependency in certain cancer cell lines, co-dependency alone does not reveal the biological connection between them.</p>
+<p>The paper suggests that the important variable is neither total SLK expression nor mutation status. It is <strong>which SLK isoform is expressed and where that isoform is located</strong>.</p>
+<p>PC-3 cells preferentially express SLK-L, a longer splice isoform containing exon 13 and a putative nuclear localization signal. Total SLK abundance was similar among the prostate cell lines examined, but nuclear SLK was elevated in PC-3 cells. This brings SLK into the same compartment as c-Myc and creates an opportunity for a functional interaction <span class="citation" data-cites="milione2026">[<a href="#ref-milione2026" role="doc-biblioref">1</a>]</span>.</p>
+<p>This is the type of relationship that conventional cancer databases are poorly equipped to uncover. Gene-level RNA analysis often combines multiple transcripts into one value. Standard proteomics may quantify total SLK without reliably distinguishing SLK-L from SLK-S. Even a dependency screen can tell us only that a cell needs SLK. It cannot explain whether that dependency involves c-Myc, mitosis, focal adhesions, or another SLK function.</p>
+<div class="interpretation-note">
+<p><strong>My interpretation.</strong> The paper supports SLK-L as the likely c-Myc-relevant isoform. It does not establish that only SLK-L can stabilize c-Myc, because the authors did not directly compare the two isoforms in a controlled rescue experiment. SLK-S might also support c-Myc if it were artificially directed into the nucleus. That distinction would show whether exon 13 contributes a unique molecular function or mainly provides nuclear access.</p>
+</div>
+<p>The broader conclusion is persuasive: a cancer dependency can arise from altered splicing and localization without producing a conspicuous change in total RNA or protein. A database search centered on mutation and expression would probably never have prioritized SLK as a c-Myc regulator.</p>
+</section>
+<section id="a-short-snapshot-of-the-c-myc-neighborhood" class="level2">
+<h2 class="anchored" data-anchor-id="a-short-snapshot-of-the-c-myc-neighborhood">A short snapshot of the c-Myc neighborhood</h2>
+<p>The authors found SLK using µMap, a photoproximity-labeling method. They attached an iridium photocatalyst to c-Myc in biochemically intact isolated nuclei, added a diazirine-biotin probe, and irradiated the sample with blue light for one minute. Light activation generated short-lived reactive carbenes that labeled proteins close to c-Myc—within an estimated radius of approximately 4 nm in this implementation <span class="citation" data-cites="milione2026 seath2023">[<a href="#ref-milione2026" role="doc-biblioref">1</a>,<a href="#ref-seath2023" role="doc-biblioref">2</a>]</span>.</p>
+<p>This short labeling period is important. Methods such as BioID use a promiscuous biotin ligase and typically integrate proximity over much longer labeling windows <span class="citation" data-cites="roux2012">[<a href="#ref-roux2012" role="doc-biblioref">3</a>]</span>. That broad history can be useful, but it also creates a larger candidate list when the bait is a mobile nuclear protein associated with extensive chromatin complexes.</p>
+<p>In a same-cell-line comparison in PC-3 cells, BioID yielded 1,563 proteins and µMap yielded 519. Both methods recovered comparable numbers of known c-Myc interactions, but SLK was enriched by µMap and not identified by BioID <span class="citation" data-cites="milione2026">[<a href="#ref-milione2026" role="doc-biblioref">1</a>]</span>. The smaller µMap result reduced the candidate space by roughly threefold.</p>
+<p>The comparison does not prove that spatial resolution alone explains the difference. The experiments also differed in labeling duration, cellular compartment, fusion design, reaction chemistry, acquisition method, and proteasome-inhibitor treatment. BioID was performed in whole cells over 24 hours, whereas µMap captured a one-minute interval in isolated nuclei <span class="citation" data-cites="milione2026">[<a href="#ref-milione2026" role="doc-biblioref">1</a>]</span>.</p>
+<p>For me, the value of µMap is therefore not simply that it labels a smaller radius. Its more useful feature is <strong>experimental control</strong>. The investigator can choose the compartment and the moment in which the protein neighborhood is recorded. This may help uncover low-abundance or conditional interactions that disappear inside a large, time-integrated interactome.</p>
+</section>
+<section id="how-strongly-does-slk-regulate-c-myc" class="level2">
+<h2 class="anchored" data-anchor-id="how-strongly-does-slk-regulate-c-myc">How strongly does SLK regulate c-Myc?</h2>
+<p>The functional data go well beyond the initial proximity signal. SLK co-immunoprecipitated with c-Myc in PC-3 cells. Knocking out SLK reduced c-Myc protein to approximately 20% of the wild-type level, while the reduction in <em>MYC</em> RNA was much smaller <span class="citation" data-cites="milione2026">[<a href="#ref-milione2026" role="doc-biblioref">1</a>]</span>.</p>
+<p>The c-Myc half-life decreased from 138 minutes to 60 minutes after SLK knockout. Under a first-order degradation model, the degradation-rate ratio is:</p>
+<p><span class="math display">\[
+\frac{k_{\mathrm{KO}}}{k_{\mathrm{WT}}}
+= \frac{\ln 2 / 60}{\ln 2 / 138}
+= \frac{138}{60}
+\approx 2.3
+\]</span></p>
+<p>This derived estimate corresponds to an approximately 2.3-fold increase in the apparent degradation rate. Re-expressing c-Myc rescued target-gene expression, proliferation, cell-cycle progression, and cellular morphology after SLK loss. SLK-knockout cells also failed to establish tumors in the reported PC-3 xenograft experiment <span class="citation" data-cites="milione2026">[<a href="#ref-milione2026" role="doc-biblioref">1</a>]</span>.</p>
+<p>Together, these experiments make a strong case that SLK supports c-Myc stability and c-Myc-dependent growth in PC-3 cells.</p>
+</section>
+<section id="the-proposed-mechanism-is-not-yet-closed" class="level2">
+<h2 class="anchored" data-anchor-id="the-proposed-mechanism-is-not-yet-closed">The proposed mechanism is not yet closed</h2>
+<p>The authors propose that SLK phosphorylates c-Myc at serine 329, which reduces GSK3β-dependent phosphorylation at threonine 58 and protects c-Myc from degradation. Recombinant SLK phosphorylated c-Myc at S329 in vitro; an S329A c-Myc mutant was less stable, whereas the phosphomimetic S329D mutant was more stable. In vitro experiments and a cellular proximity-ligation assay also support competition between SLK and GSK3β for c-Myc binding <span class="citation" data-cites="milione2026">[<a href="#ref-milione2026" role="doc-biblioref">1</a>]</span>.</p>
+<p>However, the paper does not demonstrate that endogenous S329 phosphorylation falls after SLK knockout. It also does not show that wild-type SLK rescues c-Myc stability while kinase-dead SLK fails to do so. SLK may phosphorylate c-Myc directly in cells, but it could also stabilize c-Myc partly by acting as a scaffold or by interfering with GSK3β binding.</p>
+<section id="the-experiment-i-would-run-next" class="level3 next-experiment">
+<h3 class="anchored" data-anchor-id="the-experiment-i-would-run-next">The experiment I would run next</h3>
+<p>Compare <strong>SLK-L</strong>, <strong>kinase-dead SLK-L</strong>, <strong>SLK-S</strong>, and <strong>nuclear-targeted SLK-S</strong> in SLK-knockout PC-3 cells. Measure endogenous c-Myc S329 and T58 phosphorylation together with c-Myc half-life.</p>
+<ul>
+<li>If only catalytically active SLK-L rescues the phenotype, kinase activity and isoform context are both required.</li>
+<li>If nuclear-targeted SLK-S rescues, exon 13 may act mainly through localization.</li>
+<li>If kinase-dead nuclear SLK still provides partial rescue, scaffolding or competition with GSK3β probably contributes.</li>
+</ul>
+</section>
+<p>That comparison would separate catalytic activity from localization and scaffolding.</p>
+</section>
+<section id="could-µmap-help-identify-e3-ligase-substrates" class="level2">
+<h2 class="anchored" data-anchor-id="could-µmap-help-identify-e3-ligase-substrates">Could µMap help identify E3-ligase substrates?</h2>
+<p>The study also made me think about a broader application. Photoproximity labeling may be particularly useful for finding substrates of E3 ubiquitin ligases.</p>
+<p>E3–substrate interactions are often weak and transient. Once ubiquitinated, the substrate may leave the ligase complex and be degraded rapidly. A long labeling window can accumulate many proteins that share a compartment with the E3 ligase but are not substrates. A short pulse could provide a cleaner snapshot of proteins present near the ligase during substrate recognition.</p>
+<p>Compartment control would add another advantage. The same E3 ligase can encounter different substrates in the nucleus, cytoplasm, or at specific membranes. Restricting µMap to one compartment could reduce unrelated proteins and expose context-specific substrates.</p>
+<div class="proposal-note">
+<p><strong>Proposed application—not established by this paper.</strong> Proximity alone would not show that a labeled protein is an E3 substrate. Useful controls would include a ligase-dead mutant, acute proteasome inhibition, time-resolved labeling, and direct measurements of ubiquitination or protein stability. Comparing active and inactive ligases could distinguish proteins that merely occupy the same space from proteins whose proximity depends on catalytic substrate engagement.</p>
+</div>
+<p>That may be where photoproximity labeling has its greatest value. It does not replace genetics, biochemistry, or ubiquitin proteomics. It gives those methods a shorter and more biologically focused list of candidates to test.</p>
+</section>
+<section id="what-would-change-my-mind" class="level2">
+<h2 class="anchored" data-anchor-id="what-would-change-my-mind">What would change my mind?</h2>
+<p>My interpretation would weaken if controlled isoform-rescue experiments showed that SLK-S supports c-Myc stability without nuclear localization, if loss of SLK left endogenous c-Myc S329 phosphorylation unchanged under conditions with verified assay sensitivity, or if the SLK–c-Myc dependency failed to reproduce beyond the reported cellular contexts.</p>
+<p>The current study nevertheless illustrates a useful principle. SLK was not hidden because nobody had measured its RNA or protein. It was hidden because the relevant biology depended on an isoform entering the right compartment and approaching c-Myc during a limited interaction window. µMap provided a way to see that event.</p>
+<section id="evidence-note" class="level3 evidence-note">
+<h3 class="anchored" data-anchor-id="evidence-note">Evidence note</h3>
+<p><strong>Reported:</strong> interactome sizes, localization, co-immunoprecipitation, knockout effects, half-lives, rescue experiments, xenograft outcome, and the biochemical S329/GSK3β experiments come from Milione and colleagues <span class="citation" data-cites="milione2026">[<a href="#ref-milione2026" role="doc-biblioref">1</a>]</span>.</p>
+<p><strong>Derived:</strong> the approximately 2.3-fold change in apparent degradation rate is calculated above from the reported half-lives, assuming first-order degradation.</p>
+<p><strong>Inferred:</strong> SLK-L is probably the c-Myc-relevant isoform, but isoform specificity and the necessity of SLK catalytic activity remain incompletely tested.</p>
+<p><strong>Proposed:</strong> the E3-ligase application and the four-arm SLK rescue experiment are the author’s suggestions.</p>
+</section>
+<div class="article-actions">
+<p><a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fichunglo.github.io%2Fposts%2F2026-09-04-photoproximity-labeling-hidden-regulator-c-myc%2F" target="_blank" rel="noopener noreferrer">Share on LinkedIn</a> <a href="mailto:ichunglo@protonmail.com?subject=The%20Edge%20of%20Evidence">Email iLo</a></p>
+</div>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
+<div id="ref-milione2026" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] </div><div class="csl-right-inline">Milione RR, Tong F, Wolfe KL, Douglas CJ, Linker SB, Mu XJ, et al. Photoproximity labeling of c-myc reveals SLK as a cancer-specific co-regulator. Nature Chemical Biology 2026. <a href="https://doi.org/10.1038/s41589-026-02284-0">https://doi.org/10.1038/s41589-026-02284-0</a>.</div>
+</div>
+<div id="ref-seath2023" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] </div><div class="csl-right-inline">Seath CP, Burton AJ, Sun X, Lee G, Kleiner RE, MacMillan DWC, et al. Tracking chromatin state changes using nanoscale photo-proximity labelling. Nature 2023;616:574–80. <a href="https://doi.org/10.1038/s41586-023-05914-y">https://doi.org/10.1038/s41586-023-05914-y</a>.</div>
+</div>
+<div id="ref-roux2012" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] </div><div class="csl-right-inline">Roux KJ, Kim DI, Raida M, Burke B. A promiscuous biotin ligase fusion protein identifies proximal and interacting proteins in mammalian cells. Journal of Cell Biology 2012;196:801–10. <a href="https://doi.org/10.1083/jcb.201112098">https://doi.org/10.1083/jcb.201112098</a>.</div>
+</div>
+</div>
+<div class="article-disclosure">
+<p><strong>Article history:</strong> First published September 4, 2026. No substantive corrections.</p>
+<p><strong>Cover note:</strong> Cover art may be AI-generated. Scientific interpretation is edited and reviewed by the author.</p>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/ichunglo\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 I-Chung Lo. Article text and cover artwork: all rights reserved.</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="mailto:ichunglo@protonmail.com">
+<p>Email iLo</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.linkedin.com/in/ichunglo/">
+<p>LinkedIn</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../editorial-notes.html">
+<p>Editorial notes</p>
+</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
