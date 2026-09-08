@@ -100,7 +100,9 @@ h3 { font-weight: 500; }
 .text-link { text-underline-offset: 0.22em; }
 .profile-links { display: flex; flex-wrap: wrap; align-items: center; gap: 0.45rem 0; }
 .profile-links p { display: contents; }
+.profile-links .text-link { display: inline-flex; align-items: center; gap: 0.38rem; }
 .profile-links .text-link + .text-link { margin-left: 0.85rem; padding-left: 0.85rem; border-left: 1px solid var(--taupe); }
+.profile-links .link-icon { font-size: 0.95em; line-height: 1; }
 
 .topic-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 2rem 0 3rem; }
 .topic-card { min-height: 250px; padding: 1.5rem; border-top: 3px solid var(--charcoal); background: var(--ivory-gray); }
