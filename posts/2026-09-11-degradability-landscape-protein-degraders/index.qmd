@@ -1,0 +1,142 @@
+---
+title: "What a degradability landscape can tell us about protein degraders"
+description: "A model can reproduce the ranking of degraders while substantially mispredicting how much protein remains. The distinction matters when a fitted rate constant guides compound optimization."
+author: "iLo"
+date: "2026-09-11"
+categories:
+  - Paper Analysis
+  - Chemical Biology
+  - Protein Regulation
+  - Targeted Protein Degradation
+image: cover.png
+image-alt: "Abstract blue and gold contours suggesting a landscape of protein degradation; editorial illustration, not experimental data"
+toc: true
+toc-title: "In this analysis"
+title-block-style: none
+---
+
+::: {.article-type}
+PAPER ANALYSIS · 8 MIN READ
+:::
+
+::: {.article-deck}
+A model can reproduce the ranking of degraders while substantially mispredicting how much protein remains. The distinction matters when a fitted rate constant becomes a guide for compound optimization.
+:::
+
+![Abstract editorial landscape of protein degradation. This illustration is not experimental data.](cover.png){.article-cover}
+
+## The central assessment
+
+Du and colleagues present a framework for organizing the factors that determine protein degradation. Its effective processing constant, kpr, serves much the same mathematical role as the catalytic constant in earlier models. The framework is useful, but the paper does not establish that kpr is a superior predictive or mechanistic parameter.
+
+Targeted protein degradation creates an appealing optimization problem. A compound must bring a target and an E3 ligase together, enable productive ubiquitination, and remove protein faster than the cell replaces it. Binding affinity measures only part of that process. DMAX and DC50 summarize its outcome, but do not directly identify the limiting step.
+
+In A quantitative approach for defining the degradability landscape of protein degraders, Du and colleagues connect these processes in a compact model [1](#ref-du). They calculate ternary-complex abundance, combine it with endogenous protein turnover, and introduce an effective processing constant, Kpr. Varying target affinity and this constant produces a landscape of predicted degradation depth and potency.
+
+What interested me most was whether this framework adds explanatory power beyond the mathematics already available, and whether its validation supports using fitted parameters to guide chemistry.
+
+The paper deserves credit for making a complicated system easier to explore. My concern is the biological meaning assigned to a parameter estimated from the very degradation response it is intended to explain.
+
+## How much is new in the rate constant?
+
+The authors describe target abundance using a balance between synthesis, natural turnover, and degrader-induced loss:
+
+$$
+\frac{dP}{dt}=k_{\mathrm{sp}}-k_{\mathrm{dp}}P-k_{\mathrm{pr}}[PLE].
+$$
+
+Here, \[PLE\] is the modeled target-degrader-E3 complex. The product kpr\[PLE\] is the induced degradation flux. The constant represents processing per unit of ternary complex, rather than disappearance of the entire target pool.
+
+That distinction is valid. More target can generate more ternary complex and a larger absolute degradation flux without requiring the processing constant to change. The underlying turnover logic, however, is not new; it has been represented in several earlier mathematical and pharmacodynamic models.
+
+Haid and Reichel's 2023 framework already expressed the same balance using a catalytic constant and ternary target engagement [2](#ref-haid). Defining $p=P/P_0$ and $TE=[PLE]/P$, Du's equation becomes:
+
+$$
+\frac{dp}{dt}=k_{\mathrm{dp}}(1-p)-k_{\mathrm{pr}}TE\,p.
+$$
+
+This is the earlier turnover equation with kpr occupying the role of kcat. Haid and Reichel's framework also includes binding affinities, cooperativity, E3 abundance, time dependence, the hook effect, and combined inhibition and degradation. Its minimum mechanistic inputs are target and E3 concentrations, target and E3 binding affinities, cooperativity, intracellular degrader concentration, target half-life, simulation time, and a catalytic degradation constant. The same system can also be represented empirically from time-resolved concentration-response data using Dmax, DC50, and endogenous turnover.
+
+Du and colleagues require target and E3 copy number, target half-life, degrader-target KD, degrader-E3 KD, cooperativity, intracellular degrader concentration, simulation time, and a degradation observation from which kpr is fitted.
+
+The implementations have differences. Du and colleagues update equilibrium complex abundance as the target is depleted, while Haid and Reichel developed an unsaturated approximation after presenting the fuller equilibrium expression. Nevertheless, the algebra shows substantial continuity. A new name for the effective constant does not demonstrate a new mechanistic quantity.
+
+My interpretation. The contribution is strongest as an implementation and application: integrating proteomics inputs, calibrating systems with limited degradation data, and presenting an accessible landscape. The approach still requires several difficult-to-measure or assumed inputs. Establishing that it performs better requires a comparison with the earlier framework using matched inputs and withheld observations.
+
+## What does a fitted processing constant actually contain?
+
+The paper estimates $k_{\mathrm{pr}}$ after supplying other parameters, including target half-life, protein abundance, binding affinity, and cooperativity. Some come from public datasets; others are approximated.
+
+My concern is that degradation data constrain the combined action of processing and engagement:
+
+$$
+k_{\mathrm{induced}}=k_{\mathrm{pr}}TE.
+$$
+
+If modeled engagement is too low, a larger fitted processing constant can compensate. A unique numerical fit therefore need not identify a unique biological mechanism.
+
+For example, in a weak-occupancy regime, ternary-complex abundance is approximately proportional to effective E3 concentration. Underestimating that concentration threefold can inflate the fitted processing constant approximately threefold while preserving the predicted degradation response. Exposure and cooperativity errors can produce similar compensation.
+
+This does not make the parameter useless. It makes its interpretation conditional. A low fitted value might reflect inefficient ubiquitination or proteasomal processing, but it might also reflect incorrect assumptions about intracellular exposure or accessible protein pools. Those explanations imply different medicinal-chemistry decisions.
+
+## A correlation of 0.95 with conditional reconstruction
+
+In the BTK analysis, the authors fixed the measured BTK KD, target and CRBN copy numbers, BTK half-life, degrader-CRBN KD, cooperativity, and a 24-hour simulation window. They then varied kpr until the model's simulated absolute DC50 matched the experimentally measured DC50, and used that fitted kpr to calculate DMAX.
+
+The required inputs for each compound-cell-line observation were:
+
+1.  Fix the experimentally measured BTK binding $K_D$.
+
+2.  Fix externally supplied parameters:
+
+    - BTK copy number: 22,692 molecules/cell
+
+    - CRBN copy number: 12,265 molecules/cell
+
+    - BTK half-life: 71.9 h
+
+    - degrader--CRBN $K_D$: 3.84 μM
+
+    - cooperativity: $\alpha=1$
+
+    - simulation time: 24 h
+
+3.  Measured DC50, used to select the closest fitted kpr.
+
+Therefore, the reported r = 0.95 does not represent an independent prediction from biochemical parameters. DC50 and DMAX were generated from the same degradation assay, and DC50 was used to calibrate the model before DMAX was estimated. The analysis is best described as conditional reconstruction. The robustness and transferability of kpr therefore remain open questions.
+
+The rationale rests on a familiar mass-balance principle: changed protein level equals intrinsic synthesis minus intrinsic degradation minus degrader-induced degradation. The authors add PLE, the modeled ternary-complex concentration, which can represent cellular engagement more explicitly. However, PLE requires several inputs, some of which are difficult to measure and others of which are estimated. Those assumptions can reduce the reliability of the inferred kpr.
+
+There is also a consequential definition issue. This paper uses absolute DC50, the concentration producing 50% depletion. The earlier framework uses half-maximal degradation, meaning half of DMAX. For a Hill-one concentration-response curve, algebra gives:
+
+$$
+DC_{50,\mathrm{absolute}}=\frac{DC_{50,\mathrm{relative}}}{2D_{\max}-1}.
+$$
+
+At 60% DMAX, absolute DC50 is five times relative DC50. Below 50% DMAX, absolute DC50 does not exist. The THP-1 observation with 36% DMAX is consequently absent from the comparison.
+
+This selection is understandable, but it limits the claim: the analysis does not establish that the model distinguishes effective from ineffective degraders. Nor is the DMAX prediction an exact tautology; DMAX was not directly fitted, and the relationship still imposes a constraint.
+
+Within-cell correlations are approximately 0.918 in Ramos and 0.916 in THP-1. Those values are high, but they should not be read as proof of accurate absolute prediction. Removing the low-DMAX Ramos observation reduces the correlation to approximately 0.526 among the remaining six compounds, whose observed DMAX values span only 84-87%.
+
+The defensible criticism is specific: a small, selected dataset shows ordering with substantial calibration error, and performance within a narrow chemical response range is sensitive to an influential observation.
+
+## References
+
+[]{#ref-du}
+
+1. Du W, De Boni L, Hopkins BD, Elemento O. A quantitative approach for defining the degradability landscape of protein degraders. Nature Communications. 2026;17:8619. Paper and supplementary materials: <https://doi.org/10.1038/s41467-026-75591-8>.
+
+[]{#ref-haid}
+
+2. Haid RTU, Reichel A. A Mechanistic Pharmacodynamic Modeling Framework for the Assessment and Optimization of Proteolysis Targeting Chimeras (PROTACs). Pharmaceutics. 2023;15:195. Full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC9865105/>.
+
+3. Du et al. Released BTK modeling implementation: <https://github.com/WeiDu-CSB/TPD-Kinetic-Model/blob/main/LANDSCAPE/landscape_main.m> and publisher source workbook: <https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-026-75591-8/MediaObjects/41467_2026_75591_MOESM4_ESM.xlsx>.
+
+
+::: {.article-disclosure}
+**Article history:** First published September 11, 2026.
+
+**Cover note:** Abstract editorial illustration, not experimental data.
+:::
+

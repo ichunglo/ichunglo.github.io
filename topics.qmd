@@ -39,3 +39,5 @@ Focused interpretations of consequential biotech and pharma developments.
 [Oncology](writing.qmd#category=Oncology){.topic-pill}
 [Target discovery](writing.qmd#category=Target%20Discovery){.topic-pill}
 [Protein regulation](writing.qmd#category=Protein%20Regulation){.topic-pill}
+
+[Targeted protein degradation](writing.qmd#category=Targeted%20Protein%20Degradation){.topic-pill}

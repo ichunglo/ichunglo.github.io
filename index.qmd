@@ -27,7 +27,7 @@ listing:
 
 Scientific commentary by **iLo** on what the evidence supports, what it leaves unresolved, and what it could mean for drug discovery and development.
 
-[Read the latest analysis](posts/2026-09-04-photoproximity-labeling-hidden-regulator-c-myc/index.qmd){.hero-link}
+[Read the latest analysis](posts/2026-09-11-degradability-landscape-protein-degraders/index.qmd){.hero-link}
 :::
 :::
 
