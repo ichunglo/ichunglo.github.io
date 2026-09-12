@@ -10,7 +10,20 @@
 <atom:link href="https://ichunglo.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Scientific commentary by iLo</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Fri, 04 Sep 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 11 Sep 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>What a degradability landscape can tell us about protein degraders</title>
+  <dc:creator>iLo </dc:creator>
+  <link>https://ichunglo.github.io/posts/2026-09-11-degradability-landscape-protein-degraders/</link>
+  <description><![CDATA[ A model can reproduce the ranking of degraders while substantially mispredicting how much protein remains. The distinction matters when a fitted rate constant guides compound optimization. ]]></description>
+  <category>Paper Analysis</category>
+  <category>Chemical Biology</category>
+  <category>Protein Regulation</category>
+  <category>Targeted Protein Degradation</category>
+  <guid>https://ichunglo.github.io/posts/2026-09-11-degradability-landscape-protein-degraders/</guid>
+  <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://ichunglo.github.io/posts/2026-09-11-degradability-landscape-protein-degraders/cover.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
 <item>
   <title>How photoproximity labeling uncovered a hidden regulator of c-Myc</title>
   <dc:creator>iLo </dc:creator>

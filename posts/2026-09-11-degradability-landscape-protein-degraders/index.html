@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="iLo">
+<meta name="dcterms.date" content="2026-09-11">
+<meta name="description" content="A model can reproduce the ranking of degraders while substantially mispredicting how much protein remains. The distinction matters when a fitted rate constant guides compound optimization.">
 
-<title>The Edge of Evidence</title>
+<title>What a degradability landscape can tell us about protein degraders – The Edge of Evidence</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,25 +32,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./assets/images/il-boundary-mark.svg" rel="icon" type="image/svg+xml">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ab436344aba7516d8ae65963080ad543.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../assets/images/il-boundary-mark.svg" rel="icon" type="image/svg+xml">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-e3fec5d7a9dd412ef5ea4a56018f6453.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": true,
@@ -74,35 +75,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-latest-writing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-categories','listing-title','listing-description','listing-date','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-latest-writing'] = new List('listing-latest-writing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -135,29 +107,31 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="The Edge of Evidence" href="index.xml" data-external="1"><meta property="og:title" content="The Edge of Evidence">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="What a degradability landscape can tell us about protein degraders – The Edge of Evidence">
+<meta property="og:description" content="A model can reproduce the ranking of degraders while substantially mispredicting how much protein remains. The distinction matters when a fitted rate constant guides compound optimization.">
 <meta property="og:image" content="https://ichunglo.github.io/posts/2026-09-11-degradability-landscape-protein-degraders/cover.png">
 <meta property="og:site_name" content="The Edge of Evidence">
-<meta property="og:image:alt" content="Abstract blue and gold contours suggesting a landscape of protein degradation; editorial illustration, not experimental data">
 <meta property="og:image:height" content="900">
 <meta property="og:image:width" content="1600">
-<meta name="twitter:title" content="The Edge of Evidence">
+<meta property="og:image:alt" content="Abstract blue and gold contours suggesting a landscape of protein degradation; editorial illustration, not experimental data">
+<meta name="twitter:title" content="What a degradability landscape can tell us about protein degraders – The Edge of Evidence">
+<meta name="twitter:description" content="A model can reproduce the ranking of degraders while substantially mispredicting how much protein remains. The distinction matters when a fitted rate constant guides compound optimization.">
 <meta name="twitter:image" content="https://ichunglo.github.io/posts/2026-09-11-degradability-landscape-protein-degraders/cover.png">
-<meta name="twitter:image:alt" content="Abstract blue and gold contours suggesting a landscape of protein degradation; editorial illustration, not experimental data">
 <meta name="twitter:image-height" content="900">
 <meta name="twitter:image-width" content="1600">
+<meta name="twitter:image:alt" content="Abstract blue and gold contours suggesting a landscape of protein degradation; editorial illustration, not experimental data">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed home-page quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">The Edge of Evidence</span>
     </a>
   </div>
@@ -168,21 +142,21 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./writing.html"> 
+    <a class="nav-link" href="../../writing.html"> 
 <span class="menu-text">Writing</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./topics.html"> 
+    <a class="nav-link" href="../../topics.html"> 
 <span class="menu-text">Topics</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="./index.xml"> <i class="bi bi-rss" role="img" aria-label="RSS feed">
+    <a class="nav-link" href="../../index.xml"> <i class="bi bi-rss" role="img" aria-label="RSS feed">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -194,130 +168,124 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">In this analysis</h2>
+   
+  <ul>
+  <li><a href="#the-central-assessment" id="toc-the-central-assessment" class="nav-link active" data-scroll-target="#the-central-assessment">The central assessment</a></li>
+  <li><a href="#how-much-is-new-in-the-rate-constant" id="toc-how-much-is-new-in-the-rate-constant" class="nav-link" data-scroll-target="#how-much-is-new-in-the-rate-constant">How much is new in the rate constant?</a></li>
+  <li><a href="#what-does-a-fitted-processing-constant-actually-contain" id="toc-what-does-a-fitted-processing-constant-actually-contain" class="nav-link" data-scroll-target="#what-does-a-fitted-processing-constant-actually-contain">What does a fitted processing constant actually contain?</a></li>
+  <li><a href="#a-correlation-of-0.95-with-conditional-reconstruction" id="toc-a-correlation-of-0.95-with-conditional-reconstruction" class="nav-link" data-scroll-target="#a-correlation-of-0.95-with-conditional-reconstruction">A correlation of 0.95 with conditional reconstruction</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">What a degradability landscape can tell us about protein degraders</h1></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">The Edge of Evidence</h1>
-</div>
+<header id="title-block-header">
 
+<p class="author">iLo</p>
 
-
-<div class="quarto-title-meta column-page">
-
-    
-  
-    
-  </div>
-  
-
-
+<p class="date">2026-09-11</p>
 </header>
 
 
-<div class="home-hero">
-<div class="home-hero-copy">
-<p class="eyebrow">
-EVIDENCE · INTERPRETATION · TRANSLATION
-</p>
-<section id="the-edge-of-evidence" class="level1">
-<h1>The Edge of Evidence</h1>
-<p>Scientific commentary by <strong>iLo</strong> on what the evidence supports, what it leaves unresolved, and what it could mean for drug discovery and development.</p>
-<p><a href="./posts/2026-09-11-degradability-landscape-protein-degraders/index.html" class="hero-link">Read the latest analysis</a></p>
+<div class="article-type">
+<p>PAPER ANALYSIS · 8 MIN READ</p>
+</div>
+<div class="article-deck">
+<p>A model can reproduce the ranking of degraders while substantially mispredicting how much protein remains. The distinction matters when a fitted rate constant becomes a guide for compound optimization.</p>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="cover.png" class="article-cover img-fluid figure-img"></p>
+<figcaption>Abstract editorial landscape of protein degradation. This illustration is not experimental data.</figcaption>
+</figure>
+</div>
+<section id="the-central-assessment" class="level2">
+<h2 class="anchored" data-anchor-id="the-central-assessment">The central assessment</h2>
+<p>Du and colleagues present a framework for organizing the factors that determine protein degradation. Its effective processing constant, kpr, serves much the same mathematical role as the catalytic constant in earlier models. The framework is useful, but the paper does not establish that kpr is a superior predictive or mechanistic parameter.</p>
+<p>Targeted protein degradation creates an appealing optimization problem. A compound must bring a target and an E3 ligase together, enable productive ubiquitination, and remove protein faster than the cell replaces it. Binding affinity measures only part of that process. DMAX and DC50 summarize its outcome, but do not directly identify the limiting step.</p>
+<p>In A quantitative approach for defining the degradability landscape of protein degraders, Du and colleagues connect these processes in a compact model <a href="#ref-du">1</a>. They calculate ternary-complex abundance, combine it with endogenous protein turnover, and introduce an effective processing constant, Kpr. Varying target affinity and this constant produces a landscape of predicted degradation depth and potency.</p>
+<p>What interested me most was whether this framework adds explanatory power beyond the mathematics already available, and whether its validation supports using fitted parameters to guide chemistry.</p>
+<p>The paper deserves credit for making a complicated system easier to explore. My concern is the biological meaning assigned to a parameter estimated from the very degradation response it is intended to explain.</p>
 </section>
-</div>
-</div>
-<section id="latest-writing" class="level2 section-heading">
-<h2 class="section-heading anchored" data-anchor-id="latest-writing">Latest writing</h2>
-<div id="listing-latest-writing" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="UGFwZXIlMjBBbmFseXNpcyUyQ0NoZW1pY2FsJTIwQmlvbG9neSUyQ1Byb3RlaW4lMjBSZWd1bGF0aW9uJTJDVGFyZ2V0ZWQlMjBQcm90ZWluJTIwRGVncmFkYXRpb24=" data-listing-date-sort="1789084800000" data-listing-file-modified-sort="1789193447140" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1248">
-<a href="./posts/2026-09-11-degradability-landscape-protein-degraders/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2026-09-11-degradability-landscape-protein-degraders/cover.png" class="thumbnail-image card-img" style="height: 250px;" alt="Abstract blue and gold contours suggesting a landscape of protein degradation; editorial illustration, not experimental data">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-What a degradability landscape can tell us about protein degraders
-</h5>
-<div class="listing-reading-time card-text text-muted">7 min</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UGFwZXIlMjBBbmFseXNpcw=='); return false;">Paper Analysis</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q2hlbWljYWwlMjBCaW9sb2d5'); return false;">Chemical Biology</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UHJvdGVpbiUyMFJlZ3VsYXRpb24='); return false;">Protein Regulation</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGFyZ2V0ZWQlMjBQcm90ZWluJTIwRGVncmFkYXRpb24='); return false;">Targeted Protein Degradation</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>A model can reproduce the ranking of degraders while substantially mispredicting how much protein remains. The distinction matters when a fitted rate constant guides…</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 11, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="UGFwZXIlMjBBbmFseXNpcyUyQ0NoZW1pY2FsJTIwQmlvbG9neSUyQ09uY29sb2d5JTJDVGFyZ2V0JTIwRGlzY292ZXJ5JTJDUHJvdGVpbiUyMFJlZ3VsYXRpb24=" data-listing-date-sort="1788480000000" data-listing-file-modified-sort="1789193447139" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1563">
-<a href="./posts/2026-09-04-photoproximity-labeling-hidden-regulator-c-myc/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/2026-09-04-photoproximity-labeling-hidden-regulator-c-myc/cover.png" class="thumbnail-image card-img" style="height: 250px;" alt="Abstract warm-gray nuclear field crossed by a brief blue pulse connecting two subtle nodes">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-How photoproximity labeling uncovered a hidden regulator of c-Myc
-</h5>
-<div class="listing-reading-time card-text text-muted">8 min</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UGFwZXIlMjBBbmFseXNpcw=='); return false;">Paper Analysis</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q2hlbWljYWwlMjBCaW9sb2d5'); return false;">Chemical Biology</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('T25jb2xvZ3k='); return false;">Oncology</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VGFyZ2V0JTIwRGlzY292ZXJ5'); return false;">Target Discovery</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UHJvdGVpbiUyMFJlZ3VsYXRpb24='); return false;">Protein Regulation</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>SLK was not hidden because nobody had measured it. The relevant biology depended on an isoform entering the right compartment at the right time.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Sep 4, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<div class="home-profile">
-<p><img src="assets/images/ilo-portrait.webp" class="profile-portrait" alt="Cartoon portrait of iLo"></p>
-<section id="about-ilo" class="level3 home-profile-copy">
-<h3 class="anchored" data-anchor-id="about-ilo">About iLo</h3>
-<p>I-Chung Lo, writing as <strong>iLo</strong>, is a translational scientist interested in how biological evidence becomes decisions in drug discovery and development.</p>
-<div class="profile-links" aria-label="iLo profile links">
-<p><a class="text-link" href="about.html">More about iLo</a> <a class="text-link" href="mailto:ichunglo@protonmail.com"><i class="bi bi-envelope link-icon" aria-hidden="true"></i><span>Email iLo</span></a> <a class="text-link" href="https://www.linkedin.com/in/ichunglo/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin link-icon" aria-hidden="true"></i><span>LinkedIn</span></a></p>
-</div>
+<section id="how-much-is-new-in-the-rate-constant" class="level2">
+<h2 class="anchored" data-anchor-id="how-much-is-new-in-the-rate-constant">How much is new in the rate constant?</h2>
+<p>The authors describe target abundance using a balance between synthesis, natural turnover, and degrader-induced loss:</p>
+<p><span class="math display">\[
+\frac{dP}{dt}=k_{\mathrm{sp}}-k_{\mathrm{dp}}P-k_{\mathrm{pr}}[PLE].
+\]</span></p>
+<p>Here, [PLE] is the modeled target-degrader-E3 complex. The product kpr[PLE] is the induced degradation flux. The constant represents processing per unit of ternary complex, rather than disappearance of the entire target pool.</p>
+<p>That distinction is valid. More target can generate more ternary complex and a larger absolute degradation flux without requiring the processing constant to change. The underlying turnover logic, however, is not new; it has been represented in several earlier mathematical and pharmacodynamic models.</p>
+<p>Haid and Reichel’s 2023 framework already expressed the same balance using a catalytic constant and ternary target engagement <a href="#ref-haid">2</a>. Defining <span class="math inline">\(p=P/P_0\)</span> and <span class="math inline">\(TE=[PLE]/P\)</span>, Du’s equation becomes:</p>
+<p><span class="math display">\[
+\frac{dp}{dt}=k_{\mathrm{dp}}(1-p)-k_{\mathrm{pr}}TE\,p.
+\]</span></p>
+<p>This is the earlier turnover equation with kpr occupying the role of kcat. Haid and Reichel’s framework also includes binding affinities, cooperativity, E3 abundance, time dependence, the hook effect, and combined inhibition and degradation. Its minimum mechanistic inputs are target and E3 concentrations, target and E3 binding affinities, cooperativity, intracellular degrader concentration, target half-life, simulation time, and a catalytic degradation constant. The same system can also be represented empirically from time-resolved concentration-response data using Dmax, DC50, and endogenous turnover.</p>
+<p>Du and colleagues require target and E3 copy number, target half-life, degrader-target KD, degrader-E3 KD, cooperativity, intracellular degrader concentration, simulation time, and a degradation observation from which kpr is fitted.</p>
+<p>The implementations have differences. Du and colleagues update equilibrium complex abundance as the target is depleted, while Haid and Reichel developed an unsaturated approximation after presenting the fuller equilibrium expression. Nevertheless, the algebra shows substantial continuity. A new name for the effective constant does not demonstrate a new mechanistic quantity.</p>
+<p>My interpretation. The contribution is strongest as an implementation and application: integrating proteomics inputs, calibrating systems with limited degradation data, and presenting an accessible landscape. The approach still requires several difficult-to-measure or assumed inputs. Establishing that it performs better requires a comparison with the earlier framework using matched inputs and withheld observations.</p>
 </section>
+<section id="what-does-a-fitted-processing-constant-actually-contain" class="level2">
+<h2 class="anchored" data-anchor-id="what-does-a-fitted-processing-constant-actually-contain">What does a fitted processing constant actually contain?</h2>
+<p>The paper estimates <span class="math inline">\(k_{\mathrm{pr}}\)</span> after supplying other parameters, including target half-life, protein abundance, binding affinity, and cooperativity. Some come from public datasets; others are approximated.</p>
+<p>My concern is that degradation data constrain the combined action of processing and engagement:</p>
+<p><span class="math display">\[
+k_{\mathrm{induced}}=k_{\mathrm{pr}}TE.
+\]</span></p>
+<p>If modeled engagement is too low, a larger fitted processing constant can compensate. A unique numerical fit therefore need not identify a unique biological mechanism.</p>
+<p>For example, in a weak-occupancy regime, ternary-complex abundance is approximately proportional to effective E3 concentration. Underestimating that concentration threefold can inflate the fitted processing constant approximately threefold while preserving the predicted degradation response. Exposure and cooperativity errors can produce similar compensation.</p>
+<p>This does not make the parameter useless. It makes its interpretation conditional. A low fitted value might reflect inefficient ubiquitination or proteasomal processing, but it might also reflect incorrect assumptions about intracellular exposure or accessible protein pools. Those explanations imply different medicinal-chemistry decisions.</p>
+</section>
+<section id="a-correlation-of-0.95-with-conditional-reconstruction" class="level2">
+<h2 class="anchored" data-anchor-id="a-correlation-of-0.95-with-conditional-reconstruction">A correlation of 0.95 with conditional reconstruction</h2>
+<p>In the BTK analysis, the authors fixed the measured BTK KD, target and CRBN copy numbers, BTK half-life, degrader-CRBN KD, cooperativity, and a 24-hour simulation window. They then varied kpr until the model’s simulated absolute DC50 matched the experimentally measured DC50, and used that fitted kpr to calculate DMAX.</p>
+<p>The required inputs for each compound-cell-line observation were:</p>
+<ol type="1">
+<li><p>Fix the experimentally measured BTK binding <span class="math inline">\(K_D\)</span>.</p></li>
+<li><p>Fix externally supplied parameters:</p>
+<ul>
+<li><p>BTK copy number: 22,692 molecules/cell</p></li>
+<li><p>CRBN copy number: 12,265 molecules/cell</p></li>
+<li><p>BTK half-life: 71.9 h</p></li>
+<li><p>degrader–CRBN <span class="math inline">\(K_D\)</span>: 3.84 μM</p></li>
+<li><p>cooperativity: <span class="math inline">\(\alpha=1\)</span></p></li>
+<li><p>simulation time: 24 h</p></li>
+</ul></li>
+<li><p>Measured DC50, used to select the closest fitted kpr.</p></li>
+</ol>
+<p>Therefore, the reported r = 0.95 does not represent an independent prediction from biochemical parameters. DC50 and DMAX were generated from the same degradation assay, and DC50 was used to calibrate the model before DMAX was estimated. The analysis is best described as conditional reconstruction. The robustness and transferability of kpr therefore remain open questions.</p>
+<p>The rationale rests on a familiar mass-balance principle: changed protein level equals intrinsic synthesis minus intrinsic degradation minus degrader-induced degradation. The authors add PLE, the modeled ternary-complex concentration, which can represent cellular engagement more explicitly. However, PLE requires several inputs, some of which are difficult to measure and others of which are estimated. Those assumptions can reduce the reliability of the inferred kpr.</p>
+<p>There is also a consequential definition issue. This paper uses absolute DC50, the concentration producing 50% depletion. The earlier framework uses half-maximal degradation, meaning half of DMAX. For a Hill-one concentration-response curve, algebra gives:</p>
+<p><span class="math display">\[
+DC_{50,\mathrm{absolute}}=\frac{DC_{50,\mathrm{relative}}}{2D_{\max}-1}.
+\]</span></p>
+<p>At 60% DMAX, absolute DC50 is five times relative DC50. Below 50% DMAX, absolute DC50 does not exist. The THP-1 observation with 36% DMAX is consequently absent from the comparison.</p>
+<p>This selection is understandable, but it limits the claim: the analysis does not establish that the model distinguishes effective from ineffective degraders. Nor is the DMAX prediction an exact tautology; DMAX was not directly fitted, and the relationship still imposes a constraint.</p>
+<p>Within-cell correlations are approximately 0.918 in Ramos and 0.916 in THP-1. Those values are high, but they should not be read as proof of accurate absolute prediction. Removing the low-DMAX Ramos observation reduces the correlation to approximately 0.526 among the remaining six compounds, whose observed DMAX values span only 84-87%.</p>
+<p>The defensible criticism is specific: a small, selected dataset shows ordering with substantial calibration error, and performance within a narrow chemical response range is sensitive to an influential observation.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p><span id="ref-du"></span></p>
+<ol type="1">
+<li>Du W, De Boni L, Hopkins BD, Elemento O. A quantitative approach for defining the degradability landscape of protein degraders. Nature Communications. 2026;17:8619. Paper and supplementary materials: <a href="https://doi.org/10.1038/s41467-026-75591-8" class="uri">https://doi.org/10.1038/s41467-026-75591-8</a>.</li>
+</ol>
+<p><span id="ref-haid"></span></p>
+<ol start="2" type="1">
+<li><p>Haid RTU, Reichel A. A Mechanistic Pharmacodynamic Modeling Framework for the Assessment and Optimization of Proteolysis Targeting Chimeras (PROTACs). Pharmaceutics. 2023;15:195. Full text: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9865105/" class="uri">https://pmc.ncbi.nlm.nih.gov/articles/PMC9865105/</a>.</p></li>
+<li><p>Du et al.&nbsp;Released BTK modeling implementation: <a href="https://github.com/WeiDu-CSB/TPD-Kinetic-Model/blob/main/LANDSCAPE/landscape_main.m" class="uri">https://github.com/WeiDu-CSB/TPD-Kinetic-Model/blob/main/LANDSCAPE/landscape_main.m</a> and publisher source workbook: <a href="https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-026-75591-8/MediaObjects/41467_2026_75591_MOESM4_ESM.xlsx" class="uri">https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-026-75591-8/MediaObjects/41467_2026_75591_MOESM4_ESM.xlsx</a>.</p></li>
+</ol>
+<div class="article-disclosure">
+<p><strong>Article history:</strong> First published September 11, 2026.</p>
+<p><strong>Cover note:</strong> Abstract editorial illustration, not experimental data.</p>
 </div>
-
 
 
 </section>
@@ -750,7 +718,7 @@ Sep 4, 2026
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="./editorial-notes.html">
+    <a class="nav-link" href="../../editorial-notes.html">
 <p>Editorial notes</p>
 </a>
   </li>  
@@ -762,5 +730,5 @@ Sep 4, 2026
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
