@@ -10,7 +10,20 @@
 <atom:link href="https://ichunglo.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Scientific commentary by iLo</description>
 <generator>quarto-1.10.18</generator>
-<lastBuildDate>Fri, 11 Sep 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 16 Sep 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Why the source of protein overexpression matters for degraders</title>
+  <dc:creator>iLo </dc:creator>
+  <link>https://ichunglo.github.io/posts/2026-09-16-oncogene-activation-degrader-response/</link>
+  <description><![CDATA[ A β-catenin study confirms a prediction already present in degrader models: synthesis and turnover can produce the same baseline abundance but different residual protein after treatment. ]]></description>
+  <category>Paper Analysis</category>
+  <category>Chemical Biology</category>
+  <category>Protein Regulation</category>
+  <category>Targeted Protein Degradation</category>
+  <guid>https://ichunglo.github.io/posts/2026-09-16-oncogene-activation-degrader-response/</guid>
+  <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://ichunglo.github.io/posts/2026-09-16-oncogene-activation-degrader-response/cover.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
 <item>
   <title>What a degradability landscape can tell us about protein degraders</title>
   <dc:creator>iLo </dc:creator>
