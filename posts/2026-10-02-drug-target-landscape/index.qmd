@@ -847,7 +847,7 @@ This is an early working view of the drug-target landscape. The approved-drug ba
       const approvalDrugIds = new Set(payload.approvals.map((approval) => approval.drug_id));
       const approvedDrugCount = new Set(links.filter((link) => approvalDrugIds.has(link.drug_id)).map((link) => link.drug_id)).size;
       const clinicalCount = payload.programs.filter((program) => program.primary_target_id === target.target_id).length;
-      return { target, drugCount, approvedDrugCount, clinicalCount };
+      return { target, drugCount, approvedDrugCount, clinicalCount, primaryCount: links.filter((link) => link.target_role === "primary").length };
     }).sort((a, b) => b.drugCount - a.drugCount || b.approvedDrugCount - a.approvedDrugCount || b.clinicalCount - a.clinicalCount || (a.target.preferred_name || "").localeCompare(b.target.preferred_name || ""));
     groupTitleEl.textContent = `${selectedGroup} target records (${formatNumber(targets.length)}) · ranked by linked drugs`;
     const groupClinicalCount = payload.programs.filter((program) => {
