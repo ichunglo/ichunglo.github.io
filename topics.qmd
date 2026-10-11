@@ -17,6 +17,14 @@ Close readings of scientific papers: what the experiments establish, where uncer
 :::
 
 ::: {.topic-card}
+### Data Resource
+
+Interactive, source-linked datasets and visualizations for exploring drug-discovery evidence and its limits.
+
+[Browse Data Resources](writing.qmd#category=Data%20Resource){.text-link}
+:::
+
+::: {.topic-card}
 ### Translational Perspective
 
 Durable essays on how biological findings move—or fail to move—from mechanism to medicine.

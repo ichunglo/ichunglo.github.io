@@ -1,0 +1,28 @@
+{
+  "release_version": "0.1.0",
+  "as_of_date": "2026-10-02",
+  "source": "The evolving landscape of drug targets, supplementary tables",
+  "counts": {
+    "organisms": 6,
+    "targets": 763,
+    "core_targets": 686,
+    "cgt_only_targets": 14,
+    "unresolved_target_labels": 63,
+    "drugs_with_any_source_link": 1720,
+    "approval_table_rows": 1702,
+    "approval_table_drugs": 1702,
+    "drug_target_relationships": 2899,
+    "approval_events": 2776
+  },
+  "paper_reference_counts": {
+    "reported_biomolecules": 686,
+    "reported_drugs": 1702
+  },
+  "headline_count_rule": "primary drug-target relationships only",
+  "clinical_programs": 0,
+  "notes": [
+    "Phase 1 approved baseline import; clinical pilot not yet populated.",
+    "Names introduced by MOESM4 without an existing UniProt mapping are retained as unresolved labels rather than core targets.",
+    "CGT-only targets remain available as a separate scope and are excluded from core paper-comparable counts."
+  ]
+}

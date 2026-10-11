@@ -1,0 +1,22 @@
+source_id,verified_date,verification_method,identity_result,access_note
+SRC-NEJM-semagacestat,2026-10-10,Crossref DOI metadata,matched,Publisher returned HTTP 403 to automated checker
+SRC-NEJM-dalcetrapib,2026-10-10,Crossref DOI metadata,matched,Publisher returned HTTP 403 to automated checker
+SRC-NEJM-torcetrapib,2026-10-10,Crossref DOI metadata,matched,Publisher returned HTTP 403 to automated checker
+SRC-NEJM-bapineuzumab,2026-10-10,Crossref DOI metadata,matched,Publisher returned HTTP 403 to automated checker
+SRC-NEJM-solanezumab,2026-10-10,Crossref DOI metadata,matched,Publisher returned HTTP 403 to automated checker
+SRC-NEJM-verubecestat,2026-10-10,Crossref DOI metadata,matched,Publisher returned HTTP 403 to automated checker
+SRC-JCO-brivanib,2026-10-10,Crossref DOI metadata,matched,Publisher returned HTTP 403 to automated checker
+SRC-NEJM-gantenerumab,2026-10-10,Crossref DOI metadata,matched,Publisher returned HTTP 403 to automated checker
+SRC-JCO-andecaliximab-GAMMA1,2026-10-10,Crossref DOI metadata,matched,Publisher returned HTTP 403 to automated checker
+SRC-NEJM-verubecestat-APECS,2026-10-10,Crossref DOI metadata,matched,Publisher returned HTTP 403 to automated checker
+SRC-NEJM-darapladib-STABILITY,2026-10-10,Crossref DOI metadata,matched,Publisher returned HTTP 403 to automated checker
+SRC-JCO-motesanib-MONET1,2026-10-10,Crossref DOI metadata,matched,Publisher returned HTTP 403 to automated checker
+SRC-CCR-brivanib-dual,2026-10-10,AACR publisher index,matched,Publisher returned HTTP 403 to automated checker
+SRC-CANCERRES-motesanib-multi,2026-10-10,AACR publisher index,matched,Publisher returned HTTP 403 to automated checker
+SRC-JAMA-atabecestat,2026-10-10,JAMA publisher page,matched,Publisher returned HTTP 403 to automated checker
+SRC-JAMA-idalopirdine,2026-10-10,JAMA publisher page,matched,Publisher returned HTTP 403 to automated checker
+SRC-JAMA-darapladib-SOLID,2026-10-10,JAMA publisher page,matched,Publisher returned HTTP 403 to automated checker
+SRC-JAMA-varespladib-VISTA16,2026-10-10,JAMA publisher page,matched,Publisher returned HTTP 403 to automated checker
+SRC-PFIZER-tanezumab-2021,2026-10-10,Pfizer press release page,matched,Sponsor returned HTTP 403 to automated checker
+SRC-PFIZER-tanezumab-safety,2026-10-10,Pfizer press release index,matched,Sponsor returned HTTP 403 to automated checker
+SRC-JTO-rovalpituzumab-TAHOE,2026-10-10,ScienceDirect publisher index,matched,Publisher returned HTTP 403 to automated checker

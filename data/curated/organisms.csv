@@ -1,0 +1,7 @@
+organism_id,name,taxonomy_scope
+1,human,human
+2,bacteria,pathogen
+3,fungi,pathogen
+4,parasite,pathogen
+5,parasite|bacteria|fungi,pathogen
+6,virus,pathogen

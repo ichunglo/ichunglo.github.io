@@ -1,0 +1,31 @@
+{
+  "target_total": 791,
+  "drug_total": 1766,
+  "drug_target_relationship_total": 2963,
+  "target_class_counts": {
+    "Catalytic receptors": 73,
+    "Endogenous peptides": 47,
+    "Enzymes": 293,
+    "GPCRs": 107,
+    "Ion channels": 126,
+    "Nuclear hormone receptors": 20,
+    "Other proteins": 69,
+    "Receptors": 7,
+    "Transporters": 28,
+    "Unresolved": 21
+  },
+  "landscape_scope_counts": {
+    "cgt_only": 14,
+    "clinical_only": 14,
+    "core": 686,
+    "unresolved": 77
+  },
+  "relationship_role_counts": {
+    "primary": 2351,
+    "secondary": 612
+  },
+  "targets_with_no_drug_link": 0,
+  "drugs_with_multiple_target_links": 547,
+  "review_queue_rows": 0,
+  "review_queue_path": "C:\\Users\\ichun\\Documents\\Codex\\Scientific_Blog\\data\\intake\\target-coverage-review.csv"
+}

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Drug-target landscape social card</title>
+  <desc id="desc">Editorial illustration of branching target relationships, not a chart or scientific result.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f7f5"/>
+      <stop offset="1" stop-color="#e9ebeb"/>
+    </linearGradient>
+    <linearGradient id="warm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ecdace"/>
+      <stop offset="1" stop-color="#d8c6bd"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#paper)"/>
+  <path d="M761 0H1200V630H690Z" fill="url(#warm)" opacity=".84"/>
+  <path d="M64 70H151" stroke="#718aa0" stroke-width="5" stroke-linecap="round"/>
+  <text x="64" y="120" fill="#685f5a" font-family="Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="4">THE EDGE OF EVIDENCE</text>
+  <text x="64" y="257" fill="#514a47" font-family="Georgia, serif" font-size="79">Drug-target</text>
+  <text x="64" y="347" fill="#514a47" font-family="Georgia, serif" font-size="79">landscape</text>
+  <text x="66" y="413" fill="#514a47" font-family="Arial, sans-serif" font-size="25">An interactive data resource</text>
+  <text x="66" y="450" fill="#685f5a" font-family="Arial, sans-serif" font-size="22">Approved drugs · clinical development</text>
+  <path d="M64 522H665" stroke="#d6d1cc" stroke-width="2"/>
+  <text x="64" y="558" fill="#685f5a" font-family="Arial, sans-serif" font-size="17" letter-spacing="2">TARGETS  /  DRUGS  /  EVIDENCE</text>
+  <g fill="none" stroke="#718aa0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity=".92">
+    <path d="M778 319H852M852 319V164M852 319V480"/>
+    <path d="M852 164H937M852 319H937M852 480H937"/>
+    <path d="M937 164V113M937 164V220M937 319V266M937 319V375M937 480V428M937 480V534"/>
+    <path d="M937 113H1035M937 220H1035M937 266H1035M937 375H1035M937 428H1035M937 534H1035"/>
+  </g>
+  <g fill="#f8f7f5" stroke="#718aa0" stroke-width="5">
+    <circle cx="778" cy="319" r="15"/>
+    <circle cx="852" cy="164" r="11"/>
+    <circle cx="852" cy="319" r="11"/>
+    <circle cx="852" cy="480" r="11"/>
+    <circle cx="1035" cy="113" r="15"/>
+    <circle cx="1035" cy="220" r="15"/>
+    <circle cx="1035" cy="266" r="15"/>
+    <circle cx="1035" cy="375" r="15"/>
+    <circle cx="1035" cy="428" r="15"/>
+    <circle cx="1035" cy="534" r="15"/>
+  </g>
+  <g fill="#514a47" opacity=".8">
+    <circle cx="778" cy="319" r="5"/>
+    <circle cx="1035" cy="113" r="5"/>
+    <circle cx="1035" cy="220" r="5"/>
+    <circle cx="1035" cy="266" r="5"/>
+    <circle cx="1035" cy="375" r="5"/>
+    <circle cx="1035" cy="428" r="5"/>
+    <circle cx="1035" cy="534" r="5"/>
+  </g>
+</svg>

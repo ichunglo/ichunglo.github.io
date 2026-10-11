@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "counts": {
+    "targets": 791,
+    "drugs": 1766,
+    "drug_target_links": 2963,
+    "programs": 56,
+    "trials": 90,
+    "outcomes": 92
+  },
+  "programs_missing_drug_target_link": [],
+  "targets_without_drug_target_link": [],
+  "errors": []
+}

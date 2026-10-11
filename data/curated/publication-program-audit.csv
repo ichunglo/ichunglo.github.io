@@ -1,0 +1,12 @@
+program_id,disposition,evidence_source_id,audit_finding,publication_boundary
+PRG-tanespimycin-solid-tumor,held,SRC-CTG-tanespimycin,NCT00627627 was misattributed to tanespimycin and has been replaced by the actual tanespimycin NCT00773344,NCT00773344 completed but has no posted results; do not infer efficacy failure or sponsor stopping cause
+PRG-trebananib-ovarian,held,SRC-PUBMED-trebananib-TRINOVA1,TRINOVA-1 had positive primary PFS while TRINOVA-2 and TRINOVA-3 did not,Do not collapse mixed trial outcomes into a single program failure or choose a unique ANGPT primary target
+PRG-brivanib-hcc,held,SRC-CTG-brivanib,BRISK-PS endpoint failure is supported but BRISK-APS has no registry-stated stopping reason,Do not transfer BRISK-PS outcome to BRISK-APS
+PRG-motesanib-cancer,held,SRC-CTG-motesanib,NCT00360867 was a safety extension terminated by sponsor decision without a stated protocol-specific cause,Do not transfer MONET1 efficacy outcome to this extension
+PRG-entospletinib-hematology,held,SRC-CTG-entospletinib,Multi-cohort study ended after Gilead discontinued its development; published CLL activity complicates efficacy interpretation,Do not call all cohorts efficacy failures or infer all-sponsor program discontinuation
+PRG-rigosertib-myelofibrosis,included,SRC-CTG-rigosertib,NCT02730884 ended at investigator request due to low accrual with three participants,Count only as a recruitment-failure event; do not infer drug or target inefficacy
+PRG-tivantinib-cancer,included,SRC-CTG-tivantinib,NCT01055067 germ-cell trial stopped for futility under its Simon two-stage rule,Count only as trial-specific futility; do not infer MET target failure
+PRG-siltuximab-myeloma,held,SRC-CTG-siltuximab,NCT01266811 was withdrawn before enrollment because of another study,Do not count an endpoint failure in this unstarted trial
+PRG-pevonedistat-mesothelioma,held,SRC-CTG-NCT03319537,NCT03319537 ended after termination of a study agreement,Do not infer efficacy failure or a specific agreement rationale
+PRG-tideglusib-ad,held,SRC-PUBMED-tideglusib-argo,ARGO had no significant clinical efficacy while an earlier safety study was separate,Do not infer broader development discontinuation or a unique GSK3 isoform target
+PRG-tideglusib-cdm,held,SRC-CTG-NCT03692312,REACH primary comparison had p=0.0514 with some favorable secondary outcomes,Do not label the whole drug program discontinued from this completed trial

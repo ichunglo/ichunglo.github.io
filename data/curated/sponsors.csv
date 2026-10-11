@@ -1,0 +1,51 @@
+sponsor_id,sponsor_name,sponsor_type
+SPN-noscira,Noscira SA,industry
+SPN-amo-pharma,AMO Pharma Limited,industry
+SPN-verubecestat,Merck,industry
+SPN-semagacestat,Eli Lilly,industry
+SPN-dalcetrapib,Roche,industry
+SPN-torcetrapib,Pfizer,industry
+SPN-evobrutinib,Merck KGaA,industry
+SPN-olaratumab,Eli Lilly,industry
+SPN-iniparib,Sanofi,industry
+SPN-atrasentan,AbbVie,industry
+SPN-lanabecestat,AstraZeneca,industry
+SPN-tanespimycin,Bristol Myers Squibb,industry
+SPN-bapineuzumab,bapineuzumab,industry
+SPN-crenezumab,crenezumab,industry
+SPN-idalopirdine,H. Lundbeck A/S,industry
+SPN-trebananib,trebananib,industry
+SPN-rolofylline,NovaCardia / Merck,industry
+SPN-onartuzumab,Genentech,industry
+SPN-rovalpituzumab,rovalpituzumab,industry
+SPN-solanezumab,solanezumab,industry
+SPN-brivanib,brivanib,industry
+SPN-linifanib,linifanib,industry
+SPN-motesanib,Amgen,industry
+SPN-entospletinib,Gilead Sciences,industry
+SPN-kronos-bio,Kronos Bio,industry
+SPN-depatuxizumab,depatuxizumab,industry
+SPN-glembatumumab,glembatumumab,industry
+SPN-rigosertib,rigosertib,industry
+SPN-tivantinib,tivantinib,industry
+SPN-siltuximab,siltuximab,industry
+SPN-saracatinib,National Cancer Institute (NCI),government
+SPN-balovaptan,balovaptan,industry
+SPN-darapladib,GlaxoSmithKline,industry
+SPN-varespladib,Anthera Pharmaceuticals,industry
+SPN-pevonedistat,pevonedistat,industry
+SPN-michigan-rogel,University of Michigan Rogel Cancer Center,academic
+SPN-mskcc,Memorial Sloan Kettering Cancer Center,academic
+SPN-abramson-penn,Abramson Cancer Center at Penn Medicine,academic
+SPN-tarenflurbil,Myrexis Inc. / Myriad Genetics,industry
+SPN-gantenerumab,Hoffmann-La Roche,industry
+SPN-elenbecestat,Eisai,industry
+SPN-atabecestat,"Janssen Research & Development, LLC",industry
+SPN-fevipiprant,Novartis Pharmaceuticals,industry
+SPN-tanezumab,Pfizer and Eli Lilly,industry
+SPN-epratuzumab,UCB Pharma,industry
+SPN-sirukumab,"Janssen Research & Development, LLC",industry
+SPN-biogen,Biogen,industry
+SPN-andecaliximab,Gilead Sciences,industry
+SPN-tilavonemab,AbbVie,industry
+SPN-intepirdine,Axovant Sciences,industry

@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - data/generated/landscape.json
+    - data/generated/target-landscape-publication.svg
   render:
     - "*.qmd"
     - "posts/**/*.qmd"

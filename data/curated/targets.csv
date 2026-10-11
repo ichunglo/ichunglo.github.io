@@ -1,0 +1,792 @@
+target_id,preferred_name,gene_symbol,uniprot_accession,organism_id,target_status,landscape_scope,protein_group,target_type,complex_description,paper_target_name,paper_source_row
+TGT-q04771-1,Activin receptor type-1,ACVR1,Q04771,1,confirmed,core,Catalytic receptors,,,Activin receptor type-1,MOESM2:2
+TGT-q9um73-1,ALK tyrosine kinase receptor,ALK,Q9UM73,1,confirmed,core,Catalytic receptors,,,ALK tyrosine kinase receptor,MOESM2:3
+TGT-p07333-1,Macrophage colony-stimulating factor 1 receptor,CSF1R,P07333,1,confirmed,core,Catalytic receptors,,,Macrophage colony-stimulating factor 1 receptor,MOESM2:4
+TGT-p15509-1,Granulocyte-macrophage colony-stimulating factor receptor subunit alpha,CSF2RA,P15509,1,confirmed,core,Catalytic receptors,,,Granulocyte-macrophage colony-stimulating factor receptor subunit alpha,MOESM2:5
+TGT-p32927-1,Granulocyte-macrophage colony-stimulating factor receptor subunit beta,CSF2RB,P32927,1,confirmed,core,Catalytic receptors,,,Granulocyte-macrophage colony-stimulating factor receptor subunit beta,MOESM2:6
+TGT-q99062-1,Granulocyte colony-stimulating factor receptor,CSF3R,Q99062,1,confirmed,core,Catalytic receptors,,,Granulocyte colony-stimulating factor receptor,MOESM2:7
+TGT-p00533-1,Epidermal growth factor receptor,EGFR,P00533,1,confirmed,core,Catalytic receptors,,,Epidermal growth factor receptor,MOESM2:8
+TGT-p29317-1,Ephrin type-A receptor 2,EPHA2,P29317,1,confirmed,core,Catalytic receptors,,,Ephrin type-A receptor 2,MOESM2:9
+TGT-p19235-1,Erythropoietin receptor,EPOR,P19235,1,confirmed,core,Catalytic receptors,,,Erythropoietin receptor,MOESM2:10
+TGT-p04626-1,Receptor tyrosine-protein kinase erbB-2,ERBB2,P04626,1,confirmed,core,Catalytic receptors,,,Receptor tyrosine-protein kinase erbB-2,MOESM2:11
+TGT-p21860-1,Receptor tyrosine-protein kinase erbB-3,ERBB3,P21860,1,confirmed,core,Catalytic receptors,,,Receptor tyrosine-protein kinase erbB-3,MOESM2:12
+TGT-q15303-1,Receptor tyrosine-protein kinase erbB-4,ERBB4,Q15303,1,confirmed,core,Catalytic receptors,,,Receptor tyrosine-protein kinase erbB-4,MOESM2:13
+TGT-p11362-1,Fibroblast growth factor receptor 1,FGFR1,P11362,1,confirmed,core,Catalytic receptors,,,Fibroblast growth factor receptor 1,MOESM2:14
+TGT-p21802-1,Fibroblast growth factor receptor 2,FGFR2,P21802,1,confirmed,core,Catalytic receptors,,,Fibroblast growth factor receptor 2,MOESM2:15
+TGT-p22607-1,Fibroblast growth factor receptor 3,FGFR3,P22607,1,confirmed,core,Catalytic receptors,,,Fibroblast growth factor receptor 3,MOESM2:16
+TGT-p22455-1,Fibroblast growth factor receptor 4,FGFR4,P22455,1,confirmed,core,Catalytic receptors,,,Fibroblast growth factor receptor 4,MOESM2:17
+TGT-p17948-1,Vascular endothelial growth factor receptor 1,FLT1,P17948,1,confirmed,core,Catalytic receptors,,,Vascular endothelial growth factor receptor 1,MOESM2:18
+TGT-p36888-1,Receptor-type tyrosine-protein kinase FLT3,FLT3,P36888,1,confirmed,core,Catalytic receptors,,,Receptor-type tyrosine-protein kinase FLT3,MOESM2:19
+TGT-p35916-1,Vascular endothelial growth factor receptor 3,FLT4,P35916,1,confirmed,core,Catalytic receptors,,,Vascular endothelial growth factor receptor 3,MOESM2:20
+TGT-p10912-1,Growth hormone receptor,GHR,P10912,1,confirmed,core,Catalytic receptors,,,Growth hormone receptor,MOESM2:21
+TGT-p33402-1,Guanylate cyclase soluble subunit alpha-2,GUCY1A2,P33402,1,confirmed,core,Catalytic receptors,,,Guanylate cyclase soluble subunit alpha-2,MOESM2:22
+TGT-q02108-1,Guanylate cyclase soluble subunit alpha-3,GUCY1A3,Q02108,1,confirmed,core,Catalytic receptors,,,Guanylate cyclase soluble subunit alpha-3,MOESM2:23
+TGT-o75343-1,Guanylate cyclase soluble subunit beta-2,GUCY1B2,O75343,1,confirmed,core,Catalytic receptors,,,Guanylate cyclase soluble subunit beta-2,MOESM2:24
+TGT-q02153-1,Guanylate cyclase soluble subunit beta-1,GUCY1B3,Q02153,1,confirmed,core,Catalytic receptors,,,Guanylate cyclase soluble subunit beta-1,MOESM2:25
+TGT-p25092-1,Heat-stable enterotoxin receptor,GUCY2C,P25092,1,confirmed,core,Catalytic receptors,,,Heat-stable enterotoxin receptor,MOESM2:26
+TGT-p17181-1,Interferon alpha/beta receptor 1,IFNAR1,P17181,1,confirmed,core,Catalytic receptors,,,Interferon alpha/beta receptor 1,MOESM2:27
+TGT-p48551-1,Interferon alpha/beta receptor 2,IFNAR2,P48551,1,confirmed,core,Catalytic receptors,,,Interferon alpha/beta receptor 2,MOESM2:28
+TGT-p08069-1,Insulin-like growth factor 1 receptor,IGF1R,P08069,1,confirmed,core,Catalytic receptors,,,Insulin-like growth factor 1 receptor,MOESM2:29
+TGT-q14626-1,Interleukin-11 receptor subunit alpha,IL11RA,Q14626,1,confirmed,core,Catalytic receptors,,,Interleukin-11 receptor subunit alpha,MOESM2:30
+TGT-q96f46-1,Interleukin-17 receptor A,IL17RA,Q96F46,1,confirmed,core,Catalytic receptors,,,Interleukin-17 receptor A,MOESM2:31
+TGT-q8nac3-1,Interleukin-17 receptor C,IL17RC,Q8NAC3,1,confirmed,core,Catalytic receptors,,,Interleukin-17 receptor C,MOESM2:32
+TGT-p14778-1,Interleukin-1 receptor type 1,IL1R1,P14778,1,confirmed,core,Catalytic receptors,,,Interleukin-1 receptor type 1,MOESM2:33
+TGT-q9nph3-1,Interleukin-1 receptor accessory protein,IL1RAP,Q9NPH3,1,confirmed,core,Catalytic receptors,,,Interleukin-1 receptor accessory protein,MOESM2:34
+TGT-q9hb29-1,Interleukin-1 receptor-like 2,IL1RL2,Q9HB29,1,confirmed,core,Catalytic receptors,,,Interleukin-1 receptor-like 2,MOESM2:35
+TGT-p01589-1,Interleukin-2 receptor subunit alpha,IL2RA,P01589,1,confirmed,core,Catalytic receptors,,,Interleukin-2 receptor subunit alpha,MOESM2:36
+TGT-p14784-1,Interleukin-2 receptor subunit beta,IL2RB,P14784,1,confirmed,core,Catalytic receptors,,,Interleukin-2 receptor subunit beta,MOESM2:37
+TGT-p31785-1,Interleukin-2 receptor subunit gamma,IL2RG,P31785,1,confirmed,core,Catalytic receptors,,,Interleukin-2 receptor subunit gamma,MOESM2:38
+TGT-q8ni17-1,Interleukin-31 receptor subunit alpha,IL31RA,Q8NI17,1,confirmed,core,Catalytic receptors,,,Interleukin-31 receptor subunit alpha,MOESM2:39
+TGT-p26951-1,Interleukin-3 receptor subunit alpha,IL3RA,P26951,1,confirmed,core,Catalytic receptors,,,Interleukin-3 receptor subunit alpha,MOESM2:40
+TGT-p24394-1,Interleukin-4 receptor subunit alpha,IL4R,P24394,1,confirmed,core,Catalytic receptors,,,Interleukin-4 receptor subunit alpha,MOESM2:41
+TGT-q01344-1,Interleukin-5 receptor subunit alpha,IL5RA,Q01344,1,confirmed,core,Catalytic receptors,,,Interleukin-5 receptor subunit alpha,MOESM2:42
+TGT-p08887-1,Interleukin-6 receptor subunit alpha,IL6R,P08887,1,confirmed,core,Catalytic receptors,,,Interleukin-6 receptor subunit alpha,MOESM2:43
+TGT-p40189-1,Interleukin-6 receptor subunit beta,IL6ST,P40189,1,confirmed,core,Catalytic receptors,,,Interleukin-6 receptor subunit beta,MOESM2:44
+TGT-p06213-1,Insulin receptor,INSR,P06213,1,confirmed,core,Catalytic receptors,,,Insulin receptor,MOESM2:45
+TGT-p08514-1,Integrin alpha-Iib,ITGA2B,P08514,1,confirmed,core,Catalytic receptors,,,Integrin alpha-Iib,MOESM2:46
+TGT-p13612-1,Integrin alpha-4,ITGA4,P13612,1,confirmed,core,Catalytic receptors,,,Integrin alpha-4,MOESM2:47
+TGT-p20701-1,Integrin alpha-L,ITGAL,P20701,1,confirmed,core,Catalytic receptors,,,Integrin alpha-L,MOESM2:48
+TGT-p05556-1,Integrin beta-1,ITGB1,P05556,1,confirmed,core,Catalytic receptors,,,Integrin beta-1,MOESM2:49
+TGT-p05107-1,Integrin beta-2,ITGB2,P05107,1,confirmed,core,Catalytic receptors,,,Integrin beta-2,MOESM2:50
+TGT-p05106-1,Integrin beta-3,ITGB3,P05106,1,confirmed,core,Catalytic receptors,,,Integrin beta-3,MOESM2:51
+TGT-p26010-1,Integrin beta-7,ITGB7,P26010,1,confirmed,core,Catalytic receptors,,,Integrin beta-7,MOESM2:52
+TGT-p35968-1,Vascular endothelial growth factor receptor 2,KDR,P35968,1,confirmed,core,Catalytic receptors,,,Vascular endothelial growth factor receptor 2,MOESM2:53
+TGT-p10721-1,Mast/stem cell growth factor receptor Kit,KIT,P10721,1,confirmed,core,Catalytic receptors,,,Mast/stem cell growth factor receptor Kit,MOESM2:54
+TGT-p48357-1,Leptin receptor,LEPR,P48357,1,confirmed,core,Catalytic receptors,,,Leptin receptor,MOESM2:55
+TGT-p11717-1,Cation-independent mannose-6-phosphate receptor,M6PR,P11717,1,confirmed,core,Catalytic receptors,,,Cation-independent mannose-6-phosphate receptor,MOESM2:56
+TGT-p08581-1,Hepatocyte growth factor receptor,MET,P08581,1,confirmed,core,Catalytic receptors,,,Hepatocyte growth factor receptor,MOESM2:57
+TGT-p40238-1,Thrombopoietin receptor,MPL,P40238,1,confirmed,core,Catalytic receptors,,,Thrombopoietin receptor,MOESM2:58
+TGT-p08138-1,Tumor necrosis factor receptor superfamily member 16,NGFR,P08138,1,confirmed,core,Catalytic receptors,,,Tumor necrosis factor receptor superfamily member 16,MOESM2:59
+TGT-q9hc29-1,Nucleotide-binding oligomerization domain-containing protein 2,NOD2,Q9HC29,1,confirmed,core,Catalytic receptors,,,Nucleotide-binding oligomerization domain-containing protein 2,MOESM2:60
+TGT-p16066-1,Atrial natriuretic peptide receptor 1,NPR1,P16066,1,confirmed,core,Catalytic receptors,,,Atrial natriuretic peptide receptor 1,MOESM2:61
+TGT-p20594-1,Atrial natriuretic peptide receptor 2,NPR2,P20594,1,confirmed,core,Catalytic receptors,,,Atrial natriuretic peptide receptor 2,MOESM2:62
+TGT-p04629-1,High affinity nerve growth factor receptor,NTRK1,P04629,1,confirmed,core,Catalytic receptors,,,High affinity nerve growth factor receptor,MOESM2:63
+TGT-q16620-1,BDNF/NT-3 growth factors receptor,NTRK2,Q16620,1,confirmed,core,Catalytic receptors,,,BDNF/NT-3 growth factors receptor,MOESM2:64
+TGT-q16288-1,NT-3 growth factor receptor,NTRK3,Q16288,1,confirmed,core,Catalytic receptors,,,NT-3 growth factor receptor,MOESM2:65
+TGT-p16234-1,Platelet-derived growth factor receptor alpha,PDGFRA,P16234,1,confirmed,core,Catalytic receptors,,,Platelet-derived growth factor receptor alpha,MOESM2:66
+TGT-p09619-1,Platelet-derived growth factor receptor beta,PDGFRB,P09619,1,confirmed,core,Catalytic receptors,,,Platelet-derived growth factor receptor beta,MOESM2:67
+TGT-p07949-1,Proto-oncogene tyrosine-protein kinase receptor Ret,RET,P07949,1,confirmed,core,Catalytic receptors,,,Proto-oncogene tyrosine-protein kinase receptor Ret,MOESM2:68
+TGT-p08922-1,Proto-oncogene tyrosine-protein kinase ROS,ROS1,P08922,1,confirmed,core,Catalytic receptors,,,Proto-oncogene tyrosine-protein kinase ROS,MOESM2:69
+TGT-q02763-1,Angiopoietin-1 receptor,TEK,Q02763,1,confirmed,core,Catalytic receptors,,,Angiopoietin-1 receptor,MOESM2:70
+TGT-q9nyk1-1,Toll-like receptor 7,TLR7,Q9NYK1,1,confirmed,core,Catalytic receptors,,,Toll-like receptor 7,MOESM2:71
+TGT-q9nr96-1,Toll-like receptor 9,TLR9,Q9NR96,1,confirmed,core,Catalytic receptors,,,Toll-like receptor 9,MOESM2:72
+TGT-q02223-1,Tumor necrosis factor receptor superfamily member 17,TNFRSF17,Q02223,1,confirmed,core,Catalytic receptors,,,Tumor necrosis factor receptor superfamily member 17,MOESM2:73
+TGT-p28908-1,Tumor necrosis factor receptor superfamily member 8,TNFRSF8,P28908,1,confirmed,core,Catalytic receptors,,,Tumor necrosis factor receptor superfamily member 8,MOESM2:74
+TGT-o15123-1,Angiopoietin-2,ANGPT2,O15123,1,confirmed,core,Endogenous peptides,,,Angiopoietin-2,MOESM2:75
+TGT-q15389-clinical,Angiopoietin-1,ANGPT1,Q15389,1,confirmed,clinical_only,Endogenous peptides,,,,clinical mechanism review
+TGT-q9y5c1-1,Angiopoietin-related protein 3,ANGPTL3,Q9Y5C1,1,confirmed,core,Endogenous peptides,,,Angiopoietin-related protein 3,MOESM2:76
+TGT-p05067-1,Amyloid beta A4 protein,APP,P05067,1,confirmed,core,Endogenous peptides,,,Amyloid beta A4 protein,MOESM2:77
+TGT-o95393-1,Bone morphogenetic protein 10,BMP10,O95393,1,confirmed,core,Endogenous peptides,,,Bone morphogenetic protein 10,MOESM2:78
+TGT-p01024-1,Complement C3,C3,P01024,1,confirmed,core,Endogenous peptides,,,Complement C3,MOESM2:79
+TGT-p01031-1,Complement C5,C5,P01031,1,confirmed,core,Endogenous peptides,,,Complement C5,MOESM2:80
+TGT-p06881-1,Calcitonin gene-related peptide 1,CALCA,P06881,1,confirmed,core,Endogenous peptides,,,Calcitonin gene-related peptide 1,MOESM2:81
+TGT-p10092-1,Calcitonin gene-related peptide 2,CALCB,P10092,1,confirmed,core,Endogenous peptides,,,Calcitonin gene-related peptide 2,MOESM2:82
+TGT-q9nzq7-1,Programmed cell death 1 ligand 1,CD274,Q9NZQ7,1,confirmed,core,Endogenous peptides,,,Programmed cell death 1 ligand 1,MOESM2:83
+TGT-q9nyj7-1,Delta-like protein 3,DLL3,Q9NYJ7,1,confirmed,core,Endogenous peptides,,,Delta-like protein 3,MOESM2:84
+TGT-q9gzv9-1,Fibroblast growth factor 23,FGF23,Q9GZV9,1,confirmed,core,Endogenous peptides,,,Fibroblast growth factor 23,MOESM2:85
+TGT-o95390-1,Growth/differentiation factor 11,GDF11,O95390,1,confirmed,core,Endogenous peptides,,,Growth/differentiation factor 11,MOESM2:86
+TGT-p69905-1,Hemoglobin subunit alpha,HBA1,P69905,1,confirmed,core,Endogenous peptides,,,Hemoglobin subunit alpha,MOESM2:87
+TGT-p01579-1,Interferon gamma,IFNG,P01579,1,confirmed,core,Endogenous peptides,,,Interferon gamma,MOESM2:88
+TGT-p01857-1,Ig gamma-1 chain C region,IGHG1,P01857,1,confirmed,core,Endogenous peptides,,,Ig gamma-1 chain C region,MOESM2:89
+TGT-p01859-1,Ig gamma-2 chain C region,IGHG2,P01859,1,confirmed,core,Endogenous peptides,,,Ig gamma-2 chain C region,MOESM2:90
+TGT-p01860-1,Ig gamma-3 chain C region,IGHG3,P01860,1,confirmed,core,Endogenous peptides,,,Ig gamma-3 chain C region,MOESM2:91
+TGT-p01861-1,Ig gamma-4 chain C region,IGHG4,P01861,1,confirmed,core,Endogenous peptides,,,Ig gamma-4 chain C region,MOESM2:92
+TGT-p29459-1,Interleukin-12 subunit alpha,IL12A,P29459,1,confirmed,core,Endogenous peptides,,,Interleukin-12 subunit alpha,MOESM2:93
+TGT-p29460-1,Interleukin-12 subunit beta,IL12B,P29460,1,confirmed,core,Endogenous peptides,,,Interleukin-12 subunit beta,MOESM2:94
+TGT-p35225-1,Interleukin-13,IL13,P35225,1,confirmed,core,Endogenous peptides,,,Interleukin-13,MOESM2:95
+TGT-q16552-1,Interleukin-17A,IL17A,Q16552,1,confirmed,core,Endogenous peptides,,,Interleukin-17A,MOESM2:96
+TGT-q96pd4-1,Interleukin-17F,IL17F,Q96PD4,1,confirmed,core,Endogenous peptides,,,Interleukin-17F,MOESM2:97
+TGT-p01584-1,Interleukin-1 beta,IL1B,P01584,1,confirmed,core,Endogenous peptides,,,Interleukin-1 beta,MOESM2:98
+TGT-q9npf7-1,Interleukin-23 subunit alpha,IL23A,Q9NPF7,1,confirmed,core,Endogenous peptides,,,Interleukin-23 subunit alpha,MOESM2:99
+TGT-p05113-1,Interleukin-5,IL5,P05113,1,confirmed,core,Endogenous peptides,,,Interleukin-5,MOESM2:100
+TGT-p05231-1,Interleukin-6,IL6,P05231,1,confirmed,core,Endogenous peptides,,,Interleukin-6,MOESM2:101
+TGT-p08476-1,Inhibin beta A chain,INHBA,P08476,1,confirmed,core,Endogenous peptides,,,Inhibin beta A chain,MOESM2:102
+TGT-p09529-1,Inhibin beta B chain,INHBB,P09529,1,confirmed,core,Endogenous peptides,,,Inhibin beta B chain,MOESM2:103
+TGT-p10636-1,Microtubule-associated protein tau,MAPT,P10636,1,confirmed,core,Endogenous peptides,,,Microtubule-associated protein tau,MOESM2:104
+TGT-o14793-1,Growth/differentiation factor 8,MSTN,O14793,1,confirmed,core,Endogenous peptides,,,Growth/differentiation factor 8,MOESM2:105
+TGT-p49763-1,Placenta growth factor,PGF,P49763,1,confirmed,core,Endogenous peptides,,,Placenta growth factor,MOESM2:106
+TGT-p40967-1,Melanocyte protein PMEL,PMEL,P40967,1,confirmed,core,Endogenous peptides,,,Melanocyte protein PMEL,MOESM2:107
+TGT-q9bqb4-1,Sclerostin,SOST,Q9BQB4,1,confirmed,core,Endogenous peptides,,,Sclerostin,MOESM2:108
+TGT-p10646-1,Tissue factor pathway inhibitor,TFPI,P10646,1,confirmed,core,Endogenous peptides,,,Tissue factor pathway inhibitor,MOESM2:109
+TGT-p01375-1,Tumor necrosis factor,TNF,P01375,1,confirmed,core,Endogenous peptides,,,Tumor necrosis factor,MOESM2:110
+TGT-o14788-1,Tumor necrosis factor ligand superfamily member 11,TNFSF11,O14788,1,confirmed,core,Endogenous peptides,,,Tumor necrosis factor ligand superfamily member 11,MOESM2:111
+TGT-q9y275-1,Tumor necrosis factor ligand superfamily member 13B,TNFSF13B,Q9Y275,1,confirmed,core,Endogenous peptides,,,Tumor necrosis factor ligand superfamily member 13B,MOESM2:112
+TGT-q969d9-1,Thymic stromal lymphopoietin,TSLP,Q969D9,1,confirmed,core,Endogenous peptides,,,Thymic stromal lymphopoietin,MOESM2:113
+TGT-p15692-1,Vascular endothelial growth factor A,VEGFA,P15692,1,confirmed,core,Endogenous peptides,,,Vascular endothelial growth factor A,MOESM2:114
+TGT-p49765-1,Vascular endothelial growth factor B,VEGFB,P49765,1,confirmed,core,Endogenous peptides,,,Vascular endothelial growth factor B,MOESM2:115
+TGT-p04275-1,von Willebrand factor,VWF,P04275,1,confirmed,core,Endogenous peptides,,,von Willebrand factor,MOESM2:116
+TGT-p80404-1,"4-aminobutyrate aminotransferase, mitochondrial",ABAT,P80404,1,confirmed,core,Enzymes,,,"4-aminobutyrate aminotransferase, mitochondrial",MOESM2:117
+TGT-o95477-1,ATP-binding cassette sub-family A member 1,ABCA1,O95477,1,confirmed,core,Enzymes,,,ATP-binding cassette sub-family A member 1,MOESM2:118
+TGT-p00519-1,Tyrosine-protein kinase ABL1,ABL1,P00519,1,confirmed,core,Enzymes,,,Tyrosine-protein kinase ABL1,MOESM2:119
+TGT-p12821-1,Angiotensin-converting enzyme,ACE,P12821,1,confirmed,core,Enzymes,,,Angiotensin-converting enzyme,MOESM2:120
+TGT-p22303-1,Acetylcholinesterase,ACHE,P22303,1,confirmed,core,Enzymes,,,Acetylcholinesterase,MOESM2:121
+TGT-p53396-1,ATP-citrate synthase,ACLY,P53396,1,confirmed,core,Enzymes,,,ATP-citrate synthase,MOESM2:122
+TGT-p00813-1,Adenosine deaminase,ADA,P00813,1,confirmed,core,Enzymes,,,Adenosine deaminase,MOESM2:123
+TGT-p07327-1,Alcohol dehydrogenase 1A,ADH1A,P07327,1,confirmed,core,Enzymes,,,Alcohol dehydrogenase 1A,MOESM2:124
+TGT-p00325-1,Alcohol dehydrogenase 1B,ADH1B,P00325,1,confirmed,core,Enzymes,,,Alcohol dehydrogenase 1B,MOESM2:125
+TGT-p00326-1,Alcohol dehydrogenase 1C,ADH1C,P00326,1,confirmed,core,Enzymes,,,Alcohol dehydrogenase 1C,MOESM2:126
+TGT-p31749-1,RAC-alpha serine/threonine-protein kinase,AKT1,P31749,1,confirmed,core,Enzymes,,,RAC-alpha serine/threonine-protein kinase,MOESM2:127
+TGT-p31751-1,RAC-beta serine/threonine-protein kinase,AKT2,P31751,1,confirmed,core,Enzymes,,,RAC-beta serine/threonine-protein kinase,MOESM2:128
+TGT-q9y243-1,RAC-gamma serine/threonine-protein kinase,AKT3,Q9Y243,1,confirmed,core,Enzymes,,,RAC-gamma serine/threonine-protein kinase,MOESM2:129
+TGT-p13196-1,"5-aminolevulinate synthase, nonspecific, mitochondrial",ALAS1,P13196,1,confirmed,core,Enzymes,,,"5-aminolevulinate synthase, nonspecific, mitochondrial",MOESM2:130
+TGT-p05091-1,"Aldehyde dehydrogenase, mitochondrial",ALDH2,P05091,1,confirmed,core,Enzymes,,,"Aldehyde dehydrogenase, mitochondrial",MOESM2:131
+TGT-p51649-1,"Succinate-semialdehyde dehydrogenase, mitochondrial",ALDH5A1,P51649,1,confirmed,core,Enzymes,,,"Succinate-semialdehyde dehydrogenase, mitochondrial",MOESM2:132
+TGT-p09917-1,Arachidonate 5-lipoxygenase,ALOX5,P09917,1,confirmed,core,Enzymes,,,Arachidonate 5-lipoxygenase,MOESM2:133
+TGT-p04746-1,Pancreatic alpha-amylase,AMY2A,P04746,1,confirmed,core,Enzymes,,,Pancreatic alpha-amylase,MOESM2:134
+TGT-p05023-1,Sodium/potassium-transporting ATPase subunit alpha-1,ATP1A1,P05023,1,confirmed,core,Enzymes,,,Sodium/potassium-transporting ATPase subunit alpha-1,MOESM2:135
+TGT-p50993-1,Sodium/potassium-transporting ATPase subunit alpha-2,ATP1A2,P50993,1,confirmed,core,Enzymes,,,Sodium/potassium-transporting ATPase subunit alpha-2,MOESM2:136
+TGT-p13637-1,Sodium/potassium-transporting ATPase subunit alpha-3,ATP1A3,P13637,1,confirmed,core,Enzymes,,,Sodium/potassium-transporting ATPase subunit alpha-3,MOESM2:137
+TGT-q13733-1,Sodium/potassium-transporting ATPase subunit alpha-4,ATP1A4,Q13733,1,confirmed,core,Enzymes,,,Sodium/potassium-transporting ATPase subunit alpha-4,MOESM2:138
+TGT-p05026-1,Sodium/potassium-transporting ATPase subunit beta-1,ATP1B1,P05026,1,confirmed,core,Enzymes,,,Sodium/potassium-transporting ATPase subunit beta-1,MOESM2:139
+TGT-p14415-1,Sodium/potassium-transporting ATPase subunit beta-2,ATP1B2,P14415,1,confirmed,core,Enzymes,,,Sodium/potassium-transporting ATPase subunit beta-2,MOESM2:140
+TGT-p54709-1,Sodium/potassium-transporting ATPase subunit beta-3,ATP1B3,P54709,1,confirmed,core,Enzymes,,,Sodium/potassium-transporting ATPase subunit beta-3,MOESM2:141
+TGT-p06276-1,Cholinesterase,BCHE,P06276,1,confirmed,core,Enzymes,,,Cholinesterase,MOESM2:142
+TGT-p11274-1,Breakpoint cluster region protein,BCR,P11274,1,confirmed,core,Enzymes,,,Breakpoint cluster region protein,MOESM2:143
+TGT-p15056-1,Serine/threonine-protein kinase B-raf,BRAF,P15056,1,confirmed,core,Enzymes,,,Serine/threonine-protein kinase B-raf,MOESM2:144
+TGT-q06187-1,Tyrosine-protein kinase BTK,BTK,Q06187,1,confirmed,core,Enzymes,,,Tyrosine-protein kinase BTK,MOESM2:145
+TGT-p09871-1,Complement C1s subcomponent,C1S,P09871,1,confirmed,core,Enzymes,,,Complement C1s subcomponent,MOESM2:146
+TGT-p00915-1,Carbonic anhydrase 1,CA1,P00915,1,confirmed,core,Enzymes,,,Carbonic anhydrase 1,MOESM2:147
+TGT-o43570-1,Carbonic anhydrase 12,CA12,O43570,1,confirmed,core,Enzymes,,,Carbonic anhydrase 12,MOESM2:148
+TGT-p00918-1,Carbonic anhydrase 2,CA2,P00918,1,confirmed,core,Enzymes,,,Carbonic anhydrase 2,MOESM2:149
+TGT-p22748-1,Carbonic anhydrase 4,CA4,P22748,1,confirmed,core,Enzymes,,,Carbonic anhydrase 4,MOESM2:150
+TGT-p43166-1,Carbonic anhydrase 7,CA7,P43166,1,confirmed,core,Enzymes,,,Carbonic anhydrase 7,MOESM2:151
+TGT-p28907-1,ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1,CD38,P28907,1,confirmed,core,Enzymes,,,ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1,MOESM2:152
+TGT-p32320-1,Cytidine deaminase,CDA,P32320,1,confirmed,core,Enzymes,,,Cytidine deaminase,MOESM2:153
+TGT-p11802-1,Cyclin-dependent kinase 4,CDK4,P11802,1,confirmed,core,Enzymes,,,Cyclin-dependent kinase 4,MOESM2:154
+TGT-q00534-1,Cyclin-dependent kinase 6,CDK6,Q00534,1,confirmed,core,Enzymes,,,Cyclin-dependent kinase 6,MOESM2:155
+TGT-p00751-1,Complement factor B,CFB,P00751,1,confirmed,core,Enzymes,,,Complement factor B,MOESM2:156
+TGT-p00746-1,Complement factor D,CFD,P00746,1,confirmed,core,Enzymes,,,Complement factor D,MOESM2:157
+TGT-p21964-1,Catechol O-methyltransferase,COMT,P21964,1,confirmed,core,Enzymes,,,Catechol O-methyltransferase,MOESM2:158
+TGT-p31327-1,"Carbamoyl-phosphate synthase [ammonia], mitochondrial",CPS1,P31327,1,confirmed,core,Enzymes,,,"Carbamoyl-phosphate synthase [ammonia], mitochondrial",MOESM2:159
+TGT-q96sw2-1,Protein cereblon,CRBN,Q96SW2,1,confirmed,core,Enzymes,,,Protein cereblon,MOESM2:160
+TGT-p49674-1,Casein kinase I isoform epsilon,CSNK1E,P49674,1,confirmed,core,Enzymes,,,Casein kinase I isoform epsilon,MOESM2:161
+TGT-p05108-1,"Cholesterol side-chain cleavage enzyme, mitochondrial",CYP11A1,P05108,1,confirmed,core,Enzymes,,,"Cholesterol side-chain cleavage enzyme, mitochondrial",MOESM2:162
+TGT-p15538-1,"Cytochrome P450 11B1, mitochondrial",CYP11B1,P15538,1,confirmed,core,Enzymes,,,"Cytochrome P450 11B1, mitochondrial",MOESM2:163
+TGT-p05093-1,"Steroid 17-alpha-hydroxylase/17,20 lyase",CYP17A1,P05093,1,confirmed,core,Enzymes,,,"Steroid 17-alpha-hydroxylase/17,20 lyase",MOESM2:164
+TGT-p11511-1,Aromatase,CYP19A1,P11511,1,confirmed,core,Enzymes,,,Aromatase,MOESM2:165
+TGT-p10635-1,Cytochrome P450 2D6,CYP2D6,P10635,1,confirmed,core,Enzymes,,,Cytochrome P450 2D6,MOESM2:166
+TGT-p08684-1,Cytochrome P450 3A4,CYP3A4,P08684,1,confirmed,core,Enzymes,,,Cytochrome P450 3A4,MOESM2:167
+TGT-q9hb55-1,Cytochrome P450 3A43,CYP3A43,Q9HB55,1,confirmed,core,Enzymes,,,Cytochrome P450 3A43,MOESM2:168
+TGT-p20815-1,Cytochrome P450 3A5,CYP3A5,P20815,1,confirmed,core,Enzymes,,,Cytochrome P450 3A5,MOESM2:169
+TGT-p24462-1,Cytochrome P450 3A7,CYP3A7,P24462,1,confirmed,core,Enzymes,,,Cytochrome P450 3A7,MOESM2:170
+TGT-p20711-1,Aromatic-L-amino-acid decarboxylase,DDC,P20711,1,confirmed,core,Enzymes,,,Aromatic-L-amino-acid decarboxylase,MOESM2:171
+TGT-o75907-1,Diacylglycerol O-acyltransferase 1,DGAT1,O75907,1,confirmed,core,Enzymes,,,Diacylglycerol O-acyltransferase 1,MOESM2:172
+TGT-p00374-1,Dihydrofolate reductase,DHFR,P00374,1,confirmed,core,Enzymes,,,Dihydrofolate reductase,MOESM2:173
+TGT-q02127-1,"Dihydroorotate dehydrogenase (quinone), mitochondrial",DHODH,Q02127,1,confirmed,core,Enzymes,,,"Dihydroorotate dehydrogenase (quinone), mitochondrial",MOESM2:174
+TGT-p49895-1,Type I iodothyronine deiodinase,DIO1,P49895,1,confirmed,core,Enzymes,,,Type I iodothyronine deiodinase,MOESM2:175
+TGT-p26358-1,DNA (cytosine-5)-methyltransferase 1,DNMT1,P26358,1,confirmed,core,Enzymes,,,DNA (cytosine-5)-methyltransferase 1,MOESM2:176
+TGT-q9y6k1-1,DNA (cytosine-5)-methyltransferase 3A,DNMT3A,Q9Y6K1,1,confirmed,core,Enzymes,,,DNA (cytosine-5)-methyltransferase 3A,MOESM2:177
+TGT-p16444-1,Dipeptidase 1,DPEP1,P16444,1,confirmed,core,Enzymes,,,Dipeptidase 1,MOESM2:178
+TGT-p27487-1,Dipeptidyl peptidase 4,DPP4,P27487,1,confirmed,core,Enzymes,,,Dipeptidyl peptidase 4,MOESM2:179
+TGT-q12882-1,Dihydropyrimidine dehydrogenase [NADP(+)],DPYD,Q12882,1,confirmed,core,Enzymes,,,Dihydropyrimidine dehydrogenase [NADP(+)],MOESM2:180
+TGT-q9gzt9-1,Egl nine homolog 1,EGLN1,Q9GZT9,1,confirmed,core,Enzymes,,,Egl nine homolog 1,MOESM2:181
+TGT-q96ks0-1,Egl nine homolog 2,EGLN2,Q96KS0,1,confirmed,core,Enzymes,,,Egl nine homolog 2,MOESM2:182
+TGT-q9h6z9-1,Egl nine homolog 3,EGLN3,Q9H6Z9,1,confirmed,core,Enzymes,,,Egl nine homolog 3,MOESM2:183
+TGT-q92800-1,Histone-lysine N-methyltransferase EZH1,EZH1,Q92800,1,confirmed,core,Enzymes,,,Histone-lysine N-methyltransferase EZH1,MOESM2:184
+TGT-q15910-1,Histone-lysine N-methyltransferase EZH2,EZH2,Q15910,1,confirmed,core,Enzymes,,,Histone-lysine N-methyltransferase EZH2,MOESM2:185
+TGT-p00742-1,Coagulation factor X,F10,P00742,1,confirmed,core,Enzymes,,,Coagulation factor X,MOESM2:186
+TGT-p00748-1,Coagulation factor XII,F12,P00748,1,confirmed,core,Enzymes,,,Coagulation factor XII,MOESM2:187
+TGT-p00734-1,Prothrombin,F2,P00734,1,confirmed,core,Enzymes,,,Prothrombin,MOESM2:188
+TGT-p13726-1,Tissue factor,F3,P13726,1,confirmed,core,Enzymes,,,Tissue factor,MOESM2:189
+TGT-p00740-1,Coagulation factor IX,F9,P00740,1,confirmed,core,Enzymes,,,Coagulation factor IX,MOESM2:190
+TGT-p14324-1,Farnesyl pyrophosphate synthase,FDPS,P14324,1,confirmed,core,Enzymes,,,Farnesyl pyrophosphate synthase,MOESM2:191
+TGT-p62942-1,Peptidyl-prolyl cis-trans isomerase FKBP1A,FKBP1A,P62942,1,confirmed,core,Enzymes,,,Peptidyl-prolyl cis-trans isomerase FKBP1A,MOESM2:192
+TGT-p49354-1,Protein farnesyltransferase/geranylgeranyltransferase type-1 subunit alpha,FNTA,P49354,1,confirmed,core,Enzymes,,,Protein farnesyltransferase/geranylgeranyltransferase type-1 subunit alpha,MOESM2:193
+TGT-p49356-1,Protein farnesyltransferase subunit beta,FNTB,P49356,1,confirmed,core,Enzymes,,,Protein farnesyltransferase subunit beta,MOESM2:194
+TGT-q04609-1,Glutamate carboxypeptidase 2,FOLH1,Q04609,1,confirmed,core,Enzymes,,,Glutamate carboxypeptidase 2,MOESM2:195
+TGT-p54710-1,Sodium/potassium-transporting ATPase subunit gamma,FXYD2,P54710,1,confirmed,core,Enzymes,,,Sodium/potassium-transporting ATPase subunit gamma,MOESM2:196
+TGT-p06241-1,Tyrosine-protein kinase Fyn,FYN,P06241,1,confirmed,core,Enzymes,,,Tyrosine-protein kinase Fyn,MOESM2:197
+TGT-p10253-1,Lysosomal alpha-glucosidase,GAA,P10253,1,confirmed,core,Enzymes,,,Lysosomal alpha-glucosidase,MOESM2:198
+TGT-p22102-1,Trifunctional purine biosynthetic protein adenosine-3,GART,P22102,1,confirmed,core,Enzymes,,,Trifunctional purine biosynthetic protein adenosine-3,MOESM2:199
+TGT-p38435-1,Vitamin K-dependent gamma-carboxylase,GGCX,P38435,1,confirmed,core,Enzymes,,,Vitamin K-dependent gamma-carboxylase,MOESM2:200
+TGT-p06280-1,Alpha-galactosidase A,GLA,P06280,1,confirmed,core,Enzymes,,,Alpha-galactosidase A,MOESM2:201
+TGT-p49840-1,Glycogen synthase kinase-3,GSK3A,P49840,1,confirmed,core,Enzymes,,,Glycogen synthase kinase-3,MOESM2:202
+TGT-p49841-1,Glycogen synthase kinase-3,GSK3B,P49841,1,confirmed,core,Enzymes,,,Glycogen synthase kinase-3,MOESM2:203
+TGT-p00390-1,"Glutathione reductase, mitochondrial",GSR,P00390,1,confirmed,core,Enzymes,,,"Glutathione reductase, mitochondrial",MOESM2:204
+TGT-q9ujm8-1,Hydroxyacid oxidase 1,HAO1,Q9UJM8,1,confirmed,core,Enzymes,,,Hydroxyacid oxidase 1,MOESM2:205
+TGT-p08631-1,Tyrosine-protein kinase HCK,HCK,P08631,1,confirmed,core,Enzymes,,,Tyrosine-protein kinase HCK,MOESM2:206
+TGT-q13547-1,Histone deacetylase 1,HDAC1,Q13547,1,confirmed,core,Enzymes,,,Histone deacetylase 1,MOESM2:207
+TGT-q969s8-1,Histone deacetylase 10,HDAC10,Q969S8,1,confirmed,core,Enzymes,,,Histone deacetylase 10,MOESM2:208
+TGT-q96db2-1,Histone deacetylase 11,HDAC11,Q96DB2,1,confirmed,core,Enzymes,,,Histone deacetylase 11,MOESM2:209
+TGT-q92769-1,Histone deacetylase 2,HDAC2,Q92769,1,confirmed,core,Enzymes,,,Histone deacetylase 2,MOESM2:210
+TGT-o15379-1,Histone deacetylase 3,HDAC3,O15379,1,confirmed,core,Enzymes,,,Histone deacetylase 3,MOESM2:211
+TGT-p56524-1,Histone deacetylase 4,HDAC4,P56524,1,confirmed,core,Enzymes,,,Histone deacetylase 4,MOESM2:212
+TGT-q9uql6-1,Histone deacetylase 5,HDAC5,Q9UQL6,1,confirmed,core,Enzymes,,,Histone deacetylase 5,MOESM2:213
+TGT-q9ubn7-1,Histone deacetylase 6,HDAC6,Q9UBN7,1,confirmed,core,Enzymes,,,Histone deacetylase 6,MOESM2:214
+TGT-q8wui4-1,Histone deacetylase 7,HDAC7,Q8WUI4,1,confirmed,core,Enzymes,,,Histone deacetylase 7,MOESM2:215
+TGT-q9by41-1,Histone deacetylase 8,HDAC8,Q9BY41,1,confirmed,core,Enzymes,,,Histone deacetylase 8,MOESM2:216
+TGT-q9ukv0-1,Histone deacetylase 9,HDAC9,Q9UKV0,1,confirmed,core,Enzymes,,,Histone deacetylase 9,MOESM2:217
+TGT-p04035-1,3-hydroxy-3-methylglutaryl-coenzyme A reductase,HMGCR,P04035,1,confirmed,core,Enzymes,,,3-hydroxy-3-methylglutaryl-coenzyme A reductase,MOESM2:218
+TGT-p32754-1,4-hydroxyphenylpyruvate dioxygenase,HPD,P32754,1,confirmed,core,Enzymes,,,4-hydroxyphenylpyruvate dioxygenase,MOESM2:219
+TGT-o75874-1,Isocitrate dehydrogenase [NADP] cytoplasmic,IDH1,O75874,1,confirmed,core,Enzymes,,,Isocitrate dehydrogenase [NADP] cytoplasmic,MOESM2:220
+TGT-p48735-1,"Isocitrate dehydrogenase [NADP], mitochondrial",IDH2,P48735,1,confirmed,core,Enzymes,,,"Isocitrate dehydrogenase [NADP], mitochondrial",MOESM2:221
+TGT-p29218-1,Inositol-1(or 4)-monophosphatase 1,IMPA1,P29218,1,confirmed,core,Enzymes,,,Inositol-1(or 4)-monophosphatase 1,MOESM2:222
+TGT-p20839-1,Inosine-5'-monophosphate dehydrogenase 1,IMPDH1,P20839,1,confirmed,core,Enzymes,,,Inosine-5'-monophosphate dehydrogenase 1,MOESM2:223
+TGT-p12268-1,Inosine-5'-monophosphate dehydrogenase 2,IMPDH2,P12268,1,confirmed,core,Enzymes,,,Inosine-5'-monophosphate dehydrogenase 2,MOESM2:224
+TGT-q08881-1,Tyrosine-protein kinase ITK/TSK,ITK,Q08881,1,confirmed,core,Enzymes,,,Tyrosine-protein kinase ITK/TSK,MOESM2:225
+TGT-p23458-1,Tyrosine-protein kinase JAK1,JAK1,P23458,1,confirmed,core,Enzymes,,,Tyrosine-protein kinase JAK1,MOESM2:226
+TGT-o60674-1,Tyrosine-protein kinase JAK2,JAK2,O60674,1,confirmed,core,Enzymes,,,Tyrosine-protein kinase JAK2,MOESM2:227
+TGT-p52333-1,Tyrosine-protein kinase JAK3,JAK3,P52333,1,confirmed,core,Enzymes,,,Tyrosine-protein kinase JAK3,MOESM2:228
+TGT-p07288-1,Prostate-specific antigen,KLK3,P07288,1,confirmed,core,Enzymes,,,Prostate-specific antigen,MOESM2:229
+TGT-p03952-1,Plasma kallikrein,KLKB1,P03952,1,confirmed,core,Enzymes,,,Plasma kallikrein,MOESM2:230
+TGT-p01116-1,GTPase KRas,KRAS,P01116,1,confirmed,core,Enzymes,,,GTPase KRas,MOESM2:231
+TGT-p06239-1,Tyrosine-protein kinase Lck,LCK,P06239,1,confirmed,core,Enzymes,,,Tyrosine-protein kinase Lck,MOESM2:232
+TGT-p00338-1,L-lactate dehydrogenase A chain,LDHA,P00338,1,confirmed,core,Enzymes,,,L-lactate dehydrogenase A chain,MOESM2:233
+TGT-p07098-1,Gastric triacylglycerol lipase,LIPF,P07098,1,confirmed,core,Enzymes,,,Gastric triacylglycerol lipase,MOESM2:234
+TGT-p07948-1,Tyrosine-protein kinase Lyn,LYN,P07948,1,confirmed,core,Enzymes,,,Tyrosine-protein kinase Lyn,MOESM2:235
+TGT-p21397-1,Amine oxidase [flavin-containing] A,MAOA,P21397,1,confirmed,core,Enzymes,,,Amine oxidase [flavin-containing] A,MOESM2:236
+TGT-p27338-1,Amine oxidase [flavin-containing] B,MAOB,P27338,1,confirmed,core,Enzymes,,,Amine oxidase [flavin-containing] B,MOESM2:237
+TGT-q02750-1,Dual specificity mitogen-activated protein kinase kinase 1,MAP2K1,Q02750,1,confirmed,core,Enzymes,,,Dual specificity mitogen-activated protein kinase kinase 1,MOESM2:238
+TGT-p36507-1,Dual specificity mitogen-activated protein kinase kinase 2,MAP2K2,P36507,1,confirmed,core,Enzymes,,,Dual specificity mitogen-activated protein kinase kinase 2,MOESM2:239
+TGT-o43451-1,"Maltase-glucoamylase, intestinal",MGAM,O43451,1,confirmed,core,Enzymes,,,"Maltase-glucoamylase, intestinal",MOESM2:240
+TGT-p08473-1,Neprilysin,MME,P08473,1,confirmed,core,Enzymes,,,Neprilysin,MOESM2:241
+TGT-q9nzb8-1,Molybdenum cofactor biosynthesis protein 1,MOCS1,Q9NZB8,1,confirmed,core,Enzymes,,,Molybdenum cofactor biosynthesis protein 1,MOESM2:242
+TGT-o75251-1,"NADH dehydrogenase [ubiquinone] iron-sulfur protein 7, mitochondrial",NDUFS7,O75251,1,confirmed,core,Enzymes,,,"NADH dehydrogenase [ubiquinone] iron-sulfur protein 7, mitochondrial",MOESM2:243
+TGT-o00217-o00483-o14561-o15239-o43181-o43674-o43676-o43677-o43678-o43920-o75251-o75306-o75380-o75438-o75489-o95139-o95167-o95168-o95169-o95178-o95182-o95298-o95299-o96000-p03886-p03891-p03897-p03901-p03905-p03915-p03923-p17568-p19404-p28331-p49821-p51970-p56181-p56556-q16718-q16795-q86y39-q8n183-q9bu61-q9nrx3-q9nx14-q9p032-q9p0j0-q9ui09-q9y375-q9y6m9-1,Mitochondrial complex I (NADH dehydrogenase),NDUFS8|NDUFA4|NDUFAB1|NDUFA1|NDUFS4|NDUFB5|NDUFB3|NDUFC1|NDUFA2|NDUFS5|NDUFS7|NDUFS2|NDUFS6|NDUFB1|NDUFS3|NDUFB6|NDUFA3|NDUFB4|NDUFB8|NDUFB2|NDUFA7|NDUFC2|NDUFA10|NDUFB10|MT-ND1|MT-ND2|MT-ND3|MT-ND4L|MT-ND4|MT-ND5|MT-ND6|NDUFB7|NDUFV2|NDUFS1|NDUFV1|NDUFA8|NDUFV3|NDUFA6|NDUFA5|NDUFA9|NDUFA11|NDUFAF2|NDUFAF3|NDUFA4L2|NDUFB11|NDUFAF4|NDUFA13|NDUFA12|NDUFAF1|NDUFB9,O00217|O00483|O14561|O15239|O43181|O43674|O43676|O43677|O43678|O43920|O75251|O75306|O75380|O75438|O75489|O95139|O95167|O95168|O95169|O95178|O95182|O95298|O95299|O96000|P03886|P03891|P03897|P03901|P03905|P03915|P03923|P17568|P19404|P28331|P49821|P51970|P56181|P56556|Q16718|Q16795|Q86Y39|Q8N183|Q9BU61|Q9NRX3|Q9NX14|Q9P032|Q9P0J0|Q9UI09|Q9Y375|Q9Y6M9,1,confirmed,core,Enzymes,,,Mitochondrial complex I (NADH dehydrogenase),MOESM2:244
+TGT-p11926-1,Ornithine decarboxylase,ODC1,P11926,1,confirmed,core,Enzymes,,,Ornithine decarboxylase,MOESM2:245
+TGT-p00439-1,Phenylalanine-4-hydroxylase,PAH,P00439,1,confirmed,core,Enzymes,,,Phenylalanine-4-hydroxylase,MOESM2:246
+TGT-p09874-1,Poly [ADP-ribose] polymerase 1,PARP1,P09874,1,confirmed,core,Enzymes,,,Poly [ADP-ribose] polymerase 1,MOESM2:247
+TGT-q9ugn5-1,Poly [ADP-ribose] polymerase 2,PARP2,Q9UGN5,1,confirmed,core,Enzymes,,,Poly [ADP-ribose] polymerase 2,MOESM2:248
+TGT-q9y6f1-1,Poly [ADP-ribose] polymerase 3,PARP3,Q9Y6F1,1,confirmed,core,Enzymes,,,Poly [ADP-ribose] polymerase 3,MOESM2:249
+TGT-q8nbp7-1,Proprotein convertase subtilisin/kexin type 9,PCSK9,Q8NBP7,1,confirmed,core,Enzymes,,,Proprotein convertase subtilisin/kexin type 9,MOESM2:250
+TGT-q9y233-1,"cAMP and cAMP-inhibited cGMP 3',5'-cyclic phosphodiesterase 10A",PDE10A,Q9Y233,1,confirmed,core,Enzymes,,,"cAMP and cAMP-inhibited cGMP 3',5'-cyclic phosphodiesterase 10A",MOESM2:251
+TGT-p54750-1,"Dual specificity calcium/calmodulin-dependent 3',5'-cyclic nucleotide phosphodiesterase 1A",PDE1A,P54750,1,confirmed,core,Enzymes,,,"Dual specificity calcium/calmodulin-dependent 3',5'-cyclic nucleotide phosphodiesterase 1A",MOESM2:252
+TGT-q01064-1,"Dual specificity calcium/calmodulin-dependent 3',5'-cyclic nucleotide phosphodiesterase 1B",PDE1B,Q01064,1,confirmed,core,Enzymes,,,"Dual specificity calcium/calmodulin-dependent 3',5'-cyclic nucleotide phosphodiesterase 1B",MOESM2:253
+TGT-q14123-1,"Dual specificity calcium/calmodulin-dependent 3',5'-cyclic nucleotide phosphodiesterase 1C",PDE1C,Q14123,1,confirmed,core,Enzymes,,,"Dual specificity calcium/calmodulin-dependent 3',5'-cyclic nucleotide phosphodiesterase 1C",MOESM2:254
+TGT-o00408-1,"cGMP-dependent 3',5'-cyclic phosphodiesterase",PDE2A,O00408,1,confirmed,core,Enzymes,,,"cGMP-dependent 3',5'-cyclic phosphodiesterase",MOESM2:255
+TGT-q14432-1,"cGMP-inhibited 3',5'-cyclic phosphodiesterase 3A",PDE3A,Q14432,1,confirmed,core,Enzymes,,,"cGMP-inhibited 3',5'-cyclic phosphodiesterase 3A",MOESM2:256
+TGT-q13370-1,"cGMP-inhibited 3',5'-cyclic phosphodiesterase 3B",PDE3B,Q13370,1,confirmed,core,Enzymes,,,"cGMP-inhibited 3',5'-cyclic phosphodiesterase 3B",MOESM2:257
+TGT-p27815-1,"3',5'-cyclic-AMP phosphodiesterase 4A",PDE4A,P27815,1,confirmed,core,Enzymes,,,"3',5'-cyclic-AMP phosphodiesterase 4A",MOESM2:258
+TGT-q07343-1,"3',5'-cyclic-AMP phosphodiesterase 4B",PDE4B,Q07343,1,confirmed,core,Enzymes,,,"3',5'-cyclic-AMP phosphodiesterase 4B",MOESM2:259
+TGT-q08493-1,"3',5'-cyclic-AMP phosphodiesterase 4C",PDE4C,Q08493,1,confirmed,core,Enzymes,,,"3',5'-cyclic-AMP phosphodiesterase 4C",MOESM2:260
+TGT-q08499-1,"3',5'-cyclic-AMP phosphodiesterase 4D",PDE4D,Q08499,1,confirmed,core,Enzymes,,,"3',5'-cyclic-AMP phosphodiesterase 4D",MOESM2:261
+TGT-o76074-1,"cGMP-specific 3',5'-cyclic phosphodiesterase",PDE5A,O76074,1,confirmed,core,Enzymes,,,"cGMP-specific 3',5'-cyclic phosphodiesterase",MOESM2:262
+TGT-p16499-1,"Rod cGMP-specific 3',5'-cyclic phosphodiesterase subunit alpha",PDE6A,P16499,1,confirmed,core,Enzymes,,,"Rod cGMP-specific 3',5'-cyclic phosphodiesterase subunit alpha",MOESM2:263
+TGT-p35913-1,"Rod cGMP-specific 3',5'-cyclic phosphodiesterase subunit beta",PDE6B,P35913,1,confirmed,core,Enzymes,,,"Rod cGMP-specific 3',5'-cyclic phosphodiesterase subunit beta",MOESM2:264
+TGT-p51160-1,"Cone cGMP-specific 3',5'-cyclic phosphodiesterase subunit alpha'",PDE6C,P51160,1,confirmed,core,Enzymes,,,"Cone cGMP-specific 3',5'-cyclic phosphodiesterase subunit alpha'",MOESM2:265
+TGT-o43924-1,"Retinal rod rhodopsin-sensitive cGMP 3',5'-cyclic phosphodiesterase subunit delta",PDE6D,O43924,1,confirmed,core,Enzymes,,,"Retinal rod rhodopsin-sensitive cGMP 3',5'-cyclic phosphodiesterase subunit delta",MOESM2:266
+TGT-p18545-1,"Retinal rod rhodopsin-sensitive cGMP 3',5'-cyclic phosphodiesterase subunit gamma",PDE6G,P18545,1,confirmed,core,Enzymes,,,"Retinal rod rhodopsin-sensitive cGMP 3',5'-cyclic phosphodiesterase subunit gamma",MOESM2:267
+TGT-q13956-1,"Retinal cone rhodopsin-sensitive cGMP 3',5'-cyclic phosphodiesterase subunit gamma",PDE6H,Q13956,1,confirmed,core,Enzymes,,,"Retinal cone rhodopsin-sensitive cGMP 3',5'-cyclic phosphodiesterase subunit gamma",MOESM2:268
+TGT-q13946-1,"High affinity 3',5'-cyclic-AMP phosphodiesterase 7A",PDE7A,Q13946,1,confirmed,core,Enzymes,,,"High affinity 3',5'-cyclic-AMP phosphodiesterase 7A",MOESM2:269
+TGT-q9np56-1,"cAMP-specific 3',5'-cyclic phosphodiesterase 7B",PDE7B,Q9NP56,1,confirmed,core,Enzymes,,,"cAMP-specific 3',5'-cyclic phosphodiesterase 7B",MOESM2:270
+TGT-o60658-1,"High affinity cAMP-specific and IBMX-insensitive 3',5'-cyclic phosphodiesterase 8A",PDE8A,O60658,1,confirmed,core,Enzymes,,,"High affinity cAMP-specific and IBMX-insensitive 3',5'-cyclic phosphodiesterase 8A",MOESM2:271
+TGT-o95263-1,"High affinity cAMP-specific and IBMX-insensitive 3',5'-cyclic phosphodiesterase 8B",PDE8B,O95263,1,confirmed,core,Enzymes,,,"High affinity cAMP-specific and IBMX-insensitive 3',5'-cyclic phosphodiesterase 8B",MOESM2:272
+TGT-p0djd9-1,Pepsin A-5,PGA5,P0DJD9,1,confirmed,core,Enzymes,,,Pepsin A-5,MOESM2:273
+TGT-p42336-1,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform",PIK3CA,P42336,1,confirmed,core,Enzymes,,,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform",MOESM2:274
+TGT-o00329-1,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform",PIK3CD,O00329,1,confirmed,core,Enzymes,,,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform",MOESM2:275
+TGT-p48736-1,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",PIK3CG,P48736,1,confirmed,core,Enzymes,,,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",MOESM2:276
+TGT-p30613-1,Pyruvate kinase PKLR,PKLR,P30613,1,confirmed,core,Enzymes,,,Pyruvate kinase PKLR,MOESM2:277
+TGT-p00750-1,Tissue-type plasminogen activator,PLAT,P00750,1,confirmed,core,Enzymes,,,Tissue-type plasminogen activator,MOESM2:278
+TGT-p00747-1,Plasminogen,PLG,P00747,1,confirmed,core,Enzymes,,,Plasminogen,MOESM2:279
+TGT-p16233-1,Pancreatic triacylglycerol lipase,PNLIP,P16233,1,confirmed,core,Enzymes,,,Pancreatic triacylglycerol lipase,MOESM2:280
+TGT-p00491-1,Purine nucleoside phosphorylase,PNP,P00491,1,confirmed,core,Enzymes,,,Purine nucleoside phosphorylase,MOESM2:281
+TGT-p09884-1,DNA polymerase alpha catalytic subunit,POLA1,P09884,1,confirmed,core,Enzymes,,,DNA polymerase alpha catalytic subunit,MOESM2:282
+TGT-p28340-1,DNA polymerase delta catalytic subunit,POLD1,P28340,1,confirmed,core,Enzymes,,,DNA polymerase delta catalytic subunit,MOESM2:283
+TGT-q07864-1,DNA polymerase epsilon catalytic subunit A,POLE,Q07864,1,confirmed,core,Enzymes,,,DNA polymerase epsilon catalytic subunit A,MOESM2:284
+TGT-q06203-1,Amidophosphoribosyltransferase,PPAT,Q06203,1,confirmed,core,Enzymes,,,Amidophosphoribosyltransferase,MOESM2:285
+TGT-p62937-1,Peptidyl-prolyl cis-trans isomerase A,PPIA,P62937,1,confirmed,core,Enzymes,,,Peptidyl-prolyl cis-trans isomerase A,MOESM2:286
+TGT-q13131-1,5'-AMP-activated protein kinase catalytic subunit alpha-1,PRKAA1,Q13131,1,confirmed,core,Enzymes,,,5'-AMP-activated protein kinase catalytic subunit alpha-1,MOESM2:287
+TGT-q05655-1,Protein kinase C delta type,PRKCD,Q05655,1,confirmed,core,Enzymes,,,Protein kinase C delta type,MOESM2:288
+TGT-p49768-1,Presenilin-1,PSEN1,P49768,1,confirmed,core,Enzymes,,,Presenilin-1,MOESM2:289
+TGT-p25786-1,Proteasome subunit alpha type-1,PSMA1,P25786,1,confirmed,core,Enzymes,,,Proteasome subunit alpha type-1,MOESM2:290
+TGT-p20618-1,Proteasome subunit beta type-1,PSMB1,P20618,1,confirmed,core,Enzymes,,,Proteasome subunit beta type-1,MOESM2:291
+TGT-p49721-1,Proteasome subunit beta type-2,PSMB2,P49721,1,confirmed,core,Enzymes,,,Proteasome subunit beta type-2,MOESM2:292
+TGT-p28074-1,Proteasome subunit beta type-5,PSMB5,P28074,1,confirmed,core,Enzymes,,,Proteasome subunit beta type-5,MOESM2:293
+TGT-p28062-1,Proteasome subunit beta type-8,PSMB8,P28062,1,confirmed,core,Enzymes,,,Proteasome subunit beta type-8,MOESM2:294
+TGT-p23219-1,Prostaglandin G/H synthase 1,PTGS1,P23219,1,confirmed,core,Enzymes,,,Prostaglandin G/H synthase 1,MOESM2:295
+TGT-p35354-1,Prostaglandin G/H synthase 2,PTGS2,P35354,1,confirmed,core,Enzymes,,,Prostaglandin G/H synthase 2,MOESM2:296
+TGT-q05397-1,Focal adhesion kinase 1,PTK2,Q05397,1,confirmed,core,Enzymes,,,Focal adhesion kinase 1,MOESM2:297
+TGT-q14289-1,Protein-tyrosine kinase 2-beta,PTK2B,Q14289,1,confirmed,core,Enzymes,,,Protein-tyrosine kinase 2-beta,MOESM2:298
+TGT-p04049-1,RAF proto-oncogene serine/threonine-protein kinase,RAF1,P04049,1,confirmed,core,Enzymes,,,RAF proto-oncogene serine/threonine-protein kinase,MOESM2:299
+TGT-p00797-1,Renin,REN,P00797,1,confirmed,core,Enzymes,,,Renin,MOESM2:300
+TGT-q13464-1,Rho-associated protein kinase 1,ROCK1,Q13464,1,confirmed,core,Enzymes,,,Rho-associated protein kinase 1,MOESM2:301
+TGT-o75116-1,Rho-associated protein kinase 2,ROCK2,O75116,1,confirmed,core,Enzymes,,,Rho-associated protein kinase 2,MOESM2:302
+TGT-p23921-1,Ribonucleoside-diphosphate reductase large subunit,RRM1,P23921,1,confirmed,core,Enzymes,,,Ribonucleoside-diphosphate reductase large subunit,MOESM2:303
+TGT-p31350-1,Ribonucleoside-diphosphate reductase subunit M2,RRM2,P31350,1,confirmed,core,Enzymes,,,Ribonucleoside-diphosphate reductase subunit M2,MOESM2:304
+TGT-p01008-1,Antithrombin-III,SERPINC1,P01008,1,confirmed,core,Enzymes,,,Antithrombin-III,MOESM2:305
+TGT-p00441-1,Superoxide dismutase [Cu-Zn],SOD1,P00441,1,confirmed,core,Enzymes,,,Superoxide dismutase [Cu-Zn],MOESM2:306
+TGT-p12931-1,Proto-oncogene tyrosine-protein kinase Src,SRC,P12931,1,confirmed,core,Enzymes,,,Proto-oncogene tyrosine-protein kinase Src,MOESM2:307
+TGT-p18405-1,3-oxo-5-alpha-steroid 4-dehydrogenase 1,SRD5A1,P18405,1,confirmed,core,Enzymes,,,3-oxo-5-alpha-steroid 4-dehydrogenase 1,MOESM2:308
+TGT-p31213-1,3-oxo-5-alpha-steroid 4-dehydrogenase 2,SRD5A2,P31213,1,confirmed,core,Enzymes,,,3-oxo-5-alpha-steroid 4-dehydrogenase 2,MOESM2:309
+TGT-p43405-1,Tyrosine-protein kinase SYK,SYK,P43405,1,confirmed,core,Enzymes,,,Tyrosine-protein kinase SYK,MOESM2:310
+TGT-p07101-1,Tyrosine 3-monooxygenase,TH,P07101,1,confirmed,core,Enzymes,,,Tyrosine 3-monooxygenase,MOESM2:311
+TGT-p11387-1,DNA topoisomerase 1,TOP1,P11387,1,confirmed,core,Enzymes,,,DNA topoisomerase 1,MOESM2:312
+TGT-q969p6-1,"DNA topoisomerase I, mitochondrial",TOP1MT,Q969P6,1,confirmed,core,Enzymes,,,"DNA topoisomerase I, mitochondrial",MOESM2:313
+TGT-p11388-1,DNA topoisomerase 2-alpha,TOP2A,P11388,1,confirmed,core,Enzymes,,,DNA topoisomerase 2-alpha,MOESM2:314
+TGT-p17752-1,Tryptophan 5-hydroxylase 1,TPH1,P17752,1,confirmed,core,Enzymes,,,Tryptophan 5-hydroxylase 1,MOESM2:315
+TGT-p07202-1,Thyroid peroxidase,TPO,P07202,1,confirmed,core,Enzymes,,,Thyroid peroxidase,MOESM2:316
+TGT-q16881-1,"Thioredoxin reductase 1, cytoplasmic",TXNRD1,Q16881,1,confirmed,core,Enzymes,,,"Thioredoxin reductase 1, cytoplasmic",MOESM2:317
+TGT-p29597-1,Non-receptor tyrosine-protein kinase TYK2,TYK2,P29597,1,confirmed,core,Enzymes,,,Non-receptor tyrosine-protein kinase TYK2,MOESM2:318
+TGT-p19971-1,Thymidine phosphorylase,TYMP,P19971,1,confirmed,core,Enzymes,,,Thymidine phosphorylase,MOESM2:319
+TGT-p04818-1,Thymidylate synthase,TYMS,P04818,1,confirmed,core,Enzymes,,,Thymidylate synthase,MOESM2:320
+TGT-p14679-1,Tyrosinase,TYR,P14679,1,confirmed,core,Enzymes,,,Tyrosinase,MOESM2:321
+TGT-q16739-1,Ceramide glucosyltransferase,UGCG,Q16739,1,confirmed,core,Enzymes,,,Ceramide glucosyltransferase,MOESM2:322
+TGT-p11172-1,Uridine 5'-monophosphate synthase,UMPS,P11172,1,confirmed,core,Enzymes,,,Uridine 5'-monophosphate synthase,MOESM2:323
+TGT-q9bqb6-1,Vitamin K epoxide reductase complex subunit 1,VKORC1,Q9BQB6,1,confirmed,core,Enzymes,,,Vitamin K epoxide reductase complex subunit 1,MOESM2:324
+TGT-p47989-1,Xanthine dehydrogenase/oxidase,XDH,P47989,1,confirmed,core,Enzymes,,,Xanthine dehydrogenase/oxidase,MOESM2:325
+TGT-p07947-1,Tyrosine-protein kinase Yes,YES1,P07947,1,confirmed,core,Enzymes,,,Tyrosine-protein kinase Yes,MOESM2:326
+TGT-p30542-1,Adenosine receptor A1,ADORA1,P30542,1,confirmed,core,GPCRs,,,Adenosine receptor A1,MOESM2:327
+TGT-p29274-1,Adenosine receptor A2a,ADORA2A,P29274,1,confirmed,core,GPCRs,,,Adenosine receptor A2a,MOESM2:328
+TGT-p29275-1,Adenosine receptor A2b,ADORA2B,P29275,1,confirmed,core,GPCRs,,,Adenosine receptor A2b,MOESM2:329
+TGT-p35348-1,Alpha-1A adrenergic receptor,ADRA1A,P35348,1,confirmed,core,GPCRs,,,Alpha-1A adrenergic receptor,MOESM2:330
+TGT-p35368-1,Alpha-1B adrenergic receptor,ADRA1B,P35368,1,confirmed,core,GPCRs,,,Alpha-1B adrenergic receptor,MOESM2:331
+TGT-p25100-1,Alpha-1D adrenergic receptor,ADRA1D,P25100,1,confirmed,core,GPCRs,,,Alpha-1D adrenergic receptor,MOESM2:332
+TGT-p08913-1,Alpha-2A adrenergic receptor,ADRA2A,P08913,1,confirmed,core,GPCRs,,,Alpha-2A adrenergic receptor,MOESM2:333
+TGT-p18089-1,Alpha-2B adrenergic receptor,ADRA2B,P18089,1,confirmed,core,GPCRs,,,Alpha-2B adrenergic receptor,MOESM2:334
+TGT-p18825-1,Alpha-2C adrenergic receptor,ADRA2C,P18825,1,confirmed,core,GPCRs,,,Alpha-2C adrenergic receptor,MOESM2:335
+TGT-p08588-1,Beta-1 adrenergic receptor,ADRB1,P08588,1,confirmed,core,GPCRs,,,Beta-1 adrenergic receptor,MOESM2:336
+TGT-p07550-1,Beta-2 adrenergic receptor,ADRB2,P07550,1,confirmed,core,GPCRs,,,Beta-2 adrenergic receptor,MOESM2:337
+TGT-p13945-1,Beta-3 adrenergic receptor,ADRB3,P13945,1,confirmed,core,GPCRs,,,Beta-3 adrenergic receptor,MOESM2:338
+TGT-p30556-1,Type-1 angiotensin II receptor,AGTR1,P30556,1,confirmed,core,GPCRs,,,Type-1 angiotensin II receptor,MOESM2:339
+TGT-p37288-1,Vasopressin V1a receptor,AVPR1A,P37288,1,unclear,core,GPCRs,,,,pilot review
+TGT-p30518-1,Vasopressin V2 receptor,AVPR2,P30518,1,confirmed,core,GPCRs,,,Vasopressin V2 receptor,MOESM2:341
+TGT-p30411-1,B2 bradykinin receptor,BDKRB2,P30411,1,confirmed,core,GPCRs,,,B2 bradykinin receptor,MOESM2:342
+TGT-p21730-1,C5a anaphylatoxin chemotactic receptor 1,C5AR1,P21730,1,confirmed,core,GPCRs,,,C5a anaphylatoxin chemotactic receptor 1,MOESM2:343
+TGT-p30988-1,Calcitonin receptor,CALCR,P30988,1,confirmed,core,GPCRs,,,Calcitonin receptor,MOESM2:344
+TGT-q16602-1,Calcitonin gene-related peptide type 1 receptor,CALCRL,Q16602,1,confirmed,core,GPCRs,,,Calcitonin gene-related peptide type 1 receptor,MOESM2:345
+TGT-p41180-1,Extracellular calcium-sensing receptor,CASR,P41180,1,confirmed,core,GPCRs,,,Extracellular calcium-sensing receptor,MOESM2:346
+TGT-p51679-1,C-C chemokine receptor type 4,CCR4,P51679,1,confirmed,core,GPCRs,,,C-C chemokine receptor type 4,MOESM2:347
+TGT-p51681-1,C-C chemokine receptor type 5,CCR5,P51681,1,confirmed,core,GPCRs,,,C-C chemokine receptor type 5,MOESM2:348
+TGT-p11229-1,Muscarinic acetylcholine receptor M1,CHRM1,P11229,1,confirmed,core,GPCRs,,,Muscarinic acetylcholine receptor M1,MOESM2:349
+TGT-p08172-1,Muscarinic acetylcholine receptor M2,CHRM2,P08172,1,confirmed,core,GPCRs,,,Muscarinic acetylcholine receptor M2,MOESM2:350
+TGT-p20309-1,Muscarinic acetylcholine receptor M3,CHRM3,P20309,1,confirmed,core,GPCRs,,,Muscarinic acetylcholine receptor M3,MOESM2:351
+TGT-p08173-1,Muscarinic acetylcholine receptor M4,CHRM4,P08173,1,confirmed,core,GPCRs,,,Muscarinic acetylcholine receptor M4,MOESM2:352
+TGT-p08912-1,Muscarinic acetylcholine receptor M5,CHRM5,P08912,1,confirmed,core,GPCRs,,,Muscarinic acetylcholine receptor M5,MOESM2:353
+TGT-p21554-1,Cannabinoid receptor 1,CNR1,P21554,1,confirmed,core,GPCRs,,,Cannabinoid receptor 1,MOESM2:354
+TGT-p34998-1,Corticotropin-releasing factor receptor 1,CRHR1,P34998,1,confirmed,core,GPCRs,,,Corticotropin-releasing factor receptor 1,MOESM2:355
+TGT-p61073-1,C-X-C chemokine receptor type 4,CXCR4,P61073,1,confirmed,core,GPCRs,,,C-X-C chemokine receptor type 4,MOESM2:356
+TGT-q9y271-1,Cysteinyl leukotriene receptor 1,CYSLTR1,Q9Y271,1,confirmed,core,GPCRs,,,Cysteinyl leukotriene receptor 1,MOESM2:357
+TGT-p21728-1,D(1A) dopamine receptor,DRD1,P21728,1,confirmed,core,GPCRs,,,D(1A) dopamine receptor,MOESM2:358
+TGT-p14416-1,D(2) dopamine receptor,DRD2,P14416,1,confirmed,core,GPCRs,,,D(2) dopamine receptor,MOESM2:359
+TGT-p35462-1,D(3) dopamine receptor,DRD3,P35462,1,confirmed,core,GPCRs,,,D(3) dopamine receptor,MOESM2:360
+TGT-p25101-1,Endothelin-1 receptor,EDNRA,P25101,1,confirmed,core,GPCRs,,,Endothelin-1 receptor,MOESM2:361
+TGT-p24530-1,Endothelin B receptor,EDNRB,P24530,1,confirmed,core,GPCRs,,,Endothelin B receptor,MOESM2:362
+TGT-p25116-1,Proteinase-activated receptor 1,F2R,P25116,1,confirmed,core,GPCRs,,,Proteinase-activated receptor 1,MOESM2:363
+TGT-p23945-1,Follicle-stimulating hormone receptor,FSHR,P23945,1,confirmed,core,GPCRs,,,Follicle-stimulating hormone receptor,MOESM2:364
+TGT-q9ubs5-1,Gamma-aminobutyric acid type B receptor subunit 1,GABBR1,Q9UBS5,1,confirmed,core,GPCRs,,,Gamma-aminobutyric acid type B receptor subunit 1,MOESM2:365
+TGT-o75899-1,Gamma-aminobutyric acid type B receptor subunit 2,GABBR2,O75899,1,confirmed,core,GPCRs,,,Gamma-aminobutyric acid type B receptor subunit 2,MOESM2:366
+TGT-p47871-1,Glucagon receptor,GCGR,P47871,1,confirmed,core,GPCRs,,,Glucagon receptor,MOESM2:367
+TGT-q02643-1,Growth hormone-releasing hormone receptor,GHRHR,Q02643,1,confirmed,core,GPCRs,,,Growth hormone-releasing hormone receptor,MOESM2:368
+TGT-q92847-1,Growth hormone secretagogue receptor type 1,GHSR,Q92847,1,confirmed,core,GPCRs,,,Growth hormone secretagogue receptor type 1,MOESM2:369
+TGT-p48546-1,Gastric inhibitory polypeptide receptor,GIPR,P48546,1,confirmed,core,GPCRs,,,Gastric inhibitory polypeptide receptor,MOESM2:370
+TGT-p43220-1,Glucagon-like peptide 1 receptor,GLP1R,P43220,1,confirmed,core,GPCRs,,,Glucagon-like peptide 1 receptor,MOESM2:371
+TGT-o95838-1,Glucagon-like peptide 2 receptor,GLP2R,O95838,1,confirmed,core,GPCRs,,,Glucagon-like peptide 2 receptor,MOESM2:372
+TGT-p30968-1,Gonadotropin-releasing hormone receptor,GNRHR,P30968,1,confirmed,core,GPCRs,,,Gonadotropin-releasing hormone receptor,MOESM2:373
+TGT-q9nzd1-1,G-protein coupled receptor family C group 5 member D,GPRC5D,Q9NZD1,1,confirmed,core,GPCRs,,,G-protein coupled receptor family C group 5 member D,MOESM2:374
+TGT-q8tds4-1,Hydroxycarboxylic acid receptor 2,HCAR2,Q8TDS4,1,confirmed,core,GPCRs,,,Hydroxycarboxylic acid receptor 2,MOESM2:375
+TGT-o43613-1,Orexin receptor type 1,HCRTR1,O43613,1,confirmed,core,GPCRs,,,Orexin receptor type 1,MOESM2:376
+TGT-o43614-1,Orexin receptor type 2,HCRTR2,O43614,1,confirmed,core,GPCRs,,,Orexin receptor type 2,MOESM2:377
+TGT-p35367-1,Histamine H1 receptor,HRH1,P35367,1,confirmed,core,GPCRs,,,Histamine H1 receptor,MOESM2:378
+TGT-p25021-1,Histamine H2 receptor,HRH2,P25021,1,confirmed,core,GPCRs,,,Histamine H2 receptor,MOESM2:379
+TGT-q9y5n1-1,Histamine H3 receptor,HRH3,Q9Y5N1,1,confirmed,core,GPCRs,,,Histamine H3 receptor,MOESM2:380
+TGT-p08908-1,5-hydroxytryptamine receptor 1A,HTR1A,P08908,1,confirmed,core,GPCRs,,,5-hydroxytryptamine receptor 1A,MOESM2:381
+TGT-p28222-1,5-hydroxytryptamine receptor 1B,HTR1B,P28222,1,confirmed,core,GPCRs,,,5-hydroxytryptamine receptor 1B,MOESM2:382
+TGT-p28221-1,5-hydroxytryptamine receptor 1D,HTR1D,P28221,1,confirmed,core,GPCRs,,,5-hydroxytryptamine receptor 1D,MOESM2:383
+TGT-p30939-1,5-hydroxytryptamine receptor 1F,HTR1F,P30939,1,confirmed,core,GPCRs,,,5-hydroxytryptamine receptor 1F,MOESM2:384
+TGT-p28223-1,5-hydroxytryptamine receptor 2A,HTR2A,P28223,1,confirmed,core,GPCRs,,,5-hydroxytryptamine receptor 2A,MOESM2:385
+TGT-p28335-1,5-hydroxytryptamine receptor 2C,HTR2C,P28335,1,confirmed,core,GPCRs,,,5-hydroxytryptamine receptor 2C,MOESM2:386
+TGT-q13639-1,5-hydroxytryptamine receptor 4,HTR4,Q13639,1,confirmed,core,GPCRs,,,5-hydroxytryptamine receptor 4,MOESM2:387
+TGT-p34969-1,5-hydroxytryptamine receptor 7,HTR7,P34969,1,confirmed,core,GPCRs,,,5-hydroxytryptamine receptor 7,MOESM2:388
+TGT-p22888-1,Lutropin-choriogonadotropic hormone receptor,LHCGR,P22888,1,confirmed,core,GPCRs,,,Lutropin-choriogonadotropic hormone receptor,MOESM2:389
+TGT-q01726-1,Melanocyte-stimulating hormone receptor,MC1R,Q01726,1,confirmed,core,GPCRs,,,Melanocyte-stimulating hormone receptor,MOESM2:390
+TGT-q01718-1,Adrenocorticotropic hormone receptor,MC2R,Q01718,1,confirmed,core,GPCRs,,,Adrenocorticotropic hormone receptor,MOESM2:391
+TGT-p32245-1,Melanocortin receptor 4,MC4R,P32245,1,confirmed,core,GPCRs,,,Melanocortin receptor 4,MOESM2:392
+TGT-p48039-1,Melatonin receptor type 1A,MTNR1A,P48039,1,confirmed,core,GPCRs,,,Melatonin receptor type 1A,MOESM2:393
+TGT-p49286-1,Melatonin receptor type 1B,MTNR1B,P49286,1,confirmed,core,GPCRs,,,Melatonin receptor type 1B,MOESM2:394
+TGT-p41143-1,Delta-type opioid receptor,OPRD1,P41143,1,confirmed,core,GPCRs,,,Delta-type opioid receptor,MOESM2:395
+TGT-p41145-1,Kappa-type opioid receptor,OPRK1,P41145,1,confirmed,core,GPCRs,,,Kappa-type opioid receptor,MOESM2:396
+TGT-p35372-1,Mu-type opioid receptor,OPRM1,P35372,1,confirmed,core,GPCRs,,,Mu-type opioid receptor,MOESM2:397
+TGT-p30559-1,Oxytocin receptor,OXTR,P30559,1,confirmed,core,GPCRs,,,Oxytocin receptor,MOESM2:398
+TGT-q9h244-1,P2Y purinoceptor 12,P2RY12,Q9H244,1,confirmed,core,GPCRs,,,P2Y purinoceptor 12,MOESM2:399
+TGT-p41231-1,P2Y purinoceptor 2,P2RY2,P41231,1,confirmed,core,GPCRs,,,P2Y purinoceptor 2,MOESM2:400
+TGT-p34995-1,Prostaglandin E2 receptor EP1 subtype,PTGER1,P34995,1,confirmed,core,GPCRs,,,Prostaglandin E2 receptor EP1 subtype,MOESM2:401
+TGT-p43116-1,Prostaglandin E2 receptor EP2 subtype,PTGER2,P43116,1,confirmed,core,GPCRs,,,Prostaglandin E2 receptor EP2 subtype,MOESM2:402
+TGT-p43115-1,Prostaglandin E2 receptor EP3 subtype,PTGER3,P43115,1,confirmed,core,GPCRs,,,Prostaglandin E2 receptor EP3 subtype,MOESM2:403
+TGT-p35408-1,Prostaglandin E2 receptor EP4 subtype,PTGER4,P35408,1,confirmed,core,GPCRs,,,Prostaglandin E2 receptor EP4 subtype,MOESM2:404
+TGT-p43088-1,Prostaglandin F2-alpha receptor,PTGFR,P43088,1,confirmed,core,GPCRs,,,Prostaglandin F2-alpha receptor,MOESM2:405
+TGT-p43119-1,Prostacyclin receptor,PTGIR,P43119,1,confirmed,core,GPCRs,,,Prostacyclin receptor,MOESM2:406
+TGT-q03431-1,Parathyroid hormone/parathyroid hormone-related peptide receptor,PTH1R,Q03431,1,confirmed,core,GPCRs,,,Parathyroid hormone/parathyroid hormone-related peptide receptor,MOESM2:407
+TGT-p49190-1,Parathyroid hormone 2 receptor,PTH2R,P49190,1,confirmed,core,GPCRs,,,Parathyroid hormone 2 receptor,MOESM2:408
+TGT-o60894-1,Receptor activity-modifying protein 1,RAMP1,O60894,1,confirmed,core,GPCRs,,,Receptor activity-modifying protein 1,MOESM2:409
+TGT-o60895-1,Receptor activity-modifying protein 2,RAMP2,O60895,1,confirmed,core,GPCRs,,,Receptor activity-modifying protein 2,MOESM2:410
+TGT-o60896-1,Receptor activity-modifying protein 3,RAMP3,O60896,1,confirmed,core,GPCRs,,,Receptor activity-modifying protein 3,MOESM2:411
+TGT-p21453-1,Sphingosine 1-phosphate receptor 1,S1PR1,P21453,1,confirmed,core,GPCRs,,,Sphingosine 1-phosphate receptor 1,MOESM2:412
+TGT-q99500-1,Sphingosine 1-phosphate receptor 3,S1PR3,Q99500,1,confirmed,core,GPCRs,,,Sphingosine 1-phosphate receptor 3,MOESM2:413
+TGT-o95977-1,Sphingosine 1-phosphate receptor 4,S1PR4,O95977,1,confirmed,core,GPCRs,,,Sphingosine 1-phosphate receptor 4,MOESM2:414
+TGT-q9h228-1,Sphingosine 1-phosphate receptor 5,S1PR5,Q9H228,1,confirmed,core,GPCRs,,,Sphingosine 1-phosphate receptor 5,MOESM2:415
+TGT-p47872-1,Secretin receptor,SCTR,P47872,1,confirmed,core,GPCRs,,,Secretin receptor,MOESM2:416
+TGT-q99835-1,Smoothened homolog,SMO,Q99835,1,confirmed,core,GPCRs,,,Smoothened homolog,MOESM2:417
+TGT-p30872-1,Somatostatin receptor type 1,SSTR1,P30872,1,confirmed,core,GPCRs,,,Somatostatin receptor type 1,MOESM2:418
+TGT-p30874-1,Somatostatin receptor type 2,SSTR2,P30874,1,confirmed,core,GPCRs,,,Somatostatin receptor type 2,MOESM2:419
+TGT-p32745-1,Somatostatin receptor type 3,SSTR3,P32745,1,confirmed,core,GPCRs,,,Somatostatin receptor type 3,MOESM2:420
+TGT-p31391-1,Somatostatin receptor type 4,SSTR4,P31391,1,confirmed,core,GPCRs,,,Somatostatin receptor type 4,MOESM2:421
+TGT-p35346-1,Somatostatin receptor type 5,SSTR5,P35346,1,confirmed,core,GPCRs,,,Somatostatin receptor type 5,MOESM2:422
+TGT-q96rj0-1,Trace amine-associated receptor 1,TAAR1,Q96RJ0,1,confirmed,core,GPCRs,,,Trace amine-associated receptor 1,MOESM2:423
+TGT-p25103-1,Substance-P receptor,TACR1,P25103,1,confirmed,core,GPCRs,,,Substance-P receptor,MOESM2:424
+TGT-p29371-1,Neuromedin-K receptor,TACR3,P29371,1,confirmed,core,GPCRs,,,Neuromedin-K receptor,MOESM2:425
+TGT-p34981-1,Thyrotropin-releasing hormone receptor,TRHR,P34981,1,confirmed,core,GPCRs,,,Thyrotropin-releasing hormone receptor,MOESM2:426
+TGT-p16473-1,Thyrotropin receptor,TSHR,P16473,1,confirmed,core,GPCRs,,,Thyrotropin receptor,MOESM2:427
+TGT-o60706-1,"Sulfonylurea receptor 2, Kir6.2",ABCC9,O60706,1,confirmed,core,Ion channels,,,"Sulfonylurea receptor 2, Kir6.2",MOESM2:428
+TGT-q5xxa6-1,Anoctamin-1,ANO1,Q5XXA6,1,confirmed,core,Ion channels,,,Anoctamin-1,MOESM2:429
+TGT-q00975-1,Voltage-dependent N-type calcium channel subunit alpha-1B,CACNA1B,Q00975,1,confirmed,core,Ion channels,,,Voltage-dependent N-type calcium channel subunit alpha-1B,MOESM2:430
+TGT-q13936-1,Voltage-dependent L-type calcium channel subunit alpha-1C,CACNA1C,Q13936,1,confirmed,core,Ion channels,,,Voltage-dependent L-type calcium channel subunit alpha-1C,MOESM2:431
+TGT-q01668-1,Voltage-dependent L-type calcium channel subunit alpha-1D,CACNA1D,Q01668,1,confirmed,core,Ion channels,,,Voltage-dependent L-type calcium channel subunit alpha-1D,MOESM2:432
+TGT-o43497-1,Voltage-dependent T-type calcium channel subunit alpha-1G,CACNA1G,O43497,1,confirmed,core,Ion channels,,,Voltage-dependent T-type calcium channel subunit alpha-1G,MOESM2:433
+TGT-o95180-1,Voltage-dependent T-type calcium channel subunit alpha-1H,CACNA1H,O95180,1,confirmed,core,Ion channels,,,Voltage-dependent T-type calcium channel subunit alpha-1H,MOESM2:434
+TGT-q9p0x4-1,Voltage-gated T-type calcium channel,CACNA1I,Q9P0X4,1,confirmed,core,Ion channels,,,Voltage-gated T-type calcium channel,MOESM2:435
+TGT-q13698-1,Voltage-dependent L-type calcium channel subunit alpha-1S,CACNA1S,Q13698,1,confirmed,core,Ion channels,,,Voltage-dependent L-type calcium channel subunit alpha-1S,MOESM2:436
+TGT-p54289-1,Voltage-dependent calcium channel subunit alpha-2/delta-1,CACNA2D1,P54289,1,confirmed,core,Ion channels,,,Voltage-dependent calcium channel subunit alpha-2/delta-1,MOESM2:437
+TGT-q9ny47-1,Voltage-dependent calcium channel subunit alpha-2/delta-2,CACNA2D2,Q9NY47,1,confirmed,core,Ion channels,,,Voltage-dependent calcium channel subunit alpha-2/delta-2,MOESM2:438
+TGT-p13569-1,Cystic fibrosis transmembrane conductance regulator,CFTR,P13569,1,confirmed,core,Ion channels,,,Cystic fibrosis transmembrane conductance regulator,MOESM2:439
+TGT-p02708-1,Acetylcholine receptor subunit alpha,CHRNA1,P02708,1,confirmed,core,Ion channels,,,Acetylcholine receptor subunit alpha,MOESM2:440
+TGT-p32297-1,Neuronal acetylcholine receptor subunit alpha-3,CHRNA3,P32297,1,confirmed,core,Ion channels,,,Neuronal acetylcholine receptor subunit alpha-3,MOESM2:441
+TGT-p43681-1,Neuronal acetylcholine receptor subunit alpha-4,CHRNA4,P43681,1,confirmed,core,Ion channels,,,Neuronal acetylcholine receptor subunit alpha-4,MOESM2:442
+TGT-p11230-1,Acetylcholine receptor subunit beta,CHRNB1,P11230,1,confirmed,core,Ion channels,,,Acetylcholine receptor subunit beta,MOESM2:443
+TGT-p17787-1,Neuronal acetylcholine receptor subunit beta-2,CHRNB2,P17787,1,confirmed,core,Ion channels,,,Neuronal acetylcholine receptor subunit beta-2,MOESM2:444
+TGT-p30926-1,Neuronal acetylcholine receptor subunit beta-4,CHRNB4,P30926,1,confirmed,core,Ion channels,,,Neuronal acetylcholine receptor subunit beta-4,MOESM2:445
+TGT-q07001-1,Acetylcholine receptor subunit delta,CHRND,Q07001,1,confirmed,core,Ion channels,,,Acetylcholine receptor subunit delta,MOESM2:446
+TGT-q04844-1,Acetylcholine receptor subunit epsilon,CHRNE,Q04844,1,confirmed,core,Ion channels,,,Acetylcholine receptor subunit epsilon,MOESM2:447
+TGT-p07510-1,Acetylcholine receptor subunit gamma,CHRNG,P07510,1,confirmed,core,Ion channels,,,Acetylcholine receptor subunit gamma,MOESM2:448
+TGT-p51788-1,Chloride channel protein 2,CLCN2,P51788,1,confirmed,core,Ion channels,,,Chloride channel protein 2,MOESM2:449
+TGT-p14867-1,Gamma-aminobutyric acid receptor subunit alpha-1,GABRA1,P14867,1,confirmed,core,Ion channels,,,Gamma-aminobutyric acid receptor subunit alpha-1,MOESM2:450
+TGT-p14867-p47869-p34903-p31644-q8n1c3-p18507-q99928-1,GABA-A receptor complex,GABRA1|GABRA2|GABRA3|GABRA5|GABRG1|GABRG2|GABRG3,P14867|P47869|P34903|P31644|Q8N1C3|P18507|Q99928,1,confirmed,core,Ion channels,,,GABA-A receptor complex,MOESM2:451
+TGT-p47869-1,Gamma-aminobutyric acid receptor subunit alpha-2,GABRA2,P47869,1,confirmed,core,Ion channels,,,Gamma-aminobutyric acid receptor subunit alpha-2,MOESM2:452
+TGT-p34903-1,Gamma-aminobutyric acid receptor subunit alpha-3,GABRA3,P34903,1,confirmed,core,Ion channels,,,Gamma-aminobutyric acid receptor subunit alpha-3,MOESM2:453
+TGT-p48169-1,Gamma-aminobutyric acid receptor subunit alpha-4,GABRA4,P48169,1,confirmed,core,Ion channels,,,Gamma-aminobutyric acid receptor subunit alpha-4,MOESM2:454
+TGT-p31644-1,Gamma-aminobutyric acid receptor subunit alpha-5,GABRA5,P31644,1,confirmed,core,Ion channels,,,Gamma-aminobutyric acid receptor subunit alpha-5,MOESM2:455
+TGT-q16445-1,Gamma-aminobutyric acid receptor subunit alpha-6,GABRA6,Q16445,1,confirmed,core,Ion channels,,,Gamma-aminobutyric acid receptor subunit alpha-6,MOESM2:456
+TGT-p18505-1,Gamma-aminobutyric acid receptor subunit beta-1,GABRB1,P18505,1,confirmed,core,Ion channels,,,Gamma-aminobutyric acid receptor subunit beta-1,MOESM2:457
+TGT-p47870-1,Gamma-aminobutyric acid receptor subunit beta-2,GABRB2,P47870,1,confirmed,core,Ion channels,,,Gamma-aminobutyric acid receptor subunit beta-2,MOESM2:458
+TGT-p28472-1,Gamma-aminobutyric acid receptor subunit beta-3,GABRB3,P28472,1,confirmed,core,Ion channels,,,Gamma-aminobutyric acid receptor subunit beta-3,MOESM2:459
+TGT-o14764-1,Gamma-aminobutyric acid receptor subunit delta,GABRD,O14764,1,confirmed,core,Ion channels,,,Gamma-aminobutyric acid receptor subunit delta,MOESM2:460
+TGT-o14764-p14867-p18505-p18507-p28472-p31644-p34903-p47869-p47870-p48169-q16445-q8n1c3-q99928-1,GABA-A receptor complex,GABRD|GABRA1|GABRB1|GABRG2|GABRB3|GABRA5|GABRA3|GABRA2|GABRB2|GABRA4|GABRA6|GABRG1|GABRG3,O14764|P14867|P18505|P18507|P28472|P31644|P34903|P47869|P47870|P48169|Q16445|Q8N1C3|Q99928,1,confirmed,core,Ion channels,,,GABA-A receptor complex,MOESM2:461
+TGT-p18507-1,Gamma-aminobutyric acid receptor subunit gamma-2,GABRG2,P18507,1,confirmed,core,Ion channels,,,Gamma-aminobutyric acid receptor subunit gamma-2,MOESM2:462
+TGT-q99928-1,Gamma-aminobutyric acid receptor subunit gamma-3,GABRG3,Q99928,1,confirmed,core,Ion channels,,,Gamma-aminobutyric acid receptor subunit gamma-3,MOESM2:463
+TGT-o00591-o14764-p14867-p18505-p18507-p28472-p31644-p34903-p47869-p47870-p48169-p78334-q16445-q8n1c3-q99928-q9un88-1,GABA-A receptor complex,GABRP|GABRD|GABRA1|GABRB1|GABRG2|GABRB3|GABRA5|GABRA3|GABRA2|GABRB2|GABRA4|GABRE|GABRA6|GABRG1|GABRG3|GABRT,O00591|O14764|P14867|P18505|P18507|P28472|P31644|P34903|P47869|P47870|P48169|P78334|Q16445|Q8N1C3|Q99928|Q9UN88,1,confirmed,core,Ion channels,,,GABA-A receptor complex,MOESM2:464
+TGT-p23415-1,Glycine receptor subunit alpha-1,GLRA1,P23415,1,confirmed,core,Ion channels,,,Glycine receptor subunit alpha-1,MOESM2:465
+TGT-p48167-1,Glycine receptor subunit beta,GLRB,P48167,1,confirmed,core,Ion channels,,,Glycine receptor subunit beta,MOESM2:466
+TGT-p42261-1,Glutamate receptor 1,GRIA1,P42261,1,confirmed,core,Ion channels,,,Glutamate receptor 1,MOESM2:467
+TGT-p42262-1,Glutamate receptor 2,GRIA2,P42262,1,confirmed,core,Ion channels,,,Glutamate receptor 2,MOESM2:468
+TGT-p42263-1,Glutamate receptor 3,GRIA3,P42263,1,confirmed,core,Ion channels,,,Glutamate receptor 3,MOESM2:469
+TGT-p48058-1,Glutamate receptor 4,GRIA4,P48058,1,confirmed,core,Ion channels,,,Glutamate receptor 4,MOESM2:470
+TGT-p39086-1,"Glutamate receptor ionotropic, kainate 1",GRIK1,P39086,1,confirmed,core,Ion channels,,,"Glutamate receptor ionotropic, kainate 1",MOESM2:471
+TGT-q13002-1,"Glutamate receptor ionotropic, kainate 2",GRIK2,Q13002,1,confirmed,core,Ion channels,,,"Glutamate receptor ionotropic, kainate 2",MOESM2:472
+TGT-q13003-1,"Glutamate receptor ionotropic, kainate 3",GRIK3,Q13003,1,confirmed,core,Ion channels,,,"Glutamate receptor ionotropic, kainate 3",MOESM2:473
+TGT-q16099-1,"Glutamate receptor ionotropic, kainate 4",GRIK4,Q16099,1,confirmed,core,Ion channels,,,"Glutamate receptor ionotropic, kainate 4",MOESM2:474
+TGT-q16478-1,"Glutamate receptor ionotropic, kainate 5",GRIK5,Q16478,1,confirmed,core,Ion channels,,,"Glutamate receptor ionotropic, kainate 5",MOESM2:475
+TGT-q05586-1,"Glutamate receptor ionotropic, NMDA 1",GRIN1,Q05586,1,confirmed,core,Ion channels,,,"Glutamate receptor ionotropic, NMDA 1",MOESM2:476
+TGT-q12879-1,"Glutamate receptor ionotropic, NMDA 2A",GRIN2A,Q12879,1,confirmed,core,Ion channels,,,"Glutamate receptor ionotropic, NMDA 2A",MOESM2:477
+TGT-q13224-1,"Glutamate receptor ionotropic, NMDA 2B",GRIN2B,Q13224,1,confirmed,core,Ion channels,,,"Glutamate receptor ionotropic, NMDA 2B",MOESM2:478
+TGT-o15399-o60391-q05586-q12879-q13224-q14957-q8tcu5-1,Glutamate (NMDA) receptor,GRIN2D|GRIN2D|GRIN3B|GRIN1|GRIN2A|GRIN2B|GRIN2C|GRIN3A,O15399|O60391|Q05586|Q12879|Q13224|Q14957|Q8TCU5,1,confirmed,core,Ion channels,,,Glutamate (NMDA) receptor,MOESM2:479
+TGT-q8tcu5-1,"Glutamate receptor ionotropic, NMDA 3A",GRIN3A,Q8TCU5,1,confirmed,core,Ion channels,,,"Glutamate receptor ionotropic, NMDA 3A",MOESM2:480
+TGT-o60741-1,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1,HCN1,O60741,1,confirmed,core,Ion channels,,,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 1,MOESM2:481
+TGT-q9ul51-1,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 2,HCN2,Q9UL51,1,confirmed,core,Ion channels,,,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 2,MOESM2:482
+TGT-q9p1z3-1,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 3,HCN3,Q9P1Z3,1,confirmed,core,Ion channels,,,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 3,MOESM2:483
+TGT-q9y3q4-1,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 4,HCN4,Q9Y3Q4,1,confirmed,core,Ion channels,,,Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 4,MOESM2:484
+TGT-p41595-1,5-hydroxytryptamine receptor 2B,HTR2B,P41595,1,confirmed,core,Ion channels,,,5-hydroxytryptamine receptor 2B,MOESM2:485
+TGT-p46098-1,5-hydroxytryptamine receptor 3A,HTR3A,P46098,1,confirmed,core,Ion channels,,,5-hydroxytryptamine receptor 3A,MOESM2:486
+TGT-p22460-1,Potassium voltage-gated channel subfamily A member 5,KCNA5,P22460,1,confirmed,core,Ion channels,,,Potassium voltage-gated channel subfamily A member 5,MOESM2:487
+TGT-q12809-1,Potassium voltage-gated channel subfamily H member 2,KCNH2,Q12809,1,confirmed,core,Ion channels,,,Potassium voltage-gated channel subfamily H member 2,MOESM2:488
+TGT-q14654-1,ATP-sensitive inward rectifier potassium channel 11,KCNJ11,Q14654,1,confirmed,core,Ion channels,,,ATP-sensitive inward rectifier potassium channel 11,MOESM2:489
+TGT-p57789-1,Potassium channel subfamily K member 10,KCNK10,P57789,1,confirmed,core,Ion channels,,,Potassium channel subfamily K member 10,MOESM2:490
+TGT-q7z418-1,Potassium channel subfamily K member 18,KCNK18,Q7Z418,1,confirmed,core,Ion channels,,,Potassium channel subfamily K member 18,MOESM2:491
+TGT-o95069-1,Potassium channel subfamily K member 2,KCNK2,O95069,1,confirmed,core,Ion channels,,,Potassium channel subfamily K member 2,MOESM2:492
+TGT-o14649-1,Potassium channel subfamily K member 3,KCNK3,O14649,1,confirmed,core,Ion channels,,,Potassium channel subfamily K member 3,MOESM2:493
+TGT-q9npc2-1,Potassium channel subfamily K member 9,KCNK9,Q9NPC2,1,confirmed,core,Ion channels,,,Potassium channel subfamily K member 9,MOESM2:494
+TGT-q12791-1,Calcium-activated potassium channel subunit alpha-1,KCNMA1,Q12791,1,confirmed,core,Ion channels,,,Calcium-activated potassium channel subunit alpha-1,MOESM2:495
+TGT-o43526-1,Potassium voltage-gated channel subfamily KQT member 2,KCNQ2,O43526,1,confirmed,core,Ion channels,,,Potassium voltage-gated channel subfamily KQT member 2,MOESM2:496
+TGT-o43525-1,Potassium voltage-gated channel subfamily KQT member 3,KCNQ3,O43525,1,confirmed,core,Ion channels,,,Potassium voltage-gated channel subfamily KQT member 3,MOESM2:497
+TGT-o43525-o43526-o95259-p16389-p17658-p22001-p22459-p22460-p48547-p51787-p56696-q03721-q09470-q12809-q14003-q14721-q16322-q6piu1-q8ncm2-q8tae7-q8tdn1-q8tdn2-q92953-q96kk3-q96l42-q96pr1-q96rp8-q9bq31-q9h252-q9h3m0-q9nr82-q9ns40-q9nsa2-q9nzv8-q9uix4-q9uj96-q9uk17-q9uld8-q9uls6-q9uq05-1,Voltage-gated potassium channel complex,KCNQ3|KCNQ2|KCNH1|KCNA2|KCNA6|KCNA3|KCNA4|KCNA5|KCNC1|KCNQ1|KCNQ4|KCNC4|KCNA1|KCNH2|KCNC3|KCNB1|KCA10|KCNV1|KCNH5|KCNG3|KCNG4|KCNV2|KCNB2|KCNS1|KCNH8|KCNC2|KCNA7|KCNS3|KCNH6|KCNF1|KCNQ5|KCNH7|KCND1|KCND2|KCNG1|KCNG2|KCND3|KCNH3|KCNS2|KCNH4,O43525|O43526|O95259|P16389|P17658|P22001|P22459|P22460|P48547|P51787|P56696|Q03721|Q09470|Q12809|Q14003|Q14721|Q16322|Q6PIU1|Q8NCM2|Q8TAE7|Q8TDN1|Q8TDN2|Q92953|Q96KK3|Q96L42|Q96PR1|Q96RP8|Q9BQ31|Q9H252|Q9H3M0|Q9NR82|Q9NS40|Q9NSA2|Q9NZV8|Q9UIX4|Q9UJ96|Q9UK17|Q9ULD8|Q9ULS6|Q9UQ05,1,confirmed,core,Ion channels,,,Voltage-gated potassium channel complex,MOESM2:498
+TGT-p56696-1,Potassium voltage-gated channel subfamily KQT member 4,KCNQ4,P56696,1,confirmed,core,Ion channels,,,Potassium voltage-gated channel subfamily KQT member 4,MOESM2:499
+TGT-q9nr82-1,Potassium voltage-gated channel subfamily KQT member 5,KCNQ5,Q9NR82,1,confirmed,core,Ion channels,,,Potassium voltage-gated channel subfamily KQT member 5,MOESM2:500
+TGT-p56373-1,P2X purinoceptor 3,P2RX3,P56373,1,confirmed,core,Ion channels,,,P2X purinoceptor 3,MOESM2:501
+TGT-p21817-1,Ryanodine receptor 1,RYR1,P21817,1,confirmed,core,Ion channels,,,Ryanodine receptor 1,MOESM2:502
+TGT-q92736-1,Ryanodine receptor 2,RYR2,Q92736,1,confirmed,core,Ion channels,,,Ryanodine receptor 2,MOESM2:503
+TGT-q15413-1,Ryanodine receptor 3,RYR3,Q15413,1,confirmed,core,Ion channels,,,Ryanodine receptor 3,MOESM2:504
+TGT-q9y5y9-1,Sodium channel protein type 10 subunit alpha,SCN10A,Q9Y5Y9,1,confirmed,core,Ion channels,,,Sodium channel protein type 10 subunit alpha,MOESM2:505
+TGT-q9ui33-1,Sodium channel protein type 11 subunit alpha,SCN11A,Q9UI33,1,confirmed,core,Ion channels,,,Sodium channel protein type 11 subunit alpha,MOESM2:506
+TGT-p35498-1,Sodium channel protein type 1 subunit alpha,SCN1A,P35498,1,confirmed,core,Ion channels,,,Sodium channel protein type 1 subunit alpha,MOESM2:507
+TGT-q99250-1,Sodium channel protein type 2 subunit alpha,SCN2A,Q99250,1,confirmed,core,Ion channels,,,Sodium channel protein type 2 subunit alpha,MOESM2:508
+TGT-q9ny46-1,Sodium channel protein type 3 subunit alpha,SCN3A,Q9NY46,1,confirmed,core,Ion channels,,,Sodium channel protein type 3 subunit alpha,MOESM2:509
+TGT-p35499-1,Sodium channel protein type 4 subunit alpha,SCN4A,P35499,1,confirmed,core,Ion channels,,,Sodium channel protein type 4 subunit alpha,MOESM2:510
+TGT-q14524-1,Sodium channel protein type 5 subunit alpha,SCN5A,Q14524,1,confirmed,core,Ion channels,,,Sodium channel protein type 5 subunit alpha,MOESM2:511
+TGT-q01118-1,Sodium channel protein type 7 subunit alpha,SCN7A,Q01118,1,confirmed,core,Ion channels,,,Sodium channel protein type 7 subunit alpha,MOESM2:512
+TGT-q9uqd0-1,Sodium channel protein type 8 subunit alpha,SCN8A,Q9UQD0,1,confirmed,core,Ion channels,,,Sodium channel protein type 8 subunit alpha,MOESM2:513
+TGT-q15858-1,Sodium channel protein type 9 subunit alpha,SCN9A,Q15858,1,confirmed,core,Ion channels,,,Sodium channel protein type 9 subunit alpha,MOESM2:514
+TGT-p37088-1,Epithelial sodium channel subunit alpha,SCNN1A,P37088,1,confirmed,core,Ion channels,,,Epithelial sodium channel subunit alpha,MOESM2:515
+TGT-p51168-1,Epithelial sodium channel subunit beta,SCNN1B,P51168,1,confirmed,core,Ion channels,,,Epithelial sodium channel subunit beta,MOESM2:516
+TGT-p51170-1,Epithelial sodium channel subunit gamma,SCNN1G,P51170,1,confirmed,core,Ion channels,,,Epithelial sodium channel subunit gamma,MOESM2:517
+TGT-q7z2w7-1,Transient receptor potential cation channel subfamily M member 8,TRPM8,Q7Z2W7,1,confirmed,core,Ion channels,,,Transient receptor potential cation channel subfamily M member 8,MOESM2:518
+TGT-q8ner1-1,Transient receptor potential cation channel subfamily V member 1,TRPV1,Q8NER1,1,confirmed,core,Ion channels,,,Transient receptor potential cation channel subfamily V member 1,MOESM2:519
+TGT-p10275-1,Androgen receptor,AR,P10275,1,confirmed,core,Nuclear hormone receptors,,,Androgen receptor,MOESM2:520
+TGT-p03372-1,Estrogen receptor,ESR1,P03372,1,confirmed,core,Nuclear hormone receptors,,,Estrogen receptor,MOESM2:521
+TGT-q92731-1,Estrogen receptor beta,ESR2,Q92731,1,confirmed,core,Nuclear hormone receptors,,,Estrogen receptor beta,MOESM2:522
+TGT-q96ri1-1,Bile acid receptor,NR1H4,Q96RI1,1,confirmed,core,Nuclear hormone receptors,,,Bile acid receptor,MOESM2:523
+TGT-p04150-1,Glucocorticoid receptor,NR3C1,P04150,1,confirmed,core,Nuclear hormone receptors,,,Glucocorticoid receptor,MOESM2:524
+TGT-p08235-1,Mineralocorticoid receptor,NR3C2,P08235,1,confirmed,core,Nuclear hormone receptors,,,Mineralocorticoid receptor,MOESM2:525
+TGT-p06401-1,Progesterone receptor,PGR,P06401,1,confirmed,core,Nuclear hormone receptors,,,Progesterone receptor,MOESM2:526
+TGT-q07869-1,Peroxisome proliferator-activated receptor alpha,PPARA,Q07869,1,confirmed,core,Nuclear hormone receptors,,,Peroxisome proliferator-activated receptor alpha,MOESM2:527
+TGT-q03181-1,Peroxisome proliferator-activated receptor delta,PPARD,Q03181,1,confirmed,core,Nuclear hormone receptors,,,Peroxisome proliferator-activated receptor delta,MOESM2:528
+TGT-p37231-1,Peroxisome proliferator-activated receptor gamma,PPARG,P37231,1,confirmed,core,Nuclear hormone receptors,,,Peroxisome proliferator-activated receptor gamma,MOESM2:529
+TGT-p10276-1,Retinoic acid receptor alpha,RARA,P10276,1,confirmed,core,Nuclear hormone receptors,,,Retinoic acid receptor alpha,MOESM2:530
+TGT-p10826-1,Retinoic acid receptor beta,RARB,P10826,1,confirmed,core,Nuclear hormone receptors,,,Retinoic acid receptor beta,MOESM2:531
+TGT-p13631-1,Retinoic acid receptor gamma,RARG,P13631,1,confirmed,core,Nuclear hormone receptors,,,Retinoic acid receptor gamma,MOESM2:532
+TGT-p19793-1,Retinoic acid receptor RXR-alpha,RXRA,P19793,1,confirmed,core,Nuclear hormone receptors,,,Retinoic acid receptor RXR-alpha,MOESM2:533
+TGT-p28702-1,Retinoic acid receptor RXR-beta,RXRB,P28702,1,confirmed,core,Nuclear hormone receptors,,,Retinoic acid receptor RXR-beta,MOESM2:534
+TGT-p48443-1,Retinoic acid receptor RXR-gamma,RXRG,P48443,1,confirmed,core,Nuclear hormone receptors,,,Retinoic acid receptor RXR-gamma,MOESM2:535
+TGT-p10827-1,Thyroid hormone receptor alpha,THRA,P10827,1,confirmed,core,Nuclear hormone receptors,,,Thyroid hormone receptor alpha,MOESM2:536
+TGT-p10828-1,Thyroid hormone receptor beta,THRB,P10828,1,confirmed,core,Nuclear hormone receptors,,,Thyroid hormone receptor beta,MOESM2:537
+TGT-p11473-1,Vitamin D3 receptor,VDR,P11473,1,confirmed,core,Nuclear hormone receptors,,,Vitamin D3 receptor,MOESM2:538
+TGT-p04114-1,Apolipoprotein B-100,APOB,P04114,1,confirmed,core,Other proteins,,,Apolipoprotein B-100,MOESM2:539
+TGT-p02656-1,Apolipoprotein C-III,APOC3,P02656,1,confirmed,core,Other proteins,,,Apolipoprotein C-III,MOESM2:540
+TGT-p07306-1,Asialoglycoprotein receptor 1,ASGR1,P07306,1,confirmed,core,Other proteins,,,Asialoglycoprotein receptor 1,MOESM2:541
+TGT-p07307-1,Asialoglycoprotein receptor 2,ASGR2,P07307,1,confirmed,core,Other proteins,,,Asialoglycoprotein receptor 2,MOESM2:542
+TGT-p10415-1,Apoptosis regulator Bcl-2,BCL2,P10415,1,confirmed,core,Other proteins,,,Apoptosis regulator Bcl-2,MOESM2:543
+TGT-p15391-1,B-lymphocyte antigen CD19,CD19,P15391,1,confirmed,core,Other proteins,,,B-lymphocyte antigen CD19,MOESM2:544
+TGT-p06729-1,T-cell surface antigen CD2,CD2,P06729,1,confirmed,core,Other proteins,,,T-cell surface antigen CD2,MOESM2:545
+TGT-p20273-1,B-cell receptor CD22,CD22,P20273,1,confirmed,core,Other proteins,,,B-cell receptor CD22,MOESM2:546
+TGT-p20138-1,Myeloid cell surface antigen CD33,CD33,P20138,1,confirmed,core,Other proteins,,,Myeloid cell surface antigen CD33,MOESM2:547
+TGT-p04234-1,T-cell surface glycoprotein CD3 delta chain,CD3D,P04234,1,confirmed,core,Other proteins,,,T-cell surface glycoprotein CD3 delta chain,MOESM2:548
+TGT-p07766-1,T-cell surface glycoprotein CD3 epsilon chain,CD3E,P07766,1,confirmed,core,Other proteins,,,T-cell surface glycoprotein CD3 epsilon chain,MOESM2:549
+TGT-p09693-1,T-cell surface glycoprotein CD3 gamma chain,CD3G,P09693,1,confirmed,core,Other proteins,,,T-cell surface glycoprotein CD3 gamma chain,MOESM2:550
+TGT-p01730-1,T-cell surface glycoprotein CD4,CD4,P01730,1,confirmed,core,Other proteins,,,T-cell surface glycoprotein CD4,MOESM2:551
+TGT-p31358-1,CAMPATH-1 antigen,CD52,P31358,1,confirmed,core,Other proteins,,,CAMPATH-1 antigen,MOESM2:552
+TGT-p40259-1,B-cell antigen receptor complex-associated protein beta chain,CD79B,P40259,1,confirmed,core,Other proteins,,,B-cell antigen receptor complex-associated protein beta chain,MOESM2:553
+TGT-p33681-1,T-lymphocyte activation antigen CD80,CD80,P33681,1,confirmed,core,Other proteins,,,T-lymphocyte activation antigen CD80,MOESM2:554
+TGT-p42081-1,T-lymphocyte activation antigen CD86,CD86,P42081,1,confirmed,core,Other proteins,,,T-lymphocyte activation antigen CD86,MOESM2:555
+TGT-p56856-1,Claudin-18,CLDN18,P56856,1,confirmed,core,Other proteins,,,Claudin-18,MOESM2:556
+TGT-p16410-1,Cytotoxic T-lymphocyte protein 4,CTLA4,P16410,1,confirmed,core,Other proteins,,,Cytotoxic T-lymphocyte protein 4,MOESM2:557
+TGT-p11532-1,Dystrophin,DMD,P11532,1,confirmed,core,Other proteins,,,Dystrophin,MOESM2:558
+TGT-p13639-1,Elongation factor 2,EEF2,P13639,1,confirmed,core,Other proteins,,,Elongation factor 2,MOESM2:559
+TGT-q99814-1,Endothelial PAS domain-containing protein 1,EPAS1,Q99814,1,confirmed,core,Other proteins,,,Endothelial PAS domain-containing protein 1,MOESM2:560
+TGT-p08637-1,Low affinity immunoglobulin gamma Fc region receptor III-A,FCGR3A,P08637,1,confirmed,core,Other proteins,,,Low affinity immunoglobulin gamma Fc region receptor III-A,MOESM2:561
+TGT-p55899-1,IgG receptor FcRn large subunit p51,FCGRT,P55899,1,confirmed,core,Other proteins,,,IgG receptor FcRn large subunit p51,MOESM2:562
+TGT-p15328-1,Folate receptor alpha,FOLR1,P15328,1,confirmed,core,Other proteins,,,Folate receptor alpha,MOESM2:563
+TGT-p04439-1,"HLA class I histocompatibility antigen, A-3 alpha chain",HLA-A,P04439,1,confirmed,core,Other proteins,,,"HLA class I histocompatibility antigen, A-3 alpha chain",MOESM2:564
+TGT-p07900-1,Heat shock protein HSP 90-alpha,HSP90AA1,P07900,1,confirmed,core,Other proteins,,,Heat shock protein HSP 90-alpha,MOESM2:565
+TGT-p08238-1,Heat shock protein HSP 90-beta,HSP90AB1,P08238,1,confirmed,core,Other proteins,,,Heat shock protein HSP 90-beta,MOESM2:566
+TGT-p01854-1,Ig epsilon chain C region,IGHE,P01854,1,confirmed,core,Other proteins,,,Ig epsilon chain C region,MOESM2:567
+TGT-q14145-1,Kelch-like ECH-associated protein 1,KEAP1,Q14145,1,confirmed,core,Other proteins,,,Kelch-like ECH-associated protein 1,MOESM2:568
+TGT-p18627-1,Lymphocyte activation gene 3 protein,LAG3,P18627,1,confirmed,core,Other proteins,,,Lymphocyte activation gene 3 protein,MOESM2:569
+TGT-o00255-1,Menin,MEN1,O00255,1,confirmed,core,Other proteins,,,Menin,MOESM2:570
+TGT-p11836-1,B-lymphocyte antigen CD20,MS4A1,P11836,1,confirmed,core,Other proteins,,,B-lymphocyte antigen CD20,MOESM2:571
+TGT-p55157-1,Microsomal triglyceride transfer protein large subunit,MTTP,P55157,1,confirmed,core,Other proteins,,,Microsomal triglyceride transfer protein large subunit,MOESM2:572
+TGT-p12883-1,Myosin-7,MYH7,P12883,1,confirmed,core,Other proteins,,,Myosin-7,MOESM2:573
+TGT-q96ny8-1,Nectin-4,NECTIN4,Q96NY8,1,confirmed,core,Other proteins,,,Nectin-4,MOESM2:574
+TGT-p19838-1,Nuclear factor NF-kappa-B p105 subunit,NFKB1,P19838,1,confirmed,core,Other proteins,,,Nuclear factor NF-kappa-B p105 subunit,MOESM2:575
+TGT-q15116-1,Programmed cell death protein 1,PDCD1,Q15116,1,confirmed,core,Other proteins,,,Programmed cell death protein 1,MOESM2:576
+TGT-p16109-1,P-selectin,SELP,P16109,1,confirmed,core,Other proteins,,,P-selectin,MOESM2:577
+TGT-q99720-1,Sigma non-opioid intracellular receptor 1,SIGMAR1,Q99720,1,confirmed,core,Other proteins,,,Sigma non-opioid intracellular receptor 1,MOESM2:578
+TGT-q9nq25-1,SLAM family member 7,SLAMF7,Q9NQ25,1,confirmed,core,Other proteins,,,SLAM family member 7,MOESM2:579
+TGT-q16637-1,Survival motor neuron protein,SMN1; SMN2,Q16637,1,confirmed,core,Other proteins,,,Survival motor neuron protein,MOESM2:580
+TGT-p60880-1,Synaptosomal-associated protein 25,SNAP25,P60880,1,confirmed,core,Other proteins,,,Synaptosomal-associated protein 25,MOESM2:582
+TGT-p09758-1,Tumor-associated calcium signal transducer 2,TACSTD2,P09758,1,confirmed,core,Other proteins,,,Tumor-associated calcium signal transducer 2,MOESM2:583
+TGT-p07437-q9h4b7-q13885-q9bva1-q13509-p04350-p68371-q9buf5-q3zcm7-1,Tubulin beta,TBB5|TBB1|TBB2A|TBB2B|TBB3|TBB4A|TBB4B|TBB6|TBB8,P07437|Q9H4B7|Q13885|Q9BVA1|Q13509|P04350|P68371|Q9BUF5|Q3ZCM7,1,confirmed,core,Other proteins,,,Tubulin beta,MOESM2:584
+TGT-o14746-1,Telomerase reverse transcriptase,TERT,O14746,1,confirmed,core,Other proteins,,,Telomerase reverse transcriptase,MOESM2:585
+TGT-p02787-1,Serotransferrin,TF,P02787,1,confirmed,core,Other proteins,,,Serotransferrin,MOESM2:586
+TGT-p02786-1,Transferrin receptor protein 1,TFRC,P02786,1,confirmed,core,Other proteins,,,Transferrin receptor protein 1,MOESM2:587
+TGT-p02766-1,Transthyretin,TTR,P02766,1,confirmed,core,Other proteins,,,Transthyretin,MOESM2:588
+TGT-o14980-1,Exportin-1,XPO1,O14980,1,confirmed,core,Other proteins,,,Exportin-1,MOESM2:590
+TGT-q09428-1,ATP-binding cassette sub-family C member 8,ABCC8,Q09428,1,confirmed,core,Transporters,,,ATP-binding cassette sub-family C member 8,MOESM2:591
+TGT-p20648-1,Potassium-transporting ATPase alpha chain 1,ATP4A,P20648,1,confirmed,core,Transporters,,,Potassium-transporting ATPase alpha chain 1,MOESM2:592
+TGT-p51164-1,Potassium-transporting ATPase subunit beta,ATP4B,P51164,1,confirmed,core,Transporters,,,Potassium-transporting ATPase subunit beta,MOESM2:593
+TGT-q9uhc9-1,Niemann-Pick C1-like protein 1,NPC1L1,Q9UHC9,1,confirmed,core,Transporters,,,Niemann-Pick C1-like protein 1,MOESM2:594
+TGT-q14973-1,Sodium/bile acid cotransporter,SLC10A1,Q14973,1,confirmed,core,Transporters,,,Sodium/bile acid cotransporter,MOESM2:595
+TGT-q12908-1,Ileal sodium/bile acid cotransporter,SLC10A2,Q12908,1,confirmed,core,Transporters,,,Ileal sodium/bile acid cotransporter,MOESM2:596
+TGT-q13621-1,Solute carrier family 12 member 1,SLC12A1,Q13621,1,confirmed,core,Transporters,,,Solute carrier family 12 member 1,MOESM2:597
+TGT-p55017-1,Solute carrier family 12 member 3,SLC12A3,P55017,1,confirmed,core,Transporters,,,Solute carrier family 12 member 3,MOESM2:598
+TGT-q05940-1,Synaptic vesicular amine transporter,SLC18A2,Q05940,1,confirmed,core,Transporters,,,Synaptic vesicular amine transporter,MOESM2:599
+TGT-q9nsa0-1,Solute carrier family 22 member 11,SLC22A11,Q9NSA0,1,confirmed,core,Transporters,,,Solute carrier family 22 member 11,MOESM2:600
+TGT-q96s37-1,Solute carrier family 22 member 12,SLC22A12,Q96S37,1,confirmed,core,Transporters,,,Solute carrier family 22 member 12,MOESM2:601
+TGT-q4u2r8-1,Solute carrier family 22 member 6,SLC22A6,Q4U2R8,1,confirmed,core,Transporters,,,Solute carrier family 22 member 6,MOESM2:602
+TGT-q8tcc7-1,Solute carrier family 22 member 8,SLC22A8,Q8TCC7,1,confirmed,core,Transporters,,,Solute carrier family 22 member 8,MOESM2:603
+TGT-q99808-1,Equilibrative nucleoside transporter 1,SLC29A1,Q99808,1,confirmed,core,Transporters,,,Equilibrative nucleoside transporter 1,MOESM2:604
+TGT-p13866-1,Sodium/glucose cotransporter 1,SLC5A1,P13866,1,confirmed,core,Transporters,,,Sodium/glucose cotransporter 1,MOESM2:605
+TGT-p31639-1,Sodium/glucose cotransporter 2,SLC5A2,P31639,1,confirmed,core,Transporters,,,Sodium/glucose cotransporter 2,MOESM2:606
+TGT-p30531-1,Sodium- and chloride-dependent GABA transporter 1,SLC6A1,P30531,1,confirmed,core,Transporters,,,Sodium- and chloride-dependent GABA transporter 1,MOESM2:607
+TGT-p23975-1,Sodium-dependent noradrenaline transporter,SLC6A2,P23975,1,confirmed,core,Transporters,,,Sodium-dependent noradrenaline transporter,MOESM2:608
+TGT-q01959-1,Sodium-dependent dopamine transporter,SLC6A3,Q01959,1,confirmed,core,Transporters,,,Sodium-dependent dopamine transporter,MOESM2:609
+TGT-p31645-1,Sodium-dependent serotonin transporter,SLC6A4,P31645,1,confirmed,core,Transporters,,,Sodium-dependent serotonin transporter,MOESM2:610
+TGT-q01650-1,Large neutral amino acids transporter small subunit 1,SLC7A5,Q01650,1,confirmed,core,Transporters,,,Large neutral amino acids transporter small subunit 1,MOESM2:611
+TGT-p48764-1,Sodium/hydrogen exchanger 3,SLC9A3,P48764,1,confirmed,core,Transporters,,,Sodium/hydrogen exchanger 3,MOESM2:612
+TGT-q7l0j3-1,Synaptic vesicle glycoprotein 2A,SV2A,Q7L0J3,1,confirmed,core,Transporters,,,Synaptic vesicle glycoprotein 2A,MOESM2:613
+TGT-p26441-1,Ciliary neurotrophic factor,CNTF,P26441,1,confirmed,cgt_only,Endogenous peptides,,,Ciliary neurotrophic factor,MOESM2:614
+TGT-p04141-1,Granulocyte-macrophage colony-stimulating factor,CSF2,P04141,1,confirmed,cgt_only,Endogenous peptides,,,Granulocyte-macrophage colony-stimulating factor,MOESM2:615
+TGT-p01563-1,Interferon alpha-2,IFNA2,P01563,1,confirmed,cgt_only,Endogenous peptides,,,Interferon alpha-2,MOESM2:616
+TGT-p15309-1,Prostatic acid phosphatase,ACPP,P15309,1,confirmed,cgt_only,Enzymes,,,Prostatic acid phosphatase,MOESM2:617
+TGT-p15289-1,Arylsulfatase A,ARSA,P15289,1,confirmed,cgt_only,Enzymes,,,Arylsulfatase A,MOESM2:618
+TGT-q16518-1,Retinoid isomerohydrolase,RPE65,Q16518,1,confirmed,cgt_only,Enzymes,,,Retinoid isomerohydrolase,MOESM2:619
+TGT-q9h165-1,BCL11 transcription factor A,BCL11A,Q9H165,1,confirmed,cgt_only,Other proteins,,,BCL11 transcription factor A,MOESM2:620
+TGT-q02388-1,Collagen alpha-1(VII) chain,COL7A1,Q02388,1,confirmed,cgt_only,Receptors,,,Collagen alpha-1(VII) chain,MOESM2:621
+TGT-p00451-1,Coagulation factor VIII,F8,P00451,1,confirmed,cgt_only,Enzymes,,,Coagulation factor VIII,MOESM2:622
+TGT-p68871-1,Hemoglobin subunit beta,HBB,P68871,1,confirmed,cgt_only,Other proteins,,,Hemoglobin subunit beta,MOESM2:623
+TGT-p43358-1,Melanoma-associated antigen 4,MAGEA4,P43358,1,confirmed,cgt_only,Other proteins,,,Melanoma-associated antigen 4,MOESM2:624
+TGT-q9hc10-1,Otoferlin,OTOF,Q9HC10,1,confirmed,cgt_only,Transporters,,,Otoferlin,MOESM2:625
+TGT-p42768-1,Wiskott-Aldrich syndrome protein,WAS,P42768,1,confirmed,cgt_only,Other proteins,,,Wiskott-Aldrich syndrome protein,MOESM2:626
+TGT-p33897-1,ATP-binding cassette sub-family D member 1,ABCD1,P33897,1,confirmed,cgt_only,Transporters,,,ATP-binding cassette sub-family D member 1,MOESM2:627
+TGT-alanine-racemase-2-moesm3-2,Alanine racemase,,,2,generalized_pathogen,core,Enzymes,,,Alanine racemase,MOESM3:2
+TGT-atp-synthase-2-moesm3-3,ATP synthase,,,2,generalized_pathogen,core,Enzymes,,,ATP synthase,MOESM3:3
+TGT-beta-lactamase-2-moesm3-4,Beta-lactamase,,,2,generalized_pathogen,core,Enzymes,,,Beta-lactamase,MOESM3:4
+TGT-beta-lactamase-oxa-1-2-moesm3-5,Beta-lactamase OXA-1,,,2,generalized_pathogen,core,Enzymes,,,Beta-lactamase OXA-1,MOESM3:5
+TGT-beta-lactamase-tem-2-moesm3-6,Beta-lactamase TEM,,,2,generalized_pathogen,core,Enzymes,,,Beta-lactamase TEM,MOESM3:6
+TGT-d-alanine-d-alanine-ligase-2-moesm3-7,D-alanine--D-alanine ligase,,,2,generalized_pathogen,core,Enzymes,,,D-alanine--D-alanine ligase,MOESM3:7
+TGT-d-alanyl-d-alanine-carboxypeptidase-daca-2-moesm3-8,D-alanyl-D-alanine carboxypeptidase DacA,,,2,generalized_pathogen,core,Enzymes,,,D-alanyl-D-alanine carboxypeptidase DacA,MOESM3:8
+TGT-d-alanyl-d-alanine-carboxypeptidase-dacb-2-moesm3-9,D-alanyl-D-alanine carboxypeptidase DacB,,,2,generalized_pathogen,core,Enzymes,,,D-alanyl-D-alanine carboxypeptidase DacB,MOESM3:9
+TGT-d-alanyl-d-alanine-carboxypeptidase-dacc-2-moesm3-10,D-alanyl-D-alanine carboxypeptidase DacC,,,2,generalized_pathogen,core,Enzymes,,,D-alanyl-D-alanine carboxypeptidase DacC,MOESM3:10
+TGT-dihydropteroate-synthase-2-moesm3-11,Dihydropteroate synthase,,,2,generalized_pathogen,core,Enzymes,,,Dihydropteroate synthase,MOESM3:11
+TGT-dna-gyrase-subunit-a-2-moesm3-12,DNA gyrase subunit A,,,2,generalized_pathogen,core,Enzymes,,,DNA gyrase subunit A,MOESM3:12
+TGT-dna-gyrase-subunit-b-2-moesm3-13,DNA gyrase subunit B,,,2,generalized_pathogen,core,Enzymes,,,DNA gyrase subunit B,MOESM3:13
+TGT-dna-topoisomerase-4-subunit-a-2-moesm3-14,DNA topoisomerase 4 subunit A,,,2,generalized_pathogen,core,Enzymes,,,DNA topoisomerase 4 subunit A,MOESM3:14
+TGT-dna-topoisomerase-4-subunit-b-2-moesm3-15,DNA topoisomerase 4 subunit B,,,2,generalized_pathogen,core,Enzymes,,,DNA topoisomerase 4 subunit B,MOESM3:15
+TGT-dna-directed-rna-polymerase-subunit-alpha-2-moesm3-16,DNA-directed RNA polymerase subunit alpha,,,2,generalized_pathogen,core,Enzymes,,,DNA-directed RNA polymerase subunit alpha,MOESM3:16
+TGT-dna-directed-rna-polymerase-subunit-beta-2-moesm3-17,DNA-directed RNA polymerase subunit beta,,,2,generalized_pathogen,core,Enzymes,,,DNA-directed RNA polymerase subunit beta,MOESM3:17
+TGT-dna-directed-rna-polymerase-subunit-beta-2-moesm3-18,DNA-directed RNA polymerase subunit beta',,,2,generalized_pathogen,core,Enzymes,,,DNA-directed RNA polymerase subunit beta',MOESM3:18
+TGT-dna-directed-rna-polymerase-subunit-omega-2-moesm3-19,DNA-directed RNA polymerase subunit omega,,,2,generalized_pathogen,core,Enzymes,,,DNA-directed RNA polymerase subunit omega,MOESM3:19
+TGT-enoyl-acyl-carrier-protein-reductase-nadh-2-moesm3-20,Enoyl-[acyl-carrier-protein] reductase [NADH],,,2,generalized_pathogen,core,Enzymes,,,Enoyl-[acyl-carrier-protein] reductase [NADH],MOESM3:20
+TGT-isoleucine-trna-ligase-2-moesm3-21,Isoleucine--tRNA ligase,,,2,generalized_pathogen,core,Enzymes,,,Isoleucine--tRNA ligase,MOESM3:21
+TGT-penicillin-binding-protein-1a-2-moesm3-22,Penicillin-binding protein 1A,,,2,generalized_pathogen,core,Enzymes,,,Penicillin-binding protein 1A,MOESM3:22
+TGT-penicillin-binding-protein-1b-2-moesm3-23,Penicillin-binding protein 1B,,,2,generalized_pathogen,core,Enzymes,,,Penicillin-binding protein 1B,MOESM3:23
+TGT-penicillin-binding-protein-2b-2-moesm3-24,Penicillin-binding protein 2B,,,2,generalized_pathogen,core,Enzymes,,,Penicillin-binding protein 2B,MOESM3:24
+TGT-peptidoglycan-d-d-transpeptidase-ftsi-2-moesm3-25,"Peptidoglycan D,D-transpeptidase FtsI",,,2,generalized_pathogen,core,Enzymes,,,"Peptidoglycan D,D-transpeptidase FtsI",MOESM3:25
+TGT-peptidoglycan-d-d-transpeptidase-mrda-2-moesm3-26,"Peptidoglycan D,D-transpeptidase MrdA",,,2,generalized_pathogen,core,Enzymes,,,"Peptidoglycan D,D-transpeptidase MrdA",MOESM3:26
+TGT-probable-arabinosyltransferase-a-2-moesm3-27,Probable arabinosyltransferase A,,,2,generalized_pathogen,core,Enzymes,,,Probable arabinosyltransferase A,MOESM3:27
+TGT-probable-fatty-acid-synthase-fas-fatty-acid-synthetase-2-moesm3-28,Probable fatty acid synthase Fas (Fatty acid synthetase),,,2,generalized_pathogen,core,Enzymes,,,Probable fatty acid synthase Fas (Fatty acid synthetase),MOESM3:28
+TGT-protective-antigen-2-moesm3-29,Protective antigen,,,2,generalized_pathogen,core,Other proteins,,,Protective antigen,MOESM3:29
+TGT-topoisomerase-iv-a-2-moesm3-30,Topoisomerase IV A,,,2,generalized_pathogen,core,Enzymes,,,Topoisomerase IV A,MOESM3:30
+TGT-toxin-b-2-moesm3-31,Toxin B,,,2,generalized_pathogen,core,Enzymes,,,Toxin B,MOESM3:31
+TGT-udp-n-acetylglucosamine-1-carboxyvinyltransferase-2-moesm3-32,UDP-N-acetylglucosamine 1-carboxyvinyltransferase,,,2,generalized_pathogen,core,Enzymes,,,UDP-N-acetylglucosamine 1-carboxyvinyltransferase,MOESM3:32
+TGT-beta-1-3-glucan-synthase-catalytic-subunit-1-3-moesm3-33,"Beta-1,3-glucan synthase catalytic subunit 1",,,3,generalized_pathogen,core,Enzymes,,,"Beta-1,3-glucan synthase catalytic subunit 1",MOESM3:33
+TGT-lanosterol-14-alpha-demethylase-3-moesm3-34,Lanosterol 14-alpha demethylase,,,3,generalized_pathogen,core,Enzymes,,,Lanosterol 14-alpha demethylase,MOESM3:34
+TGT-leucine-trna-ligase-3-moesm3-35,Leucine-tRNA ligase,,,3,generalized_pathogen,core,Enzymes,,,Leucine-tRNA ligase,MOESM3:35
+TGT-squalene-epoxidase-3-moesm3-36,Squalene epoxidase,,,3,generalized_pathogen,core,Enzymes,,,Squalene epoxidase,MOESM3:36
+TGT-thymidylate-synthase-3-moesm3-37,Thymidylate synthase,,,3,generalized_pathogen,core,Enzymes,,,Thymidylate synthase,MOESM3:37
+TGT-bifunctional-dihydrofolate-reductase-thymidylate-synthase-4-moesm3-38,Bifunctional dihydrofolate reductase-thymidylate synthase,,,4,generalized_pathogen,core,Enzymes,,,Bifunctional dihydrofolate reductase-thymidylate synthase,MOESM3:38
+TGT-cytochrome-b-4-moesm3-39,Cytochrome b,,,4,generalized_pathogen,core,Other proteins,,,Cytochrome b,MOESM3:39
+TGT-cytochrome-p450-4-moesm3-40,Cytochrome P450,,,4,generalized_pathogen,core,Enzymes,,,Cytochrome P450,MOESM3:40
+TGT-gaba-a-receptor-4-moesm3-41,GABA-A receptor,,,4,generalized_pathogen,core,Ion channels,,,GABA-A receptor,MOESM3:41
+TGT-glutamate-gated-chloride-channel-4-moesm3-42,Glutamate-gated chloride channel,,,4,generalized_pathogen,core,Ion channels,,,Glutamate-gated chloride channel,MOESM3:42
+TGT-high-voltage-activated-calcium-channel-beta-subunit-cavb1-4-moesm3-43,High voltage-activated calcium channel beta subunit CavB1,,,4,generalized_pathogen,core,Ion channels,,,High voltage-activated calcium channel beta subunit CavB1,MOESM3:43
+TGT-high-voltage-activated-calcium-channel-beta-subunit-cavb2-4-moesm3-44,High voltage-activated calcium channel beta subunit CavB2,,,4,generalized_pathogen,core,Ion channels,,,High voltage-activated calcium channel beta subunit CavB2,MOESM3:44
+TGT-nicotinic-acetylcholine-receptor-4-moesm3-45,Nicotinic acetylcholine receptor,,,4,generalized_pathogen,core,Ion channels,,,Nicotinic acetylcholine receptor,MOESM3:45
+TGT-ornithine-decarboxylase-4-moesm3-46,Ornithine decarboxylase,,,4,generalized_pathogen,core,Enzymes,,,Ornithine decarboxylase,MOESM3:46
+TGT-pyruvate-ferredoxin-oxidoreductase-4-moesm3-47,Pyruvate:ferredoxin oxidoreductase,,,4,generalized_pathogen,core,Enzymes,,,Pyruvate:ferredoxin oxidoreductase,MOESM3:47
+TGT-sodium-channel-protein-4-moesm3-48,Sodium channel protein,,,4,generalized_pathogen,core,Ion channels,,,Sodium channel protein,MOESM3:48
+TGT-tubulin-4-moesm3-49,Tubulin,,,4,generalized_pathogen,core,Other proteins,,,Tubulin,MOESM3:49
+TGT-dihydrofolate-reductase-7-8-dihydro-6-hydroxymethylpterin-pyrophosphokinase-dihydropteroate-synthase-dihydropteroate-synthetase-5-moesm3-50,"Dihydrofolate reductase|7,8-dihydro-6-hydroxymethylpterin pyrophosphokinase-dihydropteroate synthase; Dihydropteroate synthetase",,,5,generalized_pathogen,core,Enzymes,,,"Dihydrofolate reductase|7,8-dihydro-6-hydroxymethylpterin pyrophosphokinase-dihydropteroate synthase; Dihydropteroate synthetase",MOESM3:50
+TGT-dna-polymerase-catalytic-subunit-6-moesm3-51,DNA polymerase catalytic subunit,,,6,generalized_pathogen,core,Enzymes,,,DNA polymerase catalytic subunit,MOESM3:51
+TGT-dna-polymerase-catalytic-subunit-dna-polymerase-ul30-6-moesm3-52,DNA polymerase catalytic subunit|DNA polymerase UL30,,,6,generalized_pathogen,core,Enzymes,,,DNA polymerase catalytic subunit|DNA polymerase UL30,MOESM3:52
+TGT-dna-terminase-complex-6-moesm3-53,DNA terminase complex,,,6,generalized_pathogen,core,Enzymes,,,DNA terminase complex,MOESM3:53
+TGT-envelope-glycoprotein-ebov-6-moesm3-54,Envelope glycoprotein EBOV,,,6,generalized_pathogen,core,Other proteins,,,Envelope glycoprotein EBOV,MOESM3:54
+TGT-envelope-glycoprotein-gp120-hhv1-6-moesm3-55,Envelope glycoprotein gp120 HHV1,,,6,generalized_pathogen,core,Other proteins,,,Envelope glycoprotein gp120 HHV1,MOESM3:55
+TGT-envelope-glycoprotein-hhv11-6-moesm3-56,Envelope glycoprotein HHV11,,,6,generalized_pathogen,core,Other proteins,,,Envelope glycoprotein HHV11,MOESM3:56
+TGT-envelope-protein-f13-vv-6-moesm3-57,Envelope protein F13 VV,,,6,generalized_pathogen,core,Other proteins,,,Envelope protein F13 VV,MOESM3:57
+TGT-fusion-glycoprotein-f0-6-moesm3-58,Fusion glycoprotein F0,,,6,generalized_pathogen,core,Other proteins,,,Fusion glycoprotein F0,MOESM3:58
+TGT-gag-polyprotein-6-moesm3-59,Gag polyprotein,,,6,generalized_pathogen,core,Other proteins,,,Gag polyprotein,MOESM3:59
+TGT-genome-polyprotein-6-moesm3-60,Genome polyprotein,,,6,generalized_pathogen,core,Unresolved,,,Genome polyprotein,MOESM3:60
+TGT-genome-polyprotein-ns5b-protein-6-moesm3-61,Genome polyprotein|NS5B protein,,,6,generalized_pathogen,core,Unresolved,,,Genome polyprotein|NS5B protein,MOESM3:61
+TGT-hepatitis-c-virus-serine-protease-ns3-ns4a-genome-polyprotein-6-moesm3-62,"Hepatitis C virus serine protease, NS3/NS4A|Genome polyprotein",,,6,generalized_pathogen,core,Enzymes,,,"Hepatitis C virus serine protease, NS3/NS4A|Genome polyprotein",MOESM3:62
+TGT-immediate-early-protein-ie1-mrna-6-moesm3-63,Immediate early protein IE1 mRNA,,,6,generalized_pathogen,core,Unresolved,,,Immediate early protein IE1 mRNA,MOESM3:63
+TGT-integrase-6-moesm3-64,Integrase,,,6,generalized_pathogen,core,Enzymes,,,Integrase,MOESM3:64
+TGT-matrix-protein-2-6-moesm3-65,Matrix protein 2,,,6,generalized_pathogen,core,Ion channels,,,Matrix protein 2,MOESM3:65
+TGT-neuraminidase-6-moesm3-66,Neuraminidase,,,6,generalized_pathogen,core,Enzymes,,,Neuraminidase,MOESM3:66
+TGT-pol-polyprotein-6-moesm3-67,Pol polyprotein,,,6,generalized_pathogen,core,Unresolved,,,Pol polyprotein,MOESM3:67
+TGT-polymerase-acidic-protein-6-moesm3-68,Polymerase acidic protein,,,6,generalized_pathogen,core,Enzymes,,,Polymerase acidic protein,MOESM3:68
+TGT-protein-p-6-moesm3-69,Protein P,,,6,generalized_pathogen,core,Enzymes,,,Protein P,MOESM3:69
+TGT-replicase-polyprotein-1ab-6-moesm3-70,Replicase polyprotein 1ab,,,6,generalized_pathogen,core,Unresolved,,,Replicase polyprotein 1ab,MOESM3:70
+TGT-replicase-polyprotein-1ab-6-moesm3-71,Replicase polyprotein 1ab,,,6,generalized_pathogen,core,Unresolved,,,Replicase polyprotein 1ab,MOESM3:71
+TGT-reverse-transcriptase-rnaseh-protein-p-6-moesm3-72,Reverse transcriptase/RNaseH|Protein P,,,6,generalized_pathogen,core,Enzymes,,,Reverse transcriptase/RNaseH|Protein P,MOESM3:72
+TGT-serine-threonine-protein-kinase-ul97-6-moesm3-73,Serine/threonine protein kinase UL97,,,6,generalized_pathogen,core,Enzymes,,,Serine/threonine protein kinase UL97,MOESM3:73
+TGT-spike-glycoprotein-6-moesm3-74,Spike glycoprotein,,,6,generalized_pathogen,core,Other proteins,,,Spike glycoprotein,MOESM3:74
+TGT-spike-glycoprotein-6-moesm3-75,Spike glycoprotein,,,6,generalized_pathogen,core,Other proteins,,,Spike glycoprotein,MOESM3:75
+TGT-thymidine-kinase-6-moesm3-76,Thymidine kinase,,,6,generalized_pathogen,core,Enzymes,,,Thymidine kinase,MOESM3:76
+TGT-transmembrane-glycoprotein-gp41-6-moesm3-77,Transmembrane glycoprotein gp41,,,6,generalized_pathogen,core,Other proteins,,,Transmembrane glycoprotein gp41,MOESM3:77
+TGT-reverse-transcriptase-rnaseh-1-moesm4,Reverse transcriptase/RNaseH,,,1,unclear,unresolved,Enzymes,,,Reverse transcriptase/RNaseH,MOESM4
+TGT-voltage-gated-potassium-channel-1-moesm4,Voltage-gated potassium channel,,,1,unclear,unresolved,Ion channels,,,Voltage-gated potassium channel,MOESM4
+TGT-camp-specific-3-5-cyclic-phosphodiesterase-4a-1-moesm4,"cAMP-specific 3',5'-cyclic phosphodiesterase 4A",,,1,unclear,unresolved,Enzymes,,,"cAMP-specific 3',5'-cyclic phosphodiesterase 4A",MOESM4
+TGT-camp-specific-3-5-cyclic-phosphodiesterase-4b-1-moesm4,"cAMP-specific 3',5'-cyclic phosphodiesterase 4B",,,1,unclear,unresolved,Enzymes,,,"cAMP-specific 3',5'-cyclic phosphodiesterase 4B",MOESM4
+TGT-camp-specific-3-5-cyclic-phosphodiesterase-4c-1-moesm4,"cAMP-specific 3',5'-cyclic phosphodiesterase 4C",,,1,unclear,unresolved,Enzymes,,,"cAMP-specific 3',5'-cyclic phosphodiesterase 4C",MOESM4
+TGT-camp-specific-3-5-cyclic-phosphodiesterase-4d-1-moesm4,"cAMP-specific 3',5'-cyclic phosphodiesterase 4D",,,1,unclear,unresolved,Enzymes,,,"cAMP-specific 3',5'-cyclic phosphodiesterase 4D",MOESM4
+TGT-hepatitis-c-virus-serine-protease-ns3-ns4a-1-moesm4,"Hepatitis C virus serine protease, NS3/NS4A",,,1,unclear,unresolved,Enzymes,,,"Hepatitis C virus serine protease, NS3/NS4A",MOESM4
+TGT-ns5b-protein-1-moesm4,NS5B protein,,,1,unclear,unresolved,Enzymes,,,NS5B protein,MOESM4
+TGT-l-type-amino-acid-transporter-1-1-moesm4,L-type amino acid transporter 1,,,1,unclear,unresolved,Transporters,,,L-type amino acid transporter 1,MOESM4
+TGT-cgmp-inhibited-3-5-cyclic-phosphodiesterase-a-1-moesm4,"cGMP-inhibited 3',5'-cyclic phosphodiesterase A",,,1,unclear,unresolved,Enzymes,,,"cGMP-inhibited 3',5'-cyclic phosphodiesterase A",MOESM4
+TGT-cgmp-inhibited-3-5-cyclic-phosphodiesterase-b-1-moesm4,"cGMP-inhibited 3',5'-cyclic phosphodiesterase B",,,1,unclear,unresolved,Enzymes,,,"cGMP-inhibited 3',5'-cyclic phosphodiesterase B",MOESM4
+TGT-cytokine-receptor-common-subunit-gamma-1-moesm4,Cytokine receptor common subunit gamma,,,1,unclear,unresolved,Receptors,,,Cytokine receptor common subunit gamma,MOESM4
+TGT-integrin-alpha-iib-beta-3-1-moesm4,Integrin alpha-IIb/beta-3,,,1,unclear,unresolved,Receptors,,,Integrin alpha-IIb/beta-3,MOESM4
+TGT-sulfonylurea-receptor-1-kir6-2-1-moesm4,"Sulfonylurea receptor 1, Kir6.2",,,1,unclear,unresolved,Ion channels,,,"Sulfonylurea receptor 1, Kir6.2",MOESM4
+TGT-sodium-potassium-transporting-atpase-1-moesm4,Sodium/potassium-transporting ATPase,,,1,unclear,unresolved,Transporters,,,Sodium/potassium-transporting ATPase,MOESM4
+TGT-dna-polymerase-ul30-1-moesm4,DNA polymerase UL30,,,1,unclear,unresolved,Enzymes,,,DNA polymerase UL30,MOESM4
+TGT-interleukin-2-receptor-1-moesm4,Interleukin-2 receptor,,,1,unclear,unresolved,Receptors,,,Interleukin-2 receptor,MOESM4
+TGT-gaba-a-receptor-alpha-1-beta-2-gamma-2-1-moesm4,GABA-A receptor alpha-1/beta-2/gamma-2,,,1,unclear,unresolved,Ion channels,,,GABA-A receptor alpha-1/beta-2/gamma-2,MOESM4
+TGT-gaba-a-receptor-alpha-2-beta-3-gamma-2-1-moesm4,GABA-A receptor alpha-2/beta-3/gamma-2,,,1,unclear,unresolved,Ion channels,,,GABA-A receptor alpha-2/beta-3/gamma-2,MOESM4
+TGT-gaba-a-receptor-alpha-3-beta-3-gamma-2-1-moesm4,GABA-A receptor alpha-3/beta-3/gamma-2,,,1,unclear,unresolved,Ion channels,,,GABA-A receptor alpha-3/beta-3/gamma-2,MOESM4
+TGT-gaba-a-receptor-alpha-5-beta-3-gamma-2-1-moesm4,GABA-A receptor alpha-5/beta-3/gamma-2,,,1,unclear,unresolved,Ion channels,,,GABA-A receptor alpha-5/beta-3/gamma-2,MOESM4
+TGT-cyclooxygenase-1-moesm4,Cyclooxygenase,,,1,unclear,unresolved,Enzymes,,,Cyclooxygenase,MOESM4
+TGT-acetylcholine-receptor-1-moesm4,Acetylcholine receptor,,,1,unclear,unresolved,Unresolved,,,Acetylcholine receptor,MOESM4
+TGT-gaba-b-receptor-1-moesm4,GABA-B receptor,,,1,unclear,unresolved,GPCRs,,,GABA-B receptor,MOESM4
+TGT-gaba-a-receptor-alpha-1-beta-3-gamma-2-1-moesm4,GABA-A receptor alpha-1/beta-3/gamma-2,,,1,unclear,unresolved,Ion channels,,,GABA-A receptor alpha-1/beta-3/gamma-2,MOESM4
+TGT-phosphodiesterase-4-1-moesm4,Phosphodiesterase 4,,,1,unclear,unresolved,Enzymes,,,Phosphodiesterase 4,MOESM4
+TGT-phosphodiesterase-3-1-moesm4,Phosphodiesterase 3,,,1,unclear,unresolved,Enzymes,,,Phosphodiesterase 3,MOESM4
+TGT-adrenergic-receptor-alpha-2-1-moesm4,Adrenergic receptor alpha-2,,,1,unclear,unresolved,GPCRs,,,Adrenergic receptor alpha-2,MOESM4
+TGT-dna-polymerase-alpha-delta-epsilon-1-moesm4,DNA polymerase (alpha/delta/epsilon),,,1,unclear,unresolved,Enzymes,,,DNA polymerase (alpha/delta/epsilon),MOESM4
+TGT-muscle-type-nicotinic-acetylcholine-receptor-1-moesm4,Muscle-type nicotinic acetylcholine receptor,,,1,unclear,unresolved,Ion channels,,,Muscle-type nicotinic acetylcholine receptor,MOESM4
+TGT-glycine-receptor-alpha-1-beta-1-moesm4,Glycine receptor (alpha-1/beta),,,1,unclear,unresolved,Ion channels,,,Glycine receptor (alpha-1/beta),MOESM4
+TGT-thyroid-hormone-receptor-1-moesm4,Thyroid hormone receptor,,,1,unclear,unresolved,Nuclear hormone receptors,,,Thyroid hormone receptor,MOESM4
+TGT-gaba-a-receptor-alpha-1-beta-2-gamma-3-1-moesm4,GABA-A receptor alpha-1/beta-2/gamma-3,,,1,unclear,unresolved,Ion channels,,,GABA-A receptor alpha-1/beta-2/gamma-3,MOESM4
+TGT-gaba-a-receptor-alpha-3-beta-2-gamma-2-1-moesm4,GABA A receptor alpha-3/beta-2/gamma-2,,,1,unclear,unresolved,Ion channels,,,GABA A receptor alpha-3/beta-2/gamma-2,MOESM4
+TGT-gaba-a-receptor-alpha-5-beta-2-gamma-2-1-moesm4,GABA A receptor alpha-5/beta-2/gamma-2,,,1,unclear,unresolved,Ion channels,,,GABA A receptor alpha-5/beta-2/gamma-2,MOESM4
+TGT-gaba-a-receptor-alpha-5-beta-3-gamma-3-1-moesm4,GABA A receptor alpha-5/beta-3/gamma-3,,,1,unclear,unresolved,Ion channels,,,GABA A receptor alpha-5/beta-3/gamma-3,MOESM4
+TGT-gaba-a-receptor-alpha-5-beta-2-gamma-3-1-moesm4,GABA A receptor alpha-5/beta-2/gamma-3,,,1,unclear,unresolved,Ion channels,,,GABA A receptor alpha-5/beta-2/gamma-3,MOESM4
+TGT-gaba-a-receptor-alpha-3-beta-2-gamma-3-1-moesm4,GABA A receptor alpha-3/beta-2/gamma-3,,,1,unclear,unresolved,Ion channels,,,GABA A receptor alpha-3/beta-2/gamma-3,MOESM4
+TGT-phosphodiesterase-6-1-moesm4,Phosphodiesterase 6,,,1,unclear,unresolved,Enzymes,,,Phosphodiesterase 6,MOESM4
+TGT-phosphodiesterase-1-1-moesm4,Phosphodiesterase 1,,,1,unclear,unresolved,Enzymes,,,Phosphodiesterase 1,MOESM4
+TGT-phosphodiesterase-7-1-moesm4,Phosphodiesterase 7,,,1,unclear,unresolved,Enzymes,,,Phosphodiesterase 7,MOESM4
+TGT-phosphodiesterase-8-1-moesm4,Phosphodiesterase 8,,,1,unclear,unresolved,Enzymes,,,Phosphodiesterase 8,MOESM4
+TGT-gaba-a-receptor-alpha-6-beta-3-gamma-2-1-moesm4,GABA-A receptor alpha-6/beta-3/gamma-2,,,1,unclear,unresolved,Ion channels,,,GABA-A receptor alpha-6/beta-3/gamma-2,MOESM4
+TGT-soluble-guanylate-cyclase-1-moesm4,Soluble guanylate cyclase,,,1,unclear,unresolved,Enzymes,,,Soluble guanylate cyclase,MOESM4
+TGT-interferon-alpha-beta-receptor-1-moesm4,Interferon alpha/beta receptor,,,1,unclear,unresolved,Receptors,,,Interferon alpha/beta receptor,MOESM4
+TGT-glutamate-receptor-ionotropic-ampa-1-moesm4,Glutamate receptor ionotropic AMPA,,,1,unclear,unresolved,Ion channels,,,Glutamate receptor ionotropic AMPA,MOESM4
+TGT-neuronal-acetylcholine-receptor-1-moesm4,Neuronal acetylcholine receptor,,,1,unclear,unresolved,Ion channels,,,Neuronal acetylcholine receptor,MOESM4
+TGT-alpha3-beta4-1-moesm4,alpha3/beta4,,,1,unclear,unresolved,Ion channels,,,alpha3/beta4,MOESM4
+TGT-muscarinic-acetylcholine-receptor-1-moesm4,Muscarinic acetylcholine receptor,,,1,unclear,unresolved,GPCRs,,,Muscarinic acetylcholine receptor,MOESM4
+TGT-t-cell-surface-glycoprotein-cd3-1-moesm4,T-cell surface glycoprotein CD3,,,1,unclear,unresolved,Receptors,,,T-cell surface glycoprotein CD3,MOESM4
+TGT-voltage-gated-l-type-calcium-channel-1-moesm4,Voltage-gated L-type calcium channel,,,1,unclear,unresolved,Ion channels,,,Voltage-gated L-type calcium channel,MOESM4
+TGT-alpha4-beta2-1-moesm4,alpha4/beta2,,,1,unclear,unresolved,Ion channels,,,alpha4/beta2,MOESM4
+TGT-potassium-transporting-atpase-1-moesm4,Potassium-transporting ATPase,,,1,unclear,unresolved,Transporters,,,Potassium-transporting ATPase,MOESM4
+TGT-sodium-channel-alpha-subunits-1-moesm4,Sodium channel alpha subunits,,,1,unclear,unresolved,Ion channels,,,Sodium channel alpha subunits,MOESM4
+TGT-brain-types-i-ii-iii-1-moesm4,"brain (Types I, II, III)",,,1,unclear,unresolved,Ion channels,,,"brain (Types I, II, III)",MOESM4
+TGT-gaba-a-receptor-alpha-2-beta-2-gamma-2-1-moesm4,GABA A receptor alpha-2/beta-2/gamma-2,,,1,unclear,unresolved,Ion channels,,,GABA A receptor alpha-2/beta-2/gamma-2,MOESM4
+TGT-gaba-a-receptor-alpha-1-beta-1-gamma-2-1-moesm4,GABA A receptor alpha-1/beta-1/gamma-2,,,1,unclear,unresolved,Ion channels,,,GABA A receptor alpha-1/beta-1/gamma-2,MOESM4
+TGT-gaba-a-receptor-alpha-3-beta-1-gamma-2-1-moesm4,GABA A receptor alpha-3/beta-1/gamma-2,,,1,unclear,unresolved,Ion channels,,,GABA A receptor alpha-3/beta-1/gamma-2,MOESM4
+TGT-gaba-a-receptor-alpha-2-beta-1-gamma-2-1-moesm4,GABA A receptor alpha-2/beta-1/gamma-2,,,1,unclear,unresolved,Ion channels,,,GABA A receptor alpha-2/beta-1/gamma-2,MOESM4
+TGT-granulocyte-macrophage-colony-stimulating-factor-receptor-1-moesm4,Granulocyte macrophage colony-stimulating factor receptor,,,1,unclear,unresolved,Receptors,,,Granulocyte macrophage colony-stimulating factor receptor,MOESM4
+TGT-7-8-dihydro-6-hydroxymethylpterin-pyrophosphokinase-dihydropteroate-synthase-1-moesm4,"7,8-dihydro-6-hydroxymethylpterin pyrophosphokinase-dihydropteroate synthase",,,1,unclear,unresolved,Enzymes,,,"7,8-dihydro-6-hydroxymethylpterin pyrophosphokinase-dihydropteroate synthase",MOESM4
+TGT-dihydropteroate-synthetase-1-moesm4,Dihydropteroate synthetase,,,1,unclear,unresolved,Enzymes,,,Dihydropteroate synthetase,MOESM4
+TGT-adrenergic-receptor-alpha-1-moesm4,Adrenergic receptor alpha,,,1,unclear,unresolved,GPCRs,,,Adrenergic receptor alpha,MOESM4
+TGT-p56817-1,Beta-secretase 1,BACE1,P56817,1,confirmed,clinical_only,Enzymes,,,,clinical pilot
+TGT-p51451-1,Bruton tyrosine kinase,BTK,P51451,1,confirmed,clinical_only,Enzymes,,,,clinical pilot
+TGT-p11597-1,Cholesteryl ester transfer protein,CETP,P11597,1,confirmed,clinical_only,Enzymes,,,,clinical pilot
+TGT-p50406-clinical,5-hydroxytryptamine receptor 6,HTR6,P50406,1,confirmed,clinical_only,GPCRs,,,,reviewed clinical pilot
+TGT-q9nq94-clinical,Glycoprotein NMB,GPNMB,Q9NQ94,1,unclear,clinical_only,Other proteins,,,,pilot review
+TGT-q13093-clinical,Platelet-activating factor acetylhydrolase,PLA2G7,Q13093,1,confirmed,clinical_only,Enzymes,,,,reviewed clinical pilot
+TGT-p14555-clinical,Phospholipase A2 group IIA,PLA2G2A,P14555,1,confirmed,clinical_only,Enzymes,,,,clinical pilot secondary target
+TGT-unknown-varespladib,Varespladib multi-sPLA2 primary target unresolved,,,1,unclear,unresolved,Unresolved,,,,clinical pilot review
+TGT-unknown-pevonedistat,Pevonedistat primary target unresolved,,,1,unclear,unresolved,Unresolved,,,,pilot review
+TGT-unknown-tarenflurbil,Tarenflurbil primary target unresolved,,,1,unclear,unresolved,Unresolved,,,,pilot review
+TGT-unknown-iniparib,Iniparib primary target unclear,,,1,unclear,unresolved,Unresolved,,,,mechanism review
+TGT-unknown-tivantinib,Tivantinib primary target unclear,,,1,unclear,unresolved,Unresolved,,,,mechanism review
+TGT-unknown-rigosertib,Rigosertib primary target unclear,,,1,unclear,unresolved,Unresolved,,,,mechanism review
+TGT-unknown-semagacestat,Semagacestat primary protein target unclear,,,1,unclear,unresolved,Unresolved,,,,mechanism review
+TGT-unknown-tanespimycin,Tanespimycin primary protein target unclear,,,1,unclear,unresolved,Unresolved,,,,mechanism review
+TGT-unknown-trebananib,Trebananib primary protein target unclear,,,1,unclear,unresolved,Unresolved,,,,mechanism review
+TGT-unknown-tideglusib,Tideglusib primary protein target unclear,,,1,unclear,unresolved,Unresolved,,,,mechanism review
+TGT-unknown-brivanib,Brivanib primary protein target unclear,,,1,unclear,unresolved,Unresolved,,,,mechanism review
+TGT-unknown-linifanib,Linifanib primary protein target unclear,,,1,unclear,unresolved,Unresolved,,,,mechanism review
+TGT-unknown-motesanib,Motesanib primary protein target unclear,,,1,unclear,unresolved,Unresolved,,,,mechanism review
+TGT-unknown-saracatinib,Saracatinib primary protein target unclear,,,1,unclear,unresolved,Unresolved,,,,mechanism review
+TGT-q9y5y4-clinical,Prostaglandin D2 receptor 2,PTGDR2,Q9Y5Y4,1,confirmed,clinical_only,GPCRs,,,,clinical pilot
+TGT-p01138-clinical,Beta-nerve growth factor,NGF,P01138,1,confirmed,clinical_only,Endogenous peptides,,,,clinical pilot
+TGT-q96fe5-clinical,Leucine-rich repeat and immunoglobulin-like domain-containing nogo receptor-interacting protein 1,LINGO1,Q96FE5,1,confirmed,clinical_only,Other proteins,,,,clinical pilot
+TGT-p37840-clinical,Alpha-synuclein,SNCA,P37840,1,confirmed,clinical_only,Other proteins,,,,clinical pilot
+TGT-p14780-clinical,Matrix metalloproteinase-9,MMP9,P14780,1,confirmed,clinical_only,Enzymes,,,,clinical pilot
+TGT-q9y4k0-clinical,Lysyl oxidase homolog 2,LOXL2,Q9Y4K0,1,confirmed,clinical_only,Enzymes,,,,clinical pilot

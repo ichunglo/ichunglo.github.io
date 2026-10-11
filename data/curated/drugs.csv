@@ -1,0 +1,1767 @@
+drug_id,generic_name,preferred_name,modality,chemical_or_biologic_id,cas_registration_year,atc_code,source_name
+DRG-momelotinib,momelotinib,momelotinib,unknown,,,L01EJ04,The evolving landscape of drug targets
+DRG-crizotinib,crizotinib,crizotinib,unknown,,,L01ED01,The evolving landscape of drug targets
+DRG-ceritinib,ceritinib,ceritinib,unknown,,,L01ED02,The evolving landscape of drug targets
+DRG-alectinib,alectinib,alectinib,unknown,,,L01ED03,The evolving landscape of drug targets
+DRG-sunitinib,sunitinib,sunitinib,unknown,,,L01EX01,The evolving landscape of drug targets
+DRG-pazopanib,pazopanib,pazopanib,unknown,,,L01EX03,The evolving landscape of drug targets
+DRG-pexidartinib,pexidartinib,pexidartinib,unknown,,,L01EX15,The evolving landscape of drug targets
+DRG-sargramostim,sargramostim,sargramostim,unknown,,,L03AA09,The evolving landscape of drug targets
+DRG-pegfilgrastim,pegfilgrastim,pegfilgrastim,unknown,,,L03AA13,The evolving landscape of drug targets
+DRG-lipegfilgrastim,lipegfilgrastim,lipegfilgrastim,unknown,,,L03AA14,The evolving landscape of drug targets
+DRG-eflapegrastim,eflapegrastim,eflapegrastim,unknown,,,L03AA19,The evolving landscape of drug targets
+DRG-gefitinib,gefitinib,gefitinib,unknown,,,L01EB01,The evolving landscape of drug targets
+DRG-cetuximab,cetuximab,cetuximab,unknown,,,L01FE01,The evolving landscape of drug targets
+DRG-erlotinib,erlotinib,erlotinib,unknown,,,L01EB02,The evolving landscape of drug targets
+DRG-dasatinib,dasatinib,dasatinib,unknown,,,L01EA02,The evolving landscape of drug targets
+DRG-epoetin-beta,epoetin beta,epoetin beta,unknown,,,,The evolving landscape of drug targets
+DRG-darbepoetin-alfa,darbepoetin alfa,darbepoetin alfa,unknown,,,B03XA02,The evolving landscape of drug targets
+DRG-methoxy-polyethylene-glycol-epoetin-beta,methoxy polyethylene glycol-epoetin beta,methoxy polyethylene glycol-epoetin beta,unknown,,,B03XA03,The evolving landscape of drug targets
+DRG-trastuzumab,trastuzumab,trastuzumab,unknown,,,L01FD01,The evolving landscape of drug targets
+DRG-lapatinib,lapatinib,lapatinib,unknown,,,L01EH01,The evolving landscape of drug targets
+DRG-pertuzumab,pertuzumab,pertuzumab,unknown,,,L01FD02,The evolving landscape of drug targets
+DRG-zenocutuzumab,zenocutuzumab,zenocutuzumab,unknown,,,,The evolving landscape of drug targets
+DRG-afatinib,afatinib,afatinib,unknown,,,L01EB03,The evolving landscape of drug targets
+DRG-neratinib,neratinib,neratinib,unknown,,,L01EH02,The evolving landscape of drug targets
+DRG-dacomitinib,dacomitinib,dacomitinib,unknown,,,L01EB07,The evolving landscape of drug targets
+DRG-nintedanib,nintedanib,nintedanib,unknown,,,L01EX09,The evolving landscape of drug targets
+DRG-lenvatinib,lenvatinib,lenvatinib,unknown,,,L01EX08,The evolving landscape of drug targets
+DRG-palifermin,palifermin,palifermin,unknown,,,V03AF08,The evolving landscape of drug targets
+DRG-erdafitinib,erdafitinib,erdafitinib,unknown,,,L01EN01,The evolving landscape of drug targets
+DRG-futibatinib,futibatinib,futibatinib,unknown,,,L01EN04,The evolving landscape of drug targets
+DRG-sorafenib,sorafenib,sorafenib,unknown,,,L01EX02,The evolving landscape of drug targets
+DRG-cabozantinib,cabozantinib,cabozantinib,unknown,,,L01EX07,The evolving landscape of drug targets
+DRG-pegvisomant,pegvisomant,pegvisomant,unknown,,,H01AX01,The evolving landscape of drug targets
+DRG-somapacitan,somapacitan,somapacitan,unknown,,,H01AC07,The evolving landscape of drug targets
+DRG-lonapegsomatropin,lonapegsomatropin,lonapegsomatropin,unknown,,,H01AC09,The evolving landscape of drug targets
+DRG-nitric-oxide,nitric oxide,nitric oxide,unknown,,,R07AX01,The evolving landscape of drug targets
+DRG-isosorbide-mononitrate,isosorbide mononitrate,isosorbide mononitrate,unknown,,,C01DA14,The evolving landscape of drug targets
+DRG-glyceryl-trinitrate,glyceryl trinitrate,glyceryl trinitrate,unknown,,,C01DA02;C01DA52;C05AE01,The evolving landscape of drug targets
+DRG-isosorbide-dinitrate,isosorbide dinitrate,isosorbide dinitrate,unknown,,,C01DA08;C01DA58;C05AE02,The evolving landscape of drug targets
+DRG-riociguat,riociguat,riociguat,unknown,,,C02KX05,The evolving landscape of drug targets
+DRG-vericiguat,vericiguat,vericiguat,unknown,,,C01DX22,The evolving landscape of drug targets
+DRG-linaclotide,linaclotide,linaclotide,unknown,,,A06AX04,The evolving landscape of drug targets
+DRG-plecanatide,plecanatide,plecanatide,unknown,,,A06AX07,The evolving landscape of drug targets
+DRG-interferon-beta-1a,interferon beta-1a,interferon beta-1a,unknown,,,L03AB07,The evolving landscape of drug targets
+DRG-peginterferon-alfa-2b,peginterferon alfa-2b,peginterferon alfa-2b,unknown,,,L03AB10,The evolving landscape of drug targets
+DRG-peginterferon-alfa-2a,peginterferon alfa-2a,peginterferon alfa-2a,unknown,,,L03AB11,The evolving landscape of drug targets
+DRG-mecasermin,mecasermin,mecasermin,unknown,,,H01AC03,The evolving landscape of drug targets
+DRG-teprotumumab,teprotumumab,teprotumumab,unknown,,,L04AA53,The evolving landscape of drug targets
+DRG-oprelvekin,oprelvekin,oprelvekin,unknown,,,L03AC02,The evolving landscape of drug targets
+DRG-brodalumab,brodalumab,brodalumab,unknown,,,L04AC12,The evolving landscape of drug targets
+DRG-anakinra,anakinra,anakinra,unknown,,,L04AC03,The evolving landscape of drug targets
+DRG-spesolimab,spesolimab,spesolimab,unknown,,,L04AC22,The evolving landscape of drug targets
+DRG-daclizumab,daclizumab,daclizumab,unknown,,,L04AC01,The evolving landscape of drug targets
+DRG-basiliximab,basiliximab,basiliximab,unknown,,,L04AC02,The evolving landscape of drug targets
+DRG-denileukin-diftitox,denileukin diftitox,denileukin diftitox,unknown,,,L01XX29,The evolving landscape of drug targets
+DRG-nogapendekin-alfa-inbakicept,nogapendekin alfa inbakicept,nogapendekin alfa inbakicept,unknown,,,,The evolving landscape of drug targets
+DRG-nemolizumab,nemolizumab,nemolizumab,unknown,,,D11AH12,The evolving landscape of drug targets
+DRG-tagraxofusp,tagraxofusp,tagraxofusp,unknown,,,L01XX67,The evolving landscape of drug targets
+DRG-dupilumab,dupilumab,dupilumab,unknown,,,D11AH05,The evolving landscape of drug targets
+DRG-benralizumab,benralizumab,benralizumab,unknown,,,R03DX10,The evolving landscape of drug targets
+DRG-tocilizumab,tocilizumab,tocilizumab,unknown,,,L04AC07,The evolving landscape of drug targets
+DRG-sarilumab,sarilumab,sarilumab,unknown,,,L04AC14,The evolving landscape of drug targets
+DRG-satralizumab,satralizumab,satralizumab,unknown,,,L04AC19,The evolving landscape of drug targets
+DRG-insulin-lispro,insulin lispro,insulin lispro,unknown,,,A10AB04,The evolving landscape of drug targets
+DRG-insulin-aspart,insulin aspart,insulin aspart,unknown,,,A10AB05,The evolving landscape of drug targets
+DRG-insulin-glargine,insulin glargine,insulin glargine,unknown,,,A10AE04,The evolving landscape of drug targets
+DRG-tirofiban,tirofiban,tirofiban,unknown,,,B01AC17,The evolving landscape of drug targets
+DRG-eptifibatide,eptifibatide,eptifibatide,unknown,,,B01AC16,The evolving landscape of drug targets
+DRG-abciximab,abciximab,abciximab,unknown,,,B01AC13,The evolving landscape of drug targets
+DRG-natalizumab,natalizumab,natalizumab,unknown,,,L04AA23,The evolving landscape of drug targets
+DRG-vedolizumab,vedolizumab,vedolizumab,unknown,,,L04AA33,The evolving landscape of drug targets
+DRG-carotegrast-methyl,carotegrast methyl,carotegrast methyl,unknown,,,,The evolving landscape of drug targets
+DRG-efalizumab,efalizumab,efalizumab,unknown,,,L04AA21,The evolving landscape of drug targets
+DRG-lifitegrast,lifitegrast,lifitegrast,unknown,,,S01XA25,The evolving landscape of drug targets
+DRG-imatinib,imatinib,imatinib,unknown,,,L01EA01,The evolving landscape of drug targets
+DRG-metreleptin,metreleptin,metreleptin,unknown,,,A16AA07,The evolving landscape of drug targets
+DRG-cipaglucosidase-alfa,cipaglucosidase alfa,cipaglucosidase alfa,unknown,,,A16AB23,The evolving landscape of drug targets
+DRG-tepotinib,tepotinib,tepotinib,unknown,,,L01EX21,The evolving landscape of drug targets
+DRG-romiplostim,romiplostim,romiplostim,unknown,,,B02BX04,The evolving landscape of drug targets
+DRG-eltrombopag,eltrombopag,eltrombopag,unknown,,,B02BX05,The evolving landscape of drug targets
+DRG-lusutrombopag,lusutrombopag,lusutrombopag,unknown,,,B02BX07,The evolving landscape of drug targets
+DRG-cenegermin,cenegermin,cenegermin,unknown,,,S01XA24,The evolving landscape of drug targets
+DRG-mifamurtide,mifamurtide,mifamurtide,unknown,,,L03AX15,The evolving landscape of drug targets
+DRG-nesiritide,nesiritide,nesiritide,unknown,,,C01DX19,The evolving landscape of drug targets
+DRG-vosoritide,vosoritide,vosoritide,unknown,,,M05BX07,The evolving landscape of drug targets
+DRG-larotrectinib,larotrectinib,larotrectinib,unknown,,,L01EX12,The evolving landscape of drug targets
+DRG-entrectinib,entrectinib,entrectinib,unknown,,,L01EX14,The evolving landscape of drug targets
+DRG-repotrectinib,repotrectinib,repotrectinib,unknown,,,,The evolving landscape of drug targets
+DRG-becaplermin,becaplermin,becaplermin,unknown,,,A01AD08,The evolving landscape of drug targets
+DRG-vandetanib,vandetanib,vandetanib,unknown,,,L01EX04,The evolving landscape of drug targets
+DRG-lorlatinib,lorlatinib,lorlatinib,unknown,,,L01ED05,The evolving landscape of drug targets
+DRG-imiquimod,imiquimod,imiquimod,unknown,,,D06BB10,The evolving landscape of drug targets
+DRG-hydroxychloroquine,hydroxychloroquine,hydroxychloroquine,unknown,,,P01BA02,The evolving landscape of drug targets
+DRG-belantamab-mafodotin,belantamab mafodotin,belantamab mafodotin,unknown,,,L01FX15,The evolving landscape of drug targets
+DRG-teclistamab,teclistamab,teclistamab,unknown,,,L01FX24,The evolving landscape of drug targets
+DRG-elranatamab,elranatamab,elranatamab,unknown,,,,The evolving landscape of drug targets
+DRG-brentuximab-vedotin,brentuximab vedotin,brentuximab vedotin,unknown,,,L01FX05,The evolving landscape of drug targets
+DRG-faricimab,faricimab,faricimab,unknown,,,S01LA09,The evolving landscape of drug targets
+DRG-evinacumab,evinacumab,evinacumab,unknown,,,C10AX17,The evolving landscape of drug targets
+DRG-aducanumab,aducanumab,aducanumab,unknown,,,N06DX03,The evolving landscape of drug targets
+DRG-lecanemab,lecanemab,lecanemab,unknown,,,N06DX04,The evolving landscape of drug targets
+DRG-donanemab,donanemab,donanemab,unknown,,,N06DX05,The evolving landscape of drug targets
+DRG-sotatercept,sotatercept,sotatercept,unknown,,,C02KX06,The evolving landscape of drug targets
+DRG-pegcetacoplan,pegcetacoplan,pegcetacoplan,unknown,,,L04AA54,The evolving landscape of drug targets
+DRG-eculizumab,eculizumab,eculizumab,unknown,,,L04AA25,The evolving landscape of drug targets
+DRG-ravulizumab,ravulizumab,ravulizumab,unknown,,,L04AA43,The evolving landscape of drug targets
+DRG-avacincaptad-pegol,avacincaptad pegol,avacincaptad pegol,unknown,,,,The evolving landscape of drug targets
+DRG-fremanezumab,fremanezumab,fremanezumab,unknown,,,N02CD03,The evolving landscape of drug targets
+DRG-galcanezumab,galcanezumab,galcanezumab,unknown,,,N02CD02,The evolving landscape of drug targets
+DRG-eptinezumab,eptinezumab,eptinezumab,unknown,,,N02CD05,The evolving landscape of drug targets
+DRG-atezolizumab,atezolizumab,atezolizumab,unknown,,,L01FF05,The evolving landscape of drug targets
+DRG-avelumab,avelumab,avelumab,unknown,,,L01FF04,The evolving landscape of drug targets
+DRG-durvalumab,durvalumab,durvalumab,unknown,,,L01FF03,The evolving landscape of drug targets
+DRG-tarlatamab,tarlatamab,tarlatamab,unknown,,,L01FX33,The evolving landscape of drug targets
+DRG-burosumab,burosumab,burosumab,unknown,,,M05BX05,The evolving landscape of drug targets
+DRG-luspatercept,luspatercept,luspatercept,unknown,,,B03XA06,The evolving landscape of drug targets
+DRG-voxelotor,voxelotor,voxelotor,unknown,,,B06AX03,The evolving landscape of drug targets
+DRG-emapalumab,emapalumab,emapalumab,unknown,,,L04AA39,The evolving landscape of drug targets
+DRG-imlifidase,imlifidase,imlifidase,unknown,,,L04AA41,The evolving landscape of drug targets
+DRG-ustekinumab,ustekinumab,ustekinumab,unknown,,,L04AC05,The evolving landscape of drug targets
+DRG-guselkumab,guselkumab,guselkumab,unknown,,,L04AC16,The evolving landscape of drug targets
+DRG-tildrakizumab,tildrakizumab,tildrakizumab,unknown,,,L04AC17,The evolving landscape of drug targets
+DRG-tralokinumab,tralokinumab,tralokinumab,unknown,,,D11AH07,The evolving landscape of drug targets
+DRG-lebrikizumab,lebrikizumab,lebrikizumab,unknown,,,D11AH10,The evolving landscape of drug targets
+DRG-secukinumab,secukinumab,secukinumab,unknown,,,L04AC10,The evolving landscape of drug targets
+DRG-ixekizumab,ixekizumab,ixekizumab,unknown,,,L04AC13,The evolving landscape of drug targets
+DRG-bimekizumab,bimekizumab,bimekizumab,unknown,,,L04AC21,The evolving landscape of drug targets
+DRG-rilonacept,rilonacept,rilonacept,unknown,,,L04AC04,The evolving landscape of drug targets
+DRG-canakinumab,canakinumab,canakinumab,unknown,,,L04AC08,The evolving landscape of drug targets
+DRG-mepolizumab,mepolizumab,mepolizumab,unknown,,,R03DX09,The evolving landscape of drug targets
+DRG-reslizumab,reslizumab,reslizumab,unknown,,,R03DX08,The evolving landscape of drug targets
+DRG-siltuximab,siltuximab,Siltuximab,biologic,,,,clinical pilot
+DRG-flortaucipir-f-18,flortaucipir F 18,flortaucipir F 18,unknown,,,V09AX07,The evolving landscape of drug targets
+DRG-aflibercept,aflibercept,aflibercept,unknown,,,L01XX44,The evolving landscape of drug targets
+DRG-tebentafusp,tebentafusp,tebentafusp,unknown,,,L01XX75,The evolving landscape of drug targets
+DRG-romosozumab,romosozumab,romosozumab,unknown,,,M05BX06,The evolving landscape of drug targets
+DRG-concizumab,concizumab,concizumab,unknown,,,B02BX10,The evolving landscape of drug targets
+DRG-marstacimab,marstacimab,marstacimab,unknown,,,B02BX11,The evolving landscape of drug targets
+DRG-infliximab,infliximab,infliximab,unknown,,,L04AB02,The evolving landscape of drug targets
+DRG-etanercept,etanercept,etanercept,unknown,,,L04AB01,The evolving landscape of drug targets
+DRG-adalimumab,adalimumab,adalimumab,unknown,,,L04AB04,The evolving landscape of drug targets
+DRG-denosumab,denosumab,denosumab,unknown,,,M05BX04,The evolving landscape of drug targets
+DRG-belimumab,belimumab,belimumab,unknown,,,L04AA26,The evolving landscape of drug targets
+DRG-tezepelumab,tezepelumab,tezepelumab,unknown,,,R03DX11,The evolving landscape of drug targets
+DRG-bevacizumab,bevacizumab,bevacizumab,unknown,,,L01FG01,The evolving landscape of drug targets
+DRG-pegaptanib,pegaptanib,pegaptanib,unknown,,,S01LA03,The evolving landscape of drug targets
+DRG-ranibizumab,ranibizumab,ranibizumab,unknown,,,S01LA04,The evolving landscape of drug targets
+DRG-rurioctocog-alfa-pegol,rurioctocog alfa pegol,rurioctocog alfa pegol,unknown,,,,The evolving landscape of drug targets
+DRG-caplacizumab,caplacizumab,caplacizumab,unknown,,,B01AX07,The evolving landscape of drug targets
+DRG-apadamtase-alfa,apadamtase alfa,apadamtase alfa,unknown,,,B01AD13,The evolving landscape of drug targets
+DRG-vigabatrin,vigabatrin,vigabatrin,unknown,,,N03AG04,The evolving landscape of drug targets
+DRG-probucol,probucol,probucol,unknown,,,C10AX02,The evolving landscape of drug targets
+DRG-nilotinib,nilotinib,nilotinib,unknown,,,L01EA03,The evolving landscape of drug targets
+DRG-spirapril,spirapril,spirapril,unknown,,,C09AA11,The evolving landscape of drug targets
+DRG-moexipril,moexipril,moexipril,unknown,,,C09AA13,The evolving landscape of drug targets
+DRG-trandolapril,trandolapril,trandolapril,unknown,,,C09AA10,The evolving landscape of drug targets
+DRG-donepezil,donepezil,donepezil,unknown,,,N06DA02,The evolving landscape of drug targets
+DRG-rivastigmine,rivastigmine,rivastigmine,unknown,,,N06DA03,The evolving landscape of drug targets
+DRG-galantamine,galantamine,galantamine,unknown,,,N06DA04,The evolving landscape of drug targets
+DRG-bempedoic-acid,bempedoic acid,bempedoic acid,unknown,,,C10AX15,The evolving landscape of drug targets
+DRG-pentostatin,pentostatin,pentostatin,unknown,,,L01XX08,The evolving landscape of drug targets
+DRG-fomepizole,fomepizole,fomepizole,unknown,,,V03AB34,The evolving landscape of drug targets
+DRG-capivasertib,capivasertib,capivasertib,unknown,,,L01EX27,The evolving landscape of drug targets
+DRG-givosiran,givosiran,givosiran,unknown,,,A16AX16,The evolving landscape of drug targets
+DRG-disulfiram,disulfiram,disulfiram,unknown,,,N07BB01;P03AA04;P03AA54,The evolving landscape of drug targets
+DRG-valproic-acid,valproic acid,valproic acid,unknown,,,N03AG01,The evolving landscape of drug targets
+DRG-zileuton,zileuton,zileuton,unknown,,,,The evolving landscape of drug targets
+DRG-balsalazide,balsalazide,balsalazide,unknown,,,A07EC04,The evolving landscape of drug targets
+DRG-benoxaprofen,benoxaprofen,benoxaprofen,unknown,,,M01AE06,The evolving landscape of drug targets
+DRG-acarbose,acarbose,acarbose,unknown,,,A10BF01,The evolving landscape of drug targets
+DRG-acetyldigitoxin,acetyldigitoxin,acetyldigitoxin,unknown,,,C01AA01,The evolving landscape of drug targets
+DRG-digoxin,digoxin,digoxin,unknown,,,C01AA05,The evolving landscape of drug targets
+DRG-tacrine,tacrine,tacrine,unknown,,,N06DA01,The evolving landscape of drug targets
+DRG-ponatinib,ponatinib,ponatinib,unknown,,,L01EA05,The evolving landscape of drug targets
+DRG-vemurafenib,vemurafenib,vemurafenib,unknown,,,L01EC01,The evolving landscape of drug targets
+DRG-regorafenib,regorafenib,regorafenib,unknown,,,L01EX05,The evolving landscape of drug targets
+DRG-ibrutinib,ibrutinib,ibrutinib,unknown,,,L01EL01,The evolving landscape of drug targets
+DRG-acalabrutinib,acalabrutinib,acalabrutinib,unknown,,,L01EL02,The evolving landscape of drug targets
+DRG-zanubrutinib,zanubrutinib,zanubrutinib,unknown,,,L01EL03,The evolving landscape of drug targets
+DRG-sutimlimab,sutimlimab,sutimlimab,unknown,,,L04AA55,The evolving landscape of drug targets
+DRG-acetazolamide,acetazolamide,acetazolamide,unknown,,,S01EC01,The evolving landscape of drug targets
+DRG-dichlorphenamide,dichlorphenamide,dichlorphenamide,unknown,,,S01EC02,The evolving landscape of drug targets
+DRG-methazolamide,methazolamide,methazolamide,unknown,,,S01EC05,The evolving landscape of drug targets
+DRG-dorzolamide,dorzolamide,dorzolamide,unknown,,,S01EC03,The evolving landscape of drug targets
+DRG-topiramate,topiramate,topiramate,unknown,,,N03AX11,The evolving landscape of drug targets
+DRG-brinzolamide,brinzolamide,brinzolamide,unknown,,,S01EC04,The evolving landscape of drug targets
+DRG-daratumumab,daratumumab,daratumumab,unknown,,,L01FC01,The evolving landscape of drug targets
+DRG-isatuximab,isatuximab,isatuximab,unknown,,,L01FC02,The evolving landscape of drug targets
+DRG-cedazuridine,cedazuridine,cedazuridine,unknown,,,,The evolving landscape of drug targets
+DRG-palbociclib,palbociclib,palbociclib,unknown,,,L01EF01,The evolving landscape of drug targets
+DRG-ribociclib,ribociclib,ribociclib,unknown,,,L01EF02,The evolving landscape of drug targets
+DRG-abemaciclib,abemaciclib,abemaciclib,unknown,,,L01EF03,The evolving landscape of drug targets
+DRG-iptacopan,iptacopan,iptacopan,unknown,,,L04AJ08,The evolving landscape of drug targets
+DRG-danicopan,danicopan,danicopan,unknown,,,L04AJ09,The evolving landscape of drug targets
+DRG-entacapone,entacapone,entacapone,unknown,,,N04BX02,The evolving landscape of drug targets
+DRG-tolcapone,tolcapone,tolcapone,unknown,,,N04BX01,The evolving landscape of drug targets
+DRG-opicapone,opicapone,opicapone,unknown,,,N04BX04,The evolving landscape of drug targets
+DRG-carglumic-acid,carglumic acid,carglumic acid,unknown,,,A16AA05,The evolving landscape of drug targets
+DRG-thalidomide,thalidomide,thalidomide,unknown,,,L04AX02,The evolving landscape of drug targets
+DRG-lenalidomide,lenalidomide,lenalidomide,unknown,,,L04AX04,The evolving landscape of drug targets
+DRG-pomalidomide,pomalidomide,pomalidomide,unknown,,,L04AX06,The evolving landscape of drug targets
+DRG-umbralisib,umbralisib,umbralisib,unknown,,,L01EX25,The evolving landscape of drug targets
+DRG-aminoglutethimide,aminoglutethimide,aminoglutethimide,unknown,,,L02BG01,The evolving landscape of drug targets
+DRG-mitotane,mitotane,mitotane,unknown,,,L01XX23,The evolving landscape of drug targets
+DRG-osilodrostat,osilodrostat,osilodrostat,unknown,,,H02CA02,The evolving landscape of drug targets
+DRG-ketoconazole,ketoconazole,ketoconazole,unknown,,,D01AC08; G01AF11; H02CA03; J02AB02,The evolving landscape of drug targets
+DRG-metyrapone,metyrapone,metyrapone,unknown,,,V04CD01,The evolving landscape of drug targets
+DRG-abiraterone-acetate,abiraterone acetate,abiraterone acetate,unknown,,,L02BX03,The evolving landscape of drug targets
+DRG-anastrozole,anastrozole,anastrozole,unknown,,,L02BG03,The evolving landscape of drug targets
+DRG-letrozole,letrozole,letrozole,unknown,,,L02BG04,The evolving landscape of drug targets
+DRG-exemestane,exemestane,exemestane,unknown,,,L02BG06,The evolving landscape of drug targets
+DRG-quinidine,quinidine,quinidine,unknown,,,C01BA01; C01BA51; C01BA71,The evolving landscape of drug targets
+DRG-cobicistat,cobicistat,cobicistat,unknown,,,V03AX03,The evolving landscape of drug targets
+DRG-carbidopa,carbidopa,carbidopa,unknown,,,,The evolving landscape of drug targets
+DRG-icosapent-ethyl,icosapent ethyl,icosapent ethyl,unknown,,,,The evolving landscape of drug targets
+DRG-pemetrexed,pemetrexed,pemetrexed,unknown,,,L01BA04,The evolving landscape of drug targets
+DRG-pralatrexate,pralatrexate,pralatrexate,unknown,,,L01BA05,The evolving landscape of drug targets
+DRG-methotrexate,methotrexate,methotrexate,unknown,,,L01BA01;L04AX03,The evolving landscape of drug targets
+DRG-leflunomide,leflunomide,leflunomide,unknown,,,L04AA13,The evolving landscape of drug targets
+DRG-teriflunomide,teriflunomide,teriflunomide,unknown,,,L04AA31,The evolving landscape of drug targets
+DRG-propylthiouracil,propylthiouracil,propylthiouracil,unknown,,,H03BA02,The evolving landscape of drug targets
+DRG-azacitidine,azacitidine,azacitidine,unknown,,,L01BC07,The evolving landscape of drug targets
+DRG-decitabine,decitabine,decitabine,unknown,,,L01BC08,The evolving landscape of drug targets
+DRG-cilastatin,cilastatin,cilastatin,unknown,,,J01DH51;J01DH56,The evolving landscape of drug targets
+DRG-sitagliptin,sitagliptin,sitagliptin,unknown,,,A10BH01,The evolving landscape of drug targets
+DRG-vildagliptin,vildagliptin,vildagliptin,unknown,,,A10BH02,The evolving landscape of drug targets
+DRG-saxagliptin,saxagliptin,saxagliptin,unknown,,,A10BH03,The evolving landscape of drug targets
+DRG-gimeracil,gimeracil,gimeracil,unknown,,,,The evolving landscape of drug targets
+DRG-roxadustat,roxadustat,roxadustat,unknown,,,B03XA05,The evolving landscape of drug targets
+DRG-daprodustat,daprodustat,daprodustat,unknown,,,B03XA07,The evolving landscape of drug targets
+DRG-vadadustat,vadadustat,vadadustat,unknown,,,B03XA08,The evolving landscape of drug targets
+DRG-valemetostat,valemetostat,valemetostat,unknown,,,,The evolving landscape of drug targets
+DRG-tazemetostat,tazemetostat,tazemetostat,unknown,,,L01XX72,The evolving landscape of drug targets
+DRG-rivaroxaban,rivaroxaban,rivaroxaban,unknown,,,B01AF01,The evolving landscape of drug targets
+DRG-edoxaban,edoxaban,edoxaban,unknown,,,B01AF03,The evolving landscape of drug targets
+DRG-apixaban,apixaban,apixaban,unknown,,,B01AF02,The evolving landscape of drug targets
+DRG-garadacimab,garadacimab,garadacimab,unknown,,,B06AC07,The evolving landscape of drug targets
+DRG-lepirudin,lepirudin,lepirudin,unknown,,,B01AE02,The evolving landscape of drug targets
+DRG-argatroban,argatroban,argatroban,unknown,,,B01AE03,The evolving landscape of drug targets
+DRG-bivalirudin,bivalirudin,bivalirudin,unknown,,,B01AE06,The evolving landscape of drug targets
+DRG-tisotumab-vedotin,tisotumab vedotin,tisotumab vedotin,unknown,,,L01FX23,The evolving landscape of drug targets
+DRG-eftrenonacog-alfa,eftrenonacog alfa,eftrenonacog alfa,unknown,,,,The evolving landscape of drug targets
+DRG-alendronic-acid,alendronic acid,alendronic acid,unknown,,,M05BA04,The evolving landscape of drug targets
+DRG-ibandronic-acid,ibandronic acid,ibandronic acid,unknown,,,M05BA06,The evolving landscape of drug targets
+DRG-incadronic-acid,incadronic acid,incadronic acid,unknown,,,,The evolving landscape of drug targets
+DRG-tacrolimus,tacrolimus,tacrolimus,unknown,,,D11AH01,The evolving landscape of drug targets
+DRG-sirolimus,sirolimus,sirolimus,unknown,,,L01EG04,The evolving landscape of drug targets
+DRG-pimecrolimus,pimecrolimus,pimecrolimus,unknown,,,D11AH02,The evolving landscape of drug targets
+DRG-lonafarnib,lonafarnib,lonafarnib,unknown,,,A16AX20,The evolving landscape of drug targets
+DRG-piflufolastat-f-18,piflufolastat F-18,piflufolastat F-18,unknown,,,V09IX16,The evolving landscape of drug targets
+DRG-flotufolastat-f-18-gallium,flotufolastat f-18 gallium,flotufolastat f-18 gallium,unknown,,,,The evolving landscape of drug targets
+DRG-voglibose,voglibose,voglibose,unknown,,,A10BF03,The evolving landscape of drug targets
+DRG-miglitol,miglitol,miglitol,unknown,,,A10BF02,The evolving landscape of drug targets
+DRG-anisindione,anisindione,anisindione,unknown,,,,The evolving landscape of drug targets
+DRG-migalastat,migalastat,migalastat,unknown,,,A16AX14,The evolving landscape of drug targets
+DRG-lithium-carbonate,lithium carbonate,lithium carbonate,unknown,,,N05AN01,The evolving landscape of drug targets
+DRG-lithium-citrate,lithium citrate,lithium citrate,unknown,,,N05AN01,The evolving landscape of drug targets
+DRG-carmustine,carmustine,carmustine,unknown,,,L01AD01,The evolving landscape of drug targets
+DRG-lumasiran,lumasiran,lumasiran,unknown,,,A16AX18,The evolving landscape of drug targets
+DRG-bosutinib,bosutinib,bosutinib,unknown,,,L01EA04,The evolving landscape of drug targets
+DRG-vorinostat,vorinostat,vorinostat,unknown,,,L01XH01,The evolving landscape of drug targets
+DRG-belinostat,belinostat,belinostat,unknown,,,L01XH04,The evolving landscape of drug targets
+DRG-panobinostat,panobinostat,panobinostat,unknown,,,L01XH03,The evolving landscape of drug targets
+DRG-tucidinostat,tucidinostat,tucidinostat,unknown,,,,The evolving landscape of drug targets
+DRG-romidepsin,romidepsin,romidepsin,unknown,,,L01XH02,The evolving landscape of drug targets
+DRG-atorvastatin,atorvastatin,atorvastatin,unknown,,,C10AA05,The evolving landscape of drug targets
+DRG-cerivastatin,cerivastatin,cerivastatin,unknown,,,C10AA06,The evolving landscape of drug targets
+DRG-pitavastatin,pitavastatin,pitavastatin,unknown,,,C10AA08,The evolving landscape of drug targets
+DRG-nitisinone,nitisinone,nitisinone,unknown,,,A16AX04,The evolving landscape of drug targets
+DRG-ivosidenib,ivosidenib,ivosidenib,unknown,,,L01XX62,The evolving landscape of drug targets
+DRG-olutasidenib,olutasidenib,olutasidenib,unknown,,,,The evolving landscape of drug targets
+DRG-vorasidenib,vorasidenib,vorasidenib,unknown,,,L01XM04,The evolving landscape of drug targets
+DRG-enasidenib,enasidenib,enasidenib,unknown,,,L01XX59,The evolving landscape of drug targets
+DRG-mycophenolate-mofetil,mycophenolate mofetil,mycophenolate mofetil,unknown,,,,The evolving landscape of drug targets
+DRG-mycophenolic-acid,mycophenolic acid,mycophenolic acid,unknown,,,L04AA06,The evolving landscape of drug targets
+DRG-ribavirin,ribavirin,ribavirin,unknown,,,J05AP01,The evolving landscape of drug targets
+DRG-thioguanine,thioguanine,thioguanine,unknown,,,L01BB03,The evolving landscape of drug targets
+DRG-ruxolitinib,ruxolitinib,ruxolitinib,unknown,,,D11AH09,The evolving landscape of drug targets
+DRG-tofacitinib,tofacitinib,tofacitinib,unknown,,,L04AA29,The evolving landscape of drug targets
+DRG-baricitinib,baricitinib,baricitinib,unknown,,,L04AA37,The evolving landscape of drug targets
+DRG-peficitinib,peficitinib,peficitinib,unknown,,,L04AA49,The evolving landscape of drug targets
+DRG-upadacitinib,upadacitinib,upadacitinib,unknown,,,L04AA44,The evolving landscape of drug targets
+DRG-gallium-68ga-gozetotide,gallium (68Ga) gozetotide,gallium (68Ga) gozetotide,unknown,,,V09IX14,The evolving landscape of drug targets
+DRG-lutetium-177lu-vipivotide-tetraxetan,lutetium (177Lu) vipivotide tetraxetan,lutetium (177Lu) vipivotide tetraxetan,unknown,,,V10XX05,The evolving landscape of drug targets
+DRG-ecallantide,ecallantide,ecallantide,unknown,,,B06AC03,The evolving landscape of drug targets
+DRG-lanadelumab,lanadelumab,lanadelumab,unknown,,,B06AC05,The evolving landscape of drug targets
+DRG-berotralstat,berotralstat,berotralstat,unknown,,,B06AC06,The evolving landscape of drug targets
+DRG-sotorasib,sotorasib,sotorasib,unknown,,,L01XX73,The evolving landscape of drug targets
+DRG-adagrasib,adagrasib,adagrasib,unknown,,,L01XX77,The evolving landscape of drug targets
+DRG-nedosiran,nedosiran,nedosiran,unknown,,,,The evolving landscape of drug targets
+DRG-orlistat,orlistat,orlistat,unknown,,,A08AB01,The evolving landscape of drug targets
+DRG-isocarboxazid,isocarboxazid,isocarboxazid,unknown,,,N06AF01,The evolving landscape of drug targets
+DRG-pargyline,pargyline,pargyline,unknown,,,C02KC01; C02LL01,The evolving landscape of drug targets
+DRG-phenelzine,phenelzine,phenelzine,unknown,,,N06AF03,The evolving landscape of drug targets
+DRG-rasagiline,rasagiline,rasagiline,unknown,,,N04BD02,The evolving landscape of drug targets
+DRG-safinamide,safinamide,safinamide,unknown,,,N04BD03,The evolving landscape of drug targets
+DRG-trametinib,trametinib,trametinib,unknown,,,L01EE01,The evolving landscape of drug targets
+DRG-cobimetinib,cobimetinib,cobimetinib,unknown,,,L01EE02,The evolving landscape of drug targets
+DRG-binimetinib,binimetinib,binimetinib,unknown,,,L01EE03,The evolving landscape of drug targets
+DRG-selumetinib,selumetinib,selumetinib,unknown,,,L01EE04,The evolving landscape of drug targets
+DRG-sacubitril,sacubitril,sacubitril,unknown,,,C09DX04,The evolving landscape of drug targets
+DRG-fosdenopterin,fosdenopterin,fosdenopterin,unknown,,,A16AX19,The evolving landscape of drug targets
+DRG-flurpiridaz-f18,flurpiridaz (f18),flurpiridaz (f18),unknown,,,,The evolving landscape of drug targets
+DRG-metformin,metformin,metformin,unknown,,,A10BA02;A10BD02;A10BD03;A10BD05;A10BD07;A10BD08;A10BD10;A10BD11;A10BD13;A10BD14;A10BD15;A10BD16;A10BD17;A10BD18;A10BD20;A10BD22;A10BD23;A10BD25;A10BD26;A10BD27,The evolving landscape of drug targets
+DRG-eflornithine,eflornithine,eflornithine,unknown,,,D11AX16;P01CX03,The evolving landscape of drug targets
+DRG-sapropterin,sapropterin,sapropterin,unknown,,,A16AX07,The evolving landscape of drug targets
+DRG-olaparib,olaparib,olaparib,unknown,,,L01XK01,The evolving landscape of drug targets
+DRG-rucaparib,rucaparib,rucaparib,unknown,,,L01XK03,The evolving landscape of drug targets
+DRG-niraparib,niraparib,niraparib,unknown,,,L01XK02,The evolving landscape of drug targets
+DRG-evolocumab,evolocumab,evolocumab,unknown,,,C10AX13,The evolving landscape of drug targets
+DRG-alirocumab,alirocumab,alirocumab,unknown,,,C10AX14,The evolving landscape of drug targets
+DRG-inclisiran,inclisiran,inclisiran,unknown,,,C10AX16,The evolving landscape of drug targets
+DRG-dipyridamole,dipyridamole,dipyridamole,unknown,,,B01AC07,The evolving landscape of drug targets
+DRG-olprinone,olprinone,olprinone,unknown,,,,The evolving landscape of drug targets
+DRG-anagrelide,anagrelide,anagrelide,unknown,,,L01XX35,The evolving landscape of drug targets
+DRG-cilostazol,cilostazol,cilostazol,unknown,,,B01AC23,The evolving landscape of drug targets
+DRG-ensifentrine,ensifentrine,ensifentrine,unknown,,,,The evolving landscape of drug targets
+DRG-amlexanox,amlexanox,amlexanox,unknown,,,A01AD07,The evolving landscape of drug targets
+DRG-roflumilast,roflumilast,roflumilast,unknown,,,R03DX07,The evolving landscape of drug targets
+DRG-crisaborole,crisaborole,crisaborole,unknown,,,D11AH06,The evolving landscape of drug targets
+DRG-apremilast,apremilast,apremilast,unknown,,,L04AA32,The evolving landscape of drug targets
+DRG-sildenafil,sildenafil,sildenafil,unknown,,,G04BE03,The evolving landscape of drug targets
+DRG-tadalafil,tadalafil,tadalafil,unknown,,,G04BE08,The evolving landscape of drug targets
+DRG-vardenafil,vardenafil,vardenafil,unknown,,,G04BE09,The evolving landscape of drug targets
+DRG-flavoxate,flavoxate,flavoxate,unknown,,,G04BD02,The evolving landscape of drug targets
+DRG-sucralfate,sucralfate,sucralfate,unknown,,,A02BX02,The evolving landscape of drug targets
+DRG-copanlisib,copanlisib,copanlisib,unknown,,,L01EM02,The evolving landscape of drug targets
+DRG-alpelisib,alpelisib,alpelisib,unknown,,,L01EM03,The evolving landscape of drug targets
+DRG-inavolisib,inavolisib,inavolisib,unknown,,,,The evolving landscape of drug targets
+DRG-idelalisib,idelalisib,idelalisib,unknown,,,L01EM01,The evolving landscape of drug targets
+DRG-duvelisib,duvelisib,duvelisib,unknown,,,L01EM04,The evolving landscape of drug targets
+DRG-mitapivat,mitapivat,mitapivat,unknown,,,B06AX04,The evolving landscape of drug targets
+DRG-aminocaproic-acid,aminocaproic acid,aminocaproic acid,unknown,,,B02AA01,The evolving landscape of drug targets
+DRG-alteplase,alteplase,alteplase,unknown,,,B01AD02,The evolving landscape of drug targets
+DRG-reteplase,reteplase,reteplase,unknown,,,B01AD07,The evolving landscape of drug targets
+DRG-tenecteplase,tenecteplase,tenecteplase,unknown,,,B01AD11,The evolving landscape of drug targets
+DRG-cetilistat,cetilistat,cetilistat,unknown,,,,The evolving landscape of drug targets
+DRG-forodesine,forodesine,forodesine,unknown,,,,The evolving landscape of drug targets
+DRG-gemcitabine,gemcitabine,gemcitabine,unknown,,,L01BC05,The evolving landscape of drug targets
+DRG-clofarabine,clofarabine,clofarabine,unknown,,,L01BB06,The evolving landscape of drug targets
+DRG-cytarabine,cytarabine,cytarabine,unknown,,,L01BC01;L01XY01,The evolving landscape of drug targets
+DRG-mercaptopurine,mercaptopurine,mercaptopurine,unknown,,,L01BB02,The evolving landscape of drug targets
+DRG-ciclosporin,ciclosporin,ciclosporin,unknown,,,L04AD01;S01XA18,The evolving landscape of drug targets
+DRG-cepharanthine,cepharanthine,cepharanthine,unknown,,,,The evolving landscape of drug targets
+DRG-ingenol-mebutate,ingenol mebutate,ingenol mebutate,unknown,,,D06BX02,The evolving landscape of drug targets
+DRG-nirogacestat,nirogacestat,nirogacestat,unknown,,,,The evolving landscape of drug targets
+DRG-bortezomib,bortezomib,bortezomib,unknown,,,L01XG01,The evolving landscape of drug targets
+DRG-carfilzomib,carfilzomib,carfilzomib,unknown,,,L01XG02,The evolving landscape of drug targets
+DRG-ixazomib,ixazomib,ixazomib,unknown,,,L01XG03,The evolving landscape of drug targets
+DRG-bismuth-subsalicylate,bismuth subsalicylate,bismuth subsalicylate,unknown,,,,The evolving landscape of drug targets
+DRG-bromfenac,bromfenac,bromfenac,unknown,,,S01BC11,The evolving landscape of drug targets
+DRG-celecoxib,celecoxib,celecoxib,unknown,,,L01XX33,The evolving landscape of drug targets
+DRG-rofecoxib,rofecoxib,rofecoxib,unknown,,,M01AH02,The evolving landscape of drug targets
+DRG-defactinib,defactinib,defactinib,unknown,,,,The evolving landscape of drug targets
+DRG-encorafenib,encorafenib,encorafenib,unknown,,,L01EC03,The evolving landscape of drug targets
+DRG-tovorafenib,tovorafenib,tovorafenib,unknown,,,,The evolving landscape of drug targets
+DRG-aliskiren,aliskiren,aliskiren,unknown,,,C09XA02,The evolving landscape of drug targets
+DRG-fasudil,fasudil,fasudil,unknown,,,C04AX32,The evolving landscape of drug targets
+DRG-ripasudil,ripasudil,ripasudil,unknown,,,S01EX07,The evolving landscape of drug targets
+DRG-belumosudil,belumosudil,belumosudil,unknown,,,L04AA48,The evolving landscape of drug targets
+DRG-netarsudil,netarsudil,netarsudil,unknown,,,S01EX05,The evolving landscape of drug targets
+DRG-hydroxycarbamide,hydroxycarbamide,hydroxycarbamide,unknown,,,L01XX05,The evolving landscape of drug targets
+DRG-fondaparinux,fondaparinux,fondaparinux,unknown,,,B01AX05,The evolving landscape of drug targets
+DRG-fitusiran,fitusiran,fitusiran,unknown,,,,The evolving landscape of drug targets
+DRG-heparin,heparin,heparin,unknown,,,B01AB01;B01AB51;C05BA03;C05BA53;S01XA14,The evolving landscape of drug targets
+DRG-tofersen,tofersen,tofersen,unknown,,,N07XX22,The evolving landscape of drug targets
+DRG-dutasteride,dutasteride,dutasteride,unknown,,,G04CB02,The evolving landscape of drug targets
+DRG-finasteride,finasteride,finasteride,unknown,,,D11AX10; G04CA51; G04CA55; G04CB01; G04CB51,The evolving landscape of drug targets
+DRG-fostamatinib,fostamatinib,fostamatinib,unknown,,,B02BX09,The evolving landscape of drug targets
+DRG-metirosine,metirosine,metirosine,unknown,,,C02KB01,The evolving landscape of drug targets
+DRG-irinotecan,irinotecan,irinotecan,unknown,,,L01CE02,The evolving landscape of drug targets
+DRG-trastuzumab-deruxtecan,trastuzumab deruxtecan,trastuzumab deruxtecan,unknown,,,L01FD04,The evolving landscape of drug targets
+DRG-topotecan,topotecan,topotecan,unknown,,,L01CE01,The evolving landscape of drug targets
+DRG-etoposide-phosphate,etoposide phosphate,etoposide phosphate,unknown,,,,The evolving landscape of drug targets
+DRG-valrubicin,valrubicin,valrubicin,unknown,,,L01DB09,The evolving landscape of drug targets
+DRG-daunorubicin,daunorubicin,daunorubicin,unknown,,,L01DB02;L01XY01,The evolving landscape of drug targets
+DRG-telotristat-ethyl,telotristat ethyl,telotristat ethyl,unknown,,,,The evolving landscape of drug targets
+DRG-thiamazole,thiamazole,thiamazole,unknown,,,H03BB02;H03BB52,The evolving landscape of drug targets
+DRG-arsenic-trioxide,arsenic trioxide,arsenic trioxide,unknown,,,L01XX27,The evolving landscape of drug targets
+DRG-delgocitinib,delgocitinib,delgocitinib,unknown,,,D11AH11,The evolving landscape of drug targets
+DRG-tipiracil,tipiracil,tipiracil,unknown,,,,The evolving landscape of drug targets
+DRG-capecitabine,capecitabine,capecitabine,unknown,,,L01BC06,The evolving landscape of drug targets
+DRG-fluorouracil,fluorouracil,fluorouracil,unknown,,,L01BC02;L01BC52,The evolving landscape of drug targets
+DRG-mequinol,mequinol,mequinol,unknown,,,D11AX06,The evolving landscape of drug targets
+DRG-monobenzone,monobenzone,monobenzone,unknown,,,D11AX13,The evolving landscape of drug targets
+DRG-avobenzone,avobenzone,avobenzone,unknown,,,,The evolving landscape of drug targets
+DRG-miglustat,miglustat,miglustat,unknown,,,A16AX06,The evolving landscape of drug targets
+DRG-eliglustat,eliglustat,eliglustat,unknown,,,A16AX10,The evolving landscape of drug targets
+DRG-oteracil,oteracil,oteracil,unknown,,,,The evolving landscape of drug targets
+DRG-dicoumarol,dicoumarol,dicoumarol,unknown,,,B01AA01,The evolving landscape of drug targets
+DRG-phenprocoumon,phenprocoumon,phenprocoumon,unknown,,,B01AA04,The evolving landscape of drug targets
+DRG-warfarin,warfarin,warfarin,unknown,,,B01AA03,The evolving landscape of drug targets
+DRG-febuxostat,febuxostat,febuxostat,unknown,,,M04AA03,The evolving landscape of drug targets
+DRG-topiroxostat,topiroxostat,topiroxostat,unknown,,,,The evolving landscape of drug targets
+DRG-allopurinol,allopurinol,allopurinol,unknown,,,M04AA01;M04AA51,The evolving landscape of drug targets
+DRG-adenosine,adenosine,adenosine,unknown,,,C01EB10,The evolving landscape of drug targets
+DRG-caffeine,caffeine,caffeine,unknown,,,D11AX26; N06BC01; V04CG30,The evolving landscape of drug targets
+DRG-theophylline,theophylline,theophylline,unknown,,,R03DA04; R03DA05; R03DA54; R03DA55; R03DA74; R03DB04; R03DB05,The evolving landscape of drug targets
+DRG-regadenoson,regadenoson,regadenoson,unknown,,,C01EB21,The evolving landscape of drug targets
+DRG-istradefylline,istradefylline,istradefylline,unknown,,,N04CX01,The evolving landscape of drug targets
+DRG-pentoxifylline,pentoxifylline,pentoxifylline,unknown,,,C04AD03,The evolving landscape of drug targets
+DRG-midodrine,midodrine,midodrine,unknown,,,C01CA17,The evolving landscape of drug targets
+DRG-naftopidil,naftopidil,naftopidil,unknown,,,,The evolving landscape of drug targets
+DRG-phenylpropanolamine,phenylpropanolamine,phenylpropanolamine,unknown,,,R01BA01,The evolving landscape of drug targets
+DRG-alfuzosin,alfuzosin,alfuzosin,unknown,,,G04CA01,The evolving landscape of drug targets
+DRG-doxazosin,doxazosin,doxazosin,unknown,,,C02CA04; G04CA55,The evolving landscape of drug targets
+DRG-dapiprazole,dapiprazole,dapiprazole,unknown,,,S01EX02,The evolving landscape of drug targets
+DRG-brimonidine,brimonidine,brimonidine,unknown,,,D11AX21,The evolving landscape of drug targets
+DRG-tizanidine,tizanidine,tizanidine,unknown,,,M03BX02,The evolving landscape of drug targets
+DRG-dexmedetomidine,dexmedetomidine,dexmedetomidine,unknown,,,N05CM18,The evolving landscape of drug targets
+DRG-carvedilol,carvedilol,carvedilol,unknown,,,C07AG02,The evolving landscape of drug targets
+DRG-arbutamine,arbutamine,arbutamine,unknown,,,C01CA22,The evolving landscape of drug targets
+DRG-levobetaxolol,levobetaxolol,levobetaxolol,unknown,,,,The evolving landscape of drug targets
+DRG-salmeterol,salmeterol,salmeterol,unknown,,,R03AC12,The evolving landscape of drug targets
+DRG-levosalbutamol,levosalbutamol,levosalbutamol,unknown,,,,The evolving landscape of drug targets
+DRG-mirabegron,mirabegron,mirabegron,unknown,,,G04BD12,The evolving landscape of drug targets
+DRG-vibegron,vibegron,vibegron,unknown,,,G04BD15,The evolving landscape of drug targets
+DRG-droxidopa,droxidopa,droxidopa,unknown,,,C01CA27,The evolving landscape of drug targets
+DRG-losartan,losartan,losartan,unknown,,,C09CA01,The evolving landscape of drug targets
+DRG-valsartan,valsartan,valsartan,unknown,,,C09CA03,The evolving landscape of drug targets
+DRG-irbesartan,irbesartan,irbesartan,unknown,,,C09CA04,The evolving landscape of drug targets
+DRG-conivaptan,conivaptan,conivaptan,unknown,,,C03XA02,The evolving landscape of drug targets
+DRG-terlipressin,terlipressin,terlipressin,unknown,,,H01BA04,The evolving landscape of drug targets
+DRG-mozavaptan,mozavaptan,mozavaptan,unknown,,,,The evolving landscape of drug targets
+DRG-tolvaptan,tolvaptan,tolvaptan,unknown,,,C03XA01,The evolving landscape of drug targets
+DRG-icatibant,icatibant,icatibant,unknown,,,B06AC02,The evolving landscape of drug targets
+DRG-avacopan,avacopan,avacopan,unknown,,,L04AA59,The evolving landscape of drug targets
+DRG-pramlintide,pramlintide,pramlintide,unknown,,,A10BX05,The evolving landscape of drug targets
+DRG-calcitonin-salmon-synthetic,calcitonin (salmon synthetic),calcitonin (salmon synthetic),unknown,,,H05BA01,The evolving landscape of drug targets
+DRG-calcitonin-human,calcitonin human,calcitonin human,unknown,,,H05BA03,The evolving landscape of drug targets
+DRG-erenumab,erenumab,erenumab,unknown,,,N02CD01,The evolving landscape of drug targets
+DRG-ubrogepant,ubrogepant,ubrogepant,unknown,,,N02CD04,The evolving landscape of drug targets
+DRG-rimegepant,rimegepant,rimegepant,unknown,,,N02CD06,The evolving landscape of drug targets
+DRG-cinacalcet,cinacalcet,cinacalcet,unknown,,,H05BX01,The evolving landscape of drug targets
+DRG-etelcalcetide,etelcalcetide,etelcalcetide,unknown,,,H05BX04,The evolving landscape of drug targets
+DRG-evocalcet,evocalcet,evocalcet,unknown,,,H05BX06,The evolving landscape of drug targets
+DRG-mogamulizumab,mogamulizumab,mogamulizumab,unknown,,,L01FX09,The evolving landscape of drug targets
+DRG-maraviroc,maraviroc,maraviroc,unknown,,,J05AX09,The evolving landscape of drug targets
+DRG-cevimeline,cevimeline,cevimeline,unknown,,,N07AX03,The evolving landscape of drug targets
+DRG-revefenacin,revefenacin,revefenacin,unknown,,,R03BB08,The evolving landscape of drug targets
+DRG-octatropine-methylbromide,octatropine methylbromide,octatropine methylbromide,unknown,,,,The evolving landscape of drug targets
+DRG-tolterodine,tolterodine,tolterodine,unknown,,,G04BD07,The evolving landscape of drug targets
+DRG-trospium,trospium,trospium,unknown,,,G04BD09,The evolving landscape of drug targets
+DRG-solifenacin,solifenacin,solifenacin,unknown,,,G04BD08,The evolving landscape of drug targets
+DRG-tiotropium-bromide,tiotropium bromide,tiotropium bromide,unknown,,,R03BB04,The evolving landscape of drug targets
+DRG-methanthelinium,methanthelinium,methanthelinium,unknown,,,A03AB07,The evolving landscape of drug targets
+DRG-glycopyrronium-bromide,glycopyrronium bromide,glycopyrronium bromide,unknown,,,A03AB02; A03CA05; D11AA01; R03AL04; R03AL07; R03AL09; R03AL11; R03AL12; R03BB06,The evolving landscape of drug targets
+DRG-rimonabant,rimonabant,rimonabant,unknown,,,A08AX01,The evolving landscape of drug targets
+DRG-paracetamol,paracetamol,paracetamol,unknown,,,N02AJ01; N02AJ06; N02AJ13; N02AJ17; N02BE01; N02BE51; N02BE71,The evolving landscape of drug targets
+DRG-nabilone,nabilone,nabilone,unknown,,,A04AD11,The evolving landscape of drug targets
+DRG-crinecerfont,crinecerfont,crinecerfont,unknown,,,,The evolving landscape of drug targets
+DRG-plerixafor,plerixafor,plerixafor,unknown,,,L03AX16,The evolving landscape of drug targets
+DRG-motixafortide,motixafortide,motixafortide,unknown,,,,The evolving landscape of drug targets
+DRG-mavorixafor,mavorixafor,mavorixafor,unknown,,,L03AX24,The evolving landscape of drug targets
+DRG-zafirlukast,zafirlukast,zafirlukast,unknown,,,R03DC01,The evolving landscape of drug targets
+DRG-montelukast,montelukast,montelukast,unknown,,,R03DC03,The evolving landscape of drug targets
+DRG-pranlukast,pranlukast,pranlukast,unknown,,,R03DC02,The evolving landscape of drug targets
+DRG-fenoldopam,fenoldopam,fenoldopam,unknown,,,C01CA19,The evolving landscape of drug targets
+DRG-levodopa,levodopa,levodopa,unknown,,,N04BA01; N04BA02; N04BA03,The evolving landscape of drug targets
+DRG-methylergometrine,methylergometrine,methylergometrine,unknown,,,G02AB01;G02AC01,The evolving landscape of drug targets
+DRG-olanzapine,olanzapine,olanzapine,unknown,,,N05AH03,The evolving landscape of drug targets
+DRG-cabergoline,cabergoline,cabergoline,unknown,,,G02CB03,The evolving landscape of drug targets
+DRG-pramipexole,pramipexole,pramipexole,unknown,,,N04BC05,The evolving landscape of drug targets
+DRG-amisulpride,amisulpride,amisulpride,unknown,,,N05AL05,The evolving landscape of drug targets
+DRG-prochlorperazine,prochlorperazine,prochlorperazine,unknown,,,N05AB04,The evolving landscape of drug targets
+DRG-bosentan,bosentan,bosentan,unknown,,,C02KX01,The evolving landscape of drug targets
+DRG-sitaxentan,sitaxentan,sitaxentan,unknown,,,C02KX03,The evolving landscape of drug targets
+DRG-ambrisentan,ambrisentan,ambrisentan,unknown,,,C02KX02,The evolving landscape of drug targets
+DRG-macitentan,macitentan,macitentan,unknown,,,C02KX04,The evolving landscape of drug targets
+DRG-aprocitentan,aprocitentan,aprocitentan,unknown,,,C02KN01,The evolving landscape of drug targets
+DRG-vorapaxar,vorapaxar,vorapaxar,unknown,,,B01AC26,The evolving landscape of drug targets
+DRG-corifollitropin-alfa,corifollitropin alfa,corifollitropin alfa,unknown,,,G03GA09,The evolving landscape of drug targets
+DRG-follitropin,follitropin,follitropin,unknown,,,G03GA04;G03GA05;G03GA06;G03GA10,The evolving landscape of drug targets
+DRG-sodium-oxybate,sodium oxybate,sodium oxybate,unknown,,,N01AX11,The evolving landscape of drug targets
+DRG-baclofen,baclofen,baclofen,unknown,,,M03BX01,The evolving landscape of drug targets
+DRG-dasiglucagon,dasiglucagon,dasiglucagon,unknown,,,H04AA02,The evolving landscape of drug targets
+DRG-glucagon,glucagon,glucagon,unknown,,,H04AA01,The evolving landscape of drug targets
+DRG-tesamorelin,tesamorelin,tesamorelin,unknown,,,H01AC06,The evolving landscape of drug targets
+DRG-sermorelin,sermorelin,sermorelin,unknown,,,H01AC04;V04CD03,The evolving landscape of drug targets
+DRG-pralmorelin,pralmorelin,pralmorelin,unknown,,,,The evolving landscape of drug targets
+DRG-macimorelin,macimorelin,macimorelin,unknown,,,V04CD06,The evolving landscape of drug targets
+DRG-anamorelin,anamorelin,anamorelin,unknown,,,,The evolving landscape of drug targets
+DRG-tirzepatide,tirzepatide,tirzepatide,unknown,,,A10BX16,The evolving landscape of drug targets
+DRG-exenatide,exenatide,exenatide,unknown,,,A10BJ01,The evolving landscape of drug targets
+DRG-liraglutide,liraglutide,liraglutide,unknown,,,A10BJ02,The evolving landscape of drug targets
+DRG-lixisenatide,lixisenatide,lixisenatide,unknown,,,A10BJ03,The evolving landscape of drug targets
+DRG-teduglutide,teduglutide,teduglutide,unknown,,,A16AX08,The evolving landscape of drug targets
+DRG-cetrorelix,cetrorelix,cetrorelix,unknown,,,H01CC02,The evolving landscape of drug targets
+DRG-ganirelix,ganirelix,ganirelix,unknown,,,H01CC01,The evolving landscape of drug targets
+DRG-triptorelin,triptorelin,triptorelin,unknown,,,L02AE04,The evolving landscape of drug targets
+DRG-talquetamab,talquetamab,talquetamab,unknown,,,L01FX29,The evolving landscape of drug targets
+DRG-nicotinic-acid,nicotinic acid,nicotinic acid,unknown,,,C04AC01;C10AD02;C10AD52;C10BA01,The evolving landscape of drug targets
+DRG-suvorexant,suvorexant,suvorexant,unknown,,,N05CM19,The evolving landscape of drug targets
+DRG-lemborexant,lemborexant,lemborexant,unknown,,,N05CM21,The evolving landscape of drug targets
+DRG-acrivastine,acrivastine,acrivastine,unknown,,,R06AX18,The evolving landscape of drug targets
+DRG-pheniramine,pheniramine,pheniramine,unknown,,,D04AA16,The evolving landscape of drug targets
+DRG-cetirizine,cetirizine,cetirizine,unknown,,,R06AE07,The evolving landscape of drug targets
+DRG-cimetidine,cimetidine,cimetidine,unknown,,,A02BA01;A02BA51,The evolving landscape of drug targets
+DRG-famotidine,famotidine,famotidine,unknown,,,A02BA03;A02BA53,The evolving landscape of drug targets
+DRG-nizatidine,nizatidine,nizatidine,unknown,,,A02BA04,The evolving landscape of drug targets
+DRG-pitolisant,pitolisant,pitolisant,unknown,,,N07XX11,The evolving landscape of drug targets
+DRG-aripiprazole,aripiprazole,aripiprazole,unknown,,,N05AX12,The evolving landscape of drug targets
+DRG-vilazodone,vilazodone,vilazodone,unknown,,,N06AX24,The evolving landscape of drug targets
+DRG-vortioxetine,vortioxetine,vortioxetine,unknown,,,N06AX26,The evolving landscape of drug targets
+DRG-zolmitriptan,zolmitriptan,zolmitriptan,unknown,,,N02CC03,The evolving landscape of drug targets
+DRG-naratriptan,naratriptan,naratriptan,unknown,,,N02CC02,The evolving landscape of drug targets
+DRG-rizatriptan,rizatriptan,rizatriptan,unknown,,,N02CC04,The evolving landscape of drug targets
+DRG-lasmiditan,lasmiditan,lasmiditan,unknown,,,N02CC08,The evolving landscape of drug targets
+DRG-nefazodone,nefazodone,nefazodone,unknown,,,N06AX06,The evolving landscape of drug targets
+DRG-mirtazapine,mirtazapine,mirtazapine,unknown,,,N06AX11,The evolving landscape of drug targets
+DRG-agomelatine,agomelatine,agomelatine,unknown,,,N06AX22,The evolving landscape of drug targets
+DRG-lorcaserin,lorcaserin,lorcaserin,unknown,,,A08AA11,The evolving landscape of drug targets
+DRG-tegaserod,tegaserod,tegaserod,unknown,,,A06AX06,The evolving landscape of drug targets
+DRG-prucalopride,prucalopride,prucalopride,unknown,,,A06AX05,The evolving landscape of drug targets
+DRG-cisapride,cisapride,cisapride,unknown,,,A03FA02,The evolving landscape of drug targets
+DRG-choriogonadotropin-alfa,choriogonadotropin alfa,choriogonadotropin alfa,unknown,,,G03GA08,The evolving landscape of drug targets
+DRG-lutropin-alfa,lutropin alfa,lutropin alfa,unknown,,,G03GA07,The evolving landscape of drug targets
+DRG-afamelanotide,afamelanotide,afamelanotide,unknown,,,D02BB02,The evolving landscape of drug targets
+DRG-tetracosactide,tetracosactide,tetracosactide,unknown,,,H01AA02,The evolving landscape of drug targets
+DRG-seractide,seractide,seractide,unknown,,,,The evolving landscape of drug targets
+DRG-corticotropin,corticotropin,corticotropin,unknown,,,H01AA01,The evolving landscape of drug targets
+DRG-bremelanotide,bremelanotide,bremelanotide,unknown,,,G02CX05,The evolving landscape of drug targets
+DRG-setmelanotide,setmelanotide,setmelanotide,unknown,,,A08AA12,The evolving landscape of drug targets
+DRG-ramelteon,ramelteon,ramelteon,unknown,,,N05CH02,The evolving landscape of drug targets
+DRG-melatonin,melatonin,melatonin,unknown,,,N05CH01,The evolving landscape of drug targets
+DRG-nalmefene,nalmefene,nalmefene,unknown,,,N07BB05,The evolving landscape of drug targets
+DRG-eluxadoline,eluxadoline,eluxadoline,unknown,,,A07DA06,The evolving landscape of drug targets
+DRG-naltrexone,naltrexone,naltrexone,unknown,,,A08AA62; N02AA56; N07BB04,The evolving landscape of drug targets
+DRG-nalfurafine,nalfurafine,nalfurafine,unknown,,,V03AX02,The evolving landscape of drug targets
+DRG-buprenorphine,buprenorphine,buprenorphine,unknown,,,N02AE01; N07BC01; N07BC51,The evolving landscape of drug targets
+DRG-tramadol,tramadol,tramadol,unknown,,,N02AX02,The evolving landscape of drug targets
+DRG-remifentanil,remifentanil,remifentanil,unknown,,,N01AH06,The evolving landscape of drug targets
+DRG-atosiban,atosiban,atosiban,unknown,,,G02CX01,The evolving landscape of drug targets
+DRG-oxytocin,oxytocin,oxytocin,unknown,,,G02AC01;H01BB02,The evolving landscape of drug targets
+DRG-clopidogrel,clopidogrel,clopidogrel,unknown,,,B01AC04,The evolving landscape of drug targets
+DRG-prasugrel,prasugrel,prasugrel,unknown,,,B01AC22,The evolving landscape of drug targets
+DRG-ticagrelor,ticagrelor,ticagrelor,unknown,,,B01AC24,The evolving landscape of drug targets
+DRG-diquafosol,diquafosol,diquafosol,unknown,,,,The evolving landscape of drug targets
+DRG-epoprostenol,epoprostenol,epoprostenol,unknown,,,B01AC09,The evolving landscape of drug targets
+DRG-alprostadil,alprostadil,alprostadil,unknown,,,C01EA01; G04BE01,The evolving landscape of drug targets
+DRG-dinoprostone,dinoprostone,dinoprostone,unknown,,,G02AD02,The evolving landscape of drug targets
+DRG-omidenepag-isopropyl,omidenepag isopropyl,omidenepag isopropyl,unknown,,,S01EX06,The evolving landscape of drug targets
+DRG-diclofenac-etalhyaluronate-sodium,diclofenac etalhyaluronate sodium,diclofenac etalhyaluronate sodium,unknown,,,,The evolving landscape of drug targets
+DRG-misoprostol,misoprostol,misoprostol,unknown,,,A02BB01;G02AD06;M01AE56,The evolving landscape of drug targets
+DRG-latanoprost,latanoprost,latanoprost,unknown,,,S01EE01,The evolving landscape of drug targets
+DRG-bimatoprost,bimatoprost,bimatoprost,unknown,,,S01EE03,The evolving landscape of drug targets
+DRG-travoprost,travoprost,travoprost,unknown,,,S01EE04,The evolving landscape of drug targets
+DRG-treprostinil,treprostinil,treprostinil,unknown,,,B01AC21,The evolving landscape of drug targets
+DRG-iloprost,iloprost,iloprost,unknown,,,B01AC11,The evolving landscape of drug targets
+DRG-teriparatide,teriparatide,teriparatide,unknown,,,H05AA02,The evolving landscape of drug targets
+DRG-parathyroid-hormone,parathyroid hormone,parathyroid hormone,unknown,,,H05AA03,The evolving landscape of drug targets
+DRG-abaloparatide,abaloparatide,abaloparatide,unknown,,,H05AA04,The evolving landscape of drug targets
+DRG-fingolimod,fingolimod,fingolimod,unknown,,,L04AA27,The evolving landscape of drug targets
+DRG-siponimod,siponimod,siponimod,unknown,,,L04AA42,The evolving landscape of drug targets
+DRG-ozanimod,ozanimod,ozanimod,unknown,,,L04AA38,The evolving landscape of drug targets
+DRG-secretin-human,secretin human,secretin human,unknown,,,V04CK01,The evolving landscape of drug targets
+DRG-vismodegib,vismodegib,vismodegib,unknown,,,L01XJ01,The evolving landscape of drug targets
+DRG-sonidegib,sonidegib,sonidegib,unknown,,,L01XJ02,The evolving landscape of drug targets
+DRG-glasdegib,glasdegib,glasdegib,unknown,,,L01XJ03,The evolving landscape of drug targets
+DRG-pasireotide,pasireotide,pasireotide,unknown,,,H01CB05,The evolving landscape of drug targets
+DRG-octreotide,octreotide,octreotide,unknown,,,H01CB02,The evolving landscape of drug targets
+DRG-lanreotide,lanreotide,lanreotide,unknown,,,H01CB03,The evolving landscape of drug targets
+DRG-gallium-68ga-edotreotide,gallium (68Ga) edotreotide,gallium (68Ga) edotreotide,unknown,,,V09IX09,The evolving landscape of drug targets
+DRG-hydroxyamfetamine,hydroxyamfetamine,hydroxyamfetamine,unknown,,,,The evolving landscape of drug targets
+DRG-aprepitant,aprepitant,aprepitant,unknown,,,A04AD12,The evolving landscape of drug targets
+DRG-fosaprepitant,fosaprepitant,fosaprepitant,unknown,,,,The evolving landscape of drug targets
+DRG-netupitant,netupitant,netupitant,unknown,,,,The evolving landscape of drug targets
+DRG-fezolinetant,fezolinetant,fezolinetant,unknown,,,G02CX06,The evolving landscape of drug targets
+DRG-protirelin,protirelin,protirelin,unknown,,,V04CJ02,The evolving landscape of drug targets
+DRG-thyrotropin-alfa,thyrotropin alfa,thyrotropin alfa,unknown,,,H01AB01;V04CJ01,The evolving landscape of drug targets
+DRG-minoxidil,minoxidil,minoxidil,unknown,,,C02DC01;D11AX01,The evolving landscape of drug targets
+DRG-crofelemer,crofelemer,crofelemer,unknown,,,A07XA06,The evolving landscape of drug targets
+DRG-ziconotide,ziconotide,ziconotide,unknown,,,N02BG08,The evolving landscape of drug targets
+DRG-nisoldipine,nisoldipine,nisoldipine,unknown,,,C08CA07,The evolving landscape of drug targets
+DRG-clevidipine,clevidipine,clevidipine,unknown,,,C08CA16,The evolving landscape of drug targets
+DRG-amlodipine,amlodipine,amlodipine,unknown,,,C07FB07; C07FB12; C07FB13; C08CA01; C08CA51; C08GA02; C09BB03; C09BB04; C09BB07; C09BB13; C09BX01; C09BX03; C09BX04; C09DB01; C09DB02; C09DB04; C09DB05; C09DB06; C09DB07; C09DB09; C09DX01; C09DX03; C09DX06; C09DX07; C09DX08; C09XA53; C09XA54; C10BX03; C10BX07; C10BX09; C10BX11; C10BX14; C10BX18; C10BX19,The evolving landscape of drug targets
+DRG-ethosuximide,ethosuximide,ethosuximide,unknown,,,N03AD01;N03AD51,The evolving landscape of drug targets
+DRG-methsuximide,methsuximide,methsuximide,unknown,,,N03AD03,The evolving landscape of drug targets
+DRG-paramethadione,paramethadione,paramethadione,unknown,,,N03AC01,The evolving landscape of drug targets
+DRG-mibefradil,mibefradil,mibefradil,unknown,,,C08CX01,The evolving landscape of drug targets
+DRG-bepridil,bepridil,bepridil,unknown,,,C08EA02,The evolving landscape of drug targets
+DRG-verapamil,verapamil,verapamil,unknown,,,C08DA01; C08DA51; C09BB10,The evolving landscape of drug targets
+DRG-pregabalin,pregabalin,pregabalin,unknown,,,N02BF02,The evolving landscape of drug targets
+DRG-gabapentin-enacarbil,gabapentin enacarbil,gabapentin enacarbil,unknown,,,,The evolving landscape of drug targets
+DRG-mirogabalin,mirogabalin,mirogabalin,unknown,,,N02BF03,The evolving landscape of drug targets
+DRG-gabapentin,gabapentin,gabapentin,unknown,,,N02BF01,The evolving landscape of drug targets
+DRG-ivacaftor,ivacaftor,ivacaftor,unknown,,,R07AX02,The evolving landscape of drug targets
+DRG-lumacaftor,lumacaftor,lumacaftor,unknown,,,R07AX30,The evolving landscape of drug targets
+DRG-rocuronium,rocuronium,rocuronium,unknown,,,M03AC09,The evolving landscape of drug targets
+DRG-cisatracurium,cisatracurium,cisatracurium,unknown,,,M03AC11,The evolving landscape of drug targets
+DRG-rapacuronium,rapacuronium,rapacuronium,unknown,,,,The evolving landscape of drug targets
+DRG-mecamylamine,mecamylamine,mecamylamine,unknown,,,C02BB01,The evolving landscape of drug targets
+DRG-varenicline,varenicline,varenicline,unknown,,,N07BA03,The evolving landscape of drug targets
+DRG-nicotine,nicotine,nicotine,unknown,,,N07BA01,The evolving landscape of drug targets
+DRG-decamethonium,decamethonium,decamethonium,unknown,,,,The evolving landscape of drug targets
+DRG-suxamethonium,suxamethonium,suxamethonium,unknown,,,M03AB01,The evolving landscape of drug targets
+DRG-lubiprostone,lubiprostone,lubiprostone,unknown,,,A06AX03,The evolving landscape of drug targets
+DRG-zaleplon,zaleplon,zaleplon,unknown,,,N05CF03,The evolving landscape of drug targets
+DRG-acamprosate,acamprosate,acamprosate,unknown,,,N07BB03,The evolving landscape of drug targets
+DRG-remimazolam,remimazolam,remimazolam,unknown,,,N05CD14,The evolving landscape of drug targets
+DRG-eszopiclone,eszopiclone,eszopiclone,unknown,,,N05CF04,The evolving landscape of drug targets
+DRG-clorazepate,clorazepate,clorazepate,unknown,,,N05BA05,The evolving landscape of drug targets
+DRG-zopiclone,zopiclone,zopiclone,unknown,,,N05CF01,The evolving landscape of drug targets
+DRG-zuranolone,zuranolone,zuranolone,unknown,,,,The evolving landscape of drug targets
+DRG-flumazenil,flumazenil,flumazenil,unknown,,,V03AB25,The evolving landscape of drug targets
+DRG-quazepam,quazepam,quazepam,unknown,,,N05CD10,The evolving landscape of drug targets
+DRG-fospropofol,fospropofol,fospropofol,unknown,,,,The evolving landscape of drug targets
+DRG-triazolam,triazolam,triazolam,unknown,,,N05CD05,The evolving landscape of drug targets
+DRG-sevoflurane,sevoflurane,sevoflurane,unknown,,,N01AB08,The evolving landscape of drug targets
+DRG-desflurane,desflurane,desflurane,unknown,,,N01AB07,The evolving landscape of drug targets
+DRG-halazepam,halazepam,halazepam,unknown,,,N05BA13,The evolving landscape of drug targets
+DRG-enflurane,enflurane,enflurane,unknown,,,N01AB04,The evolving landscape of drug targets
+DRG-halothane,halothane,halothane,unknown,,,N01AB01,The evolving landscape of drug targets
+DRG-isoflurane,isoflurane,isoflurane,unknown,,,N01AB06,The evolving landscape of drug targets
+DRG-perampanel,perampanel,perampanel,unknown,,,N03AX22,The evolving landscape of drug targets
+DRG-ketamine,ketamine,ketamine,unknown,,,N01AX03,The evolving landscape of drug targets
+DRG-memantine,memantine,memantine,unknown,,,N06DX01,The evolving landscape of drug targets
+DRG-felbamate,felbamate,felbamate,unknown,,,N03AX10,The evolving landscape of drug targets
+DRG-amantadine,amantadine,amantadine,unknown,,,N04BB01,The evolving landscape of drug targets
+DRG-ivabradine,ivabradine,ivabradine,unknown,,,C01EB17,The evolving landscape of drug targets
+DRG-dronedarone,dronedarone,dronedarone,unknown,,,C01BD07,The evolving landscape of drug targets
+DRG-methysergide,methysergide,methysergide,unknown,,,N02CA04,The evolving landscape of drug targets
+DRG-ramosetron,ramosetron,ramosetron,unknown,,,,The evolving landscape of drug targets
+DRG-dolasetron,dolasetron,dolasetron,unknown,,,A04AA04,The evolving landscape of drug targets
+DRG-alosetron,alosetron,alosetron,unknown,,,A03AE01,The evolving landscape of drug targets
+DRG-vernakalant,vernakalant,vernakalant,unknown,,,C01BG11,The evolving landscape of drug targets
+DRG-dofetilide,dofetilide,dofetilide,unknown,,,C01BD04,The evolving landscape of drug targets
+DRG-amiodarone,amiodarone,amiodarone,unknown,,,C01BD01,The evolving landscape of drug targets
+DRG-sotalol,sotalol,sotalol,unknown,,,C07AA07; C07BA07; C07FX02,The evolving landscape of drug targets
+DRG-glimepiride,glimepiride,glimepiride,unknown,,,A10BB12,The evolving landscape of drug targets
+DRG-repaglinide,repaglinide,repaglinide,unknown,,,A10BX02,The evolving landscape of drug targets
+DRG-nateglinide,nateglinide,nateglinide,unknown,,,A10BX03,The evolving landscape of drug targets
+DRG-doxapram,doxapram,doxapram,unknown,,,R07AB01,The evolving landscape of drug targets
+DRG-chlorzoxazone,chlorzoxazone,chlorzoxazone,unknown,,,M03BB03;M03BB53;M03BB73,The evolving landscape of drug targets
+DRG-retigabine,retigabine,retigabine,unknown,,,N03AX21,The evolving landscape of drug targets
+DRG-amifampridine,amifampridine,amifampridine,unknown,,,N07XX05,The evolving landscape of drug targets
+DRG-fampridine,fampridine,fampridine,unknown,,,N07XX07,The evolving landscape of drug targets
+DRG-guanidine,guanidine,guanidine,unknown,,,,The evolving landscape of drug targets
+DRG-gefapixant,gefapixant,gefapixant,unknown,,,R05DB29,The evolving landscape of drug targets
+DRG-dantrolene,dantrolene,dantrolene,unknown,,,M03CA01,The evolving landscape of drug targets
+DRG-hydralazine,hydralazine,hydralazine,unknown,,,C02DB02;C02LG02,The evolving landscape of drug targets
+DRG-lamotrigine,lamotrigine,lamotrigine,unknown,,,N03AX09,The evolving landscape of drug targets
+DRG-ropivacaine,ropivacaine,ropivacaine,unknown,,,N01BB09,The evolving landscape of drug targets
+DRG-oxybuprocaine,oxybuprocaine,oxybuprocaine,unknown,,,D04AB03,The evolving landscape of drug targets
+DRG-phenazopyridine,phenazopyridine,phenazopyridine,unknown,,,G04BX06,The evolving landscape of drug targets
+DRG-rufinamide,rufinamide,rufinamide,unknown,,,N03AF03,The evolving landscape of drug targets
+DRG-eslicarbazepine-acetate,eslicarbazepine acetate,eslicarbazepine acetate,unknown,,,N03AF04,The evolving landscape of drug targets
+DRG-articaine,articaine,articaine,unknown,,,N01BB08,The evolving landscape of drug targets
+DRG-levobupivacaine,levobupivacaine,levobupivacaine,unknown,,,N01BB10,The evolving landscape of drug targets
+DRG-riluzole,riluzole,riluzole,unknown,,,N07XX02,The evolving landscape of drug targets
+DRG-fosphenytoin,fosphenytoin,fosphenytoin,unknown,,,N03AB05,The evolving landscape of drug targets
+DRG-mepivacaine,mepivacaine,mepivacaine,unknown,,,N01BB03; N01BB53,The evolving landscape of drug targets
+DRG-tetracaine,tetracaine,tetracaine,unknown,,,C05AD02,The evolving landscape of drug targets
+DRG-amiloride,amiloride,amiloride,unknown,,,C03DB01,The evolving landscape of drug targets
+DRG-triamterene,triamterene,triamterene,unknown,,,C03DB02,The evolving landscape of drug targets
+DRG-acoltremon,acoltremon,acoltremon,unknown,,,,The evolving landscape of drug targets
+DRG-capsaicin,capsaicin,capsaicin,unknown,,,M02AB01,The evolving landscape of drug targets
+DRG-cannabidiol,cannabidiol,cannabidiol,unknown,,,N03AX24,The evolving landscape of drug targets
+DRG-bicalutamide,bicalutamide,bicalutamide,unknown,,,L02BB03,The evolving landscape of drug targets
+DRG-nilutamide,nilutamide,nilutamide,unknown,,,L02BB02,The evolving landscape of drug targets
+DRG-enzalutamide,enzalutamide,enzalutamide,unknown,,,L02BB04,The evolving landscape of drug targets
+DRG-toremifene,toremifene,toremifene,unknown,,,L02BA02,The evolving landscape of drug targets
+DRG-raloxifene,raloxifene,raloxifene,unknown,,,G03XC01,The evolving landscape of drug targets
+DRG-fulvestrant,fulvestrant,fulvestrant,unknown,,,L02BA03,The evolving landscape of drug targets
+DRG-lasofoxifene,lasofoxifene,lasofoxifene,unknown,,,G03XC03,The evolving landscape of drug targets
+DRG-obeticholic-acid,obeticholic acid,obeticholic acid,unknown,,,A05AA04,The evolving landscape of drug targets
+DRG-ursodiol,ursodiol,ursodiol,unknown,,,A05AA02,The evolving landscape of drug targets
+DRG-chenodiol,chenodiol,chenodiol,unknown,,,A05AA01,The evolving landscape of drug targets
+DRG-budesonide,budesonide,budesonide,unknown,,,A07EA06,The evolving landscape of drug targets
+DRG-rimexolone,rimexolone,rimexolone,unknown,,,H02AB12,The evolving landscape of drug targets
+DRG-hydrocortisone-probutate,hydrocortisone probutate,hydrocortisone probutate,unknown,,,D07AB11,The evolving landscape of drug targets
+DRG-eplerenone,eplerenone,eplerenone,unknown,,,C03DA04,The evolving landscape of drug targets
+DRG-drospirenone,drospirenone,drospirenone,unknown,,,G03AC10,The evolving landscape of drug targets
+DRG-esaxerenone,esaxerenone,esaxerenone,unknown,,,,The evolving landscape of drug targets
+DRG-mifepristone,mifepristone,mifepristone,unknown,,,G03XB01,The evolving landscape of drug targets
+DRG-etonogestrel,etonogestrel,etonogestrel,unknown,,,G03AC08,The evolving landscape of drug targets
+DRG-norelgestromin,norelgestromin,norelgestromin,unknown,,,G03AA13,The evolving landscape of drug targets
+DRG-choline-fenofibrate,choline fenofibrate,choline fenofibrate,unknown,,,C10AB11,The evolving landscape of drug targets
+DRG-pemafibrate,pemafibrate,pemafibrate,unknown,,,C10AB12,The evolving landscape of drug targets
+DRG-elafibranor,elafibranor,elafibranor,unknown,,,A05AX06,The evolving landscape of drug targets
+DRG-seladelpar,seladelpar,seladelpar,unknown,,,A05AX07,The evolving landscape of drug targets
+DRG-troglitazone,troglitazone,troglitazone,unknown,,,A10BG01,The evolving landscape of drug targets
+DRG-rosiglitazone,rosiglitazone,rosiglitazone,unknown,,,A10BG02,The evolving landscape of drug targets
+DRG-pioglitazone,pioglitazone,pioglitazone,unknown,,,A10BG03,The evolving landscape of drug targets
+DRG-acitretin,acitretin,acitretin,unknown,,,D05BB02,The evolving landscape of drug targets
+DRG-tazarotene,tazarotene,tazarotene,unknown,,,D05AX05,The evolving landscape of drug targets
+DRG-alitretinoin,alitretinoin,alitretinoin,unknown,,,D11AH04,The evolving landscape of drug targets
+DRG-adapalene,adapalene,adapalene,unknown,,,D10AD03,The evolving landscape of drug targets
+DRG-bexarotene,bexarotene,bexarotene,unknown,,,L01XF03,The evolving landscape of drug targets
+DRG-etretinate,etretinate,etretinate,unknown,,,D05BB01,The evolving landscape of drug targets
+DRG-levothyroxine,levothyroxine,levothyroxine,unknown,,,H03AA01,The evolving landscape of drug targets
+DRG-tiratricol,tiratricol,tiratricol,unknown,,,H03AA04; D11AX08,The evolving landscape of drug targets
+DRG-dextrothyroxine,dextrothyroxine,dextrothyroxine,unknown,,,C10AX01,The evolving landscape of drug targets
+DRG-resmetirom,resmetirom,resmetirom,unknown,,,,The evolving landscape of drug targets
+DRG-paricalcitol,paricalcitol,paricalcitol,unknown,,,H05BX02,The evolving landscape of drug targets
+DRG-doxercalciferol,doxercalciferol,doxercalciferol,unknown,,,H05BX03,The evolving landscape of drug targets
+DRG-colecalciferol,colecalciferol,colecalciferol,unknown,,,A11CC05,The evolving landscape of drug targets
+DRG-mipomersen,mipomersen,mipomersen,unknown,,,C10AX11,The evolving landscape of drug targets
+DRG-volanesorsen,volanesorsen,volanesorsen,unknown,,,C10AX18,The evolving landscape of drug targets
+DRG-olezarsen,olezarsen,olezarsen,unknown,,,,The evolving landscape of drug targets
+DRG-vutrisiran,vutrisiran,vutrisiran,unknown,,,N07XX18,The evolving landscape of drug targets
+DRG-venetoclax,venetoclax,venetoclax,unknown,,,L01XX52,The evolving landscape of drug targets
+DRG-blinatumomab,blinatumomab,blinatumomab,unknown,,,L01FX07,The evolving landscape of drug targets
+DRG-inebilizumab,inebilizumab,inebilizumab,unknown,,,L04AA47,The evolving landscape of drug targets
+DRG-tafasitamab,tafasitamab,tafasitamab,unknown,,,L01FX12,The evolving landscape of drug targets
+DRG-alefacept,alefacept,alefacept,unknown,,,L04AA15,The evolving landscape of drug targets
+DRG-inotuzumab-ozogamicin,inotuzumab ozogamicin,inotuzumab ozogamicin,unknown,,,L01FB01,The evolving landscape of drug targets
+DRG-moxetumomab-pasudotox,moxetumomab pasudotox,moxetumomab pasudotox,unknown,,,L01FB02,The evolving landscape of drug targets
+DRG-gemtuzumab-ozogamicin,gemtuzumab ozogamicin,gemtuzumab ozogamicin,unknown,,,L01FX02,The evolving landscape of drug targets
+DRG-teplizumab,teplizumab,teplizumab,unknown,,,A10XX01,The evolving landscape of drug targets
+DRG-ibalizumab,ibalizumab,ibalizumab,unknown,,,J05AX23,The evolving landscape of drug targets
+DRG-alemtuzumab,alemtuzumab,alemtuzumab,unknown,,,L04AA34,The evolving landscape of drug targets
+DRG-polatuzumab-vedotin,polatuzumab vedotin,polatuzumab vedotin,unknown,,,L01FX14,The evolving landscape of drug targets
+DRG-abatacept,abatacept,abatacept,unknown,,,L04AA24,The evolving landscape of drug targets
+DRG-belatacept,belatacept,belatacept,unknown,,,L04AA28,The evolving landscape of drug targets
+DRG-zolbetuximab,zolbetuximab,zolbetuximab,unknown,,,L01FX31,The evolving landscape of drug targets
+DRG-ipilimumab,ipilimumab,ipilimumab,unknown,,,L01FX04,The evolving landscape of drug targets
+DRG-tremelimumab,tremelimumab,tremelimumab,unknown,,,L01FX20,The evolving landscape of drug targets
+DRG-eteplirsen,eteplirsen,eteplirsen,unknown,,,M09AX06,The evolving landscape of drug targets
+DRG-golodirsen,golodirsen,golodirsen,unknown,,,M09AX08,The evolving landscape of drug targets
+DRG-viltolarsen,viltolarsen,viltolarsen,unknown,,,M09AX12,The evolving landscape of drug targets
+DRG-belzutifan,belzutifan,belzutifan,unknown,,,L01XX74,The evolving landscape of drug targets
+DRG-margetuximab,margetuximab,margetuximab,unknown,,,L01FD06,The evolving landscape of drug targets
+DRG-efgartigimod-alfa,efgartigimod alfa,efgartigimod alfa,unknown,,,L04AA58,The evolving landscape of drug targets
+DRG-rozanolixizumab,rozanolixizumab,rozanolixizumab,unknown,,,L04AG16,The evolving landscape of drug targets
+DRG-efbemalenograstim-alfa,efbemalenograstim alfa,efbemalenograstim alfa,unknown,,,L03AA18,The evolving landscape of drug targets
+DRG-pafolacianine,pafolacianine,pafolacianine,unknown,,,V04CX10,The evolving landscape of drug targets
+DRG-mirvetuximab-soravtansine,mirvetuximab soravtansine,mirvetuximab soravtansine,unknown,,,L01FX26,The evolving landscape of drug targets
+DRG-pimitespib,pimitespib,pimitespib,unknown,,,,The evolving landscape of drug targets
+DRG-omalizumab,omalizumab,omalizumab,unknown,,,R03DX05,The evolving landscape of drug targets
+DRG-dimethyl-fumarate,dimethyl fumarate,dimethyl fumarate,unknown,,,L04AX07,The evolving landscape of drug targets
+DRG-relatlimab,relatlimab,relatlimab,unknown,,,L01XY03,The evolving landscape of drug targets
+DRG-revumenib,revumenib,revumenib,unknown,,,,The evolving landscape of drug targets
+DRG-rituximab,rituximab,rituximab,unknown,,,L01FA01,The evolving landscape of drug targets
+DRG-ibritumomab-tiuxetan,ibritumomab tiuxetan,ibritumomab tiuxetan,unknown,,,V10XX02,The evolving landscape of drug targets
+DRG-ofatumumab,ofatumumab,ofatumumab,unknown,,,L01FA02,The evolving landscape of drug targets
+DRG-lomitapide,lomitapide,lomitapide,unknown,,,C10AX12,The evolving landscape of drug targets
+DRG-mavacamten,mavacamten,mavacamten,unknown,,,C01EB24,The evolving landscape of drug targets
+DRG-enfortumab-vedotin,enfortumab vedotin,enfortumab vedotin,unknown,,,L01FX13,The evolving landscape of drug targets
+DRG-nivolumab,nivolumab,nivolumab,unknown,,,L01FF01,The evolving landscape of drug targets
+DRG-pembrolizumab,pembrolizumab,pembrolizumab,unknown,,,L01FF02,The evolving landscape of drug targets
+DRG-cemiplimab,cemiplimab,cemiplimab,unknown,,,L01FF06,The evolving landscape of drug targets
+DRG-crizanlizumab,crizanlizumab,crizanlizumab,unknown,,,B06AX01,The evolving landscape of drug targets
+DRG-pentazocine,pentazocine,pentazocine,unknown,,,N02AD01,The evolving landscape of drug targets
+DRG-elotuzumab,elotuzumab,elotuzumab,unknown,,,L01FX08,The evolving landscape of drug targets
+DRG-nusinersen,nusinersen,nusinersen,unknown,,,M09AX07,The evolving landscape of drug targets
+DRG-risdiplam,risdiplam,risdiplam,unknown,,,,The evolving landscape of drug targets
+DRG-prabotulinumtoxina,prabotulinumtoxinA,prabotulinumtoxinA,unknown,,,,The evolving landscape of drug targets
+DRG-letibotulinumtoxina,letibotulinumtoxina,letibotulinumtoxina,unknown,,,,The evolving landscape of drug targets
+DRG-botulinum-toxin-type-a,botulinum toxin type A,botulinum toxin type A,unknown,,,,The evolving landscape of drug targets
+DRG-sacituzumab-govitecan,sacituzumab govitecan,sacituzumab govitecan,unknown,,,L01FX17,The evolving landscape of drug targets
+DRG-datopotamab-deruxtecan,datopotamab deruxtecan,datopotamab deruxtecan,unknown,,,L01FX35,The evolving landscape of drug targets
+DRG-vinorelbine,vinorelbine,vinorelbine,unknown,,,L01CA04,The evolving landscape of drug targets
+DRG-docetaxel,docetaxel,docetaxel,unknown,,,L01CD02,The evolving landscape of drug targets
+DRG-ixabepilone,ixabepilone,ixabepilone,unknown,,,L01DC04,The evolving landscape of drug targets
+DRG-imetelstat,imetelstat,imetelstat,unknown,,,L01XX80,The evolving landscape of drug targets
+DRG-ferric-carboxymaltose,ferric carboxymaltose,ferric carboxymaltose,unknown,,,,The evolving landscape of drug targets
+DRG-ferric-derisomaltose,ferric derisomaltose,ferric derisomaltose,unknown,,,,The evolving landscape of drug targets
+DRG-pabinafusp-alfa,pabinafusp alfa,pabinafusp alfa,unknown,,,A16AB27,The evolving landscape of drug targets
+DRG-tafamidis,tafamidis,tafamidis,unknown,,,N07XX08,The evolving landscape of drug targets
+DRG-inotersen,inotersen,inotersen,unknown,,,N07XX15,The evolving landscape of drug targets
+DRG-patisiran,patisiran,patisiran,unknown,,,N07XX12,The evolving landscape of drug targets
+DRG-tirbanibulin,tirbanibulin,tirbanibulin,unknown,,,D06BX03,The evolving landscape of drug targets
+DRG-selinexor,selinexor,selinexor,unknown,,,L01XX66,The evolving landscape of drug targets
+DRG-lansoprazole,lansoprazole,lansoprazole,unknown,,,A02BC03,The evolving landscape of drug targets
+DRG-rabeprazole,rabeprazole,rabeprazole,unknown,,,A02BC04,The evolving landscape of drug targets
+DRG-pantoprazole,pantoprazole,pantoprazole,unknown,,,A02BC02,The evolving landscape of drug targets
+DRG-ezetimibe,ezetimibe,ezetimibe,unknown,,,C10AX09,The evolving landscape of drug targets
+DRG-bulevirtide,bulevirtide,bulevirtide,unknown,,,J05AX28,The evolving landscape of drug targets
+DRG-elobixibat,elobixibat,elobixibat,unknown,,,A06AX09,The evolving landscape of drug targets
+DRG-odevixibat,odevixibat,odevixibat,unknown,,,A05AX05,The evolving landscape of drug targets
+DRG-maralixibat-hydrochloride,maralixibat hydrochloride,maralixibat hydrochloride,unknown,,,A05AX04,The evolving landscape of drug targets
+DRG-bumetanide,bumetanide,bumetanide,unknown,,,C03CA02;C03CB02;C03EB02,The evolving landscape of drug targets
+DRG-ethacrynic-acid,ethacrynic acid,ethacrynic acid,unknown,,,C03CC01,The evolving landscape of drug targets
+DRG-furosemide,furosemide,furosemide,unknown,,,C03CA01;C03CB01;C03EB01,The evolving landscape of drug targets
+DRG-bendroflumethiazide,bendroflumethiazide,bendroflumethiazide,unknown,,,C03AA01;C03AB01;C03EA13,The evolving landscape of drug targets
+DRG-benzthiazide,benzthiazide,benzthiazide,unknown,,,,The evolving landscape of drug targets
+DRG-chlorothiazide,chlorothiazide,chlorothiazide,unknown,,,C03AA04;C03AB04;C03AH01,The evolving landscape of drug targets
+DRG-lisdexamfetamine,lisdexamfetamine,lisdexamfetamine,unknown,,,N06BA12,The evolving landscape of drug targets
+DRG-tetrabenazine,tetrabenazine,tetrabenazine,unknown,,,N07XX06,The evolving landscape of drug targets
+DRG-deutetrabenazine,deutetrabenazine,deutetrabenazine,unknown,,,N07XX16,The evolving landscape of drug targets
+DRG-probenecid,probenecid,probenecid,unknown,,,M04AB01,The evolving landscape of drug targets
+DRG-lesinurad,lesinurad,lesinurad,unknown,,,M04AB05,The evolving landscape of drug targets
+DRG-dotinurad,dotinurad,dotinurad,unknown,,,,The evolving landscape of drug targets
+DRG-sulfinpyrazone,sulfinpyrazone,sulfinpyrazone,unknown,,,M04AB02,The evolving landscape of drug targets
+DRG-sotagliflozin,sotagliflozin,sotagliflozin,unknown,,,A10BK06,The evolving landscape of drug targets
+DRG-dapagliflozin,dapagliflozin,dapagliflozin,unknown,,,A10BK01,The evolving landscape of drug targets
+DRG-canagliflozin,canagliflozin,canagliflozin,unknown,,,A10BK02,The evolving landscape of drug targets
+DRG-ipragliflozin,ipragliflozin,ipragliflozin,unknown,,,A10BK05,The evolving landscape of drug targets
+DRG-tiagabine,tiagabine,tiagabine,unknown,,,N03AG06,The evolving landscape of drug targets
+DRG-iobenguane-131i,iobenguane (131I),iobenguane (131I),unknown,,,V09IX02,The evolving landscape of drug targets
+DRG-sibutramine,sibutramine,sibutramine,unknown,,,A08AA10,The evolving landscape of drug targets
+DRG-modafinil,modafinil,modafinil,unknown,,,N06BA07,The evolving landscape of drug targets
+DRG-ioflupane-i-123,Ioflupane I-123,Ioflupane I-123,unknown,,,V09AB03,The evolving landscape of drug targets
+DRG-fluvoxamine,fluvoxamine,fluvoxamine,unknown,,,N06AB08,The evolving landscape of drug targets
+DRG-borofalan-10b,borofalan (10B),borofalan (10B),unknown,,,,The evolving landscape of drug targets
+DRG-tenapanor,tenapanor,tenapanor,unknown,,,A06AX08,The evolving landscape of drug targets
+DRG-levetiracetam,levetiracetam,levetiracetam,unknown,,,N03AX14,The evolving landscape of drug targets
+DRG-brivaracetam,brivaracetam,brivaracetam,unknown,,,N03AX23,The evolving landscape of drug targets
+DRG-revakinagene-taroretcel-encelto,Revakinagene taroretcel (Encelto),Revakinagene taroretcel (Encelto),unknown,,,,The evolving landscape of drug targets
+DRG-talimogene-laherparepvec-imlygic,Talimogene laherparepvec (Imlygic),Talimogene laherparepvec (Imlygic),unknown,,,,The evolving landscape of drug targets
+DRG-nadofaragene-firadenovec-adstiladrin,Nadofaragene firadenovec (Adstiladrin),Nadofaragene firadenovec (Adstiladrin),unknown,,,,The evolving landscape of drug targets
+DRG-sipuleucel-t-provenge,Sipuleucel-T (Provenge),Sipuleucel-T (Provenge),unknown,,,,The evolving landscape of drug targets
+DRG-atidarsagene-autotemcel-lenmeldy,Atidarsagene autotemcel (Lenmeldy),Atidarsagene autotemcel (Lenmeldy),unknown,,,,The evolving landscape of drug targets
+DRG-voretigene-neparvovec-luxturna,Voretigene neparvovec (Luxturna),Voretigene neparvovec (Luxturna),unknown,,,,The evolving landscape of drug targets
+DRG-exagamglogene-autotemcel-casgevy,Exagamglogene autotemcel (Casgevy),Exagamglogene autotemcel (Casgevy),unknown,,,,The evolving landscape of drug targets
+DRG-beremagene-geperpavec-vyjuvek,Beremagene geperpavec (Vyjuvek),Beremagene geperpavec (Vyjuvek),unknown,,,,The evolving landscape of drug targets
+DRG-prademagene-zamikeracel-zevaskyn,Prademagene zamikeracel (Zevaskyn),Prademagene zamikeracel (Zevaskyn),unknown,,,,The evolving landscape of drug targets
+DRG-valoctocogene-roxaparvovec-roctavian,Valoctocogene roxaparvovec (Roctavian),Valoctocogene roxaparvovec (Roctavian),unknown,,,,The evolving landscape of drug targets
+DRG-betibeglogene-autotemcel-zynteglo,Betibeglogene autotemcel (Zynteglo),Betibeglogene autotemcel (Zynteglo),unknown,,,,The evolving landscape of drug targets
+DRG-lovotibeglogene-autotemcel-lyfgenia,Lovotibeglogene autotemcel (Lyfgenia),Lovotibeglogene autotemcel (Lyfgenia),unknown,,,,The evolving landscape of drug targets
+DRG-afamitresgene-autoleucel-tecelra,Afamitresgene autoleucel (Tecelra),Afamitresgene autoleucel (Tecelra),unknown,,,,The evolving landscape of drug targets
+DRG-lunsotogene-emelioparvovec-otarmeni,Lunsotogene emelioparvovec (Otarmeni),Lunsotogene emelioparvovec (Otarmeni),unknown,,,,The evolving landscape of drug targets
+DRG-etuvetidigene-autotemcel-waskyra,Etuvetidigene autotemcel (Waskyra),Etuvetidigene autotemcel (Waskyra),unknown,,,,The evolving landscape of drug targets
+DRG-elivaldogene-autotemcel-skysona,Elivaldogene autotemcel (Skysona),Elivaldogene autotemcel (Skysona),unknown,,,,The evolving landscape of drug targets
+DRG-cycloserine,cycloserine,cycloserine,unknown,,,J04AB01,The evolving landscape of drug targets
+DRG-bedaquiline,bedaquiline,bedaquiline,unknown,,,J04AK05,The evolving landscape of drug targets
+DRG-enmetazobactam,enmetazobactam,enmetazobactam,unknown,,,J01DD51,The evolving landscape of drug targets
+DRG-avibactam,avibactam,avibactam,unknown,,,J01DD52,The evolving landscape of drug targets
+DRG-relebactam,relebactam,relebactam,unknown,,,J01DH56,The evolving landscape of drug targets
+DRG-durlobactam,durlobactam,durlobactam,unknown,,,,The evolving landscape of drug targets
+DRG-clavulanic-acid,clavulanic acid,clavulanic acid,unknown,,,,The evolving landscape of drug targets
+DRG-sulbactam,sulbactam,sulbactam,unknown,,,J01CG01,The evolving landscape of drug targets
+DRG-tazobactam,tazobactam,tazobactam,unknown,,,J01CG02,The evolving landscape of drug targets
+DRG-cefdinir,cefdinir,cefdinir,unknown,,,J01DD15,The evolving landscape of drug targets
+DRG-cefditoren-pivoxil,cefditoren pivoxil,cefditoren pivoxil,unknown,,,J01DD16,The evolving landscape of drug targets
+DRG-cefepime,cefepime,cefepime,unknown,,,J01DE01,The evolving landscape of drug targets
+DRG-dapsone,dapsone,dapsone,unknown,,,D10AX05;J04BA02;J04BA50;J04BA51,The evolving landscape of drug targets
+DRG-mafenide,mafenide,mafenide,unknown,,,D06BA03,The evolving landscape of drug targets
+DRG-sulfacetamide,sulfacetamide,sulfacetamide,unknown,,,D10AF06;S01AB04,The evolving landscape of drug targets
+DRG-alatrofloxacin,alatrofloxacin,alatrofloxacin,unknown,,,J01MA13,The evolving landscape of drug targets
+DRG-ciprofloxacin,ciprofloxacin,ciprofloxacin,unknown,,,J01MA02;J01RA10;J01RA11;J01RA12;S01AE03;S02AA15;S03AA07,The evolving landscape of drug targets
+DRG-gatifloxacin,gatifloxacin,gatifloxacin,unknown,,,J01MA16,The evolving landscape of drug targets
+DRG-grepafloxacin,grepafloxacin,grepafloxacin,unknown,,,J01MA11,The evolving landscape of drug targets
+DRG-gemifloxacin,gemifloxacin,gemifloxacin,unknown,,,J01MA15,The evolving landscape of drug targets
+DRG-rifapentine,rifapentine,rifapentine,unknown,,,J04AB05,The evolving landscape of drug targets
+DRG-rifaximin,rifaximin,rifaximin,unknown,,,A07AA11,The evolving landscape of drug targets
+DRG-fidaxomicin,fidaxomicin,fidaxomicin,unknown,,,A07AA12,The evolving landscape of drug targets
+DRG-rifampicin,rifampicin,rifampicin,unknown,,,J04AB02;J04AM02;J04AM05;J04AM06;J04AM07;J04BA50;J04BA51,The evolving landscape of drug targets
+DRG-ethionamide,ethionamide,ethionamide,unknown,,,J04AD03,The evolving landscape of drug targets
+DRG-hexachlorophene,hexachlorophene,hexachlorophene,unknown,,,D08AE01,The evolving landscape of drug targets
+DRG-isoniazid,isoniazid,isoniazid,unknown,,,J04AC01;J04AC51;J04AM01;J04AM02;J04AM03;J04AM04;J04AM05;J04AM06;J04AM07;J04AM08,The evolving landscape of drug targets
+DRG-mupirocin,mupirocin,mupirocin,unknown,,,D06AX09;R01AX06,The evolving landscape of drug targets
+DRG-aztreonam,aztreonam,aztreonam,unknown,,,J01DF01,The evolving landscape of drug targets
+DRG-ceftobiprole-medocaril,ceftobiprole medocaril,ceftobiprole medocaril,unknown,,,J01DI01,The evolving landscape of drug targets
+DRG-ethambutol,ethambutol,ethambutol,unknown,,,J04AK02;J04AM03;J04AM06;J04AM07,The evolving landscape of drug targets
+DRG-pyrazinamide,pyrazinamide,pyrazinamide,unknown,,,J04AK01;J04AM05;J04AM06,The evolving landscape of drug targets
+DRG-raxibacumab,raxibacumab,raxibacumab,unknown,,,J06BC02,The evolving landscape of drug targets
+DRG-obiltoxaximab,obiltoxaximab,obiltoxaximab,unknown,,,J06BC04,The evolving landscape of drug targets
+DRG-gepotidacin,gepotidacin,gepotidacin,unknown,,,J01XX13,The evolving landscape of drug targets
+DRG-bezlotoxumab,bezlotoxumab,bezlotoxumab,unknown,,,J06BC03,The evolving landscape of drug targets
+DRG-fosfomycin,fosfomycin,fosfomycin,unknown,,,J01XX01,The evolving landscape of drug targets
+DRG-caspofungin,caspofungin,caspofungin,unknown,,,J02AX04,The evolving landscape of drug targets
+DRG-micafungin,micafungin,micafungin,unknown,,,J02AX05,The evolving landscape of drug targets
+DRG-anidulafungin,anidulafungin,anidulafungin,unknown,,,J02AX06,The evolving landscape of drug targets
+DRG-butoconazole,butoconazole,butoconazole,unknown,,,G01AF15,The evolving landscape of drug targets
+DRG-voriconazole,voriconazole,voriconazole,unknown,,,J02AC03,The evolving landscape of drug targets
+DRG-sertaconazole,sertaconazole,sertaconazole,unknown,,,D01AC14,The evolving landscape of drug targets
+DRG-tavaborole,tavaborole,tavaborole,unknown,,,D01AE24,The evolving landscape of drug targets
+DRG-butenafine,butenafine,butenafine,unknown,,,D01AE23,The evolving landscape of drug targets
+DRG-naftifine,naftifine,naftifine,unknown,,,D01AE22,The evolving landscape of drug targets
+DRG-terbinafine,terbinafine,terbinafine,unknown,,,D01AE15;D01BA02,The evolving landscape of drug targets
+DRG-flucytosine,flucytosine,flucytosine,unknown,,,D01AE21;J02AX01,The evolving landscape of drug targets
+DRG-proguanil,proguanil,proguanil,unknown,,,P01BB01,The evolving landscape of drug targets
+DRG-atovaquone,atovaquone,atovaquone,unknown,,,P01AX06;P01BB51,The evolving landscape of drug targets
+DRG-piperonyl-butoxide,piperonyl butoxide,piperonyl butoxide,unknown,,,,The evolving landscape of drug targets
+DRG-lotilaner,lotilaner,lotilaner,unknown,,,S01AX25,The evolving landscape of drug targets
+DRG-ivermectin,ivermectin,ivermectin,unknown,,,D11AX22,The evolving landscape of drug targets
+DRG-moxidectin,moxidectin,moxidectin,unknown,,,P02CX03,The evolving landscape of drug targets
+DRG-praziquantel,praziquantel,praziquantel,unknown,,,P02BA01,The evolving landscape of drug targets
+DRG-spinosad,spinosad,spinosad,unknown,,,,The evolving landscape of drug targets
+DRG-levamisole,levamisole,levamisole,unknown,,,P02CE01,The evolving landscape of drug targets
+DRG-malathion,malathion,malathion,unknown,,,P03AX03,The evolving landscape of drug targets
+DRG-nitazoxanide,nitazoxanide,nitazoxanide,unknown,,,P01AX11,The evolving landscape of drug targets
+DRG-permethrin,permethrin,permethrin,unknown,,,P03AC04;P03AC54,The evolving landscape of drug targets
+DRG-albendazole,albendazole,albendazole,unknown,,,P02CA03,The evolving landscape of drug targets
+DRG-pyrimethamine,pyrimethamine,pyrimethamine,unknown,,,P01BD01;P01BD51;P01BF04;P01BF09,The evolving landscape of drug targets
+DRG-sulfacytine,sulfacytine,sulfacytine,unknown,,,,The evolving landscape of drug targets
+DRG-sulfadoxine,sulfadoxine,sulfadoxine,unknown,,,P01BF09,The evolving landscape of drug targets
+DRG-cidofovir,cidofovir,cidofovir,unknown,,,J05AB12,The evolving landscape of drug targets
+DRG-valganciclovir,valganciclovir,valganciclovir,unknown,,,J05AB14,The evolving landscape of drug targets
+DRG-famciclovir,famciclovir,famciclovir,unknown,,,J05AB09,The evolving landscape of drug targets
+DRG-valaciclovir,valaciclovir,valaciclovir,unknown,,,J05AB11,The evolving landscape of drug targets
+DRG-penciclovir,penciclovir,penciclovir,unknown,,,D06BB06,The evolving landscape of drug targets
+DRG-letermovir,letermovir,letermovir,unknown,,,J05AX18,The evolving landscape of drug targets
+DRG-atoltivimab,atoltivimab,atoltivimab,unknown,,,J06BD04,The evolving landscape of drug targets
+DRG-maftivimab,maftivimab,maftivimab,unknown,,,J06BD04,The evolving landscape of drug targets
+DRG-odesivimab,odesivimab,odesivimab,unknown,,,J06BD04,The evolving landscape of drug targets
+DRG-fostemsavir,fostemsavir,fostemsavir,unknown,,,J05AX29,The evolving landscape of drug targets
+DRG-docosanol,docosanol,docosanol,unknown,,,D06BB11,The evolving landscape of drug targets
+DRG-tecovirimat,tecovirimat,tecovirimat,unknown,,,J05AX24,The evolving landscape of drug targets
+DRG-palivizumab,palivizumab,palivizumab,unknown,,,J06BD01,The evolving landscape of drug targets
+DRG-nirsevimab,nirsevimab,nirsevimab,unknown,,,J06BD08,The evolving landscape of drug targets
+DRG-clesrovimab,clesrovimab,clesrovimab,unknown,,,,The evolving landscape of drug targets
+DRG-lenacapavir,lenacapavir,lenacapavir,unknown,,,J05AX31,The evolving landscape of drug targets
+DRG-daclatasvir,daclatasvir,daclatasvir,unknown,,,J05AP07,The evolving landscape of drug targets
+DRG-ledipasvir,ledipasvir,ledipasvir,unknown,,,J05AP51,The evolving landscape of drug targets
+DRG-ombitasvir,ombitasvir,ombitasvir,unknown,,,J05AP52,The evolving landscape of drug targets
+DRG-sofosbuvir,sofosbuvir,sofosbuvir,unknown,,,J05AP08,The evolving landscape of drug targets
+DRG-boceprevir,boceprevir,boceprevir,unknown,,,J05AP03,The evolving landscape of drug targets
+DRG-telaprevir,telaprevir,telaprevir,unknown,,,J05AP02,The evolving landscape of drug targets
+DRG-simeprevir,simeprevir,simeprevir,unknown,,,J05AP05,The evolving landscape of drug targets
+DRG-fomivirsen,fomivirsen,fomivirsen,unknown,,,S01AD08,The evolving landscape of drug targets
+DRG-raltegravir,raltegravir,raltegravir,unknown,,,J05AJ01,The evolving landscape of drug targets
+DRG-elvitegravir,elvitegravir,elvitegravir,unknown,,,J05AJ02,The evolving landscape of drug targets
+DRG-dolutegravir,dolutegravir,dolutegravir,unknown,,,J05AJ03,The evolving landscape of drug targets
+DRG-rimantadine,rimantadine,rimantadine,unknown,,,J05AC02,The evolving landscape of drug targets
+DRG-zanamivir,zanamivir,zanamivir,unknown,,,J05AH01,The evolving landscape of drug targets
+DRG-oseltamivir,oseltamivir,oseltamivir,unknown,,,J05AH02,The evolving landscape of drug targets
+DRG-peramivir,peramivir,peramivir,unknown,,,J05AH03,The evolving landscape of drug targets
+DRG-saquinavir,saquinavir,saquinavir,unknown,,,J05AE01,The evolving landscape of drug targets
+DRG-ritonavir,ritonavir,ritonavir,unknown,,,J05AE03,The evolving landscape of drug targets
+DRG-indinavir,indinavir,indinavir,unknown,,,J05AE02,The evolving landscape of drug targets
+DRG-baloxavir-marboxil,baloxavir marboxil,baloxavir marboxil,unknown,,,J05AX25,The evolving landscape of drug targets
+DRG-adefovir-dipivoxil,adefovir dipivoxil,adefovir dipivoxil,unknown,,,J05AF08,The evolving landscape of drug targets
+DRG-entecavir,entecavir,entecavir,unknown,,,J05AF10,The evolving landscape of drug targets
+DRG-telbivudine,telbivudine,telbivudine,unknown,,,J05AF11,The evolving landscape of drug targets
+DRG-remdesivir,remdesivir,remdesivir,unknown,,,J05AB16,The evolving landscape of drug targets
+DRG-nirmatrelvir,nirmatrelvir,nirmatrelvir,unknown,,,J05AE30,The evolving landscape of drug targets
+DRG-ensitrelvir,ensitrelvir,ensitrelvir,unknown,,,J05AE16,The evolving landscape of drug targets
+DRG-stavudine,stavudine,stavudine,unknown,,,J05AF04,The evolving landscape of drug targets
+DRG-lamivudine,lamivudine,lamivudine,unknown,,,J05AF05,The evolving landscape of drug targets
+DRG-nevirapine,nevirapine,nevirapine,unknown,,,J05AG01,The evolving landscape of drug targets
+DRG-maribavir,maribavir,maribavir,unknown,,,J05AX10,The evolving landscape of drug targets
+DRG-etesevimab,etesevimab,etesevimab,unknown,,,J06BD07,The evolving landscape of drug targets
+DRG-bamlanivimab,bamlanivimab,bamlanivimab,unknown,,,J06BD07,The evolving landscape of drug targets
+DRG-casirivimab,casirivimab,casirivimab,unknown,,,J06BD07,The evolving landscape of drug targets
+DRG-sipavibart,sipavibart,sipavibart,unknown,,,J06BD09,The evolving landscape of drug targets
+DRG-acyclovir,acyclovir,acyclovir,unknown,,,D06BB03; D06BB53; J05AB01; S01AD03,The evolving landscape of drug targets
+DRG-enfuvirtide,enfuvirtide,enfuvirtide,unknown,,,J05AX07,The evolving landscape of drug targets
+DRG-bepotastine,bepotastine,bepotastine,unknown,,,A07EC04,The evolving landscape of drug targets
+DRG-lopinavir,lopinavir,lopinavir,unknown,,,J05AR10,The evolving landscape of drug targets
+DRG-meloxicam,meloxicam,meloxicam,unknown,,,M01AC06,The evolving landscape of drug targets
+DRG-oxcarbazepine,oxcarbazepine,oxcarbazepine,unknown,,,N03AF02,The evolving landscape of drug targets
+DRG-perospirone,perospirone,perospirone,unknown,,,,The evolving landscape of drug targets
+DRG-zonisamide,zonisamide,zonisamide,unknown,,,N03AX15,The evolving landscape of drug targets
+DRG-almotriptan,almotriptan,almotriptan,unknown,,,N02CC05,The evolving landscape of drug targets
+DRG-desloratadine,desloratadine,desloratadine,unknown,,,R06AX27,The evolving landscape of drug targets
+DRG-dexmethylphenidate,dexmethylphenidate,dexmethylphenidate,unknown,,,N06BA11,The evolving landscape of drug targets
+DRG-ertapenem,ertapenem,ertapenem,unknown,,,J01DH03,The evolving landscape of drug targets
+DRG-esomeprazole,esomeprazole,esomeprazole,unknown,,,A02BC05,The evolving landscape of drug targets
+DRG-formoterol,formoterol,formoterol,unknown,,,R03AC13,The evolving landscape of drug targets
+DRG-frovatriptan,frovatriptan,frovatriptan,unknown,,,N02CC07,The evolving landscape of drug targets
+DRG-human-protein-c,human protein c,human protein c,unknown,,,,The evolving landscape of drug targets
+DRG-tenofovir-disoproxil,tenofovir disoproxil,tenofovir disoproxil,unknown,,,J05AF07,The evolving landscape of drug targets
+DRG-valdecoxib,valdecoxib,valdecoxib,unknown,,,M01AH03,The evolving landscape of drug targets
+DRG-ziprasidone,ziprasidone,ziprasidone,unknown,,,N05AE04,The evolving landscape of drug targets
+DRG-zoledronic-acid,zoledronic acid,zoledronic acid,unknown,,,M05BA08,The evolving landscape of drug targets
+DRG-atomoxetine,atomoxetine,atomoxetine,unknown,,,N06BA09,The evolving landscape of drug targets
+DRG-eletriptan,eletriptan,eletriptan,unknown,,,N02CC06,The evolving landscape of drug targets
+DRG-escitalopram,escitalopram,escitalopram,unknown,,,N06AB10,The evolving landscape of drug targets
+DRG-landiolol,landiolol,landiolol,unknown,,,C07AB14,The evolving landscape of drug targets
+DRG-olmesartan-medoxomil,olmesartan medoxomil,olmesartan medoxomil,unknown,,,C09CA08,The evolving landscape of drug targets
+DRG-parecoxib,parecoxib,parecoxib,unknown,,,M01AH04,The evolving landscape of drug targets
+DRG-abarelix,abarelix,abarelix,unknown,,,L02BX01,The evolving landscape of drug targets
+DRG-atazanavir,atazanavir,atazanavir,unknown,,,J05AE08,The evolving landscape of drug targets
+DRG-desirudin,desirudin,desirudin,unknown,,,B01AE01,The evolving landscape of drug targets
+DRG-emtricitabine,emtricitabine,emtricitabine,unknown,,,J05AF09,The evolving landscape of drug targets
+DRG-epinastine,epinastine,epinastine,unknown,,,R06AX24,The evolving landscape of drug targets
+DRG-estradiol-acetate,estradiol acetate,estradiol acetate,unknown,,,,The evolving landscape of drug targets
+DRG-fosamprenavir,fosamprenavir,fosamprenavir,unknown,,,J05AE07,The evolving landscape of drug targets
+DRG-palonosetron,palonosetron,palonosetron,unknown,,,A04AA05,The evolving landscape of drug targets
+DRG-rosuvastatin,rosuvastatin,rosuvastatin,unknown,,,C10AA07,The evolving landscape of drug targets
+DRG-apomorphine,apomorphine,apomorphine,unknown,,,G04BE07,The evolving landscape of drug targets
+DRG-darifenacin,darifenacin,darifenacin,unknown,,,G04BD10,The evolving landscape of drug targets
+DRG-duloxetine,duloxetine,duloxetine,unknown,,,N06AX21,The evolving landscape of drug targets
+DRG-insulin-detemir,insulin detemir,insulin detemir,unknown,,,A10AE05,The evolving landscape of drug targets
+DRG-insulin-glulisine,insulin glulisine,insulin glulisine,unknown,,,A10AB06,The evolving landscape of drug targets
+DRG-mitiglinide,mitiglinide,mitiglinide,unknown,,,A10BX08,The evolving landscape of drug targets
+DRG-doripenem,doripenem,doripenem,unknown,,,J01DH04,The evolving landscape of drug targets
+DRG-luliconazole,luliconazole,luliconazole,unknown,,,D01AC18,The evolving landscape of drug targets
+DRG-nepafenac,nepafenac,nepafenac,unknown,,,S01BC10,The evolving landscape of drug targets
+DRG-posaconazole,posaconazole,posaconazole,unknown,,,J02AC04,The evolving landscape of drug targets
+DRG-tipranavir,tipranavir,tipranavir,unknown,,,J05AE09,The evolving landscape of drug targets
+DRG-arformoterol,arformoterol,arformoterol,unknown,,,,The evolving landscape of drug targets
+DRG-ciclesonide,ciclesonide,ciclesonide,unknown,,,R01AD13,The evolving landscape of drug targets
+DRG-darunavir,darunavir,darunavir,unknown,,,J05AE10,The evolving landscape of drug targets
+DRG-loxoprofen,loxoprofen,loxoprofen,unknown,,,M02AA31,The evolving landscape of drug targets
+DRG-paliperidone,paliperidone,paliperidone,unknown,,,N05AX13,The evolving landscape of drug targets
+DRG-panitumumab,panitumumab,panitumumab,unknown,,,L01FE02,The evolving landscape of drug targets
+DRG-ranolazine,ranolazine,ranolazine,unknown,,,C01EB18,The evolving landscape of drug targets
+DRG-rotigotine,rotigotine,rotigotine,unknown,,,N04BC09,The evolving landscape of drug targets
+DRG-silodosin,silodosin,silodosin,unknown,,,G04CA04,The evolving landscape of drug targets
+DRG-armodafinil,armodafinil,armodafinil,unknown,,,N06BA13,The evolving landscape of drug targets
+DRG-epoetin-zeta,epoetin zeta,epoetin zeta,unknown,,,,The evolving landscape of drug targets
+DRG-fesoterodine,fesoterodine,fesoterodine,unknown,,,G04BD11,The evolving landscape of drug targets
+DRG-fluticasone-furoate,fluticasone furoate,fluticasone furoate,unknown,,,R01AD12,The evolving landscape of drug targets
+DRG-imidafenacin,imidafenacin,imidafenacin,unknown,,,G04BD14,The evolving landscape of drug targets
+DRG-levocetirizine,levocetirizine,levocetirizine,unknown,,,R06AE09,The evolving landscape of drug targets
+DRG-nebivolol,nebivolol,nebivolol,unknown,,,C07AB12,The evolving landscape of drug targets
+DRG-temsirolimus,temsirolimus,temsirolimus,unknown,,,L01EG01,The evolving landscape of drug targets
+DRG-alvimopan,alvimopan,alvimopan,unknown,,,A06AH02,The evolving landscape of drug targets
+DRG-blonanserin,blonanserin,blonanserin,unknown,,,,The evolving landscape of drug targets
+DRG-certolizumab-pegol,certolizumab pegol,certolizumab pegol,unknown,,,L04AB05,The evolving landscape of drug targets
+DRG-dabigatran-etexilate,dabigatran etexilate,dabigatran etexilate,unknown,,,B01AE07,The evolving landscape of drug targets
+DRG-degarelix,degarelix,degarelix,unknown,,,L02BX02,The evolving landscape of drug targets
+DRG-desvenlafaxine,desvenlafaxine,desvenlafaxine,unknown,,,N06AX23,The evolving landscape of drug targets
+DRG-difluprednate,difluprednate,difluprednate,unknown,,,D07AC19,The evolving landscape of drug targets
+DRG-etravirine,etravirine,etravirine,unknown,,,J05AG04,The evolving landscape of drug targets
+DRG-lacosamide,lacosamide,lacosamide,unknown,,,N03AX18,The evolving landscape of drug targets
+DRG-methylnaltrexone,methylnaltrexone,methylnaltrexone,unknown,,,A06AH01,The evolving landscape of drug targets
+DRG-tafluprost,tafluprost,tafluprost,unknown,,,S01EE05,The evolving landscape of drug targets
+DRG-tapentadol,tapentadol,tapentadol,unknown,,,N02AX06,The evolving landscape of drug targets
+DRG-asenapine,asenapine,asenapine,unknown,,,N05AH05,The evolving landscape of drug targets
+DRG-bazedoxifene,bazedoxifene,bazedoxifene,unknown,,,G03XC02,The evolving landscape of drug targets
+DRG-besifloxacin,besifloxacin,besifloxacin,unknown,,,S01AE08,The evolving landscape of drug targets
+DRG-dexlansoprazole,dexlansoprazole,dexlansoprazole,unknown,,,A02BC06,The evolving landscape of drug targets
+DRG-epoetin-theta,epoetin theta,epoetin theta,unknown,,,,The evolving landscape of drug targets
+DRG-everolimus,everolimus,everolimus,unknown,,,L01EG02,The evolving landscape of drug targets
+DRG-golimumab,golimumab,golimumab,unknown,,,L04AB06,The evolving landscape of drug targets
+DRG-iloperidone,iloperidone,iloperidone,unknown,,,N05AX14,The evolving landscape of drug targets
+DRG-indacaterol,indacaterol,indacaterol,unknown,,,R03AC18,The evolving landscape of drug targets
+DRG-milnacipran,milnacipran,milnacipran,unknown,,,N06AX17,The evolving landscape of drug targets
+DRG-paliperidone-palmitate,paliperidone palmitate,paliperidone palmitate,unknown,,,,The evolving landscape of drug targets
+DRG-ulipristal,ulipristal,ulipristal,unknown,,,G03AD02,The evolving landscape of drug targets
+DRG-alcaftadine,alcaftadine,alcaftadine,unknown,,,S01GX11,The evolving landscape of drug targets
+DRG-alogliptin,alogliptin,alogliptin,unknown,,,A10BH04,The evolving landscape of drug targets
+DRG-cabazitaxel,cabazitaxel,cabazitaxel,unknown,,,L01CD04,The evolving landscape of drug targets
+DRG-ceftaroline-fosamil,ceftaroline fosamil,ceftaroline fosamil,unknown,,,J01DI02,The evolving landscape of drug targets
+DRG-dienogest,dienogest,dienogest,unknown,,,G03DB08,The evolving landscape of drug targets
+DRG-eribulin,eribulin,eribulin,unknown,,,L01XX41,The evolving landscape of drug targets
+DRG-lurasidone,lurasidone,lurasidone,unknown,,,N05AE05,The evolving landscape of drug targets
+DRG-azilsartan-medoxomil,azilsartan medoxomil,azilsartan medoxomil,unknown,,,C09CA09,The evolving landscape of drug targets
+DRG-eldecalcitol,eldecalcitol,eldecalcitol,unknown,,,,The evolving landscape of drug targets
+DRG-linagliptin,linagliptin,linagliptin,unknown,,,A10BH05,The evolving landscape of drug targets
+DRG-rilpivirine,rilpivirine,rilpivirine,unknown,,,J05AG05,The evolving landscape of drug targets
+DRG-aclidinium-bromide,aclidinium bromide,aclidinium bromide,unknown,,,R03BB05,The evolving landscape of drug targets
+DRG-anagliptin,anagliptin,anagliptin,unknown,,,,The evolving landscape of drug targets
+DRG-avanafil,avanafil,avanafil,unknown,,,G04BE10,The evolving landscape of drug targets
+DRG-axitinib,axitinib,axitinib,unknown,,,L01EK01,The evolving landscape of drug targets
+DRG-insulin-degludec,insulin degludec,insulin degludec,unknown,,,A10AE06,The evolving landscape of drug targets
+DRG-peginesatide,peginesatide,peginesatide,unknown,,,B03XA04,The evolving landscape of drug targets
+DRG-teneligliptin,teneligliptin,teneligliptin,unknown,,,A10BH08,The evolving landscape of drug targets
+DRG-acotiamide,acotiamide,acotiamide,unknown,,,A03FA10,The evolving landscape of drug targets
+DRG-dabrafenib,dabrafenib,dabrafenib,unknown,,,L01EC02,The evolving landscape of drug targets
+DRG-levomilnacipran,levomilnacipran,levomilnacipran,unknown,,,N06AX28,The evolving landscape of drug targets
+DRG-neostigmine,neostigmine,neostigmine,unknown,,,N07AA01,The evolving landscape of drug targets
+DRG-obinutuzumab,obinutuzumab,obinutuzumab,unknown,,,L01FA03,The evolving landscape of drug targets
+DRG-ospemifene,ospemifene,ospemifene,unknown,,,G03XC05,The evolving landscape of drug targets
+DRG-trastuzumab-emtansine,trastuzumab emtansine,trastuzumab emtansine,unknown,,,L01FD03,The evolving landscape of drug targets
+DRG-umeclidinium,umeclidinium,umeclidinium,unknown,,,R03BB07,The evolving landscape of drug targets
+DRG-vilanterol,vilanterol,vilanterol,unknown,,,R03AK10,The evolving landscape of drug targets
+DRG-albiglutide,albiglutide,albiglutide,unknown,,,A10BJ04,The evolving landscape of drug targets
+DRG-asunaprevir,asunaprevir,asunaprevir,unknown,,,J05AP06,The evolving landscape of drug targets
+DRG-dulaglutide,dulaglutide,dulaglutide,unknown,,,A10BJ05,The evolving landscape of drug targets
+DRG-efinaconazole,efinaconazole,efinaconazole,unknown,,,D01AC19,The evolving landscape of drug targets
+DRG-empagliflozin,empagliflozin,empagliflozin,unknown,,,A10BK03,The evolving landscape of drug targets
+DRG-luseogliflozin,luseogliflozin,luseogliflozin,unknown,,,A10BK07,The evolving landscape of drug targets
+DRG-naloxegol,naloxegol,naloxegol,unknown,,,A06AH03,The evolving landscape of drug targets
+DRG-olodaterol,olodaterol,olodaterol,unknown,,,R03AC19,The evolving landscape of drug targets
+DRG-peginterferon-beta-1a,peginterferon beta-1a,peginterferon beta-1a,unknown,,,L03AB13,The evolving landscape of drug targets
+DRG-ramucirumab,ramucirumab,ramucirumab,unknown,,,L01FG02,The evolving landscape of drug targets
+DRG-tasimelteon,tasimelteon,tasimelteon,unknown,,,N05CH03,The evolving landscape of drug targets
+DRG-testosterone-undecanoate,testosterone undecanoate,testosterone undecanoate,unknown,,,,The evolving landscape of drug targets
+DRG-tofogliflozin,tofogliflozin,tofogliflozin,unknown,,,,The evolving landscape of drug targets
+DRG-vaniprevir,vaniprevir,vaniprevir,unknown,,,J05AP11,The evolving landscape of drug targets
+DRG-vonoprazan,vonoprazan,vonoprazan,unknown,,,A02BC08,The evolving landscape of drug targets
+DRG-aripiprazole-lauroxil,aripiprazole lauroxil,aripiprazole lauroxil,unknown,,,,The evolving landscape of drug targets
+DRG-brexpiprazole,brexpiprazole,brexpiprazole,unknown,,,N05AX16,The evolving landscape of drug targets
+DRG-cangrelor,cangrelor,cangrelor,unknown,,,B01AC25,The evolving landscape of drug targets
+DRG-cariprazine,cariprazine,cariprazine,unknown,,,N05AX15,The evolving landscape of drug targets
+DRG-flibanserin,flibanserin,flibanserin,unknown,,,G02CX02,The evolving landscape of drug targets
+DRG-necitumumab,necitumumab,necitumumab,unknown,,,L01FE03,The evolving landscape of drug targets
+DRG-omarigliptin,omarigliptin,omarigliptin,unknown,,,,The evolving landscape of drug targets
+DRG-osimertinib,osimertinib,osimertinib,unknown,,,L01EB04,The evolving landscape of drug targets
+DRG-rolapitant,rolapitant,rolapitant,unknown,,,A04AD14,The evolving landscape of drug targets
+DRG-selexipag,selexipag,selexipag,unknown,,,B01AC27,The evolving landscape of drug targets
+DRG-trelagliptin,trelagliptin,trelagliptin,unknown,,,,The evolving landscape of drug targets
+DRG-elbasvir,elbasvir,elbasvir,unknown,,,J05AP10,The evolving landscape of drug targets
+DRG-grazoprevir,grazoprevir,grazoprevir,unknown,,,J05AP11,The evolving landscape of drug targets
+DRG-olaratumab,olaratumab,olaratumab,biologic,,,,clinical pilot
+DRG-pimavanserin,pimavanserin,pimavanserin,unknown,,,N05AX17,The evolving landscape of drug targets
+DRG-velpatasvir,velpatasvir,velpatasvir,unknown,,,J05AP55,The evolving landscape of drug targets
+DRG-angiotensin-ii,angiotensin II,angiotensin II,unknown,,,C01CX09,The evolving landscape of drug targets
+DRG-betrixaban,betrixaban,betrixaban,unknown,,,B01AF04,The evolving landscape of drug targets
+DRG-brigatinib,brigatinib,brigatinib,unknown,,,L01ED04,The evolving landscape of drug targets
+DRG-ertugliflozin,ertugliflozin,ertugliflozin,unknown,,,A10BK04,The evolving landscape of drug targets
+DRG-latanoprostene-bunod,latanoprostene bunod,latanoprostene bunod,unknown,,,S01EE06,The evolving landscape of drug targets
+DRG-lutetium-177lu-oxodotreotide,lutetium (177Lu) oxodotreotide,lutetium (177Lu) oxodotreotide,unknown,,,V10XX04,The evolving landscape of drug targets
+DRG-midostaurin,midostaurin,midostaurin,unknown,,,L01EX10,The evolving landscape of drug targets
+DRG-naldemedine,naldemedine,naldemedine,unknown,,,A06AH05,The evolving landscape of drug targets
+DRG-ocrelizumab,ocrelizumab,ocrelizumab,unknown,,,L04AA36,The evolving landscape of drug targets
+DRG-rupatadine,rupatadine,rupatadine,unknown,,,R06AX28,The evolving landscape of drug targets
+DRG-semaglutide,semaglutide,semaglutide,unknown,,,A10BJ06,The evolving landscape of drug targets
+DRG-tivozanib,tivozanib,tivozanib,unknown,,,L01EK03,The evolving landscape of drug targets
+DRG-valbenazine,valbenazine,valbenazine,unknown,,,N07XX13,The evolving landscape of drug targets
+DRG-voxilaprevir,voxilaprevir,voxilaprevir,unknown,,,J05AP56,The evolving landscape of drug targets
+DRG-apalutamide,apalutamide,apalutamide,unknown,,,L02BB05,The evolving landscape of drug targets
+DRG-avatrombopag,avatrombopag,avatrombopag,unknown,,,B02BX08,The evolving landscape of drug targets
+DRG-bictegravir,bictegravir,bictegravir,unknown,,,J05AR20,The evolving landscape of drug targets
+DRG-doravirine,doravirine,doravirine,unknown,,,J05AG06,The evolving landscape of drug targets
+DRG-elagolix,elagolix,elagolix,unknown,,,H01CC03,The evolving landscape of drug targets
+DRG-fosnetupitant,fosnetupitant,fosnetupitant,unknown,,,,The evolving landscape of drug targets
+DRG-gilteritinib,gilteritinib,gilteritinib,unknown,,,L01EX13,The evolving landscape of drug targets
+DRG-lofexidine,lofexidine,lofexidine,unknown,,,N07BC04,The evolving landscape of drug targets
+DRG-rifamycin,rifamycin,rifamycin,unknown,,,A07AA13,The evolving landscape of drug targets
+DRG-talazoparib-tosylate,talazoparib tosylate,talazoparib tosylate,unknown,,,L01XK04,The evolving landscape of drug targets
+DRG-tezacaftor,tezacaftor,tezacaftor,unknown,,,R07AX31,The evolving landscape of drug targets
+DRG-brolucizumab,brolucizumab,brolucizumab,unknown,,,S01LA06,The evolving landscape of drug targets
+DRG-cefiderocol,cefiderocol,cefiderocol,unknown,,,J01DI04,The evolving landscape of drug targets
+DRG-darolutamide,darolutamide,darolutamide,unknown,,,L02BB06,The evolving landscape of drug targets
+DRG-elexacaftor,elexacaftor,elexacaftor,unknown,,,R07AX32,The evolving landscape of drug targets
+DRG-fedratinib,fedratinib,fedratinib,unknown,,,L01EJ02,The evolving landscape of drug targets
+DRG-lumateperone,lumateperone,lumateperone,unknown,,,N05AD10,The evolving landscape of drug targets
+DRG-quizartinib,quizartinib,quizartinib,unknown,,,L01EX11,The evolving landscape of drug targets
+DRG-relugolix,relugolix,relugolix,unknown,,,L02BX04,The evolving landscape of drug targets
+DRG-risankizumab,risankizumab,risankizumab,unknown,,,L04AC18,The evolving landscape of drug targets
+DRG-ropeginterferon-alfa-2b,ropeginterferon alfa-2b,ropeginterferon alfa-2b,unknown,,,L03AB15,The evolving landscape of drug targets
+DRG-trifarotene,trifarotene,trifarotene,unknown,,,D10AD06,The evolving landscape of drug targets
+DRG-ansuvimab,ansuvimab,ansuvimab,unknown,,,J06BD04,The evolving landscape of drug targets
+DRG-avapritinib,avapritinib,avapritinib,unknown,,,L01EX18,The evolving landscape of drug targets
+DRG-cabotegravir,cabotegravir,cabotegravir,unknown,,,J05AJ04,The evolving landscape of drug targets
+DRG-capmatinib,capmatinib,capmatinib,unknown,,,L01EX17,The evolving landscape of drug targets
+DRG-copper-dotatate-cu-64,copper dotatate Cu-64,copper dotatate Cu-64,unknown,,,V09IX15,The evolving landscape of drug targets
+DRG-enarodustat,enarodustat,enarodustat,unknown,,,,The evolving landscape of drug targets
+DRG-filgotinib,filgotinib,filgotinib,unknown,,,L04AA45,The evolving landscape of drug targets
+DRG-fluoroestradiol-f-18,fluoroestradiol F 18,fluoroestradiol F 18,unknown,,,V09IX11,The evolving landscape of drug targets
+DRG-imdevimab,imdevimab,imdevimab,unknown,,,J06BD07,The evolving landscape of drug targets
+DRG-oliceridine,oliceridine,oliceridine,unknown,,,N02AX07,The evolving landscape of drug targets
+DRG-pemigatinib,pemigatinib,pemigatinib,unknown,,,L01EN02,The evolving landscape of drug targets
+DRG-pralsetinib,pralsetinib,pralsetinib,unknown,,,L01EX23,The evolving landscape of drug targets
+DRG-ripretinib,ripretinib,ripretinib,unknown,,,L01EX19,The evolving landscape of drug targets
+DRG-selpercatinib,selpercatinib,selpercatinib,unknown,,,L01EX22,The evolving landscape of drug targets
+DRG-sofpironium-bromide,sofpironium bromide,sofpironium bromide,unknown,,,,The evolving landscape of drug targets
+DRG-tirabrutinib-hydrochloride,tirabrutinib hydrochloride,tirabrutinib hydrochloride,unknown,,,,The evolving landscape of drug targets
+DRG-tucatinib,tucatinib,tucatinib,unknown,,,L01EH03,The evolving landscape of drug targets
+DRG-abrocitinib,abrocitinib,abrocitinib,unknown,,,D11AH08,The evolving landscape of drug targets
+DRG-amivantamab,amivantamab,amivantamab,unknown,,,L01FX18,The evolving landscape of drug targets
+DRG-anifrolumab,anifrolumab,anifrolumab,unknown,,,L04AA51,The evolving landscape of drug targets
+DRG-asciminib,asciminib,asciminib,unknown,,,L01EA06,The evolving landscape of drug targets
+DRG-atogepant,atogepant,atogepant,unknown,,,N02CD07,The evolving landscape of drug targets
+DRG-casimersen,casimersen,casimersen,unknown,,,M09AX13,The evolving landscape of drug targets
+DRG-dostarlimab,dostarlimab,dostarlimab,unknown,,,L01FF07,The evolving landscape of drug targets
+DRG-estetrol,estetrol,estetrol,unknown,,,G03AA18,The evolving landscape of drug targets
+DRG-finerenone,finerenone,finerenone,unknown,,,C03DA05,The evolving landscape of drug targets
+DRG-ibrexafungerp,ibrexafungerp,ibrexafungerp,unknown,,,J02AX07,The evolving landscape of drug targets
+DRG-infigratinib,infigratinib,infigratinib,unknown,,,L01EN03,The evolving landscape of drug targets
+DRG-loncastuximab-tesirine,loncastuximab tesirine,loncastuximab tesirine,unknown,,,L01FX22,The evolving landscape of drug targets
+DRG-mobocertinib,mobocertinib,mobocertinib,unknown,,,L01EB10,The evolving landscape of drug targets
+DRG-molidustat,molidustat,molidustat,unknown,,,B03XA09,The evolving landscape of drug targets
+DRG-ponesimod,ponesimod,ponesimod,unknown,,,L04AA50,The evolving landscape of drug targets
+DRG-regdanvimab,regdanvimab,regdanvimab,unknown,,,J06BD06,The evolving landscape of drug targets
+DRG-sotrovimab,sotrovimab,sotrovimab,unknown,,,J06BD05,The evolving landscape of drug targets
+DRG-trilaciclib,trilaciclib,trilaciclib,unknown,,,V03AF12,The evolving landscape of drug targets
+DRG-upacicalcet,upacicalcet,upacicalcet,unknown,,,,The evolving landscape of drug targets
+DRG-viloxazine,viloxazine,viloxazine,unknown,,,N06AX09,The evolving landscape of drug targets
+DRG-cilgavimab,cilgavimab,cilgavimab,unknown,,,J06BD03,The evolving landscape of drug targets
+DRG-clazosentan,clazosentan,clazosentan,unknown,,,C04AX33,The evolving landscape of drug targets
+DRG-deucravacitinib,deucravacitinib,deucravacitinib,unknown,,,L04AA56,The evolving landscape of drug targets
+DRG-linzagolix,linzagolix,linzagolix,unknown,,,H01CC04,The evolving landscape of drug targets
+DRG-mosunetuzumab,mosunetuzumab,mosunetuzumab,unknown,,,L01FX25,The evolving landscape of drug targets
+DRG-oteseconazole,oteseconazole,oteseconazole,unknown,,,J02AC06,The evolving landscape of drug targets
+DRG-ozoralizumab,ozoralizumab,ozoralizumab,unknown,,,,The evolving landscape of drug targets
+DRG-pacritinib,pacritinib,pacritinib,unknown,,,L01EJ03,The evolving landscape of drug targets
+DRG-somatrogon,somatrogon,somatrogon,unknown,,,H01AC08,The evolving landscape of drug targets
+DRG-tixagevimab,tixagevimab,tixagevimab,unknown,,,J06BD03,The evolving landscape of drug targets
+DRG-ublituximab,ublituximab,ublituximab,unknown,,,L04AA57,The evolving landscape of drug targets
+DRG-bexagliflozin,bexagliflozin,bexagliflozin,unknown,,,A10BK08,The evolving landscape of drug targets
+DRG-cinaxadamtase-alfa,cinaxadamtase alfa,cinaxadamtase alfa,unknown,,,B01AD13,The evolving landscape of drug targets
+DRG-efanesoctocog-alfa,efanesoctocog alfa,efanesoctocog alfa,unknown,,,,The evolving landscape of drug targets
+DRG-elacestrant,elacestrant,elacestrant,unknown,,,L02BA04,The evolving landscape of drug targets
+DRG-epcoritamab,epcoritamab,epcoritamab,unknown,,,L01FX27,The evolving landscape of drug targets
+DRG-eplontersen,eplontersen,eplontersen,unknown,,,N07XX21,The evolving landscape of drug targets
+DRG-fruquintinib,fruquintinib,fruquintinib,unknown,,,L01EK04,The evolving landscape of drug targets
+DRG-glofitamab,glofitamab,glofitamab,unknown,,,L01FX28,The evolving landscape of drug targets
+DRG-leniolisib,leniolisib,leniolisib,unknown,,,L03AX22,The evolving landscape of drug targets
+DRG-mirikizumab,mirikizumab,mirikizumab,unknown,,,L04AC24,The evolving landscape of drug targets
+DRG-palovarotene,palovarotene,palovarotene,unknown,,,M09AX11,The evolving landscape of drug targets
+DRG-pirtobrutinib,pirtobrutinib,pirtobrutinib,unknown,,,L01EL05,The evolving landscape of drug targets
+DRG-pozelimab,pozelimab,pozelimab,unknown,,,,The evolving landscape of drug targets
+DRG-retifanlimab,retifanlimab,retifanlimab,unknown,,,L01FF10,The evolving landscape of drug targets
+DRG-rezafungin,rezafungin,rezafungin,unknown,,,J02AX08,The evolving landscape of drug targets
+DRG-ritlecitinib,ritlecitinib,ritlecitinib,unknown,,,L04AF08,The evolving landscape of drug targets
+DRG-sparsentan,sparsentan,sparsentan,unknown,,,C09XX01,The evolving landscape of drug targets
+DRG-tislelizumab,tislelizumab,tislelizumab,unknown,,,L01FF09,The evolving landscape of drug targets
+DRG-toripalimab,toripalimab,toripalimab,unknown,,,L01FF13,The evolving landscape of drug targets
+DRG-zavegepant,zavegepant,zavegepant,unknown,,,C09XX01,The evolving landscape of drug targets
+DRG-zilucoplan,zilucoplan,zilucoplan,unknown,,,L04AJ06,The evolving landscape of drug targets
+DRG-acoramidis,acoramidis,acoramidis,unknown,,,C01EB25,The evolving landscape of drug targets
+DRG-axatilimab,axatilimab,axatilimab,unknown,,,,The evolving landscape of drug targets
+DRG-cosibelimab,cosibelimab,cosibelimab,unknown,,,,The evolving landscape of drug targets
+DRG-crovalimab,crovalimab,crovalimab,unknown,,,L04AJ07,The evolving landscape of drug targets
+DRG-deuruxolitinib,deuruxolitinib,deuruxolitinib,unknown,,,,The evolving landscape of drug targets
+DRG-deutivacaftor,deutivacaftor,deutivacaftor,unknown,,,R07AX33,The evolving landscape of drug targets
+DRG-ensartinib,ensartinib,ensartinib,unknown,,,,The evolving landscape of drug targets
+DRG-etrasimod,etrasimod,etrasimod,unknown,,,L04AE05,The evolving landscape of drug targets
+DRG-givinostat,givinostat,givinostat,unknown,,,M09AX14,The evolving landscape of drug targets
+DRG-gumarontinib,gumarontinib,gumarontinib,unknown,,,,The evolving landscape of drug targets
+DRG-insulin-icodec,insulin icodec,insulin icodec,unknown,,,A10AE07,The evolving landscape of drug targets
+DRG-lazertinib,lazertinib,lazertinib,unknown,,,L01EB09,The evolving landscape of drug targets
+DRG-odronextamab,odronextamab,odronextamab,unknown,,,L01FX34,The evolving landscape of drug targets
+DRG-palopegteriparatide,palopegteriparatide,palopegteriparatide,unknown,,,H05AA05,The evolving landscape of drug targets
+DRG-sugemalimab,sugemalimab,sugemalimab,unknown,,,L01FF11,The evolving landscape of drug targets
+DRG-sulopenem-etzadroxil,sulopenem etzadroxil,sulopenem etzadroxil,unknown,,,,The evolving landscape of drug targets
+DRG-tasurgratinib,tasurgratinib,tasurgratinib,unknown,,,,The evolving landscape of drug targets
+DRG-vanzacaftor,vanzacaftor,vanzacaftor,unknown,,,R07AX33,The evolving landscape of drug targets
+DRG-zanidatamab,zanidatamab,zanidatamab,unknown,,,L01FD07,The evolving landscape of drug targets
+DRG-atrasentan,atrasentan,atrasentan,small_molecule,,,,clinical pilot
+DRG-avutometinib,avutometinib,avutometinib,unknown,,,,The evolving landscape of drug targets
+DRG-mirdametinib,mirdametinib,mirdametinib,unknown,,,L01EE05,The evolving landscape of drug targets
+DRG-nipocalimab,nipocalimab,nipocalimab,unknown,,,L04AL03,The evolving landscape of drug targets
+DRG-penpulimab,penpulimab,penpulimab,unknown,,,,The evolving landscape of drug targets
+DRG-serplulimab,serplulimab,serplulimab,unknown,,,L01FF12,The evolving landscape of drug targets
+DRG-suzetrigine,suzetrigine,suzetrigine,unknown,,,,The evolving landscape of drug targets
+DRG-taletrectinib,taletrectinib,taletrectinib,unknown,,,,The evolving landscape of drug targets
+DRG-telisotuzumab-vedotin,telisotuzumab vedotin,telisotuzumab vedotin,unknown,,,,The evolving landscape of drug targets
+DRG-vilobelimab,vilobelimab,vilobelimab,unknown,,,L04AJ10,The evolving landscape of drug targets
+DRG-vimseltinib,vimseltinib,vimseltinib,unknown,,,,The evolving landscape of drug targets
+DRG-abacavir,abacavir,abacavir,unknown,,,J05AF06,The evolving landscape of drug targets
+DRG-acebutolol,acebutolol,acebutolol,unknown,,,C07AB04;C07BB04,The evolving landscape of drug targets
+DRG-acetohexamide,acetohexamide,acetohexamide,unknown,,,A10BB31,The evolving landscape of drug targets
+DRG-acetophenazine,acetophenazine,acetophenazine,unknown,,,N05AB07,The evolving landscape of drug targets
+DRG-acetylcholine,acetylcholine,acetylcholine,unknown,,,S01EB09,The evolving landscape of drug targets
+DRG-acetylsalicylic-acid,acetylsalicylic acid,acetylsalicylic acid,unknown,,,A01AD05; B01AC06; B01AC56; C07FX02; C07FX03; C07FX04; C10BX01; C10BX02; C10BX04; C10BX05; C10BX06; C10BX08; C10BX12; M01BA03; N02AJ02; N02AJ07; N02AJ18; N02BA01; N02BA51; N02BA71,The evolving landscape of drug targets
+DRG-alacepril,alacepril,alacepril,unknown,,,,The evolving landscape of drug targets
+DRG-alclometasone-dipropionate,alclometasone dipropionate,alclometasone dipropionate,unknown,,,D07AB10;S01BA10,The evolving landscape of drug targets
+DRG-aldesleukin,aldesleukin,aldesleukin,unknown,,,L03AC01,The evolving landscape of drug targets
+DRG-aldesulfone,aldesulfone,aldesulfone,unknown,,,J04BA03,The evolving landscape of drug targets
+DRG-alfentanil,alfentanil,alfentanil,unknown,,,N01AH02,The evolving landscape of drug targets
+DRG-alprazolam,alprazolam,alprazolam,unknown,,,N05BA12,The evolving landscape of drug targets
+DRG-ambenonium,ambenonium,ambenonium,unknown,,,N07AA30,The evolving landscape of drug targets
+DRG-amcinonide,amcinonide,amcinonide,unknown,,,D07AC11,The evolving landscape of drug targets
+DRG-amfetamine,amfetamine,amfetamine,unknown,,,N06BA01,The evolving landscape of drug targets
+DRG-aminosalicylic-acid,aminosalicylic acid,aminosalicylic acid,unknown,,,J04AA01;J04AA02;J04AA03,The evolving landscape of drug targets
+DRG-amitriptyline,amitriptyline,amitriptyline,unknown,,,N06AA09; N06CA01,The evolving landscape of drug targets
+DRG-amoxapine,amoxapine,amoxapine,unknown,,,N06AA17,The evolving landscape of drug targets
+DRG-amprenavir,amprenavir,amprenavir,unknown,,,J05AE05,The evolving landscape of drug targets
+DRG-amrinone,amrinone,amrinone,unknown,,,C01CE01,The evolving landscape of drug targets
+DRG-antazoline,antazoline,antazoline,unknown,,,R01AC04;R06AX05,The evolving landscape of drug targets
+DRG-apraclonidine,apraclonidine,apraclonidine,unknown,,,S01EA03,The evolving landscape of drug targets
+DRG-aprotinin,aprotinin,aprotinin,unknown,,,B02AB01,The evolving landscape of drug targets
+DRG-astemizole,astemizole,astemizole,unknown,,,R06AX11,The evolving landscape of drug targets
+DRG-atenolol,atenolol,atenolol,unknown,,,C07AB03;C07BB03;C07CB03;C07CB53;C07DB01;C07FB03,The evolving landscape of drug targets
+DRG-atracurium,atracurium,atracurium,unknown,,,M03AC04,The evolving landscape of drug targets
+DRG-atropine,atropine,atropine,unknown,,,A03BA01; A03CB03; S01FA01,The evolving landscape of drug targets
+DRG-azatadine,azatadine,azatadine,unknown,,,R06AX09,The evolving landscape of drug targets
+DRG-azelastine,azelastine,azelastine,unknown,,,R01AC03,The evolving landscape of drug targets
+DRG-beclometasone-dipropionate,beclometasone dipropionate,beclometasone dipropionate,unknown,,,A07EA07;D07AC15;D07CC04;R01AD01;R03AK08;R03AK13;R03AL09;R03BA01,The evolving landscape of drug targets
+DRG-benazepril,benazepril,benazepril,unknown,,,C09AA07;C09BA07;C09BB13,The evolving landscape of drug targets
+DRG-benzatropine,benzatropine,benzatropine,unknown,,,N04AC01,The evolving landscape of drug targets
+DRG-benzphetamine,benzphetamine,benzphetamine,unknown,,,,The evolving landscape of drug targets
+DRG-benzquinamide,benzquinamide,benzquinamide,unknown,,,,The evolving landscape of drug targets
+DRG-betamethasone,betamethasone,betamethasone,unknown,,,A07EA04;C05AA05;D07AC01;D07BC01;D07CC01;D07XC01;H02AB01;R01AD06;R03BA04;S01BA06;S01BB04;S01CA05;S01CB04;S02BA07;S03BA03;S03CA06,The evolving landscape of drug targets
+DRG-betamethasone-acetate,betamethasone acetate,betamethasone acetate,unknown,,,,The evolving landscape of drug targets
+DRG-betamethasone-dipropionate,betamethasone dipropionate,betamethasone dipropionate,unknown,,,,The evolving landscape of drug targets
+DRG-betamethasone-phosphate,betamethasone phosphate,betamethasone phosphate,unknown,,,,The evolving landscape of drug targets
+DRG-betamethasone-valerate,betamethasone valerate,betamethasone valerate,unknown,,,,The evolving landscape of drug targets
+DRG-betaxolol,betaxolol,betaxolol,unknown,,,C07AB05;S01ED02;S01ED52,The evolving landscape of drug targets
+DRG-bethanechol,bethanechol,bethanechol,unknown,,,N07AB02,The evolving landscape of drug targets
+DRG-biperiden,biperiden,biperiden,unknown,,,N04AA02,The evolving landscape of drug targets
+DRG-bisoprolol,bisoprolol,bisoprolol,unknown,,,C07AB07;C07BB07;C07FB07;C07FX04;C09BX02;C09BX04;C09BX05,The evolving landscape of drug targets
+DRG-bitolterol,bitolterol,bitolterol,unknown,,,R03AC17,The evolving landscape of drug targets
+DRG-bretylium,bretylium,bretylium,unknown,,,C01BD02,The evolving landscape of drug targets
+DRG-bromazine,bromazine,bromazine,unknown,,,R06AA01,The evolving landscape of drug targets
+DRG-bromocriptine,bromocriptine,bromocriptine,unknown,,,G02CB01;N04BC01,The evolving landscape of drug targets
+DRG-brompheniramine,brompheniramine,brompheniramine,unknown,,,R06AB01;R06AB51,The evolving landscape of drug targets
+DRG-bupivacaine,bupivacaine,bupivacaine,unknown,,,N01BB01;N01BB51;N01BB59,The evolving landscape of drug targets
+DRG-bupropion,bupropion,bupropion,unknown,,,A08AA62; N06AX12,The evolving landscape of drug targets
+DRG-buserelin,buserelin,buserelin,unknown,,,L02AE01,The evolving landscape of drug targets
+DRG-buspirone,buspirone,buspirone,unknown,,,N05BE01,The evolving landscape of drug targets
+DRG-butalbital,butalbital,butalbital,unknown,,,,The evolving landscape of drug targets
+DRG-butorphanol,butorphanol,butorphanol,unknown,,,N02AF01,The evolving landscape of drug targets
+DRG-c1-esterase-inhibitor,C1 esterase inhibitor,C1 esterase inhibitor,unknown,,,,The evolving landscape of drug targets
+DRG-calcifediol,calcifediol,calcifediol,unknown,,,A11CC06;H05BX05,The evolving landscape of drug targets
+DRG-calcipotriene,calcipotriene,calcipotriene,unknown,,,D05AX02;D05AX52,The evolving landscape of drug targets
+DRG-calcitriol,calcitriol,calcitriol,unknown,,,A11CC04;D05AX03,The evolving landscape of drug targets
+DRG-candesartan-cilexetil,candesartan cilexetil,candesartan cilexetil,unknown,,,C09CA06,The evolving landscape of drug targets
+DRG-captopril,captopril,captopril,unknown,,,C09AA01;C09BA01,The evolving landscape of drug targets
+DRG-carbachol,carbachol,carbachol,unknown,,,N07AB01;S01EB02,The evolving landscape of drug targets
+DRG-carbamazepine,carbamazepine,carbamazepine,unknown,,,N03AF01,The evolving landscape of drug targets
+DRG-carbinoxamine,carbinoxamine,carbinoxamine,unknown,,,R06AA08,The evolving landscape of drug targets
+DRG-carboprost,carboprost,carboprost,unknown,,,G02AD04,The evolving landscape of drug targets
+DRG-carprofen,carprofen,carprofen,unknown,,,,The evolving landscape of drug targets
+DRG-carteolol,carteolol,carteolol,unknown,,,C07AA15; S01ED05; S01ED55,The evolving landscape of drug targets
+DRG-cefotaxime,cefotaxime,cefotaxime,unknown,,,J01DD01; J01DD51,The evolving landscape of drug targets
+DRG-ceftazidime,ceftazidime,ceftazidime,unknown,,,J01DD02; J01DD52,The evolving landscape of drug targets
+DRG-ceftibuten,ceftibuten,ceftibuten,unknown,,,J01DD14,The evolving landscape of drug targets
+DRG-ceftriaxone,ceftriaxone,ceftriaxone,unknown,,,J01DD04; J01DD54; J01DD63,The evolving landscape of drug targets
+DRG-chlordiazepoxide,chlordiazepoxide,chlordiazepoxide,unknown,,,N05BA02,The evolving landscape of drug targets
+DRG-chloroprocaine,chloroprocaine,chloroprocaine,unknown,,,N01BA04,The evolving landscape of drug targets
+DRG-chlorphenamine,chlorphenamine,chlorphenamine,unknown,,,R06AB04;R06AB54,The evolving landscape of drug targets
+DRG-chlorpromazine,chlorpromazine,chlorpromazine,unknown,,,N05AA01,The evolving landscape of drug targets
+DRG-chlorpropamide,chlorpropamide,chlorpropamide,unknown,,,A10BB02,The evolving landscape of drug targets
+DRG-chlorprothixene,chlorprothixene,chlorprothixene,unknown,,,N05AF03,The evolving landscape of drug targets
+DRG-chlortalidone,chlortalidone,chlortalidone,unknown,,,C03BA04;C03BB04;C03EA06,The evolving landscape of drug targets
+DRG-choline-theophyllinate,choline theophyllinate,choline theophyllinate,unknown,,,R03DA02; R03DB02,The evolving landscape of drug targets
+DRG-citalopram,citalopram,citalopram,unknown,,,N06AB04,The evolving landscape of drug targets
+DRG-clemastine,clemastine,clemastine,unknown,,,D04AA14;R06AA04;R06AA54,The evolving landscape of drug targets
+DRG-clobazam,clobazam,clobazam,unknown,,,N05BA09,The evolving landscape of drug targets
+DRG-clobetasol-propionate,clobetasol propionate,clobetasol propionate,unknown,,,D07AD01;D07CD01,The evolving landscape of drug targets
+DRG-clocortolone-pivalate,clocortolone pivalate,clocortolone pivalate,unknown,,,D07AB21,The evolving landscape of drug targets
+DRG-clofibrate,clofibrate,clofibrate,unknown,,,C10AB01,The evolving landscape of drug targets
+DRG-clomifene,clomifene,clomifene,unknown,,,G03GB02,The evolving landscape of drug targets
+DRG-clomipramine,clomipramine,clomipramine,unknown,,,N06AA04,The evolving landscape of drug targets
+DRG-clonazepam,clonazepam,clonazepam,unknown,,,N03AE01,The evolving landscape of drug targets
+DRG-clonidine,clonidine,clonidine,unknown,,,C02AC01; C02LC01; C02LC51; N02CX02; S01EA04,The evolving landscape of drug targets
+DRG-clotrimazole,clotrimazole,clotrimazole,unknown,,,A01AB18;D01AC01;G01AF02,The evolving landscape of drug targets
+DRG-clozapine,clozapine,clozapine,unknown,,,N05AH02,The evolving landscape of drug targets
+DRG-codeine,codeine,codeine,unknown,,,N02AA59;N02AA79;N02AJ06;N02AJ07;N02AJ08;N02AJ09;R05DA04,The evolving landscape of drug targets
+DRG-conjugated-estrogens,conjugated estrogens,conjugated estrogens,unknown,,,G03CA57; G03CC07,The evolving landscape of drug targets
+DRG-corbadrine,corbadrine,corbadrine,unknown,,,,The evolving landscape of drug targets
+DRG-cortisone-acetate,cortisone acetate,cortisone acetate,unknown,,,,The evolving landscape of drug targets
+DRG-cyclobenzaprine,cyclobenzaprine,cyclobenzaprine,unknown,,,M03BX08,The evolving landscape of drug targets
+DRG-cyclopentolate,cyclopentolate,cyclopentolate,unknown,,,S01FA04;S01FA54,The evolving landscape of drug targets
+DRG-cyclothiazide,cyclothiazide,cyclothiazide,unknown,,,C03AA09;C03AB09,The evolving landscape of drug targets
+DRG-cyproheptadine,cyproheptadine,cyproheptadine,unknown,,,R06AX02,The evolving landscape of drug targets
+DRG-danazol,danazol,danazol,unknown,,,G03XA01,The evolving landscape of drug targets
+DRG-delavirdine,delavirdine,delavirdine,unknown,,,J05AG02,The evolving landscape of drug targets
+DRG-demecarium,demecarium,demecarium,unknown,,,S01EB04,The evolving landscape of drug targets
+DRG-deserpidine,deserpidine,deserpidine,unknown,,,C02AA05;C02LA03,The evolving landscape of drug targets
+DRG-desipramine,desipramine,desipramine,unknown,,,N06AA01,The evolving landscape of drug targets
+DRG-desmopressin,desmopressin,desmopressin,unknown,,,H01BA02,The evolving landscape of drug targets
+DRG-desogestrel,desogestrel,desogestrel,unknown,,,G03AA09;G03AB05;G03AC09;G03FB10,The evolving landscape of drug targets
+DRG-desonide,desonide,desonide,unknown,,,D07AB08;D07BB02;S01BA11,The evolving landscape of drug targets
+DRG-desoximetasone,desoximetasone,desoximetasone,unknown,,,D07AC03;D07XC02,The evolving landscape of drug targets
+DRG-desoxycorticosterone-acetate,desoxycorticosterone acetate,desoxycorticosterone acetate,unknown,,,,The evolving landscape of drug targets
+DRG-dexamethasone,dexamethasone,dexamethasone,unknown,,,A01AC02;C05AA09;D07AB19;D07CB04;D07XB05;D10AA03;H02AB02;R01AD03;R01AD53;S01BA01;S01CA01;S01CB01;S02BA06;S02CA06;S03BA01;S03CA01,The evolving landscape of drug targets
+DRG-dexamethasone-acetate,dexamethasone acetate,dexamethasone acetate,unknown,,,,The evolving landscape of drug targets
+DRG-dexamethasone-phosphate,dexamethasone phosphate,dexamethasone phosphate,unknown,,,,The evolving landscape of drug targets
+DRG-dexamfetamine,dexamfetamine,dexamfetamine,unknown,,,N06BA02,The evolving landscape of drug targets
+DRG-dexbrompheniramine,dexbrompheniramine,dexbrompheniramine,unknown,,,R06AB06;R06AB56,The evolving landscape of drug targets
+DRG-dexchlorpheniramine,dexchlorpheniramine,dexchlorpheniramine,unknown,,,R06AB02;R06AB52,The evolving landscape of drug targets
+DRG-dextropropoxyphene,dextropropoxyphene,dextropropoxyphene,unknown,,,N02AC04;N02AC54;N02AC74,The evolving landscape of drug targets
+DRG-diazepam,diazepam,diazepam,unknown,,,N05BA01,The evolving landscape of drug targets
+DRG-diazoxide,diazoxide,diazoxide,unknown,,,C02DA01;V03AH01,The evolving landscape of drug targets
+DRG-diclofenac,diclofenac,diclofenac,unknown,,,D11AX18; M01AB05; M01AB55; M02AA15; S01BC03; S01CC01,The evolving landscape of drug targets
+DRG-dicycloverine,dicycloverine,dicycloverine,unknown,,,A03AA07,The evolving landscape of drug targets
+DRG-didanosine,didanosine,didanosine,unknown,,,J05AF02,The evolving landscape of drug targets
+DRG-dienestrol,dienestrol,dienestrol,unknown,,,G03CB01;G03CC02,The evolving landscape of drug targets
+DRG-diethylpropion,diethylpropion,diethylpropion,unknown,,,A08AA03,The evolving landscape of drug targets
+DRG-diethylstilbestrol,diethylstilbestrol,diethylstilbestrol,unknown,,,G03CB02;G03CC05;L02AA01,The evolving landscape of drug targets
+DRG-difenoxin,difenoxin,difenoxin,unknown,,,A07DA04,The evolving landscape of drug targets
+DRG-diflorasone-diacetate,diflorasone diacetate,diflorasone diacetate,unknown,,,D07AC10,The evolving landscape of drug targets
+DRG-diflunisal,diflunisal,diflunisal,unknown,,,N02BA11,The evolving landscape of drug targets
+DRG-dihydrocodeine,dihydrocodeine,dihydrocodeine,unknown,,,N02AA08;N02AA58;N02AJ01;N02AJ02;N02AJ03,The evolving landscape of drug targets
+DRG-dihydroergotamine,dihydroergotamine,dihydroergotamine,unknown,,,N02CA01;N02CA51,The evolving landscape of drug targets
+DRG-diltiazem,diltiazem,diltiazem,unknown,,,C05AE03;C08DB01,The evolving landscape of drug targets
+DRG-dimenhydrinate,dimenhydrinate,dimenhydrinate,unknown,,,R06AA11;R06AA61,The evolving landscape of drug targets
+DRG-dinoprost,dinoprost,dinoprost,unknown,,,G02AD01,The evolving landscape of drug targets
+DRG-diphemanil,diphemanil,diphemanil,unknown,,,A03AB15; A03CA08,The evolving landscape of drug targets
+DRG-diphenhydramine,diphenhydramine,diphenhydramine,unknown,,,D04AA32;R06AA02;R06AA52,The evolving landscape of drug targets
+DRG-diphenidol,diphenidol,diphenidol,unknown,,,,The evolving landscape of drug targets
+DRG-diphenoxylate,diphenoxylate,diphenoxylate,unknown,,,A07DA01,The evolving landscape of drug targets
+DRG-dipivefrine,dipivefrine,dipivefrine,unknown,,,S01EA02,The evolving landscape of drug targets
+DRG-diprophylline,diprophylline,diprophylline,unknown,,,R03DA01; R03DA51; R03DB01,The evolving landscape of drug targets
+DRG-disopyramide,disopyramide,disopyramide,unknown,,,C01BA03,The evolving landscape of drug targets
+DRG-distigmine,distigmine,distigmine,unknown,,,N07AA03,The evolving landscape of drug targets
+DRG-dobutamine,dobutamine,dobutamine,unknown,,,C01CA07,The evolving landscape of drug targets
+DRG-dopamine,dopamine,dopamine,unknown,,,C01CA04,The evolving landscape of drug targets
+DRG-doxacurium,doxacurium,doxacurium,unknown,,,M03AC07,The evolving landscape of drug targets
+DRG-doxepin,doxepin,doxepin,unknown,,,D04AX01; N06AA12,The evolving landscape of drug targets
+DRG-doxorubicin,doxorubicin,doxorubicin,unknown,,,L01DB01,The evolving landscape of drug targets
+DRG-doxylamine,doxylamine,doxylamine,unknown,,,R06AA09;R06AA59,The evolving landscape of drug targets
+DRG-dronabinol,dronabinol,dronabinol,unknown,,,A04AD10,The evolving landscape of drug targets
+DRG-droperidol,droperidol,droperidol,unknown,,,N05AD08,The evolving landscape of drug targets
+DRG-dydrogesterone,dydrogesterone,dydrogesterone,unknown,,,G03DB01;G03FA14;G03FB08,The evolving landscape of drug targets
+DRG-echothiophate,echothiophate,echothiophate,unknown,,,S01EB03,The evolving landscape of drug targets
+DRG-econazole,econazole,econazole,unknown,,,D01AC03;G01AF05;G01AF55,The evolving landscape of drug targets
+DRG-edrophonium,edrophonium,edrophonium,unknown,,,V04CX07,The evolving landscape of drug targets
+DRG-efavirenz,efavirenz,efavirenz,unknown,,,J05AG03,The evolving landscape of drug targets
+DRG-emedastine,emedastine,emedastine,unknown,,,S01GX06,The evolving landscape of drug targets
+DRG-enalapril,enalapril,enalapril,unknown,,,C09AA02;C09BA02;C09BB02;C09BB06,The evolving landscape of drug targets
+DRG-enalaprilat,enalaprilat,enalaprilat,unknown,,,,The evolving landscape of drug targets
+DRG-enoxaparin-sodium,enoxaparin sodium,enoxaparin sodium,unknown,,,B01AB05,The evolving landscape of drug targets
+DRG-epinephrine,epinephrine,epinephrine,unknown,,,A01AD01; B02BC09; C01CA24; R01AA14; R03AA01; R03AK01; S01EA01; S01EA51,The evolving landscape of drug targets
+DRG-epoetin-alfa,epoetin alfa,epoetin alfa,unknown,,,B03XA01,The evolving landscape of drug targets
+DRG-eprosartan,eprosartan,eprosartan,unknown,,,C09CA02,The evolving landscape of drug targets
+DRG-ergocalciferol,ergocalciferol,ergocalciferol,unknown,,,A11CC01,The evolving landscape of drug targets
+DRG-ergotamine,ergotamine,ergotamine,unknown,,,N02CA02;N02CA52;N02CA72,The evolving landscape of drug targets
+DRG-esmolol,esmolol,esmolol,unknown,,,C07AB09,The evolving landscape of drug targets
+DRG-estazolam,estazolam,estazolam,unknown,,,N05CD04,The evolving landscape of drug targets
+DRG-estradiol,estradiol,estradiol,unknown,,,G03AA14;G03AA17;G03AB08;G03CA03;G03CA53;H01CC53;H01CC54,The evolving landscape of drug targets
+DRG-estradiol-cypionate,estradiol cypionate,estradiol cypionate,unknown,,,,The evolving landscape of drug targets
+DRG-estradiol-valerate,estradiol valerate,estradiol valerate,unknown,,,,The evolving landscape of drug targets
+DRG-estramustine-phosphate,estramustine phosphate,estramustine phosphate,unknown,,,,The evolving landscape of drug targets
+DRG-estrone,estrone,estrone,unknown,,,G03CA07;G03CC04,The evolving landscape of drug targets
+DRG-estrone-sulphate,estrone sulphate,estrone sulphate,unknown,,,,The evolving landscape of drug targets
+DRG-ethchlorvynol,ethchlorvynol,ethchlorvynol,unknown,,,N05CM08,The evolving landscape of drug targets
+DRG-ethinylestradiol,ethinylestradiol,ethinylestradiol,unknown,,,G03AA01;G03AA02;G03AA03;G03AA04;G03AA05;G03AA06;G03AA07;G03AA08;G03AA09;G03AA10;G03AA11;G03AA12;G03AA13;G03AA15;G03AA16;G03AB01;G03AB02;G03AB03;G03AB04;G03AB05;G03AB06;G03AB07;G03AB09;G03CA01;L02AA03,The evolving landscape of drug targets
+DRG-ethotoin,ethotoin,ethotoin,unknown,,,N03AB01,The evolving landscape of drug targets
+DRG-ethylestrenol,ethylestrenol,ethylestrenol,unknown,,,A14AB02,The evolving landscape of drug targets
+DRG-etidocaine,etidocaine,etidocaine,unknown,,,N01BB07; N01BB57,The evolving landscape of drug targets
+DRG-etodolac,etodolac,etodolac,unknown,,,M01AB08,The evolving landscape of drug targets
+DRG-etomidate,etomidate,etomidate,unknown,,,N01AX07,The evolving landscape of drug targets
+DRG-etoposide,etoposide,etoposide,unknown,,,L01CB01,The evolving landscape of drug targets
+DRG-etynodiol,etynodiol,etynodiol,unknown,,,G03AA01;G03DC06;G03FA06,The evolving landscape of drug targets
+DRG-felodipine,felodipine,felodipine,unknown,,,C07FB02; C08CA02; C09BB05,The evolving landscape of drug targets
+DRG-fenofibrate,fenofibrate,fenofibrate,unknown,,,C10AB05;C10BA03;C10BA04;C10BA09;C10BA12,The evolving landscape of drug targets
+DRG-fenoprofen,fenoprofen,fenoprofen,unknown,,,M01AE04,The evolving landscape of drug targets
+DRG-fentanyl,fentanyl,fentanyl,unknown,,,N01AH01;N01AH51;N02AB03,The evolving landscape of drug targets
+DRG-fexofenadine,fexofenadine,fexofenadine,unknown,,,R06AX26,The evolving landscape of drug targets
+DRG-filgrastim,filgrastim,filgrastim,unknown,,,L03AA02,The evolving landscape of drug targets
+DRG-flecainide,flecainide,flecainide,unknown,,,C01BC04,The evolving landscape of drug targets
+DRG-floxuridine,floxuridine,floxuridine,unknown,,,L01BC09,The evolving landscape of drug targets
+DRG-fluconazole,fluconazole,fluconazole,unknown,,,D01AC15;J01RA07;J02AC01,The evolving landscape of drug targets
+DRG-fludarabine-phosphate,fludarabine phosphate,fludarabine phosphate,unknown,,,L01BB05,The evolving landscape of drug targets
+DRG-fludrocortisone-acetate,fludrocortisone acetate,fludrocortisone acetate,unknown,,,H02AA02;S01CA06;S02CA07;S03CA05,The evolving landscape of drug targets
+DRG-fludroxycortide,fludroxycortide,fludroxycortide,unknown,,,D07AC07;D07CC03,The evolving landscape of drug targets
+DRG-flunisolide,flunisolide,flunisolide,unknown,,,R01AD04;R03BA03,The evolving landscape of drug targets
+DRG-fluocinolone-acetonide,fluocinolone acetonide,fluocinolone acetonide,unknown,,,C05AA10;D07AC04;D07BC02;D07CC02;S01BA15;S01CA10;S02BA08;S02CA05,The evolving landscape of drug targets
+DRG-fluocinonide,fluocinonide,fluocinonide,unknown,,,C05AA11;D07AC08;D07CC05,The evolving landscape of drug targets
+DRG-fluorometholone,fluorometholone,fluorometholone,unknown,,,C05AA06;D07AB06;D07CB03;D07XB04;D10AA01;S01BA07;S01BB03;S01CA07;S01CB05,The evolving landscape of drug targets
+DRG-fluorometholone-acetate,fluorometholone acetate,fluorometholone acetate,unknown,,,,The evolving landscape of drug targets
+DRG-fluostigmine,fluostigmine,fluostigmine,unknown,,,S01EB07,The evolving landscape of drug targets
+DRG-fluoxetine,fluoxetine,fluoxetine,unknown,,,N06AB03;N06CA03,The evolving landscape of drug targets
+DRG-fluoxymesterone,fluoxymesterone,fluoxymesterone,unknown,,,G03BA01,The evolving landscape of drug targets
+DRG-fluphenazine,fluphenazine,fluphenazine,unknown,,,N05AB02,The evolving landscape of drug targets
+DRG-fluphenazine-decanoate,fluphenazine decanoate,fluphenazine decanoate,unknown,,,,The evolving landscape of drug targets
+DRG-fluphenazine-enanthate,fluphenazine enanthate,fluphenazine enanthate,unknown,,,,The evolving landscape of drug targets
+DRG-fluprednisolone,fluprednisolone,fluprednisolone,unknown,,,,The evolving landscape of drug targets
+DRG-flurazepam,flurazepam,flurazepam,unknown,,,N05CD01,The evolving landscape of drug targets
+DRG-flurbiprofen,flurbiprofen,flurbiprofen,unknown,,,M01AE09; M02AA19; R02AX01; S01BC04,The evolving landscape of drug targets
+DRG-flutamide,flutamide,flutamide,unknown,,,L02BB01,The evolving landscape of drug targets
+DRG-fluticasone-propionate,fluticasone propionate,fluticasone propionate,unknown,,,D07AC17;R01AD08;R01AD58;R03AK06;R03AK11;R03BA05,The evolving landscape of drug targets
+DRG-fluvastatin,fluvastatin,fluvastatin,unknown,,,C10AA04,The evolving landscape of drug targets
+DRG-foscarnet,foscarnet,foscarnet,unknown,,,J05AD01,The evolving landscape of drug targets
+DRG-fosinopril,fosinopril,fosinopril,unknown,,,C09AA09;C09BA09,The evolving landscape of drug targets
+DRG-ganciclovir,ganciclovir,ganciclovir,unknown,,,J05AB06;S01AD09,The evolving landscape of drug targets
+DRG-gemfibrozil,gemfibrozil,gemfibrozil,unknown,,,C10AB04,The evolving landscape of drug targets
+DRG-glibenclamide,glibenclamide,glibenclamide,unknown,,,A10BB01,The evolving landscape of drug targets
+DRG-glipizide,glipizide,glipizide,unknown,,,A10BB07,The evolving landscape of drug targets
+DRG-glutethimide,glutethimide,glutethimide,unknown,,,N05CE01,The evolving landscape of drug targets
+DRG-gonadorelin,gonadorelin,gonadorelin,unknown,,,H01CA01;V04CM01,The evolving landscape of drug targets
+DRG-goserelin,goserelin,goserelin,unknown,,,L02AE03,The evolving landscape of drug targets
+DRG-granisetron,granisetron,granisetron,unknown,,,A04AA02,The evolving landscape of drug targets
+DRG-guanabenz,guanabenz,guanabenz,unknown,,,,The evolving landscape of drug targets
+DRG-guanadrel,guanadrel,guanadrel,unknown,,,,The evolving landscape of drug targets
+DRG-guanethidine,guanethidine,guanethidine,unknown,,,C02CC02;C02LF01;S01EX01,The evolving landscape of drug targets
+DRG-guanfacine,guanfacine,guanfacine,unknown,,,C02AC02,The evolving landscape of drug targets
+DRG-halcinonide,halcinonide,halcinonide,unknown,,,D07AD02,The evolving landscape of drug targets
+DRG-haloperidol,haloperidol,haloperidol,unknown,,,N05AD01,The evolving landscape of drug targets
+DRG-haloperidol-decanoate,haloperidol decanoate,haloperidol decanoate,unknown,,,,The evolving landscape of drug targets
+DRG-histamine,histamine,histamine,unknown,,,L03AX14;V04CG03,The evolving landscape of drug targets
+DRG-histrelin,histrelin,histrelin,unknown,,,L02AE05,The evolving landscape of drug targets
+DRG-hydrochlorothiazide,hydrochlorothiazide,hydrochlorothiazide,unknown,,,C03AA03;C03AB03;C03AX01;C03EA01;C09BX03;C09DX01;C09DX03;C09DX06;C09DX07;C09DX08;C09XA52;C09XA54,The evolving landscape of drug targets
+DRG-hydrocodone,hydrocodone,hydrocodone,unknown,,,R05DA03,The evolving landscape of drug targets
+DRG-hydrocortamate,hydrocortamate,hydrocortamate,unknown,,,,The evolving landscape of drug targets
+DRG-hydrocortisone,hydrocortisone,hydrocortisone,unknown,,,A01AC03;A07EA02;C05AA01;D07AA02;D07BA04;D07CA01;D07XA01;H02AB09;R01AD60;S01BA02;S01BB01;S01CA03;S01CB03;S02BA01;S02CA03;S03CA04,The evolving landscape of drug targets
+DRG-hydrocortisone-acetate,hydrocortisone acetate,hydrocortisone acetate,unknown,,,,The evolving landscape of drug targets
+DRG-hydrocortisone-butyrate,hydrocortisone butyrate,hydrocortisone butyrate,unknown,,,D07AB02;D07BB04,The evolving landscape of drug targets
+DRG-hydrocortisone-cypionate,hydrocortisone cypionate,hydrocortisone cypionate,unknown,,,,The evolving landscape of drug targets
+DRG-hydrocortisone-succinate,hydrocortisone succinate,hydrocortisone succinate,unknown,,,,The evolving landscape of drug targets
+DRG-hydrocortisone-valerate,hydrocortisone valerate,hydrocortisone valerate,unknown,,,,The evolving landscape of drug targets
+DRG-hydroflumethiazide,hydroflumethiazide,hydroflumethiazide,unknown,,,C03AA02;C03AB02;C03AH02,The evolving landscape of drug targets
+DRG-hydromorphone,hydromorphone,hydromorphone,unknown,,,N02AA03;N02AA53;N02AG04,The evolving landscape of drug targets
+DRG-hydroxyprogesterone-caproate,hydroxyprogesterone caproate,hydroxyprogesterone caproate,unknown,,,G03DA03;G03FA02,The evolving landscape of drug targets
+DRG-hydroxyzine,hydroxyzine,hydroxyzine,unknown,,,N05BB01;N05BB51,The evolving landscape of drug targets
+DRG-ibuprofen,ibuprofen,ibuprofen,unknown,,,C01EB16; G02CC01; M01AE01; M01AE51; M02AA13; N02AJ08; N02AJ19; R02AX02,The evolving landscape of drug targets
+DRG-idarubicin,idarubicin,idarubicin,unknown,,,L01DB06,The evolving landscape of drug targets
+DRG-imipramine,imipramine,imipramine,unknown,,,N06AA02,The evolving landscape of drug targets
+DRG-indapamide,indapamide,indapamide,unknown,,,C03BA11;C09BX01;C10BX13,The evolving landscape of drug targets
+DRG-indomethacin,indomethacin,indomethacin,unknown,,,C01EB03; M01AB01; M01AB51; M02AA23; S01BC01; S01CC02,The evolving landscape of drug targets
+DRG-insulin-human,insulin human,insulin human,unknown,,,A10AB01;A10AC01;A10AD01;A10AE01;A10AF01,The evolving landscape of drug targets
+DRG-interferon-beta-1b,interferon beta-1b,interferon beta-1b,unknown,,,L03AB08,The evolving landscape of drug targets
+DRG-ipratropium,ipratropium,ipratropium,unknown,,,R01AX03;R03AL01;R03AL02;R03BB01,The evolving landscape of drug targets
+DRG-isoetarine,isoetarine,isoetarine,unknown,,,R03AC07;R03CC06,The evolving landscape of drug targets
+DRG-isoprenaline,isoprenaline,isoprenaline,unknown,,,C01CA02; R03AB02; R03AK02; R03CB01; R03CB51,The evolving landscape of drug targets
+DRG-isopropamide,isopropamide,isopropamide,unknown,,,A03AB09; A03CA01,The evolving landscape of drug targets
+DRG-isotretinoin,isotretinoin,isotretinoin,unknown,,,D10AD04;D10AD54;D10BA01,The evolving landscape of drug targets
+DRG-isradipine,isradipine,isradipine,unknown,,,C08CA03,The evolving landscape of drug targets
+DRG-itraconazole,itraconazole,itraconazole,unknown,,,J02AC02,The evolving landscape of drug targets
+DRG-ketoprofen,ketoprofen,ketoprofen,unknown,,,M01AE03; M01AE53; M02AA10,The evolving landscape of drug targets
+DRG-ketorolac,ketorolac,ketorolac,unknown,,,M01AB15; S01BC05; S01FB51,The evolving landscape of drug targets
+DRG-ketotifen,ketotifen,ketotifen,unknown,,,R06AX17,The evolving landscape of drug targets
+DRG-labetalol,labetalol,labetalol,unknown,,,C07AG01; C07BG01; C07CG01,The evolving landscape of drug targets
+DRG-lenograstim,lenograstim,lenograstim,unknown,,,L03AA10,The evolving landscape of drug targets
+DRG-leuprorelin,leuprorelin,leuprorelin,unknown,,,L02AE02;L02AE51,The evolving landscape of drug targets
+DRG-levobunolol,levobunolol,levobunolol,unknown,,,S01ED03,The evolving landscape of drug targets
+DRG-levocabastine,levocabastine,levocabastine,unknown,,,R01AC02;S01GX02,The evolving landscape of drug targets
+DRG-levofloxacin,levofloxacin,levofloxacin,unknown,,,J01MA12,The evolving landscape of drug targets
+DRG-levomenthol,levomenthol,levomenthol,unknown,,,,The evolving landscape of drug targets
+DRG-levomethadyl-acetate,levomethadyl acetate,levomethadyl acetate,unknown,,,N07BC03,The evolving landscape of drug targets
+DRG-levonorgestrel,levonorgestrel,levonorgestrel,unknown,,,G03AA06;G03AA07;G03AB03;G03AC03;G03AD01;G03FA10;G03FA11;G03FB01;G03FB09,The evolving landscape of drug targets
+DRG-levorphanol,levorphanol,levorphanol,unknown,,,,The evolving landscape of drug targets
+DRG-lidocaine,lidocaine,lidocaine,unknown,,,C01BB01; C05AD01; D04AB01; N01BB02; N01BB52; R02AD02; S01HA07; S02DA01,The evolving landscape of drug targets
+DRG-liothyronine,liothyronine,liothyronine,unknown,,,H03AA02; H03AA03,The evolving landscape of drug targets
+DRG-lisinopril,lisinopril,lisinopril,unknown,,,C09AA03;C09BA03;C09BB03;C10BX07,The evolving landscape of drug targets
+DRG-loperamide,loperamide,loperamide,unknown,,,A07DA03;A07DA53,The evolving landscape of drug targets
+DRG-loratadine,loratadine,loratadine,unknown,,,R06AX13,The evolving landscape of drug targets
+DRG-lorazepam,lorazepam,lorazepam,unknown,,,N05BA06;N05BA56,The evolving landscape of drug targets
+DRG-loteprednol-etabonate,loteprednol etabonate,loteprednol etabonate,unknown,,,S01BA14,The evolving landscape of drug targets
+DRG-lovastatin,lovastatin,lovastatin,unknown,,,C10AA02;C10BA01,The evolving landscape of drug targets
+DRG-loxapine,loxapine,loxapine,unknown,,,N05AH01,The evolving landscape of drug targets
+DRG-maprotiline,maprotiline,maprotiline,unknown,,,N06AA21,The evolving landscape of drug targets
+DRG-mazindol,mazindol,mazindol,unknown,,,A08AA05,The evolving landscape of drug targets
+DRG-meclofenamic-acid,meclofenamic acid,meclofenamic acid,unknown,,,M01AG04; M02AA18,The evolving landscape of drug targets
+DRG-meclozine,meclozine,meclozine,unknown,,,R06AE05;R06AE55,The evolving landscape of drug targets
+DRG-medroxyprogesterone,medroxyprogesterone,medroxyprogesterone,unknown,,,G03AA08;G03AA17;G03AC06;G03DA02;G03FA12;G03FB06;L02AB02,The evolving landscape of drug targets
+DRG-medrysone,medrysone,medrysone,unknown,,,S01BA08,The evolving landscape of drug targets
+DRG-mefenamic-acid,mefenamic acid,mefenamic acid,unknown,,,M01AG01,The evolving landscape of drug targets
+DRG-megestrol-acetate,megestrol acetate,megestrol acetate,unknown,,,G03AA04;G03AB01;G03AC05;G03DB02;G03FA08;G03FB04;L02AB01,The evolving landscape of drug targets
+DRG-mepenzolate,mepenzolate,mepenzolate,unknown,,,A03AB12,The evolving landscape of drug targets
+DRG-mephentermine,mephentermine,mephentermine,unknown,,,C01CA11,The evolving landscape of drug targets
+DRG-mephenytoin,mephenytoin,mephenytoin,unknown,,,N03AB04; N03AB54,The evolving landscape of drug targets
+DRG-meprednisone,meprednisone,meprednisone,unknown,,,H02AB15,The evolving landscape of drug targets
+DRG-meprobamate,meprobamate,meprobamate,unknown,,,N05BC01; N05BC51; N05CX01,The evolving landscape of drug targets
+DRG-mepyramine,mepyramine,mepyramine,unknown,,,D04AA02;R06AC01,The evolving landscape of drug targets
+DRG-meropenem,meropenem,meropenem,unknown,,,J01DH02,The evolving landscape of drug targets
+DRG-mesalazine,mesalazine,mesalazine,unknown,,,A07EC02,The evolving landscape of drug targets
+DRG-mesoridazine,mesoridazine,mesoridazine,unknown,,,N05AC03,The evolving landscape of drug targets
+DRG-mestranol,mestranol,mestranol,unknown,,,,The evolving landscape of drug targets
+DRG-metaraminol,metaraminol,metaraminol,unknown,,,C01CA09,The evolving landscape of drug targets
+DRG-methacholine,methacholine,methacholine,unknown,,,V04CX03,The evolving landscape of drug targets
+DRG-methadone,methadone,methadone,unknown,,,N02AC52;N07BC02,The evolving landscape of drug targets
+DRG-methamphetamine,methamphetamine,methamphetamine,unknown,,,N06BA03,The evolving landscape of drug targets
+DRG-methocarbamol,methocarbamol,methocarbamol,unknown,,,M03BA03;M03BA53;M03BA73,The evolving landscape of drug targets
+DRG-methohexital,methohexital,methohexital,unknown,,,N01AF01;N05CA15,The evolving landscape of drug targets
+DRG-methscopolamine,methscopolamine,methscopolamine,unknown,,,A03BB03; A03CB01; S01FA03,The evolving landscape of drug targets
+DRG-methylclothiazide,methylclothiazide,methylclothiazide,unknown,,,C03AA08;C03AB08,The evolving landscape of drug targets
+DRG-methyldopa,methyldopa,methyldopa,unknown,,,C02AB01;C02AB02;C02LB01,The evolving landscape of drug targets
+DRG-methyldopate,methyldopate,methyldopate,unknown,,,,The evolving landscape of drug targets
+DRG-methylphenidate,methylphenidate,methylphenidate,unknown,,,N06BA04,The evolving landscape of drug targets
+DRG-methylprednisolone,methylprednisolone,methylprednisolone,unknown,,,D07AA01;D07CA02;D10AA02;H02AB04;H02BX01;S01CA08;S03CA07,The evolving landscape of drug targets
+DRG-methylprednisolone-acetate,methylprednisolone acetate,methylprednisolone acetate,unknown,,,,The evolving landscape of drug targets
+DRG-methylprednisolone-succinate,methylprednisolone succinate,methylprednisolone succinate,unknown,,,,The evolving landscape of drug targets
+DRG-methyltestosterone,methyltestosterone,methyltestosterone,unknown,,,G03BA02;G03EA01;G03EK01,The evolving landscape of drug targets
+DRG-metipranolol,metipranolol,metipranolol,unknown,,,C07BA68; S01ED04; S01ED54,The evolving landscape of drug targets
+DRG-metoclopramide,metoclopramide,metoclopramide,unknown,,,A03FA01,The evolving landscape of drug targets
+DRG-metolazone,metolazone,metolazone,unknown,,,C03BA08;C03EA12,The evolving landscape of drug targets
+DRG-metoprolol,metoprolol,metoprolol,unknown,,,C07AB02;C07BB02;C07BB52;C07CB02;C07FB02;C07FB13;C07FX03;C07FX05,The evolving landscape of drug targets
+DRG-mexiletine,mexiletine,mexiletine,unknown,,,C01BB02,The evolving landscape of drug targets
+DRG-miconazole,miconazole,miconazole,unknown,,,A01AB09;A07AC01;D01AC02;D01AC52;G01AF04;J02AB01;S02AA13,The evolving landscape of drug targets
+DRG-midazolam,midazolam,midazolam,unknown,,,N05CD08,The evolving landscape of drug targets
+DRG-milrinone,milrinone,milrinone,unknown,,,C01CE02,The evolving landscape of drug targets
+DRG-mitoxantrone,mitoxantrone,mitoxantrone,unknown,,,L01DB07,The evolving landscape of drug targets
+DRG-mivacurium,mivacurium,mivacurium,unknown,,,M03AC10,The evolving landscape of drug targets
+DRG-molindone,molindone,molindone,unknown,,,N05AE02,The evolving landscape of drug targets
+DRG-mometasone-furoate,mometasone furoate,mometasone furoate,unknown,,,D07AC13;D07XC03;R01AD09;R01AD59;R03AK09;R03AK14;R03AL12;R03BA07,The evolving landscape of drug targets
+DRG-moracizine,moracizine,moracizine,unknown,,,C01BG01,The evolving landscape of drug targets
+DRG-moxifloxacin,moxifloxacin,moxifloxacin,unknown,,,J01MA14,The evolving landscape of drug targets
+DRG-muromonab-cd3,muromonab-CD3,muromonab-CD3,unknown,,,L04AA02,The evolving landscape of drug targets
+DRG-nabumetone,nabumetone,nabumetone,unknown,,,M01AX01,The evolving landscape of drug targets
+DRG-nadolol,nadolol,nadolol,unknown,,,C07AA12; C07BA12,The evolving landscape of drug targets
+DRG-nafarelin,nafarelin,nafarelin,unknown,,,H01CA02,The evolving landscape of drug targets
+DRG-nalbuphine,nalbuphine,nalbuphine,unknown,,,N02AF02,The evolving landscape of drug targets
+DRG-naloxone,naloxone,naloxone,unknown,,,A06AH04;N02AA53;N02AA55;N02AX51;V03AB15,The evolving landscape of drug targets
+DRG-nandrolone-decanoate,nandrolone decanoate,nandrolone decanoate,unknown,,,,The evolving landscape of drug targets
+DRG-nandrolone-phenpropionate,nandrolone phenpropionate,nandrolone phenpropionate,unknown,,,,The evolving landscape of drug targets
+DRG-naphazoline,naphazoline,naphazoline,unknown,,,R01AA08; R01AB02; S01GA01; S01GA51,The evolving landscape of drug targets
+DRG-naproxen,naproxen,naproxen,unknown,,,G02CC02; M01AE02; M01AE52; M01AE56; M02AA12,The evolving landscape of drug targets
+DRG-nelfinavir,nelfinavir,nelfinavir,unknown,,,J05AE04,The evolving landscape of drug targets
+DRG-nicardipine,nicardipine,nicardipine,unknown,,,C08CA04,The evolving landscape of drug targets
+DRG-nifedipine,nifedipine,nifedipine,unknown,,,C07FB03; C08CA05; C08CA55; C08GA01,The evolving landscape of drug targets
+DRG-nimodipine,nimodipine,nimodipine,unknown,,,C08CA06,The evolving landscape of drug targets
+DRG-nitroprusside,nitroprusside,nitroprusside,unknown,,,C02DD01,The evolving landscape of drug targets
+DRG-norepinephrine,norepinephrine,norepinephrine,unknown,,,C01CA03,The evolving landscape of drug targets
+DRG-norethindrone-acetate,norethindrone acetate,norethindrone acetate,unknown,,,,The evolving landscape of drug targets
+DRG-norethisterone,norethisterone,norethisterone,unknown,,,G03AA05;G03AB04;G03AC01;G03DC02;G03FA01;G03FB05;H01CC53;H01CC54,The evolving landscape of drug targets
+DRG-norethynodrel,norethynodrel,norethynodrel,unknown,,,G03FA09,The evolving landscape of drug targets
+DRG-norfloxacin,norfloxacin,norfloxacin,unknown,,,J01MA06; J01RA13; J01RA14; S01AE02,The evolving landscape of drug targets
+DRG-norgestimate,norgestimate,norgestimate,unknown,,,G03AA11;G03AB09;G03FA13,The evolving landscape of drug targets
+DRG-nortriptyline,nortriptyline,nortriptyline,unknown,,,N06AA10,The evolving landscape of drug targets
+DRG-ofloxacin,ofloxacin,ofloxacin,unknown,,,J01MA01;J01RA09;S01AE01;S02AA16,The evolving landscape of drug targets
+DRG-olopatadine,olopatadine,olopatadine,unknown,,,R01AC08,The evolving landscape of drug targets
+DRG-olsalazine,olsalazine,olsalazine,unknown,,,A07EC03,The evolving landscape of drug targets
+DRG-omeprazole,omeprazole,omeprazole,unknown,,,A02BC01;A02BD01;A02BD05;A02BD16,The evolving landscape of drug targets
+DRG-ondansetron,ondansetron,ondansetron,unknown,,,A04AA01,The evolving landscape of drug targets
+DRG-orciprenaline,orciprenaline,orciprenaline,unknown,,,R03AB03;R03CB03;R03CB53,The evolving landscape of drug targets
+DRG-orphenadrine,orphenadrine,orphenadrine,unknown,,,M03BC01; M03BC51; N04AB02,The evolving landscape of drug targets
+DRG-oxandrolone,oxandrolone,oxandrolone,unknown,,,A14AA08,The evolving landscape of drug targets
+DRG-oxaprozin,oxaprozin,oxaprozin,unknown,,,M01AE12,The evolving landscape of drug targets
+DRG-oxazepam,oxazepam,oxazepam,unknown,,,N05BA04,The evolving landscape of drug targets
+DRG-oxiconazole,oxiconazole,oxiconazole,unknown,,,D01AC11;G01AF17,The evolving landscape of drug targets
+DRG-oxybutynin,oxybutynin,oxybutynin,unknown,,,G04BD04,The evolving landscape of drug targets
+DRG-oxycodone,oxycodone,oxycodone,unknown,,,N02AA05;N02AA55;N02AA56;N02AJ17;N02AJ18;N02AJ19,The evolving landscape of drug targets
+DRG-oxymetazoline,oxymetazoline,oxymetazoline,unknown,,,D11AX27; R01AA05; R01AB07; S01GA04,The evolving landscape of drug targets
+DRG-oxymetholone,oxymetholone,oxymetholone,unknown,,,A14AA05,The evolving landscape of drug targets
+DRG-oxymorphone,oxymorphone,oxymorphone,unknown,,,N02AA11,The evolving landscape of drug targets
+DRG-oxyphenbutazone,oxyphenbutazone,oxyphenbutazone,unknown,,,M01AA03;M02AA04;S01BC02,The evolving landscape of drug targets
+DRG-paclitaxel,paclitaxel,paclitaxel,unknown,,,L01CD01;L01CD51,The evolving landscape of drug targets
+DRG-pamidronic-acid,pamidronic acid,pamidronic acid,unknown,,,M05BA03,The evolving landscape of drug targets
+DRG-pancuronium,pancuronium,pancuronium,unknown,,,M03AC01,The evolving landscape of drug targets
+DRG-paroxetine,paroxetine,paroxetine,unknown,,,N06AB05,The evolving landscape of drug targets
+DRG-penbutolol,penbutolol,penbutolol,unknown,,,C07AA23; C07CA23,The evolving landscape of drug targets
+DRG-pentobarbital,pentobarbital,pentobarbital,unknown,,,N05CA01,The evolving landscape of drug targets
+DRG-pergolide,pergolide,pergolide,unknown,,,N04BC02,The evolving landscape of drug targets
+DRG-perindopril,perindopril,perindopril,unknown,,,C09AA04;C09BA04;C09BB04;C09BX01;C09BX02;C09BX04;C10BX11;C10BX12;C10BX13;C10BX14;C10BX15,The evolving landscape of drug targets
+DRG-perphenazine,perphenazine,perphenazine,unknown,,,N05AB03,The evolving landscape of drug targets
+DRG-pethidine,pethidine,pethidine,unknown,,,N02AB02;N02AB52;N02AB72;N02AG03,The evolving landscape of drug targets
+DRG-phendimetrazine,phendimetrazine,phendimetrazine,unknown,,,,The evolving landscape of drug targets
+DRG-phenoxybenzamine,phenoxybenzamine,phenoxybenzamine,unknown,,,C04AX02,The evolving landscape of drug targets
+DRG-phentermine,phentermine,phentermine,unknown,,,A08AA01;A08AA51,The evolving landscape of drug targets
+DRG-phentolamine,phentolamine,phentolamine,unknown,,,C04AB01; V03AB36,The evolving landscape of drug targets
+DRG-phenylbutazone,phenylbutazone,phenylbutazone,unknown,,,M01AA01;M01BA01;M02AA01,The evolving landscape of drug targets
+DRG-phenylephrine,phenylephrine,phenylephrine,unknown,,,C01CA06; R01AA04; R01AB01; R01BA03; R01BA53; S01FB01; S01FB51; S01GA05; S01GA55,The evolving landscape of drug targets
+DRG-phenytoin,phenytoin,phenytoin,unknown,,,N03AB02; N03AB52,The evolving landscape of drug targets
+DRG-pilocarpine,pilocarpine,pilocarpine,unknown,,,N07AX01;S01EB01;S01EB51,The evolving landscape of drug targets
+DRG-pimozide,pimozide,pimozide,unknown,,,N05AG02,The evolving landscape of drug targets
+DRG-pindolol,pindolol,pindolol,unknown,,,C07AA03; C07CA03,The evolving landscape of drug targets
+DRG-pipecuronium,pipecuronium,pipecuronium,unknown,,,M03AC06,The evolving landscape of drug targets
+DRG-pirbuterol,pirbuterol,pirbuterol,unknown,,,R03AC08;R03CC07,The evolving landscape of drug targets
+DRG-piroxicam,piroxicam,piroxicam,unknown,,,M01AC01; M02AA07; S01BC06,The evolving landscape of drug targets
+DRG-polyestradiol-phosphate,polyestradiol phosphate,polyestradiol phosphate,unknown,,,L02AA02,The evolving landscape of drug targets
+DRG-polythiazide,polythiazide,polythiazide,unknown,,,C03AA05;C03AB05,The evolving landscape of drug targets
+DRG-pralidoxime,pralidoxime,pralidoxime,unknown,,,V03AB04,The evolving landscape of drug targets
+DRG-pravastatin,pravastatin,pravastatin,unknown,,,C10AA03;C10BA03;C10BA11;C10BA12;C10BX02,The evolving landscape of drug targets
+DRG-prazosin,prazosin,prazosin,unknown,,,C02CA01; C02LE01,The evolving landscape of drug targets
+DRG-prednicarbate,prednicarbate,prednicarbate,unknown,,,D07AC18,The evolving landscape of drug targets
+DRG-prednisolone,prednisolone,prednisolone,unknown,,,A01AC04;A01AC54;A07EA01;C05AA04;D07AA03;D07BA01;D07CA03;D07XA02;H02AB06;R01AD02;R01AD52;S01BA04;S01BB02;S01CA02;S01CB02;S02BA03;S02CA01;S03BA02;S03CA02;V03AB05,The evolving landscape of drug targets
+DRG-prednisolone-acetate,prednisolone acetate,prednisolone acetate,unknown,,,,The evolving landscape of drug targets
+DRG-prednisolone-sodium-phosphate,prednisolone sodium phosphate,prednisolone sodium phosphate,unknown,,,,The evolving landscape of drug targets
+DRG-prednisolone-tebutate,prednisolone tebutate,prednisolone tebutate,unknown,,,,The evolving landscape of drug targets
+DRG-prednisone,prednisone,prednisone,unknown,,,A07EA03;H02AB07,The evolving landscape of drug targets
+DRG-prilocaine,prilocaine,prilocaine,unknown,,,N01BB04; N01BB54,The evolving landscape of drug targets
+DRG-primidone,primidone,primidone,unknown,,,N03AA03,The evolving landscape of drug targets
+DRG-procainamide,procainamide,procainamide,unknown,,,C01BA02,The evolving landscape of drug targets
+DRG-procaine,procaine,procaine,unknown,,,C05AD05;N01BA02;N01BA52;S01HA05,The evolving landscape of drug targets
+DRG-procyclidine,procyclidine,procyclidine,unknown,,,N04AA04,The evolving landscape of drug targets
+DRG-progesterone,progesterone,progesterone,unknown,,,G03DA04;G03FA04,The evolving landscape of drug targets
+DRG-promazine,promazine,promazine,unknown,,,N05AA03,The evolving landscape of drug targets
+DRG-promethazine,promethazine,promethazine,unknown,,,D04AA10;R06AD02;R06AD52;V03AB05,The evolving landscape of drug targets
+DRG-propafenone,propafenone,propafenone,unknown,,,C01BC03,The evolving landscape of drug targets
+DRG-propantheline,propantheline,propantheline,unknown,,,A03AB05; A03CA34,The evolving landscape of drug targets
+DRG-proparacaine,proparacaine,proparacaine,unknown,,,S01HA04,The evolving landscape of drug targets
+DRG-propiomazine,propiomazine,propiomazine,unknown,,,N05CM06,The evolving landscape of drug targets
+DRG-propofol,propofol,propofol,unknown,,,N01AX10,The evolving landscape of drug targets
+DRG-propranolol,propranolol,propranolol,unknown,,,C07AA05; C07BA05; C07FX01,The evolving landscape of drug targets
+DRG-protriptyline,protriptyline,protriptyline,unknown,,,N06AA11,The evolving landscape of drug targets
+DRG-pseudoephedrine,pseudoephedrine,pseudoephedrine,unknown,,,R01BA02;R01BA52,The evolving landscape of drug targets
+DRG-pyridostigmine,pyridostigmine,pyridostigmine,unknown,,,N07AA02,The evolving landscape of drug targets
+DRG-quetiapine,quetiapine,quetiapine,unknown,,,N05AH04,The evolving landscape of drug targets
+DRG-quinapril,quinapril,quinapril,unknown,,,C09AA06;C09BA06,The evolving landscape of drug targets
+DRG-quinethazone,quinethazone,quinethazone,unknown,,,C03BA02;C03BB02,The evolving landscape of drug targets
+DRG-ramipril,ramipril,ramipril,unknown,,,C09AA05;C09BA05;C09BB05;C09BB07;C09BX03;C09BX05;C10BX04;C10BX06;C10BX17;C10BX18,The evolving landscape of drug targets
+DRG-ranitidine,ranitidine,ranitidine,unknown,,,A02BA02,The evolving landscape of drug targets
+DRG-rescinnamine,rescinnamine,rescinnamine,unknown,,,C02AA01;C02LA02;C02LA52,The evolving landscape of drug targets
+DRG-reserpine,reserpine,reserpine,unknown,,,C02AA02;C02AA52;C02LA01;C02LA51;C02LA71,The evolving landscape of drug targets
+DRG-risedronic-acid,risedronic acid,risedronic acid,unknown,,,M05BA07,The evolving landscape of drug targets
+DRG-risperidone,risperidone,risperidone,unknown,,,N05AX08,The evolving landscape of drug targets
+DRG-ritodrine,ritodrine,ritodrine,unknown,,,G02CA01,The evolving landscape of drug targets
+DRG-ropinirole,ropinirole,ropinirole,unknown,,,N04BC04,The evolving landscape of drug targets
+DRG-salbutamol,salbutamol,salbutamol,unknown,,,R03AC02;R03AK04;R03AK13;R03AL02;R03CC02,The evolving landscape of drug targets
+DRG-scopolamine,scopolamine,scopolamine,unknown,,,A04AD01;A04AD51;N05CM05;S01FA02,The evolving landscape of drug targets
+DRG-secbutabarbital,secbutabarbital,secbutabarbital,unknown,,,,The evolving landscape of drug targets
+DRG-secobarbital,secobarbital,secobarbital,unknown,,,N05CA06,The evolving landscape of drug targets
+DRG-selegiline,selegiline,selegiline,unknown,,,N04BD01,The evolving landscape of drug targets
+DRG-sertraline,sertraline,sertraline,unknown,,,N06AB06,The evolving landscape of drug targets
+DRG-simvastatin,simvastatin,simvastatin,unknown,,,A10BH51;C10AA01;C10BA02;C10BA04;C10BX01;C10BX04,The evolving landscape of drug targets
+DRG-somatrem,somatrem,somatrem,unknown,,,H01AC02,The evolving landscape of drug targets
+DRG-somatropin,somatropin,somatropin,unknown,,,H01AC01,The evolving landscape of drug targets
+DRG-sparfloxacin,sparfloxacin,sparfloxacin,unknown,,,J01MA09,The evolving landscape of drug targets
+DRG-spironolactone,spironolactone,spironolactone,unknown,,,C03DA01,The evolving landscape of drug targets
+DRG-stanozolol,stanozolol,stanozolol,unknown,,,A14AA02,The evolving landscape of drug targets
+DRG-sufentanil,sufentanil,sufentanil,unknown,,,N01AH03,The evolving landscape of drug targets
+DRG-sulconazole,sulconazole,sulconazole,unknown,,,D01AC09,The evolving landscape of drug targets
+DRG-sulfadiazine,sulfadiazine,sulfadiazine,unknown,,,J01EC02;J01EE02;J01EE06,The evolving landscape of drug targets
+DRG-sulfadiazine-silver,sulfadiazine silver,sulfadiazine silver,unknown,,,D06BA01;D06BA51,The evolving landscape of drug targets
+DRG-sulfadimidine,sulfadimidine,sulfadimidine,unknown,,,J01EB03;J01EE05,The evolving landscape of drug targets
+DRG-sulfafurazole,sulfafurazole,sulfafurazole,unknown,,,J01EB05;S01AB02,The evolving landscape of drug targets
+DRG-sulfamerazine,sulfamerazine,sulfamerazine,unknown,,,D06BA06;J01ED07;J01EE07,The evolving landscape of drug targets
+DRG-sulfameter,sulfameter,sulfameter,unknown,,,J01ED04,The evolving landscape of drug targets
+DRG-sulfamethizole,sulfamethizole,sulfamethizole,unknown,,,B05CA04;D06BA04;J01EB02;S01AB01,The evolving landscape of drug targets
+DRG-sulfamethoxazole,sulfamethoxazole,sulfamethoxazole,unknown,,,J01EC01;J01EE01;J04AM08,The evolving landscape of drug targets
+DRG-sulfanilamide,sulfanilamide,sulfanilamide,unknown,,,D06BA05;J01EB06,The evolving landscape of drug targets
+DRG-sulfaphenazole,sulfaphenazole,sulfaphenazole,unknown,,,J01ED08;S01AB05,The evolving landscape of drug targets
+DRG-sulfapyridine,sulfapyridine,sulfapyridine,unknown,,,J01EB04,The evolving landscape of drug targets
+DRG-sulfasalazine,sulfasalazine,sulfasalazine,unknown,,,A07EC01,The evolving landscape of drug targets
+DRG-sulfathiazole,sulfathiazole,sulfathiazole,unknown,,,D06BA02;J01EB07,The evolving landscape of drug targets
+DRG-sulfisoxazole-acetyl,sulfisoxazole acetyl,sulfisoxazole acetyl,unknown,,,,The evolving landscape of drug targets
+DRG-sulindac,sulindac,sulindac,unknown,,,M01AB02,The evolving landscape of drug targets
+DRG-sumatriptan,sumatriptan,sumatriptan,unknown,,,N02CC01,The evolving landscape of drug targets
+DRG-suprofen,suprofen,suprofen,unknown,,,M01AE07,The evolving landscape of drug targets
+DRG-tamoxifen,tamoxifen,tamoxifen,unknown,,,L02BA01,The evolving landscape of drug targets
+DRG-teceleukin,teceleukin,teceleukin,unknown,,,,The evolving landscape of drug targets
+DRG-telmisartan,telmisartan,telmisartan,unknown,,,C09CA07,The evolving landscape of drug targets
+DRG-temazepam,temazepam,temazepam,unknown,,,N05CD07,The evolving landscape of drug targets
+DRG-teniposide,teniposide,teniposide,unknown,,,L01CB02,The evolving landscape of drug targets
+DRG-terazosin,terazosin,terazosin,unknown,,,G04CA03,The evolving landscape of drug targets
+DRG-terbutaline,terbutaline,terbutaline,unknown,,,R03AC03;R03CC03;R03CC53,The evolving landscape of drug targets
+DRG-terconazole,terconazole,terconazole,unknown,,,G01AG02,The evolving landscape of drug targets
+DRG-testolactone,testolactone,testolactone,unknown,,,,The evolving landscape of drug targets
+DRG-testosterone,testosterone,testosterone,unknown,,,G03BA03;G03EA02,The evolving landscape of drug targets
+DRG-testosterone-cypionate,testosterone cypionate,testosterone cypionate,unknown,,,,The evolving landscape of drug targets
+DRG-testosterone-enantate,testosterone enantate,testosterone enantate,unknown,,,,The evolving landscape of drug targets
+DRG-testosterone-propionate,testosterone propionate,testosterone propionate,unknown,,,,The evolving landscape of drug targets
+DRG-tetryzoline,tetryzoline,tetryzoline,unknown,,,R01AA06;R01AB03;S01GA02;S01GA52,The evolving landscape of drug targets
+DRG-thiethylperazine,thiethylperazine,thiethylperazine,unknown,,,R06AD03,The evolving landscape of drug targets
+DRG-thioridazine,thioridazine,thioridazine,unknown,,,N05AC02,The evolving landscape of drug targets
+DRG-thiothixene,thiothixene,thiothixene,unknown,,,N05AF04,The evolving landscape of drug targets
+DRG-ticlopidine,ticlopidine,ticlopidine,unknown,,,B01AC05,The evolving landscape of drug targets
+DRG-timolol,timolol,timolol,unknown,,,C07AA06; C07BA06; C07DA06; S01ED01; S01ED51,The evolving landscape of drug targets
+DRG-tioconazole,tioconazole,tioconazole,unknown,,,D01AC07;G01AF08,The evolving landscape of drug targets
+DRG-tocainide,tocainide,tocainide,unknown,,,C01BB03,The evolving landscape of drug targets
+DRG-tolazamide,tolazamide,tolazamide,unknown,,,A10BB05,The evolving landscape of drug targets
+DRG-tolazoline,tolazoline,tolazoline,unknown,,,C04AB02; M02AX02,The evolving landscape of drug targets
+DRG-tolbutamide,tolbutamide,tolbutamide,unknown,,,A10BB03;V04CA01,The evolving landscape of drug targets
+DRG-tolmetin,tolmetin,tolmetin,unknown,,,M01AB03; M02AA21,The evolving landscape of drug targets
+DRG-torsemide,torsemide,torsemide,unknown,,,C03CA04,The evolving landscape of drug targets
+DRG-tranexamic-acid,tranexamic acid,tranexamic acid,unknown,,,B02AA02,The evolving landscape of drug targets
+DRG-tranylcypromine,tranylcypromine,tranylcypromine,unknown,,,N06AF04,The evolving landscape of drug targets
+DRG-trazodone,trazodone,trazodone,unknown,,,N06AX05,The evolving landscape of drug targets
+DRG-tretinoin,tretinoin,tretinoin,unknown,,,D10AD01; D10AD51; L01XF01,The evolving landscape of drug targets
+DRG-triamcinolone,triamcinolone,triamcinolone,unknown,,,A01AC01;C05AA12;D07AB09;D07BB03;D07CB01;D07XB02;H02AB08;R01AD11;R03BA06;S01BA05;S02CA04,The evolving landscape of drug targets
+DRG-triamcinolone-acetonide,triamcinolone acetonide,triamcinolone acetonide,unknown,,,,The evolving landscape of drug targets
+DRG-triamcinolone-diacetate,triamcinolone diacetate,triamcinolone diacetate,unknown,,,,The evolving landscape of drug targets
+DRG-triamcinolone-hexacetonide,triamcinolone hexacetonide,triamcinolone hexacetonide,unknown,,,,The evolving landscape of drug targets
+DRG-trichlormethiazide,trichlormethiazide,trichlormethiazide,unknown,,,C03AA06;C03AB06;C03EA02,The evolving landscape of drug targets
+DRG-triclosan,triclosan,triclosan,unknown,,,D08AE04;D09AA06,The evolving landscape of drug targets
+DRG-tridihexethyl,tridihexethyl,tridihexethyl,unknown,,,A03AB08,The evolving landscape of drug targets
+DRG-trifluoperazine,trifluoperazine,trifluoperazine,unknown,,,N05AB06,The evolving landscape of drug targets
+DRG-triflupromazine,triflupromazine,triflupromazine,unknown,,,N05AA05,The evolving landscape of drug targets
+DRG-trihexyphenidyl,trihexyphenidyl,trihexyphenidyl,unknown,,,N04AA01,The evolving landscape of drug targets
+DRG-trimethadione,trimethadione,trimethadione,unknown,,,N03AC02,The evolving landscape of drug targets
+DRG-trimethoprim,trimethoprim,trimethoprim,unknown,,,J01EA01;J01EE01;J01EE02;J01EE03;J01EE04;J01EE05;J01EE07;J04AM08,The evolving landscape of drug targets
+DRG-trimetrexate,trimetrexate,trimetrexate,unknown,,,P01AX07,The evolving landscape of drug targets
+DRG-trimipramine,trimipramine,trimipramine,unknown,,,N06AA06,The evolving landscape of drug targets
+DRG-tripelennamine,tripelennamine,tripelennamine,unknown,,,D04AA04;R06AC04,The evolving landscape of drug targets
+DRG-triprolidine,triprolidine,triprolidine,unknown,,,R06AX07,The evolving landscape of drug targets
+DRG-tropicamide,tropicamide,tropicamide,unknown,,,S01FA06;S01FA56,The evolving landscape of drug targets
+DRG-trovafloxacin,trovafloxacin,trovafloxacin,unknown,,,J01MA13,The evolving landscape of drug targets
+DRG-tubocurarine,tubocurarine,tubocurarine,unknown,,,M03AA02,The evolving landscape of drug targets
+DRG-ulobetasol-propionate,ulobetasol propionate,ulobetasol propionate,unknown,,,D05AX55;D07AC21,The evolving landscape of drug targets
+DRG-vecuronium,vecuronium,vecuronium,unknown,,,M03AC03,The evolving landscape of drug targets
+DRG-venlafaxine,venlafaxine,venlafaxine,unknown,,,N06AX16,The evolving landscape of drug targets
+DRG-vidarabine,vidarabine,vidarabine,unknown,,,J05AB03;S01AD06,The evolving landscape of drug targets
+DRG-vinblastine,vinblastine,vinblastine,unknown,,,L01CA01,The evolving landscape of drug targets
+DRG-vincristine,vincristine,vincristine,unknown,,,L01CA02,The evolving landscape of drug targets
+DRG-zalcitabine,zalcitabine,zalcitabine,unknown,,,J05AF03,The evolving landscape of drug targets
+DRG-zidovudine,zidovudine,zidovudine,unknown,,,J05AF01;J05AR01;J05AR04;J05AR05,The evolving landscape of drug targets
+DRG-zolpidem,zolpidem,zolpidem,unknown,,,N05CF02,The evolving landscape of drug targets
+DRG-verubecestat,verubecestat,verubecestat,small_molecule,,,,clinical pilot
+DRG-semagacestat,semagacestat,semagacestat,small_molecule,,,,clinical pilot
+DRG-dalcetrapib,dalcetrapib,dalcetrapib,small_molecule,,,,clinical pilot
+DRG-torcetrapib,torcetrapib,torcetrapib,small_molecule,,,,clinical pilot
+DRG-evobrutinib,evobrutinib,evobrutinib,small_molecule,,,,clinical pilot
+DRG-iniparib,iniparib,iniparib,small_molecule,,,,clinical pilot
+DRG-lanabecestat,lanabecestat,lanabecestat,small_molecule,,,,clinical pilot
+DRG-tanespimycin,tanespimycin,tanespimycin,small_molecule,,,,clinical pilot
+DRG-bapineuzumab,bapineuzumab,Bapineuzumab,biologic,,,,clinical pilot
+DRG-crenezumab,crenezumab,Crenezumab,biologic,,,,clinical pilot
+DRG-idalopirdine,idalopirdine,Idalopirdine,small_molecule,,,,clinical pilot
+DRG-trebananib,trebananib,Trebananib (AMG 386),biologic,,,,clinical pilot
+DRG-rolofylline,rolofylline,Rolofylline,small_molecule,,,,clinical pilot
+DRG-onartuzumab,onartuzumab,Onartuzumab (MetMAb),biologic,,,,clinical pilot
+DRG-rovalpituzumab tesirine,rovalpituzumab tesirine,Rovalpituzumab tesirine,biologic,,,,clinical pilot
+DRG-solanezumab,solanezumab,Solanezumab,biologic,,,,clinical pilot
+DRG-brivanib,brivanib,Brivanib,small_molecule,,,,clinical pilot
+DRG-linifanib,linifanib,Linifanib,small_molecule,,,,clinical pilot
+DRG-motesanib,motesanib,Motesanib,small_molecule,,,,clinical pilot
+DRG-entospletinib,entospletinib,Entospletinib,small_molecule,,,,clinical pilot
+DRG-depatuxizumab mafodotin,depatuxizumab mafodotin,Depatuxizumab mafodotin,biologic,,,,clinical pilot
+DRG-glembatumumab,glembatumumab,Glembatumumab vedotin,biologic,,,,clinical pilot
+DRG-rigosertib,rigosertib,Rigosertib,small_molecule,,,,clinical pilot
+DRG-tivantinib,tivantinib,Tivantinib,small_molecule,,,,clinical pilot
+DRG-saracatinib,saracatinib,Saracatinib,small_molecule,,,,clinical pilot
+DRG-balovaptan,balovaptan,Balovaptan,small_molecule,,,,clinical pilot
+DRG-darapladib,darapladib,Darapladib,small_molecule,,,,clinical pilot
+DRG-pevonedistat,pevonedistat,Pevonedistat,small_molecule,,,,clinical pilot
+DRG-tarenflurbil,tarenflurbil,Tarenflurbil,small_molecule,,,,clinical pilot
+DRG-tideglusib,tideglusib,Tideglusib,small_molecule,,,,clinical pilot
+DRG-varespladib,varespladib,Varespladib,small_molecule,,,,clinical pilot
+DRG-gantenerumab,gantenerumab,Gantenerumab,biologic,,,,clinical pilot
+DRG-elenbecestat,elenbecestat,Elenbecestat (E2609),small_molecule,,,,clinical pilot
+DRG-atabecestat,atabecestat,Atabecestat (JNJ-54861911),small_molecule,,,,clinical pilot
+DRG-fevipiprant,fevipiprant,Fevipiprant (QAW039),small_molecule,,,,clinical pilot
+DRG-lampalizumab,lampalizumab,Lampalizumab,biologic,,,,clinical pilot
+DRG-tanezumab,tanezumab,Tanezumab (PF-04383119),biologic,,,,clinical pilot
+DRG-epratuzumab,epratuzumab,Epratuzumab,biologic,,,,clinical pilot
+DRG-sirukumab,sirukumab,Sirukumab (CNTO 136),biologic,,,,clinical pilot
+DRG-opicinumab,opicinumab,Opicinumab (BIIB033),biologic,,,,clinical pilot
+DRG-cinpanemab,cinpanemab,Cinpanemab (BIIB054),biologic,,,,clinical pilot
+DRG-gosuranemab,gosuranemab,Gosuranemab (BIIB092),biologic,,,,clinical pilot
+DRG-andecaliximab,andecaliximab,Andecaliximab (GS-5745),biologic,,,,clinical pilot
+DRG-tilavonemab,tilavonemab,Tilavonemab (ABBV-8E12),biologic,,,,clinical pilot
+DRG-simtuzumab,simtuzumab,Simtuzumab (GS-6624),biologic,,,,clinical pilot
+DRG-intepirdine,intepirdine,Intepirdine (RVT-101),small_molecule,,,,clinical pilot

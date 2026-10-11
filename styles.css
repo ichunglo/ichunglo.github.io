@@ -104,7 +104,7 @@ h3 { font-weight: 500; }
 .profile-links .text-link + .text-link { margin-left: 0.85rem; padding-left: 0.85rem; border-left: 1px solid var(--taupe); }
 .profile-links .link-icon { font-size: 0.95em; line-height: 1; }
 
-.topic-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 2rem 0 3rem; }
+.topic-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin: 2rem 0 3rem; }
 .topic-card { min-height: 250px; padding: 1.5rem; border-top: 3px solid var(--charcoal); background: var(--ivory-gray); }
 .topic-card:nth-child(2) { background: var(--blush); }
 .topic-card:nth-child(3) { background: #dedbd8; }
