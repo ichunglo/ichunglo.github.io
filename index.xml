@@ -9,8 +9,19 @@
 <link>https://ichunglo.github.io/</link>
 <atom:link href="https://ichunglo.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Scientific commentary by iLo</description>
-<generator>quarto-1.10.18</generator>
-<lastBuildDate>Wed, 16 Sep 2026 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.10.19</generator>
+<lastBuildDate>Sat, 10 Oct 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Drug-target landscape</title>
+  <dc:creator>iLo </dc:creator>
+  <link>https://ichunglo.github.io/posts/2026-10-02-drug-target-landscape/</link>
+  <description><![CDATA[ Browse the paper-derived approved-drug target landscape and a separately curated, source-linked clinical development pilot. ]]></description>
+  <category>Data Resource</category>
+  <category>Target Discovery</category>
+  <guid>https://ichunglo.github.io/posts/2026-10-02-drug-target-landscape/</guid>
+  <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://ichunglo.github.io/posts/2026-10-02-drug-target-landscape/social-card.png" medium="image" type="image/png" height="76" width="144"/>
+</item>
 <item>
   <title>Why the source of protein overexpression matters for degraders</title>
   <dc:creator>iLo </dc:creator>

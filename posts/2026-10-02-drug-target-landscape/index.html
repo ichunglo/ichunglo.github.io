@@ -1,0 +1,1738 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.19">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="iLo">
+<meta name="dcterms.date" content="2026-10-10">
+<meta name="description" content="Browse the paper-derived approved-drug target landscape and a separately curated, source-linked clinical development pilot.">
+
+<title>Drug-target landscape – The Edge of Evidence</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../assets/images/il-boundary-mark.svg" rel="icon" type="image/svg+xml">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-3f3f8feb3a9a05b73870750d7b616a8f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": true,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Drug-target landscape – The Edge of Evidence">
+<meta property="og:description" content="Browse the paper-derived approved-drug target landscape and a separately curated, source-linked clinical development pilot.">
+<meta property="og:image" content="https://ichunglo.github.io/posts/2026-10-02-drug-target-landscape/social-card.png">
+<meta property="og:site_name" content="The Edge of Evidence">
+<meta property="og:image:height" content="630">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:alt" content="Editorial illustration of branching target relationships beside the title Drug-target landscape; not a data figure">
+<meta name="twitter:title" content="Drug-target landscape – The Edge of Evidence">
+<meta name="twitter:description" content="Browse the paper-derived approved-drug target landscape and a separately curated, source-linked clinical development pilot.">
+<meta name="twitter:image" content="https://ichunglo.github.io/posts/2026-10-02-drug-target-landscape/social-card.png">
+<meta name="twitter:image-height" content="630">
+<meta name="twitter:image-width" content="1200">
+<meta name="twitter:image:alt" content="Editorial illustration of branching target relationships beside the title Drug-target landscape; not a data figure">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">The Edge of Evidence</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../writing.html"> 
+<span class="menu-text">Writing</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../topics.html"> 
+<span class="menu-text">Topics</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../index.xml"> <i class="bi bi-rss" role="img" aria-label="RSS feed">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content page-columns page-full column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Drug-target landscape</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Data Resource</div>
+    <div class="quarto-category">Target Discovery</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Browse the paper-derived approved-drug target landscape and a separately curated, source-linked clinical development pilot.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta column-page">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>iLo </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 10, 2026</p>
+    </div>
+  </div>
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">October 10, 2026</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>This is an early working view of the drug-target landscape. The approved-drug baseline is imported from the paper supplements. This release extends the paper dataset with normalized drug–target relationships, target-class browsing, and a separately sourced clinical pilot. The live counts below distinguish included programs from those still needing evidence review; the pilot is not a claim that every outcome is fully curated.</p>
+<div id="landscape-app" class="landscape-app page-columns page-full">
+  <div id="landscape-metrics" class="landscape-metrics"></div>
+  <section class="landscape-panel landscape-attribution" aria-label="Data sources">
+    <p><strong>Paper baseline:</strong> <a href="https://doi.org/10.1038/s41573-026-01530-3" target="_blank" rel="noopener"><em>The evolving landscape of drug targets</em></a>. This release also adds a separately sourced clinical pilot.</p>
+    <details><summary>What has been added, and what is still uncertain?</summary>
+      <p class="landscape-muted">Beyond the paper supplements, this release adds normalized target and drug identifiers, primary/secondary target roles, target-protein classification, registry-linked clinical programs and trial protocols (including one merged <a href="https://clinicaltrials.gov/" target="_blank" rel="noopener">ClinicalTrials.gov</a> NCT alias), outcome-review records, and coverage-quality reporting. The cards above show current release counts. When a drug's primary mechanism cannot be assigned to one protein, it appears under an explicit unclear-target entry rather than a speculative protein. Clinical records are a separate, selected pilot evidence layer, not paper-derived data; their outcome evidence also draws on linked publications, sponsor disclosures, and regulatory records.</p>
+      <p class="landscape-muted"><strong>Interpretation limits:</strong> Target classes include non-core and unresolved-scope records, so all-target counts are not the paper's approved-target count. Approval records belong to drugs, not automatically to every linked protein or indication. Clinical event labels describe cited trial or program events, not unique failed drugs or proof that a protein target failed. Nine pilot programs remain held from headline analyses pending evidence review; an unknown stopping cause remains unknown.</p>
+      <p class="landscape-muted"><strong>Construction note:</strong> AI-assisted extraction, coding, and drafting contributed to this resource. The release passed scripted data and source-link checks, but its selected clinical pilot is not a systematic review; verify consequential interpretations against the linked primary sources.</p>
+    </details>
+  </section>
+  <nav class="landscape-jump-nav" aria-label="Explore this dashboard"><button type="button" data-jump="target-explorer">Browse target classes</button><button type="button" data-jump="drug-explorer-title">Find a drug</button><button type="button" data-jump="landscape-analytics-title">See analyses</button><button type="button" data-jump="clinical-explorer">Clinical pilot</button></nav>
+  <section id="target-explorer" class="landscape-panel landscape-explorer page-columns page-full">
+    <div class="landscape-explorer-intro">
+      <h2 class="anchored">Explore by target protein class</h2>
+      <p class="landscape-muted">Start with a protein class, then select a target to see the drugs and development history connected to it. In a target profile, select a drug name to explore all of its linked targets.</p>
+      <div class="landscape-toolbar"><label for="target-search">Or search targets</label><input id="target-search" type="search" placeholder="Protein name, gene symbol, or accession"></div>
+      <label class="scope-filter" for="target-scope">Coverage scope <select id="target-scope"><option value="all">All targets</option><option value="core">Paper-comparable core</option><option value="clinical_only">Clinical-only additions</option><option value="cgt_only">Cell/gene-therapy-only</option><option value="unresolved">Unresolved scope</option></select></label>
+      <p class="landscape-muted scope-note">Scope changes the class counts and target list below; the analysis figures later on this page always show their stated populations.</p>
+    </div>
+    <div id="protein-groups" class="protein-groups" role="group" aria-label="Target protein classes"></div>
+    <div class="target-browser page-columns page-full">
+      <div role="group" aria-labelledby="selected-group-title">
+        <h3 id="selected-group-title" class="anchored">All target records</h3>
+        <p id="group-clinical-shortcut" class="group-clinical-shortcut" hidden=""></p>
+        <div id="group-targets" class="group-targets"></div>
+      </div>
+      <aside id="target-detail" class="target-detail" aria-live="polite" tabindex="-1">
+        <p class="landscape-muted">Select a target protein to see details.</p>
+      </aside>
+    </div>
+  </section>
+  <section class="landscape-panel landscape-analytics" aria-labelledby="landscape-analytics-title">
+    <details id="landscape-analytics-details">
+      <summary id="landscape-analytics-title"><strong>What the database shows · figures and interactive analyses</strong></summary>
+      <p class="landscape-muted">Descriptive analyses of the current release. These are counts of records and relationships, not estimates of biological importance or clinical success. Coverage and protein-class charts include the separately labeled non-core target records; the clinical outcome chart uses included pilot programs. Provisional registry stopping reasons are shown separately in the evidence-review section.</p>
+      <figure class="publication-figure figure">
+        <img src="../../data/generated/target-landscape-publication.svg" alt="Four-panel analysis figure showing target protein classes, connected primary targets, distinct drugs by first documented approval year, and clinical outcome event labels." class="figure-img">
+        <figcaption>Figure: release-level analysis generated from the normalized database. A counts target records across all scopes, including non-core records; B counts primary drug–target relationships; C counts each drug once at its earliest dated approval record in the paper-derived release, not necessarily its first worldwide approval; D counts outcome event records in included pilot programs, not unique drug failures. The approved-drug baseline comes from <a href="https://doi.org/10.1038/s41573-026-01530-3" target="_blank" rel="noopener"><em>The evolving landscape of drug targets</em></a> supplements; the separately curated clinical layer links to registry protocols, publications, sponsor disclosures, and regulatory records in the profiles below. <a href="../../data/generated/target-landscape-publication.svg" target="_blank" rel="noopener">Open the full-size vector figure</a>.</figcaption>
+      </figure>
+      <div id="landscape-analytics-grid" class="landscape-analytics-grid"></div>
+      <div id="phase-outcome-matrix" class="phase-outcome-matrix"></div>
+      <div id="target-development-map" class="target-development-map" aria-label="Target development map"></div>
+    </details>
+  </section>
+  <section class="landscape-panel landscape-drugs" aria-labelledby="drug-explorer-title">
+    <h2 id="drug-explorer-title" class="anchored">Explore by drug</h2>
+    <p class="landscape-muted">Search by drug name or browse a first documented approval year to find linked targets and any pilot clinical programs. A drug selected from a target profile is saved in the page link. A drug-level approval record does not establish approval for every linked target mechanism.</p>
+    <label for="drug-search">Search drug names</label>
+    <input id="drug-search" type="search" maxlength="120" placeholder="e.g., verubecestat, momelotinib">
+    <label for="drug-year">First documented approval year</label>
+    <select id="drug-year"><option value="all">All years</option></select>
+    <p class="landscape-muted">Download the matching drugs as one row per drug–target relationship. A drug with several targets appears on several rows; an approval record belongs to the drug, not automatically to every target link.</p>
+    <button type="button" class="load-more-button" id="drug-export" disabled="">Download matching drug–target links (CSV)</button>
+    <div id="drug-results"></div>
+  </section>
+  <section id="clinical-explorer" class="landscape-panel landscape-clinical" aria-label="Clinical program explorer">
+    <details>
+      <summary><strong>Browse clinical programs by phase and outcome</strong></summary>
+      <p class="landscape-muted">Registry-linked pilot programs, not an exhaustive list of drug failures. Included evidence is shown first; records needing review can be selected separately. An outcome label describes its cited event, not a failure attributable to every linked protein.</p>
+      <div class="clinical-filters">
+        <label for="clinical-inclusion">Evidence review status<select id="clinical-inclusion"><option value="included">Included</option><option value="needs_review">Needs review</option><option value="all">All programs</option></select></label>
+        <label for="clinical-group">Target protein class<select id="clinical-group"><option value="all">All classes</option></select></label>
+        <label for="clinical-phase">Program stage<select id="clinical-phase"><option value="all">All stages</option></select></label>
+        <label for="clinical-outcome">Outcome event<select id="clinical-outcome"><option value="all">All outcomes</option></select></label>
+        <label for="clinical-modality">Drug modality<select id="clinical-modality"><option value="all">All modalities</option></select></label>
+        <label for="clinical-query">Drug, target, or indication<input id="clinical-query" type="search" maxlength="120" placeholder="e.g., Alzheimer, BACE1, verubecestat"></label>
+      </div>
+      <p class="clinical-filter-actions"><button type="button" class="load-more-button" id="clinical-reset">Clear clinical filters</button> <button type="button" class="load-more-button" id="clinical-export" disabled="">Download filtered CSV</button> <span class="landscape-muted">Filter choices are saved in the page link.</span></p>
+      <p class="landscape-muted">CSV export includes one row per outcome event for every matching pilot program (or one blank-event row if none). Multiple trials for one program are listed together. Needs-review records remain provisional; this is not a comprehensive registry export.</p>
+      <div id="clinical-program-results"></div>
+    </details>
+  </section>
+  <div class="landscape-grid">
+    <section class="landscape-panel">
+      <details>
+        <summary><strong>Alphabetical target table</strong></summary>
+        <p class="landscape-muted">An alternate list view of the targets above. Headline counts use primary drug-target relationships.</p>
+        <div id="target-results"></div>
+      </details>
+    </section>
+    <section class="landscape-panel">
+      <h2 class="anchored">Data status</h2>
+      <div id="landscape-status"></div>
+    </section>
+    <section class="landscape-panel landscape-panel-wide">
+      <details>
+        <summary><strong>Clinical development evidence review</strong></summary>
+        <p class="landscape-muted">Registry stopping text is surfaced as a review aid. Candidate reasons are not treated as curated facts until manually verified. A completed mechanistic or safety study is not automatically labeled a clinical failure; records can remain <em>unknown</em> when the available evidence does not support a failure taxonomy.</p>
+        <div id="evidence-results"></div>
+      </details>
+    </section>
+  </div>
+</div>
+
+<style>
+.landscape-app { margin: 2rem 0 4rem; }
+.landscape-explorer, .landscape-analytics, .landscape-drugs, .landscape-clinical, .target-detail, #landscape-analytics-title { scroll-margin-top: 5rem; }
+.landscape-toolbar { display: flex; gap: .75rem; align-items: center; margin-bottom: 1.25rem; }
+.landscape-toolbar input { flex: 1; max-width: 34rem; padding: .7rem .85rem; border: 1px solid #c9d1d9; border-radius: .5rem; font: inherit; }
+.landscape-metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: .75rem; margin-bottom: 1.25rem; }
+.landscape-jump-nav { display: flex; flex-wrap: wrap; gap: .5rem; margin: 0 0 1rem; }
+.landscape-jump-nav button { border: 1px solid #b8ccd8; border-radius: 999px; background: #f4f9fb; color: #17324d; padding: .45rem .75rem; font: inherit; cursor: pointer; }
+.landscape-jump-nav button:hover, .landscape-jump-nav button:focus-visible { background: #e8f1f7; outline: 2px solid #7aa5bd; outline-offset: 2px; }
+.landscape-metric, .landscape-panel { border: 1px solid #d9e0e7; border-radius: .65rem; background: #fff; padding: 1rem; }
+.landscape-metric-value { display: block; font-size: 1.65rem; font-weight: 700; color: #17324d; }
+.landscape-metric-label, .landscape-muted { color: #657383; font-size: .9rem; }
+.landscape-attribution { margin-bottom: 1rem; }
+.landscape-attribution p { margin: .45rem 0 0; }
+.landscape-attribution summary { margin-top: .45rem; color: #235274; cursor: pointer; }
+.landscape-analytics { margin-bottom: 1rem; }
+.landscape-analytics summary { font-size: 1.3rem; }
+.landscape-analytics details[open] > summary { margin-bottom: .8rem; }
+.publication-figure { margin: 1rem 0 1.4rem; }
+.publication-figure img { display: block; width: 100%; height: auto; }
+.publication-figure figcaption { margin-top: .5rem; color: #657383; font-size: .82rem; }
+.landscape-analytics-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr)); gap: 1rem; }
+.analysis-chart { min-width: 0; }
+.analysis-chart h3 { margin: .25rem 0 .2rem; font-size: 1rem; color: #17324d; }
+.analysis-chart-caption { margin: 0 0 .7rem; color: #657383; font-size: .82rem; }
+.analysis-row { display: grid; grid-template-columns: minmax(7rem, 1fr) minmax(5rem, 2fr) max-content; align-items: center; gap: .5rem; margin: .45rem 0; }
+.analysis-row-button { width: 100%; border: 0; padding: 0; color: inherit; background: transparent; text-align: left; font: inherit; cursor: pointer; border-radius: .25rem; }
+.analysis-row-button:hover, .analysis-row-button:focus-visible { background: #f4f9fb; outline: 2px solid #9bbdcc; outline-offset: 2px; }
+.analysis-label { overflow-wrap: anywhere; font-size: .82rem; line-height: 1.15; }
+.analysis-track { height: .65rem; background: #edf2f5; border-radius: .25rem; overflow: hidden; }
+.analysis-bar { height: 100%; background: var(--bar-color); }
+.analysis-value { font-variant-numeric: tabular-nums; font-size: .82rem; color: #17324d; }
+.analysis-scale { display: flex; align-items: center; gap: .45rem; margin: .15rem 0 .6rem; color: #657383; font-size: .72rem; }
+.analysis-scale-swatch { height: .45rem; flex: 1; max-width: 8rem; background: linear-gradient(90deg, #dceef5, #6a9db4, #17324d); }
+.phase-outcome-matrix { margin-top: 1.4rem; }
+.phase-outcome-matrix h3 { margin: .25rem 0 .2rem; font-size: 1rem; color: #17324d; }
+.phase-outcome-matrix p { margin: 0 0 .7rem; color: #657383; font-size: .82rem; }
+.phase-outcome-wrap { overflow-x: auto; }
+.phase-outcome-table { width: 100%; min-width: 29rem; border-collapse: separate; border-spacing: .25rem; }
+.phase-outcome-table th { padding: .4rem; color: #334e68; font-size: .82rem; font-weight: 600; text-align: center; }
+.phase-outcome-table th:first-child { text-align: left; }
+.phase-outcome-table td { text-align: center; }
+.phase-outcome-table .outcome-name { text-align: left; font-size: .86rem; }
+.phase-outcome-cell { display: block; width: 100%; min-height: 2.2rem; border: 0; border-radius: .25rem; padding: .35rem; font: inherit; font-variant-numeric: tabular-nums; font-weight: 700; cursor: pointer; }
+.phase-outcome-cell:hover, .phase-outcome-cell:focus-visible { outline: 2px solid #17324d; outline-offset: 2px; }
+.phase-outcome-zero { display: block; min-height: 2.2rem; border-radius: .25rem; padding: .35rem; background: #f2f5f7; color: #77838d; font-variant-numeric: tabular-nums; }
+.phase-outcome-legend { display: flex; align-items: center; gap: .45rem; margin-top: .35rem; color: #657383; font-size: .75rem; }
+.phase-outcome-swatch { width: 8rem; height: .5rem; background: linear-gradient(90deg, #dceef5, #6a9db4, #17324d); }
+.target-development-map { margin-top: 1.25rem; }
+.target-development-map h3 { margin: .25rem 0 .2rem; font-size: 1rem; color: #17324d; }
+.target-development-map p { margin: 0 0 .5rem; color: #657383; font-size: .82rem; }
+.target-development-map svg { width: 100%; min-height: 18rem; overflow: visible; }
+.development-map-axis { stroke: #aebac3; stroke-width: 1; }
+.development-map-grid { stroke: #edf0f2; stroke-width: 1; }
+.development-map-label { fill: #657383; font-size: 11px; }
+.development-map-point { fill: #6a9db4; opacity: .8; }
+.development-map-point:hover, .development-map-point:focus { fill: #17324d; opacity: 1; outline: none; }
+.landscape-explorer { margin-bottom: 1rem; }
+.landscape-drugs { margin-bottom: 1rem; }
+.landscape-drugs h2 { margin: 0 0 .35rem; }
+.landscape-drugs label { display: block; margin: .75rem 0 .3rem; color: #334e68; font-size: .82rem; font-weight: 600; }
+.landscape-drugs input, .landscape-drugs select { width: 100%; max-width: 34rem; border: 1px solid #c9d1d9; border-radius: .4rem; padding: .65rem; font: inherit; }
+.drug-link-list { display: flex; flex-wrap: wrap; gap: .35rem .7rem; }
+.drug-link-list span { overflow-wrap: anywhere; }
+.drug-table-wrap { overflow-x: auto; }
+.drug-table-wrap .landscape-table { min-width: 42rem; }
+.landscape-explorer-intro h2 { margin-top: 0; margin-bottom: .35rem; }
+.scope-filter { display: flex; align-items: center; flex-wrap: wrap; gap: .5rem; color: #334e68; font-size: .85rem; font-weight: 600; }
+.scope-filter select { max-width: 100%; border: 1px solid #c9d1d9; border-radius: .4rem; padding: .45rem .6rem; background: #fff; color: #17324d; font: inherit; }
+.scope-note { margin: .35rem 0 .8rem; font-size: .8rem; }
+.protein-groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: .55rem; margin: 1rem 0 1.25rem; }
+.protein-group-button { min-height: 3.4rem; border: 1px solid #d9e0e7; border-radius: .55rem; background: #f8fafc; color: #17324d; padding: .7rem .8rem; text-align: left; cursor: pointer; font: inherit; }
+.protein-group-button:hover, .protein-group-button.active { background: #e8f1f7; border-color: #7aa5bd; }
+.protein-group-count { display: block; color: #657383; font-size: .8rem; margin-top: .2rem; }
+.target-browser { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(18rem, .85fr); gap: 1rem; }
+.target-browser h3 { margin: 0 0 .65rem; }
+.group-clinical-shortcut { margin: 0 0 .7rem; }
+.group-targets { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr)); gap: .5rem; max-height: 22rem; overflow-y: auto; overflow-x: hidden; padding-right: .25rem; }
+.target-button { border: 1px solid #edf0f2; border-radius: .5rem; background: #fff; padding: .65rem .7rem; text-align: left; cursor: pointer; font: inherit; }
+.target-button:hover, .target-button.active { border-color: #7aa5bd; background: #f4f9fb; }
+.target-button small { display: block; color: #657383; margin-top: .2rem; }
+.target-detail { border-left: 1px solid #edf0f2; padding-left: 1rem; min-height: 10rem; }
+.target-detail:focus { outline: 2px solid #7aa5bd; outline-offset: 3px; }
+.target-detail h3 { margin-top: 0; color: #17324d; }
+.target-detail dl { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: .35rem .7rem; margin: .75rem 0; }
+.target-detail dt { color: #657383; }
+.target-detail dt, .target-detail dd { overflow-wrap: anywhere; }
+.target-detail dd { margin: 0; }
+.target-detail ul { margin: .4rem 0 0 1.2rem; padding: 0; }
+.target-detail li small { display: block; color: #657383; margin-top: .15rem; }
+.target-detail .program-evidence { margin: .4rem 0 .7rem; padding: .35rem .6rem; border-left: 2px solid #d9e6ed; }
+.target-detail .program-evidence summary { cursor: pointer; color: #235274; font-weight: 600; }
+.target-detail .program-evidence li { margin-bottom: .5rem; }
+.target-timeline { list-style: none; margin-left: 0 !important; padding: 0; border-left: 2px solid #d9e6ed; }
+.target-timeline li { position: relative; margin: 0 0 .8rem .8rem; padding: .05rem 0 .05rem .65rem; }
+.target-timeline li::before { content: ""; position: absolute; left: -1.24rem; top: .45rem; width: .55rem; height: .55rem; border-radius: 50%; background: #39718f; }
+.target-timeline time { display: inline-block; min-width: 5.2rem; margin-right: .4rem; font-variant-numeric: tabular-nums; color: #17324d; font-weight: 600; }
+.target-timeline .landscape-badge { margin-right: .25rem; }
+.target-detail-section { margin: .8rem 0; padding-top: .65rem; border-top: 1px solid #edf0f2; }
+.target-detail-section summary { cursor: pointer; color: #17324d; font-weight: 600; }
+.target-detail-section[open] summary { margin-bottom: .55rem; }
+.landscape-grid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 1rem; }
+.landscape-grid > .landscape-panel { min-width: 0; }
+.landscape-panel-wide { grid-column: 1 / -1; }
+.landscape-panel h2 { margin-top: 0; }
+.landscape-panel summary { cursor: pointer; color: #17324d; }
+.landscape-clinical { margin: 1rem 0; }
+.clinical-filters { display: grid; grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr)); gap: .7rem; margin: 1rem 0; }
+.clinical-filters label { display: flex; flex-direction: column; gap: .3rem; color: #334e68; font-size: .82rem; font-weight: 600; }
+.clinical-filters select, .clinical-filters input { width: 100%; border: 1px solid #c9d1d9; border-radius: .4rem; background: #fff; padding: .5rem; font: inherit; font-weight: 400; }
+.clinical-filter-actions { display: flex; align-items: center; flex-wrap: wrap; gap: .7rem; margin: .2rem 0 1rem; }
+.clinical-table-wrap { overflow-x: auto; }
+.target-table-wrap { overflow-x: auto; }
+.target-table-wrap .landscape-table { min-width: 28rem; }
+.evidence-table-wrap { overflow-x: auto; }
+.evidence-table-wrap .landscape-table { min-width: 44rem; }
+.clinical-table-wrap .landscape-table { min-width: 86rem; }
+.clinical-table-wrap th:nth-child(1), .clinical-table-wrap td:nth-child(1) { min-width: 10rem; }
+.clinical-table-wrap th:nth-child(2), .clinical-table-wrap td:nth-child(2) { min-width: 9rem; }
+.clinical-table-wrap th:nth-child(3), .clinical-table-wrap td:nth-child(3) { min-width: 13rem; }
+.clinical-table-wrap th:nth-child(4), .clinical-table-wrap td:nth-child(4) { min-width: 5.5rem; white-space: nowrap; }
+.clinical-table-wrap th:nth-child(5), .clinical-table-wrap td:nth-child(5) { min-width: 7.5rem; }
+.clinical-table-wrap th:nth-child(6), .clinical-table-wrap td:nth-child(6) { min-width: 9rem; }
+.clinical-table-wrap th:nth-child(7), .clinical-table-wrap td:nth-child(7) { min-width: 7rem; white-space: nowrap; }
+.clinical-table-wrap th:nth-child(8), .clinical-table-wrap td:nth-child(8) { min-width: 11rem; }
+.clinical-table-wrap th:last-child, .clinical-table-wrap td:last-child { min-width: 15rem; max-width: 19rem; }
+.clinical-table-wrap td { vertical-align: top; overflow-wrap: anywhere; }
+.clinical-table-wrap td details ul { margin: .4rem 0 .2rem 1rem; padding: 0; }
+.landscape-table { width: 100%; border-collapse: collapse; }
+.landscape-table th, .landscape-table td { padding: .55rem .4rem; border-bottom: 1px solid #edf0f2; text-align: left; }
+.landscape-table th { font-size: .82rem; color: #657383; }
+.target-table-button { border: 0; background: transparent; color: #17324d; cursor: pointer; font: inherit; padding: 0; text-align: left; text-decoration: underline; text-decoration-color: #b6cbd6; text-underline-offset: .15rem; }
+.target-table-button:hover { text-decoration-color: #17324d; }
+.load-more-button { border: 1px solid #7aa5bd; border-radius: .4rem; background: #f4f9fb; color: #17324d; padding: .5rem .75rem; font: inherit; cursor: pointer; }
+.load-more-button:hover, .load-more-button:focus-visible { background: #e8f1f7; outline: 2px solid #7aa5bd; outline-offset: 2px; }
+.landscape-badge { display: inline-block; border-radius: 999px; background: #eef4f8; padding: .2rem .5rem; font-size: .78rem; }
+.reason-filter { border: 0; cursor: pointer; font: inherit; }
+.reason-filter.active { background: #17324d; color: #fff; }
+@media (max-width: 800px) { .landscape-grid { grid-template-columns: minmax(0, 1fr); } .landscape-toolbar { align-items: stretch; flex-direction: column; } }
+@media (max-width: 480px) { .analysis-row { grid-template-columns: minmax(0, 1fr) minmax(3.5rem, 1.3fr) max-content; gap: .3rem; } }
+@media (max-width: 800px) { .target-browser { grid-template-columns: 1fr; } .target-detail { border-left: 0; border-top: 1px solid #edf0f2; padding: 1rem 0 0; } }
+</style>
+
+<script>
+(() => {
+  const formatNumber = (value) => new Intl.NumberFormat().format(value || 0);
+  const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
+  document.querySelectorAll(".landscape-jump-nav [data-jump]").forEach((button) => button.addEventListener("click", () => {
+    const destination = document.getElementById(button.dataset.jump);
+    if (!destination) return;
+    const collapsed = destination.closest("details:not([open])");
+    if (collapsed) collapsed.open = true;
+    destination.scrollIntoView({ behavior: "smooth", block: "start" });
+  }));
+  const readableLabel = (value) => String(value || "unknown").replaceAll("_", " ");
+  const phaseLabel = (value) => /^phase_[123]$/.test(value || "") ? `Phase ${value.slice(-1)}` : readableLabel(value);
+  const programOutcomeBadges = (events, program) => {
+    const held = program.inclusion_status !== "included";
+    const labels = held ? events.map((event) => {
+      const trialId = /^OUT-(NCT\d{8})$/.exec(event.outcome_event_id || "")?.[1];
+      return `${readableLabel(event.event_type)}${trialId ? ` · ${trialId}` : ""}`;
+    }) : [...new Set(events.map((event) => readableLabel(event.event_type)))];
+    return labels.map((label) => `<span class="landscape-badge">${escapeHtml(label)}</span>`).join(" ") || "—";
+  };
+  const metricsEl = document.getElementById("landscape-metrics");
+  const analyticsEl = document.getElementById("landscape-analytics-grid");
+  const matrixEl = document.getElementById("phase-outcome-matrix");
+  const developmentMapEl = document.getElementById("target-development-map");
+  const resultsEl = document.getElementById("target-results");
+  const statusEl = document.getElementById("landscape-status");
+  const evidenceEl = document.getElementById("evidence-results");
+  const groupsEl = document.getElementById("protein-groups");
+  const groupTitleEl = document.getElementById("selected-group-title");
+  const groupClinicalShortcutEl = document.getElementById("group-clinical-shortcut");
+  const groupTargetsEl = document.getElementById("group-targets");
+  const detailEl = document.getElementById("target-detail");
+  const searchEl = document.getElementById("target-search");
+  const scopeEl = document.getElementById("target-scope");
+  const drugSearchEl = document.getElementById("drug-search");
+  const drugYearEl = document.getElementById("drug-year");
+  const drugExportEl = document.getElementById("drug-export");
+  const drugResultsEl = document.getElementById("drug-results");
+  const clinicalEl = document.getElementById("clinical-program-results");
+  const clinicalInclusionEl = document.getElementById("clinical-inclusion");
+  const clinicalGroupEl = document.getElementById("clinical-group");
+  const clinicalPhaseEl = document.getElementById("clinical-phase");
+  const clinicalOutcomeEl = document.getElementById("clinical-outcome");
+  const clinicalModalityEl = document.getElementById("clinical-modality");
+  const clinicalQueryEl = document.getElementById("clinical-query");
+  const clinicalResetEl = document.getElementById("clinical-reset");
+  const clinicalExportEl = document.getElementById("clinical-export");
+  const clinicalFilterFields = [
+    ["clinical_status", clinicalInclusionEl, "included"],
+    ["clinical_group", clinicalGroupEl, "all"],
+    ["clinical_phase", clinicalPhaseEl, "all"],
+    ["clinical_outcome", clinicalOutcomeEl, "all"],
+    ["clinical_modality", clinicalModalityEl, "all"]
+  ];
+  const restoreClinicalFilters = (params) => {
+    clinicalFilterFields.forEach(([key, select, fallback]) => {
+      const requested = params.get(key);
+      select.value = requested && [...select.options].some((option) => option.value === requested) ? requested : fallback;
+    });
+    clinicalQueryEl.value = (params.get("clinical_query") || "").slice(0, 120);
+    if (clinicalFilterFields.some(([key]) => params.has(key)) || params.has("clinical_query")) {
+      document.querySelector(".landscape-clinical > details").open = true;
+    }
+  };
+  const updateClinicalHash = () => {
+    const params = new URLSearchParams(window.location.hash.replace(/^#/, ""));
+    clinicalFilterFields.forEach(([key, select, fallback]) => {
+      if (select.value === fallback) params.delete(key); else params.set(key, select.value);
+    });
+    const query = clinicalQueryEl.value.trim();
+    if (query) params.set("clinical_query", query); else params.delete("clinical_query");
+    history.replaceState(null, "", `#${params.toString()}`);
+  };
+  let payload;
+  let selectedGroup = "All";
+  let selectedScope = "all";
+  let selectedTargetId = null;
+  let evidenceFilter = "all";
+  let targetResultsVisible = 50;
+  let drugResultsVisible = 25;
+  let firstApprovalYearByDrug = new Map();
+  let evidenceVisible = 12;
+  let currentClinicalPrograms = [];
+  let currentDrugMatches = [];
+  let focusedDrugId = null;
+
+  const groupOrder = ["Enzymes", "GPCRs", "Ion channels", "Catalytic receptors", "Other proteins", "Endogenous peptides", "Transporters", "Nuclear hormone receptors"];
+  const updateDrugHash = () => {
+    const params = new URLSearchParams(window.location.hash.replace(/^#/, ""));
+    if (focusedDrugId) {
+      params.set("drug", focusedDrugId);
+      params.delete("drug_year");
+    } else {
+      params.delete("drug");
+      if (drugYearEl.value === "all") params.delete("drug_year"); else params.set("drug_year", drugYearEl.value);
+    }
+    history.replaceState(null, "", `#${params.toString()}`);
+  };
+  const downloadCsv = (filenamePrefix, headers, rows) => {
+    const csvCell = (value) => {
+      let text = String(value ?? "");
+      if (/^\s*[=+\-@]/.test(text)) text = `'${text}`;
+      return `"${text.replaceAll('"', '""')}"`;
+    };
+    const csv = "\uFEFF" + [headers, ...rows].map((row) => row.map(csvCell).join(",")).join("\r\n") + "\r\n";
+    const url = URL.createObjectURL(new Blob([csv], { type: "text/csv;charset=utf-8" }));
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `${filenamePrefix}-${String(payload.release.version || "release").replace(/[^a-zA-Z0-9.-]/g, "-")}-filtered.csv`;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  };
+
+  const renderMetrics = () => {
+    const m = payload.metrics;
+    const cards = [
+      [m.core_targets, "paper-comparable core targets"],
+      [m.approval_table_drugs, "approval-table drugs"],
+      [m.drug_target_relationships, "drug-target relationships"],
+      [m.approval_events, "approval events"],
+      [m.cgt_only_targets, "CGT-only targets"],
+      [payload.programs.length, "registry-linked clinical programs"],
+      [payload.programs.filter((program) => program.inclusion_status === "included").length, "included clinical programs"],
+      [payload.trials.length, "linked trial protocols"]
+    ];
+    metricsEl.innerHTML = cards.map(([value, label]) => `<div class="landscape-metric"><span class="landscape-metric-value">${formatNumber(value)}</span><span class="landscape-metric-label">${label}</span></div>`).join("");
+  };
+
+  const renderAnalytics = () => {
+    const scopeLabels = { core: "Paper-comparable core", clinical_only: "Clinical-only", cgt_only: "Cell/gene therapy-only", unresolved: "Unresolved scope" };
+    const scopeCounts = payload.targets.reduce((counts, target) => { const scope = target.landscape_scope || "unresolved"; counts[scope] = (counts[scope] || 0) + 1; return counts; }, {});
+    const scopeRows = ["core", "unresolved", "cgt_only", "clinical_only"].map((scope) => ({ label: scopeLabels[scope], scope, value: scopeCounts[scope] || 0, note: "target records in this release" }));
+    const classStats = {};
+    payload.targets.forEach((target) => {
+      const group = target.protein_group || "Unclassified";
+      classStats[group] = classStats[group] || { targets: 0, drugs: new Set(), clinical: 0 };
+      classStats[group].targets += 1;
+    });
+    payload.drug_targets.forEach((link) => {
+      const target = payload.targets.find((item) => item.target_id === link.target_id);
+      const group = target?.protein_group || "Unclassified";
+      classStats[group] = classStats[group] || { targets: 0, drugs: new Set(), clinical: 0 };
+      classStats[group].drugs.add(link.drug_id);
+    });
+    payload.programs.forEach((program) => {
+      const target = payload.targets.find((item) => item.target_id === program.primary_target_id);
+      const group = target?.protein_group || "Unclassified";
+      classStats[group] = classStats[group] || { targets: 0, drugs: new Set(), clinical: 0 };
+      classStats[group].clinical += 1;
+    });
+    const classRows = Object.entries(classStats).map(([label, value]) => ({ label, group: label, value: value.targets, note: `${formatNumber(value.drugs.size)} drugs · ${formatNumber(value.clinical)} clinical` })).sort((a, b) => b.value - a.value);
+    const primaryCounts = {};
+    payload.drug_targets.filter((link) => link.target_role === "primary").forEach((link) => { primaryCounts[link.target_id] = (primaryCounts[link.target_id] || 0) + 1; });
+    const topTargets = payload.targets.map((target) => ({ label: target.gene_symbol || target.preferred_name, target: target.target_id, value: primaryCounts[target.target_id] || 0, note: target.preferred_name })).filter((row) => row.value > 0).sort((a, b) => b.value - a.value || a.label.localeCompare(b.label)).slice(0, 10);
+    const approvalDrugYears = new Map();
+    firstApprovalYearByDrug.forEach((year, drugId) => {
+      if (!approvalDrugYears.has(year)) approvalDrugYears.set(year, new Set());
+      approvalDrugYears.get(year).add(drugId);
+    });
+    const approvalRows = [...approvalDrugYears.entries()].map(([year, drugs]) => ({ label: year, year, value: drugs.size, note: "distinct drugs with this first documented approval year" })).sort((a, b) => Number(a.label) - Number(b.label));
+    const includedPrograms = payload.programs.filter((program) => program.inclusion_status === "included");
+    const phaseCounts = includedPrograms.reduce((acc, program) => { const key = program.lifecycle_status || "unknown"; acc[key] = (acc[key] || 0) + 1; return acc; }, {});
+    const phaseRows = Object.entries(phaseCounts).map(([phase, value]) => ({ label: phaseLabel(phase), phase, value, note: "pilot clinical programs at this stage" })).sort((a, b) => b.value - a.value || a.label.localeCompare(b.label));
+    const includedProgramIds = new Set(includedPrograms.map((program) => program.program_id));
+    const includedOutcomes = payload.outcomes.filter((outcome) => includedProgramIds.has(outcome.program_id));
+    const outcomeCounts = includedOutcomes.reduce((acc, outcome) => { const key = outcome.event_type || "unknown"; acc[key] = (acc[key] || 0) + 1; return acc; }, {});
+    const outcomeRows = Object.entries(outcomeCounts).map(([outcome, value]) => ({ label: readableLabel(outcome).replace(/\b[a-z]/g, (char) => char.toUpperCase()), outcome, value, note: "included pilot outcome event records; drill-down shows matching programs" })).sort((a, b) => b.value - a.value || a.label.localeCompare(b.label));
+    const renderBars = (rows, formatter = formatNumber) => {
+      const max = Math.max(...rows.map((row) => row.value), 1);
+      const scale = `<div class="analysis-scale" aria-label="Color scale from lower to higher values"><span>Low</span><span class="analysis-scale-swatch" aria-hidden="true"></span><span>High</span></div>`;
+      return scale + rows.map((row) => { const ratio = row.value / max; const lightness = Math.round(88 - ratio * 48); const color = `hsl(198 58% ${lightness}%)`; const control = row.scope ? `data-analysis-scope="${escapeHtml(row.scope)}" aria-label="Browse ${formatNumber(row.value)} ${escapeHtml(row.label)} target records"` : row.group ? `data-analysis-group="${escapeHtml(row.group)}" aria-label="Open ${escapeHtml(row.group)} target class"` : row.target ? `data-analysis-target="${escapeHtml(row.target)}" aria-label="Open ${escapeHtml(row.note)} target profile"` : row.year ? `data-analysis-year="${escapeHtml(row.year)}" aria-label="Browse ${formatNumber(row.value)} drugs first documented in ${escapeHtml(row.year)}"` : row.phase ? `data-analysis-phase="${escapeHtml(row.phase)}" aria-label="Browse ${formatNumber(row.value)} ${escapeHtml(row.label)} pilot program${row.value === 1 ? "" : "s"}"` : row.outcome ? `data-analysis-outcome="${escapeHtml(row.outcome)}" aria-label="Browse programs with ${escapeHtml(row.label)} outcome events"` : ""; const tag = control ? "button" : "div"; const attrs = control ? ` type="button" class="analysis-row analysis-row-button" ${control}` : ` class="analysis-row"`; return `<${tag}${attrs} title="${escapeHtml(row.note)}"><span class="analysis-label">${escapeHtml(row.label)}</span><span class="analysis-track"><span class="analysis-bar" style="width:${Math.max(2, ratio * 100)}%;--bar-color:${color}"></span></span><span class="analysis-value">${formatter(row.value)}</span></${tag}>`; }).join("");
+    };
+    analyticsEl.innerHTML = `<article class="analysis-chart" aria-label="Target records by coverage scope"><h3>Target records by coverage scope</h3><p class="analysis-chart-caption">${formatNumber(payload.targets.length)} total records · click a bar to browse that scope. Only the core is paper-comparable</p>${renderBars(scopeRows)}</article><article class="analysis-chart" aria-label="Targets by protein class"><h3>Targets by protein class</h3><p class="analysis-chart-caption">All scopes by target count; clinical annotations cover all review states · click a bar to browse targets</p>${renderBars(classRows)}</article><article class="analysis-chart" aria-label="Most connected primary targets"><h3>Most connected primary targets</h3><p class="analysis-chart-caption">Primary drug-target relationships · click a bar for its target profile</p>${renderBars(topTargets)}</article><article class="analysis-chart" aria-label="Distinct drugs by first documented approval year"><h3>Drugs by first documented approval year</h3><p class="analysis-chart-caption">Each drug counted once, at its earliest dated approval record in this paper-derived release; click a bar to browse drugs. Not a complete global approval time series</p>${renderBars(approvalRows)}</article><article class="analysis-chart" aria-label="Clinical programs by development stage"><h3>Clinical programs by stage</h3><p class="analysis-chart-caption">${formatNumber(includedPrograms.length)} included programs; ${formatNumber(payload.programs.length - includedPrograms.length)} held from headline analysis · click a bar to browse included programs</p>${renderBars(phaseRows)}</article><article class="analysis-chart" aria-label="Outcome event labels in included programs"><h3>Outcome event labels in included programs</h3><p class="analysis-chart-caption">${formatNumber(includedOutcomes.length)} event records across ${formatNumber(includedProgramIds.size)} programs · click a bar to browse distinct matching programs; counts can differ</p>${renderBars(outcomeRows)}</article>`;
+    analyticsEl.querySelectorAll("[data-analysis-scope]").forEach((button) => button.addEventListener("click", () => {
+      selectedScope = button.dataset.analysisScope;
+      scopeEl.value = selectedScope;
+      searchEl.value = "";
+      selectedGroup = "All";
+      selectedTargetId = null;
+      updateExplorerHash();
+      renderProteinGroups(); renderGroupTargets(); renderTargets(); renderTargetDetail(null);
+      document.querySelector(".landscape-explorer")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }));
+    analyticsEl.querySelectorAll("[data-analysis-group]").forEach((button) => button.addEventListener("click", () => {
+      selectedScope = "all";
+      scopeEl.value = "all";
+      searchEl.value = "";
+      selectedGroup = button.dataset.analysisGroup;
+      selectedTargetId = null;
+      updateExplorerHash();
+      renderProteinGroups();
+      renderGroupTargets();
+      renderTargets();
+      renderTargetDetail(null);
+      document.querySelector(".landscape-explorer")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }));
+    analyticsEl.querySelectorAll("[data-analysis-target]").forEach((button) => button.addEventListener("click", () => {
+      const target = payload.targets.find((item) => item.target_id === button.dataset.analysisTarget);
+      if (!target) return;
+      searchEl.value = "";
+      selectedTargetId = target.target_id;
+      selectedGroup = target.protein_group || "Unclassified";
+      alignScopeToTarget(target);
+      updateExplorerHash();
+      renderProteinGroups(); renderGroupTargets(); renderTargetDetail(target);
+      document.querySelector(".landscape-explorer")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }));
+    analyticsEl.querySelectorAll("[data-analysis-year]").forEach((button) => button.addEventListener("click", () => {
+      focusedDrugId = null;
+      drugSearchEl.value = "";
+      drugYearEl.value = button.dataset.analysisYear;
+      drugResultsVisible = 25;
+      updateDrugHash();
+      renderDrugResults();
+      document.querySelector(".landscape-drugs")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }));
+    const openChartPrograms = (phase, outcome) => {
+      clinicalInclusionEl.value = "included";
+      clinicalGroupEl.value = "all";
+      clinicalPhaseEl.value = phase || "all";
+      clinicalOutcomeEl.value = outcome || "all";
+      clinicalModalityEl.value = "all";
+      clinicalQueryEl.value = "";
+      document.querySelector(".landscape-clinical > details").open = true;
+      updateClinicalHash();
+      renderClinicalExplorer();
+      document.querySelector(".landscape-clinical")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    };
+    analyticsEl.querySelectorAll("[data-analysis-phase]").forEach((button) => button.addEventListener("click", () => openChartPrograms(button.dataset.analysisPhase, null)));
+    analyticsEl.querySelectorAll("[data-analysis-outcome]").forEach((button) => button.addEventListener("click", () => openChartPrograms(null, button.dataset.analysisOutcome)));
+    const approvalDrugIds = new Set(payload.approvals.map((approval) => approval.drug_id));
+    const mapRows = payload.targets.map((target) => {
+      const links = payload.drug_targets.filter((link) => link.target_id === target.target_id);
+      const drugIds = new Set(links.map((link) => link.drug_id));
+      return { target, approved: [...drugIds].filter((drugId) => approvalDrugIds.has(drugId)).length, clinical: includedPrograms.filter((program) => program.primary_target_id === target.target_id).length, primary: links.filter((link) => link.target_role === "primary").length };
+    }).filter((row) => row.approved > 0 || row.clinical > 0).sort((a, b) => (b.approved + b.clinical * 3) - (a.approved + a.clinical * 3)).slice(0, 40);
+    const width = 760; const height = 300; const left = 62; const right = 18; const top = 18; const bottom = 52;
+    const maxApproved = Math.max(...mapRows.map((row) => row.approved), 1); const maxClinical = Math.max(...mapRows.map((row) => row.clinical), 1);
+    const x = (value) => left + (value / maxApproved) * (width - left - right); const y = (value) => height - bottom - (value / maxClinical) * (height - top - bottom);
+    const xTicks = [0, Math.ceil(maxApproved / 2), maxApproved].filter((value, index, values) => values.indexOf(value) === index);
+    const yTicks = [0, Math.ceil(maxClinical / 2), maxClinical].filter((value, index, values) => values.indexOf(value) === index);
+    const grid = [...xTicks.map((tick) => `<line class="development-map-grid" x1="${x(tick)}" x2="${x(tick)}" y1="${top}" y2="${height - bottom}"></line><text class="development-map-label" x="${x(tick)}" y="${height - bottom + 18}" text-anchor="middle">${tick}</text>`), ...yTicks.map((tick) => `<line class="development-map-grid" x1="${left}" x2="${width - right}" y1="${y(tick)}" y2="${y(tick)}"></line><text class="development-map-label" x="${left - 8}" y="${y(tick) + 4}" text-anchor="end">${tick}</text>`)].join("");
+    const maxPrimary = Math.max(...mapRows.map((row) => row.primary), 1);
+    const points = mapRows.map((row) => { const radius = Math.max(4, Math.min(11, 3 + Math.sqrt(row.primary || 1))); const pointColor = `hsl(198 58% ${Math.round(82 - (row.primary / maxPrimary) * 42)}%)`; const label = `${row.target.preferred_name}: ${row.approved} approved drugs, ${row.clinical} included clinical programs`; return `<a href="#target=${encodeURIComponent(row.target.target_id)}"><circle class="development-map-point" style="fill:${pointColor}" cx="${x(row.approved)}" cy="${y(row.clinical)}" r="${radius}" aria-label="${label}"><title>${label}</title></circle></a>`; }).join("");
+    developmentMapEl.innerHTML = `<h3>Target development map</h3><p>Targets with the broadest approved-drug or included clinical-program footprint. Held programs are excluded from this plot. Click a point to open its target profile.</p><svg viewBox="0 0 ${width} ${height}" role="img" aria-label="Scatter plot comparing approved drugs and included clinical programs per target"><title>Target development map</title><desc>Horizontal axis shows approved drugs; vertical axis shows included clinical programs.</desc>${grid}<line class="development-map-axis" x1="${left}" x2="${width - right}" y1="${height - bottom}" y2="${height - bottom}"></line><line class="development-map-axis" x1="${left}" x2="${left}" y1="${top}" y2="${height - bottom}"></line>${points}<text class="development-map-label" x="${(left + width - right) / 2}" y="${height - 8}" text-anchor="middle">Approved drugs</text><text class="development-map-label" transform="translate(15 ${(top + height - bottom) / 2}) rotate(-90)" text-anchor="middle">Included clinical programs</text></svg>`;
+  };
+
+  const renderPhaseOutcomeMatrix = () => {
+    const included = payload.programs.filter((program) => program.inclusion_status === "included");
+    const programById = new Map(included.map((program) => [program.program_id, program]));
+    const phases = ["phase_1", "phase_2", "phase_3"].filter((phase) => included.some((program) => program.lifecycle_status === phase));
+    const cells = new Map();
+    const outcomePrograms = new Map();
+    payload.outcomes.forEach((outcome) => {
+      const program = programById.get(outcome.program_id);
+      if (!program || !phases.includes(program.lifecycle_status)) return;
+      const key = `${program.lifecycle_status}|${outcome.event_type}`;
+      if (!cells.has(key)) cells.set(key, new Set());
+      cells.get(key).add(program.program_id);
+      if (!outcomePrograms.has(outcome.event_type)) outcomePrograms.set(outcome.event_type, new Set());
+      outcomePrograms.get(outcome.event_type).add(program.program_id);
+    });
+    const outcomeTypes = [...outcomePrograms.keys()].sort((a, b) => outcomePrograms.get(b).size - outcomePrograms.get(a).size || a.localeCompare(b));
+    const maxCount = Math.max(1, ...[...cells.values()].map((programIds) => programIds.size));
+    const headers = phases.map((phase) => `<th scope="col">${escapeHtml(phaseLabel(phase))}</th>`).join("");
+    const rows = outcomeTypes.map((outcome) => `<tr><th scope="row" class="outcome-name">${escapeHtml(readableLabel(outcome))}</th>${phases.map((phase) => {
+      const count = cells.get(`${phase}|${outcome}`)?.size || 0;
+      if (!count) return '<td><span class="phase-outcome-zero" aria-label="0 programs">0</span></td>';
+      const lightness = Math.round(90 - (count / maxCount) * 47);
+      const foreground = lightness < 55 ? "#fff" : "#17324d";
+      const label = `${count} included ${phaseLabel(phase)} program${count === 1 ? "" : "s"} with ${readableLabel(outcome)} outcome label; open filtered programs`;
+      return `<td><button type="button" class="phase-outcome-cell" data-matrix-phase="${escapeHtml(phase)}" data-matrix-outcome="${escapeHtml(outcome)}" style="background:hsl(198 58% ${lightness}%);color:${foreground}" aria-label="${escapeHtml(label)}">${count}</button></td>`;
+    }).join("")}</tr>`).join("");
+    matrixEl.innerHTML = `<h3>Program stage × outcome label</h3><p>${formatNumber(included.length)} included programs · distinct programs per cell. One program may appear in multiple outcome rows. Stage describes the program, not necessarily the phase of the cited outcome event.</p><div class="phase-outcome-wrap" tabindex="0" aria-label="Scrollable phase and outcome matrix"><table class="phase-outcome-table" aria-label="Included clinical programs by program stage and curated outcome label"><thead><tr><th scope="col">Outcome label</th>${headers}</tr></thead><tbody>${rows}</tbody></table></div><div class="phase-outcome-legend"><span>Fewer</span><span class="phase-outcome-swatch" aria-hidden="true"></span><span>More programs</span></div>`;
+    matrixEl.querySelectorAll("[data-matrix-phase]").forEach((button) => button.addEventListener("click", () => {
+      clinicalInclusionEl.value = "included";
+      clinicalGroupEl.value = "all";
+      clinicalPhaseEl.value = button.dataset.matrixPhase;
+      clinicalOutcomeEl.value = button.dataset.matrixOutcome;
+      clinicalModalityEl.value = "all";
+      clinicalQueryEl.value = "";
+      document.querySelector(".landscape-clinical > details").open = true;
+      updateClinicalHash();
+      renderClinicalExplorer();
+      document.querySelector(".landscape-clinical")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }));
+  };
+
+  const renderClinicalExplorer = () => {
+    const targetById = new Map(payload.targets.map((target) => [target.target_id, target]));
+    const drugById = new Map(payload.drugs.map((drug) => [drug.drug_id, drug]));
+    const sourceById = new Map(payload.sources.map((source) => [source.source_id, source]));
+    const outcomesByProgram = new Map();
+    payload.outcomes.forEach((outcome) => {
+      if (!outcomesByProgram.has(outcome.program_id)) outcomesByProgram.set(outcome.program_id, []);
+      outcomesByProgram.get(outcome.program_id).push(outcome);
+    });
+    const trialsByProgram = new Map();
+    payload.trials.forEach((trial) => {
+      if (!trialsByProgram.has(trial.program_id)) trialsByProgram.set(trial.program_id, []);
+      trialsByProgram.get(trial.program_id).push(trial);
+    });
+    const filters = {
+      inclusion: clinicalInclusionEl.value,
+      group: clinicalGroupEl.value,
+      phase: clinicalPhaseEl.value,
+      outcome: clinicalOutcomeEl.value,
+      modality: clinicalModalityEl.value,
+      query: clinicalQueryEl.value.trim().toLowerCase()
+    };
+    const programs = payload.programs.filter((program) => {
+      const target = targetById.get(program.primary_target_id);
+      const drug = drugById.get(program.drug_id);
+      const matchesQuery = !filters.query || [drug?.preferred_name, drug?.generic_name, program.development_name, target?.preferred_name, target?.gene_symbol, program.indication_name].some((value) => String(value || "").toLowerCase().includes(filters.query));
+      return (filters.inclusion === "all" || program.inclusion_status === filters.inclusion)
+        && (filters.group === "all" || (target?.protein_group || "Unclassified") === filters.group)
+        && (filters.phase === "all" || program.lifecycle_status === filters.phase)
+        && (filters.outcome === "all" || (outcomesByProgram.get(program.program_id) || []).some((outcome) => outcome.event_type === filters.outcome))
+        && (filters.modality === "all" || program.modality === filters.modality)
+        && matchesQuery;
+    }).sort((a, b) => (drugById.get(a.drug_id)?.preferred_name || a.development_name || "").localeCompare(drugById.get(b.drug_id)?.preferred_name || b.development_name || ""));
+    currentClinicalPrograms = programs;
+    clinicalExportEl.disabled = programs.length === 0;
+    clinicalExportEl.textContent = `Download ${formatNumber(programs.length)} matching program${programs.length === 1 ? "" : "s"} (CSV)`;
+    const rows = programs.map((program) => {
+      const drug = drugById.get(program.drug_id);
+      const target = targetById.get(program.primary_target_id);
+      const events = outcomesByProgram.get(program.program_id) || [];
+      const labels = programOutcomeBadges(events, program);
+      const reviewStatus = program.inclusion_status === "included" ? "Included" : "Needs review — held from headline analyses";
+      const evidenceItems = events.map((event) => {
+        const source = sourceById.get(event.source_id);
+        const sourceText = source?.title || event.source_id || "Source not recorded";
+        const sourceLink = /^https:\/\//.test(source?.url || "") ? `<a href="${escapeHtml(source.url)}" target="_blank" rel="noopener">${escapeHtml(sourceText)}</a>` : escapeHtml(sourceText);
+        const qualification = [event.confidence ? `${readableLabel(event.confidence)} confidence` : "", event.stated_or_inferred ? readableLabel(event.stated_or_inferred) : ""].filter(Boolean).join(" · ");
+        return `<li><strong>${escapeHtml(readableLabel(event.event_type))}</strong>${qualification ? ` <span class="landscape-muted">(${escapeHtml(qualification)})</span>` : ""}: ${escapeHtml(event.description || "Description not recorded.")} <small>Evidence: ${sourceLink}</small></li>`;
+      }).join("");
+      const evidenceCell = `<details><summary>${formatNumber(events.length)} event${events.length === 1 ? "" : "s"}</summary><ul>${evidenceItems}</ul></details>`;
+      const trialLinks = (trialsByProgram.get(program.program_id) || []).map((trial) => {
+        const id = trial.registry_identifier || trial.trial_id;
+        const review = payload.evidence_review.find((row) => row.trial_id === trial.trial_id);
+        const currentId = review?.current_registry_id || id;
+        return /^NCT\d{8}$/.test(currentId) ? `<a href="https://clinicaltrials.gov/study/${currentId}" target="_blank" rel="noopener">${escapeHtml(id)}</a>` : escapeHtml(id);
+      }).join(", ") || "—";
+      const targetCell = target ? `<button type="button" class="target-table-button" data-clinical-target="${escapeHtml(target.target_id)}">${escapeHtml(target.gene_symbol || target.preferred_name)}</button>${program.target_status === "unclear" ? ' <span class="landscape-badge">unclear primary target</span>' : ""}` : "—";
+      return `<tr><td>${escapeHtml(drug?.preferred_name || drug?.generic_name || program.development_name || program.drug_id)}</td><td>${targetCell}</td><td>${escapeHtml(program.indication_name || "—")}</td><td>${escapeHtml(phaseLabel(program.lifecycle_status))}</td><td>${escapeHtml(readableLabel(program.modality))}</td><td>${labels}</td><td>${escapeHtml(reviewStatus)}</td><td>${trialLinks}</td><td>${evidenceCell}</td></tr>`;
+    }).join("");
+    const reviewWarning = filters.inclusion !== "included" ? '<p class="landscape-muted">Needs-review programs are held from headline analyses. Some cited trial-specific outcomes are established, but they do not establish failure of every trial or the whole program. A registry status or candidate reason alone does not establish why development stopped.</p>' : "";
+    clinicalEl.innerHTML = `<p role="status"><strong>${formatNumber(programs.length)}</strong> of ${formatNumber(payload.programs.length)} pilot programs match these filters.</p>${reviewWarning}<p class="landscape-muted">Scroll the table horizontally on narrow screens; expand an evidence cell for its cited outcome description.</p><div class="clinical-table-wrap" tabindex="0" aria-label="Scrollable clinical program table"><table class="landscape-table"><thead><tr><th>Drug</th><th>Primary target</th><th>Indication</th><th>Program stage</th><th>Modality</th><th>Outcome event labels</th><th>Review status</th><th>Trial protocols</th><th>Evidence</th></tr></thead><tbody>${rows || '<tr><td colspan="9">No programs match these filters.</td></tr>'}</tbody></table></div>`;
+    clinicalEl.querySelectorAll("[data-clinical-target]").forEach((button) => button.addEventListener("click", () => {
+      const target = targetById.get(button.dataset.clinicalTarget);
+      if (!target) return;
+      selectedTargetId = target.target_id;
+      selectedGroup = target.protein_group || "Unclassified";
+      alignScopeToTarget(target);
+      updateExplorerHash();
+      renderProteinGroups(); renderGroupTargets(); renderTargetDetail(target);
+      document.querySelector(".landscape-explorer")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }));
+  };
+
+  const renderDrugResults = () => {
+    const query = drugSearchEl.value.trim().toLowerCase();
+    const year = drugYearEl.value;
+    if (!query && year === "all") {
+      currentDrugMatches = [];
+      drugExportEl.disabled = true;
+      drugExportEl.textContent = "Download matching drug–target links (CSV)";
+      drugResultsEl.innerHTML = '<p class="landscape-muted">Enter a drug name or select an approval year to browse target relationships.</p>';
+      return;
+    }
+    const targetById = new Map(payload.targets.map((target) => [target.target_id, target]));
+    const approvalDrugIds = new Set(payload.approvals.map((approval) => approval.drug_id));
+    const linksByDrug = new Map();
+    payload.drug_targets.forEach((link) => {
+      if (!linksByDrug.has(link.drug_id)) linksByDrug.set(link.drug_id, []);
+      linksByDrug.get(link.drug_id).push(link);
+    });
+    const programsByDrug = new Map();
+    payload.programs.forEach((program) => {
+      if (!programsByDrug.has(program.drug_id)) programsByDrug.set(program.drug_id, []);
+      programsByDrug.get(program.drug_id).push(program);
+    });
+    const matches = payload.drugs.filter((drug) => focusedDrugId ? drug.drug_id === focusedDrugId : (year === "all" || firstApprovalYearByDrug.get(drug.drug_id) === year) && (!query || [drug.preferred_name, drug.generic_name, ...(programsByDrug.get(drug.drug_id) || []).map((program) => program.development_name)].some((name) => String(name || "").toLowerCase().includes(query))))
+      .sort((a, b) => (a.preferred_name || a.generic_name || "").localeCompare(b.preferred_name || b.generic_name || ""));
+    currentDrugMatches = matches;
+    drugExportEl.disabled = matches.length === 0;
+    drugExportEl.textContent = `Download links for ${formatNumber(matches.length)} matching drug${matches.length === 1 ? "" : "s"} (CSV)`;
+    const rows = matches.slice(0, drugResultsVisible).map((drug) => {
+      const links = (linksByDrug.get(drug.drug_id) || []).sort((a, b) => (a.target_role === "primary" ? 0 : 1) - (b.target_role === "primary" ? 0 : 1));
+      const targets = links.map((link) => {
+        const target = targetById.get(link.target_id);
+        if (!target) return "";
+        return `<span><button type="button" class="target-table-button" data-drug-target="${escapeHtml(target.target_id)}">${escapeHtml(target.gene_symbol || target.preferred_name)}</button> <span class="landscape-badge">${escapeHtml(readableLabel(link.target_role))}</span></span>`;
+      }).filter(Boolean).join("");
+      const programs = programsByDrug.get(drug.drug_id) || [];
+      const included = programs.filter((program) => program.inclusion_status === "included").length;
+      const programCell = programs.length ? `<button type="button" class="target-table-button" data-drug-programs="${escapeHtml(drug.drug_id)}">View ${formatNumber(programs.length)} pilot program${programs.length === 1 ? "" : "s"}</button> <span class="landscape-muted">(${formatNumber(included)} included)</span>` : "None in pilot";
+      const approvalYear = firstApprovalYearByDrug.get(drug.drug_id);
+      return `<tr><td>${escapeHtml(drug.preferred_name || drug.generic_name || drug.drug_id)}</td><td>${approvalYear ? `First documented ${escapeHtml(approvalYear)}` : approvalDrugIds.has(drug.drug_id) ? "Record linked; year unknown" : "No record in this release"}</td><td><div class="drug-link-list">${targets || "No target assigned in this release"}</div></td><td>${programCell}</td></tr>`;
+    }).join("");
+    const remainder = matches.length - Math.min(matches.length, drugResultsVisible);
+    drugResultsEl.innerHTML = `<p role="status" class="landscape-muted">Showing ${formatNumber(Math.min(matches.length, drugResultsVisible))} of ${formatNumber(matches.length)} matching drugs.</p><div class="drug-table-wrap" tabindex="0" aria-label="Scrollable drug and target table"><table class="landscape-table"><thead><tr><th>Drug</th><th>Drug-level approval record</th><th>Linked targets and roles</th><th>Pilot programs</th></tr></thead><tbody>${rows || '<tr><td colspan="4">No drugs match this name.</td></tr>'}</tbody></table></div>${remainder > 0 ? `<p><button type="button" class="load-more-button" id="more-drug-results">Show ${formatNumber(Math.min(25, remainder))} more drugs</button></p>` : ""}`;
+    drugResultsEl.querySelector("#more-drug-results")?.addEventListener("click", () => { drugResultsVisible += 25; renderDrugResults(); });
+    drugResultsEl.querySelectorAll("[data-drug-target]").forEach((button) => button.addEventListener("click", () => {
+      const target = targetById.get(button.dataset.drugTarget);
+      if (!target) return;
+      searchEl.value = "";
+      selectedTargetId = target.target_id;
+      selectedGroup = target.protein_group || "Unclassified";
+      alignScopeToTarget(target);
+      updateExplorerHash();
+      renderProteinGroups(); renderGroupTargets(); renderTargetDetail(target);
+      document.querySelector(".landscape-explorer")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }));
+    drugResultsEl.querySelectorAll("[data-drug-programs]").forEach((button) => button.addEventListener("click", () => {
+      const drug = payload.drugs.find((row) => row.drug_id === button.dataset.drugPrograms);
+      if (!drug) return;
+      clinicalInclusionEl.value = "all";
+      clinicalGroupEl.value = "all";
+      clinicalPhaseEl.value = "all";
+      clinicalOutcomeEl.value = "all";
+      clinicalModalityEl.value = "all";
+      clinicalQueryEl.value = drug.preferred_name || drug.generic_name || "";
+      document.querySelector(".landscape-clinical > details").open = true;
+      updateClinicalHash();
+      renderClinicalExplorer();
+      document.querySelector(".landscape-clinical")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }));
+  };
+
+  const renderTargets = () => {
+    const query = searchEl.value.trim().toLowerCase();
+    const matches = payload.targets.filter((target) => !query || `${target.preferred_name} ${target.gene_symbol} ${target.uniprot_accession} ${target.protein_group}`.toLowerCase().includes(query));
+    const visibleTargets = matches.slice(0, targetResultsVisible);
+    const rows = visibleTargets.map((target) => `<tr><td><button class="target-table-button" data-target-id="${escapeHtml(target.target_id)}">${escapeHtml(target.preferred_name)}</button></td><td>${escapeHtml(target.gene_symbol || "—")}</td><td>${escapeHtml(target.protein_group || "—")}</td><td><span class="landscape-badge">${escapeHtml(target.target_status)}</span></td></tr>`).join("");
+    const tableOpen = "<" + "table class=\"landscape-table\">";
+    const tableClose = "<" + "/table>";
+    const remainder = matches.length - visibleTargets.length;
+    resultsEl.innerHTML = `<p class="landscape-muted">Showing ${formatNumber(visibleTargets.length)} of ${formatNumber(matches.length)} matching targets.</p><div class="target-table-wrap" tabindex="0" aria-label="Scrollable target table">${tableOpen}<thead><tr><th>Target</th><th>Gene</th><th>Group</th><th>Status</th></tr></thead><tbody>${rows || '<tr><td colspan="4">No matching targets.</td></tr>'}</tbody>${tableClose}</div>${remainder > 0 ? `<p><button type="button" class="load-more-button" id="more-target-results">Show ${formatNumber(Math.min(50, remainder))} more targets</button></p>` : ""}`;
+    resultsEl.querySelector("#more-target-results")?.addEventListener("click", () => { targetResultsVisible += 50; renderTargets(); });
+    resultsEl.querySelectorAll("[data-target-id]").forEach((button) => button.addEventListener("click", () => {
+      selectedTargetId = button.dataset.targetId;
+      const target = payload.targets.find((item) => item.target_id === selectedTargetId);
+      selectedGroup = target?.protein_group || "Unclassified";
+      alignScopeToTarget(target);
+      updateExplorerHash();
+      renderProteinGroups();
+      renderGroupTargets();
+      renderTargetDetail(target);
+      document.querySelector(".landscape-explorer")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }));
+  };
+
+  const targetDrugs = (targetId) => {
+    const drugIds = new Set(payload.drug_targets.filter((link) => link.target_id === targetId).map((link) => link.drug_id));
+    return payload.drugs.filter((drug) => drugIds.has(drug.drug_id));
+  };
+
+  const renderTargetDetail = (target) => {
+    if (!target) {
+      detailEl.innerHTML = '<p class="landscape-muted">Select a target protein to see details.</p>';
+      return;
+    }
+    const drugs = targetDrugs(target.target_id);
+    const links = payload.drug_targets.filter((link) => link.target_id === target.target_id);
+    const approvedDrugIds = new Set(payload.approvals.map((approval) => approval.drug_id));
+    const approvedDrugs = drugs.filter((drug) => approvedDrugIds.has(drug.drug_id));
+    const otherLinkedDrugs = drugs.filter((drug) => !approvedDrugIds.has(drug.drug_id));
+    const targetRoles = new Map(links.map((link) => [link.drug_id, link.target_role]));
+    const drugName = (drug) => drug.preferred_name || drug.generic_name || drug.drug_id;
+    const drugRows = (items) => items.sort((a, b) => drugName(a).localeCompare(drugName(b))).map((drug) => `<li><button type="button" class="target-table-button" data-detail-drug="${escapeHtml(drug.drug_id)}" aria-label="Explore all targets linked to ${escapeHtml(drugName(drug))}">${escapeHtml(drugName(drug))}</button> <span class="landscape-badge">${escapeHtml(targetRoles.get(drug.drug_id) || "role unclear")} target</span></li>`).join("");
+    const primaryLinks = links.filter((link) => link.target_role === "primary");
+    const secondaryLinks = links.filter((link) => link.target_role !== "primary");
+    const drugIds = new Set(drugs.map((drug) => drug.drug_id));
+    const relatedTargetLinks = payload.drug_targets.filter((link) => drugIds.has(link.drug_id) && link.target_id !== target.target_id);
+    const relatedTargetIds = new Set(relatedTargetLinks.map((link) => link.target_id));
+    const relatedTargets = payload.targets.filter((item) => relatedTargetIds.has(item.target_id)).sort((a, b) => (a.preferred_name || "").localeCompare(b.preferred_name || ""));
+    const approvals = payload.approvals.filter((approval) => drugIds.has(approval.drug_id));
+    const programs = payload.programs.filter((program) => program.primary_target_id === target.target_id);
+    const outcomes = payload.outcomes.filter((outcome) => programs.some((program) => program.program_id === outcome.program_id));
+    const timeline = [];
+    const firstApprovalByDrug = new Map();
+    approvals.forEach((approval) => {
+      const year = String(approval.approval_date || "").slice(0, 4);
+      if (!/^\d{4}$/.test(year)) return;
+      const previous = firstApprovalByDrug.get(approval.drug_id);
+      if (!previous || year < previous.year) firstApprovalByDrug.set(approval.drug_id, { year, sourceId: approval.source_id });
+    });
+    drugs.forEach((drug) => {
+      const firstApproval = firstApprovalByDrug.get(drug.drug_id);
+      const source = payload.sources.find((item) => item.source_id === firstApproval?.sourceId);
+      if (firstApproval) timeline.push({ date: firstApproval.year, sortDate: `${firstApproval.year}-01-01`, type: "approval", label: `${drugName(drug)} — drug's first recorded approval year (${targetRoles.get(drug.drug_id) || "unclear"} target link)`, link: /^https:\/\//.test(source?.url || "") ? source.url : "" });
+    });
+    programs.forEach((program) => {
+      const drug = payload.drugs.find((item) => item.drug_id === program.drug_id);
+      const name = drug ? drugName(drug) : program.development_name || program.drug_id;
+      payload.trials.filter((trial) => trial.program_id === program.program_id).forEach((trial) => {
+        const evidence = payload.evidence_review.find((row) => row.trial_id === trial.trial_id);
+        const registryId = evidence?.current_registry_id || trial.registry_identifier;
+        const link = /^NCT\d{8}$/.test(registryId || "") ? `https://clinicaltrials.gov/study/${registryId}` : "";
+        [[trial.start_date, "study start"], [trial.primary_completion_date, "primary completion"]].forEach(([date, milestone]) => {
+          if (/^\d{4}-\d{2}(-\d{2})?$/.test(date || "")) timeline.push({ date, sortDate: date.length === 7 ? `${date}-01` : date, type: "trial", label: `${name} — ${milestone} (${trial.registry_identifier || trial.trial_id})`, link });
+        });
+      });
+      outcomes.filter((outcome) => outcome.program_id === program.program_id).forEach((outcome) => {
+        const date = outcome.event_date || "";
+        const source = payload.sources.find((item) => item.source_id === outcome.source_id);
+        if (/^\d{4}-\d{2}(-\d{2})?$/.test(date)) timeline.push({ date, sortDate: date.length === 7 ? `${date}-01` : date, type: "outcome", label: `${name} — ${readableLabel(outcome.event_type)} event${program.inclusion_status === "included" ? "" : " (needs review)"}`, note: outcome.description || "", link: /^https:\/\//.test(source?.url || "") ? source.url : "" });
+      });
+    });
+    timeline.sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.type.localeCompare(b.type) || a.label.localeCompare(b.label));
+    const timelineRows = timeline.map((item) => `<li><time datetime="${escapeHtml(item.date)}">${escapeHtml(item.date)}</time> <span class="landscape-badge">${escapeHtml(item.type)}</span> ${escapeHtml(item.label)}${item.link ? ` <a href="${escapeHtml(item.link)}" target="_blank" rel="noopener">Source</a>` : ""}${item.note ? `<small>${escapeHtml(item.note)}</small>` : ""}</li>`).join("");
+    const includedProgramIds = new Set(programs.filter((program) => program.inclusion_status === "included").map((program) => program.program_id));
+    const needsReviewCount = programs.filter((program) => program.inclusion_status !== "included").length;
+    const outcomeCounts = outcomes.filter((outcome) => includedProgramIds.has(outcome.program_id)).reduce((acc, outcome) => { const key = outcome.event_type || "unknown"; acc[key] = (acc[key] || 0) + 1; return acc; }, {});
+    const sourceIds = new Set([...outcomes.map((outcome) => outcome.source_id), ...links.map((link) => link.source_id), ...approvals.map((approval) => approval.source_id)].filter(Boolean));
+    const evidenceSources = [...sourceIds].map((id) => payload.sources.find((source) => source.source_id === id)).filter(Boolean);
+    const clinicalRows = programs.map((program) => {
+      const programTrials = payload.trials.filter((trial) => trial.program_id === program.program_id);
+      const trialText = programTrials.map((trial) => { const id = trial.registry_identifier || trial.trial_id; const evidence = payload.evidence_review.find((row) => row.trial_id === trial.trial_id); const currentId = evidence?.current_registry_id || id; const aliasNote = evidence?.registry_id_role === "merged_alias" ? " · merged NCT alias" : ""; const link = /^NCT\d{8}$/.test(currentId || "") ? `<a href="https://clinicaltrials.gov/study/${currentId}" target="_blank" rel="noopener">${escapeHtml(id)}</a>` : escapeHtml(id); return `${link} (${escapeHtml(readableLabel(trial.recruitment_status || "status unknown"))}${aliasNote})`; }).join(", ") || "No trial linked";
+      const programOutcomes = outcomes.filter((outcome) => outcome.program_id === program.program_id);
+      const outcomeLabels = programOutcomeBadges(programOutcomes, program);
+      const outcomeItems = programOutcomes.map((outcome) => {
+        const source = payload.sources.find((item) => item.source_id === outcome.source_id);
+        const sourceText = source?.title || outcome.source_id || "Source not recorded";
+        const sourceLink = /^https:\/\//.test(source?.url || "") ? `<a href="${escapeHtml(source.url)}" target="_blank" rel="noopener">${escapeHtml(sourceText)}</a>` : escapeHtml(sourceText);
+        const qualification = [outcome.confidence ? `${readableLabel(outcome.confidence)} confidence` : "", outcome.stated_or_inferred ? readableLabel(outcome.stated_or_inferred) : ""].filter(Boolean).join(" · ");
+        return `<li><strong>${escapeHtml(readableLabel(outcome.event_type))}</strong>${qualification ? ` <span class="landscape-muted">(${escapeHtml(qualification)})</span>` : ""}: ${escapeHtml(outcome.description || "Description not recorded.")} <small>Evidence: ${sourceLink}</small></li>`;
+      }).join("");
+      const outcomeEvidence = programOutcomes.length ? `<details class="program-evidence"><summary>Outcome evidence (${formatNumber(programOutcomes.length)})</summary><ul>${outcomeItems}</ul></details>` : '<small>No outcome event curated for this program.</small>';
+      const drug = payload.drugs.find((item) => item.drug_id === program.drug_id);
+      return `<li>${escapeHtml(drug?.preferred_name || drug?.generic_name || program.drug_id.replace(/^DRG-/, ""))} <span class="landscape-badge">${escapeHtml(readableLabel(program.lifecycle_status || "phase unknown"))}</span> <span class="landscape-badge">${escapeHtml(readableLabel(program.inclusion_status || "review status unknown"))}</span> ${outcomeLabels}${program.inclusion_status !== "included" ? '<small>Held from headline analyses; event labels do not establish whole-program failure.</small>' : ""}<small>Indication: ${escapeHtml(program.indication_name || "not recorded")}</small><small>Trials: ${trialText}</small>${program.target_status === "unclear" ? '<small>Primary protein unresolved; outcome events are not assigned to a specific protein.</small>' : ""}${outcomeEvidence}</li>`;
+    }).join("");
+    const outcomeSummary = Object.entries(outcomeCounts).map(([key, value]) => `<span class="landscape-badge">${escapeHtml(readableLabel(key))}: ${formatNumber(value)}</span>`).join(" ");
+    const reviewWarning = needsReviewCount ? `<p class="landscape-muted">${formatNumber(needsReviewCount)} program${needsReviewCount === 1 ? "" : "s"} ${needsReviewCount === 1 ? "remains" : "remain"} held from headline analyses. Trial-specific findings may still be supported, but they are excluded from the summary counts and do not establish whole-program failure.</p>` : "";
+    const sourceList = evidenceSources.map((source) => { const label = escapeHtml(source.title || source.source_id); return /^https:\/\//.test(source.url || "") ? `<li><a href="${escapeHtml(source.url)}" target="_blank" rel="noopener">${label}</a></li>` : `<li>${label}</li>`; }).join("");
+    const relatedTargetList = relatedTargets.map((relatedTarget) => `<li><a href="#target=${encodeURIComponent(relatedTarget.target_id)}">${escapeHtml(relatedTarget.preferred_name)}</a>${relatedTarget.gene_symbol ? ` <span class="landscape-muted">(${escapeHtml(relatedTarget.gene_symbol)})</span>` : ""}</li>`).join("");
+    const externalLinks = target.uniprot_accession ? `<details class="target-detail-section"><summary>External databases</summary><ul><li><a href="https://www.uniprot.org/uniprotkb/${encodeURIComponent(target.uniprot_accession)}/entry" target="_blank" rel="noopener">UniProtKB ${escapeHtml(target.uniprot_accession)}</a></li></ul><p class="landscape-muted">Additional cross-database links will be added after stable Ensembl/Open Targets identifiers are curated.</p></details>` : '';
+    detailEl.innerHTML = `<h3>${escapeHtml(target.preferred_name)}</h3><details class="target-detail-section" open><summary>Target profile</summary><dl><dt>Gene</dt><dd>${escapeHtml(target.gene_symbol || "—")}</dd><dt>UniProt</dt><dd>${escapeHtml(target.uniprot_accession || "—")}</dd><dt>Class</dt><dd>${escapeHtml(target.protein_group || "—")}</dd><dt>Scope</dt><dd><span class="landscape-badge">${escapeHtml(target.landscape_scope || target.target_status || "—")}</span></dd><dt>Linked drugs</dt><dd>${formatNumber(drugs.length)}</dd><dt>Primary links</dt><dd>${formatNumber(primaryLinks.length)}</dd><dt>Secondary links</dt><dd>${formatNumber(secondaryLinks.length)}</dd><dt>Approval records for linked drugs</dt><dd>${formatNumber(approvals.length)}</dd><dt>Clinical programs</dt><dd>${formatNumber(programs.length)}</dd></dl></details><details class="target-detail-section" open><summary>Drugs with approval records (${formatNumber(approvedDrugs.length)})</summary><p class="landscape-muted">Approval is recorded for the drug, not necessarily for this target mechanism; review the primary/secondary role shown for each link.</p>${approvedDrugs.length ? `<ul>${drugRows(approvedDrugs)}</ul>` : '<p class="landscape-muted">No approval record is linked to a drug for this target.</p>'}</details>${otherLinkedDrugs.length ? `<details class="target-detail-section"><summary>Other linked drugs (${formatNumber(otherLinkedDrugs.length)})</summary><p class="landscape-muted">An approval record is not linked in this release; approval status is not inferred.</p><ul>${drugRows(otherLinkedDrugs)}</ul></details>` : ''}${relatedTargetList ? `<details class="target-detail-section"><summary>Other targets linked to these drugs</summary><ul>${relatedTargetList}</ul></details>` : ''}<details class="target-detail-section"><summary>Development timeline (${formatNumber(timeline.length)} dated milestones)</summary><p class="landscape-muted">Drug approval entries show the first year recorded in the paper-derived table, not a target-specific or agency-specific approval. Trial dates are registry milestones; an outcome event date is shown only where curated. Undated records are omitted from this timeline but remain in the sections below.</p>${timelineRows ? `<ol class="target-timeline">${timelineRows}</ol>` : '<p class="landscape-muted">No dated milestones are available for this target in the current release.</p>'}</details>${programs.length ? `<details class="target-detail-section"><summary>Clinical development (${formatNumber(programs.length)})</summary><p>Outcome events in included programs: ${outcomeSummary || "none classified"}.</p>${reviewWarning}<p class="landscape-muted">Evidence labels summarize curated outcomes; registry status alone does not establish why a program stopped.</p><ul>${clinicalRows}</ul></details>` : ''}${externalLinks}${sourceList ? `<details class="target-detail-section"><summary>Evidence sources</summary><ul>${sourceList}</ul></details>` : ''}`;
+    const coTargetPrograms = payload.programs.filter((program) => drugIds.has(program.drug_id) && program.primary_target_id?.startsWith("TGT-unknown-") && program.primary_target_id !== target.target_id);
+    if (coTargetPrograms.length) {
+      const coTargetRows = coTargetPrograms.map((program) => {
+        const drug = payload.drugs.find((item) => item.drug_id === program.drug_id);
+        const label = drug?.preferred_name || drug?.generic_name || program.drug_id.replace(/^DRG-/, "");
+        return `<li><a href="#target=${encodeURIComponent(program.primary_target_id)}">${escapeHtml(label)}</a> · ${escapeHtml(program.indication_name || "indication not recorded")} <span class="landscape-badge">${escapeHtml(readableLabel(program.lifecycle_status || "phase unknown"))}</span> <span class="landscape-badge">${escapeHtml(readableLabel(program.inclusion_status || "review status unknown"))}</span></li>`;
+      }).join("");
+      detailEl.insertAdjacentHTML("beforeend", `<details class="target-detail-section"><summary>Clinical programs through co-target links (${formatNumber(coTargetPrograms.length)})</summary><p class="landscape-muted">This protein has a documented drug link, but no single primary protein was assigned to these programs. Trial outcomes must not be interpreted as failures of this protein alone. Open the unresolved primary-target entry for program-level evidence.</p><ul>${coTargetRows}</ul></details>`);
+    }
+    detailEl.querySelectorAll("[data-detail-drug]").forEach((button) => button.addEventListener("click", () => {
+      const drug = payload.drugs.find((item) => item.drug_id === button.dataset.detailDrug);
+      if (!drug) return;
+      focusedDrugId = drug.drug_id;
+      drugSearchEl.value = drugName(drug);
+      drugYearEl.value = "all";
+      updateDrugHash();
+      drugResultsVisible = 25;
+      renderDrugResults();
+      document.querySelector(".landscape-drugs")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }));
+  };
+
+  const updateExplorerHash = () => {
+    const params = new URLSearchParams(window.location.hash.replace(/^#/, ""));
+    if (selectedTargetId) params.set("target", selectedTargetId); else params.delete("target");
+    if (selectedGroup && selectedGroup !== "All") params.set("group", selectedGroup); else params.delete("group");
+    if (selectedScope !== "all") params.set("scope", selectedScope); else params.delete("scope");
+    history.replaceState(null, "", `#${params.toString()}`);
+  };
+  const alignScopeToTarget = (target) => {
+    if (target && selectedScope !== "all" && target.landscape_scope !== selectedScope) {
+      selectedScope = "all";
+      scopeEl.value = "all";
+    }
+  };
+
+  const renderGroupTargets = () => {
+    const query = searchEl.value.trim().toLowerCase();
+    const targets = payload.targets.filter((target) => {
+      const inGroup = selectedGroup === "All" || target.protein_group === selectedGroup;
+      const matchesSearch = !query || `${target.preferred_name} ${target.gene_symbol} ${target.uniprot_accession}`.toLowerCase().includes(query);
+      const inScope = selectedScope === "all" || target.landscape_scope === selectedScope;
+      return inGroup && inScope && matchesSearch;
+    }).map((target) => {
+      const links = payload.drug_targets.filter((link) => link.target_id === target.target_id);
+      const drugCount = new Set(links.map((link) => link.drug_id)).size;
+      const approvalDrugIds = new Set(payload.approvals.map((approval) => approval.drug_id));
+      const approvedDrugCount = new Set(links.filter((link) => approvalDrugIds.has(link.drug_id)).map((link) => link.drug_id)).size;
+      const clinicalCount = payload.programs.filter((program) => program.primary_target_id === target.target_id).length;
+      return { target, drugCount, approvedDrugCount, clinicalCount };
+    }).sort((a, b) => b.drugCount - a.drugCount || b.approvedDrugCount - a.approvedDrugCount || b.clinicalCount - a.clinicalCount || (a.target.preferred_name || "").localeCompare(b.target.preferred_name || ""));
+    groupTitleEl.textContent = `${selectedGroup} target records (${formatNumber(targets.length)}) · ranked by linked drugs`;
+    const groupClinicalCount = payload.programs.filter((program) => {
+      const target = payload.targets.find((item) => item.target_id === program.primary_target_id);
+      return (target?.protein_group || "Unclassified") === selectedGroup;
+    }).length;
+    groupClinicalShortcutEl.hidden = selectedScope !== "all" || selectedGroup === "All" || !groupClinicalCount;
+    groupClinicalShortcutEl.innerHTML = groupClinicalShortcutEl.hidden ? "" : `<button type="button" class="load-more-button">Browse ${formatNumber(groupClinicalCount)} pilot clinical program${groupClinicalCount === 1 ? "" : "s"} in ${escapeHtml(selectedGroup)}</button>`;
+    groupClinicalShortcutEl.querySelector("button")?.addEventListener("click", () => {
+      clinicalInclusionEl.value = "all";
+      clinicalGroupEl.value = selectedGroup;
+      clinicalPhaseEl.value = "all";
+      clinicalOutcomeEl.value = "all";
+      clinicalModalityEl.value = "all";
+      clinicalQueryEl.value = "";
+      document.querySelector(".landscape-clinical > details").open = true;
+      updateClinicalHash();
+      renderClinicalExplorer();
+      document.querySelector(".landscape-clinical")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+    groupTargetsEl.innerHTML = targets.map(({ target, drugCount, approvedDrugCount, clinicalCount, primaryCount }) => `<button class="target-button${target.target_id === selectedTargetId ? " active" : ""}" data-target-id="${escapeHtml(target.target_id)}" aria-pressed="${target.target_id === selectedTargetId}">${escapeHtml(target.preferred_name)}<small>${escapeHtml(target.gene_symbol || "No gene symbol")} · ${formatNumber(drugCount)} linked drugs · ${formatNumber(approvedDrugCount)} with approval records · ${formatNumber(clinicalCount)} clinical · ${formatNumber(primaryCount)} primary</small></button>`).join("") || '<p class="landscape-muted">No targets match this selection.</p>';
+    groupTargetsEl.querySelectorAll("[data-target-id]").forEach((button) => button.addEventListener("click", () => {
+      selectedTargetId = button.dataset.targetId;
+      updateExplorerHash();
+      groupTargetsEl.querySelectorAll("[data-target-id]").forEach((item) => { const active = item.dataset.targetId === selectedTargetId; item.classList.toggle("active", active); item.setAttribute("aria-pressed", String(active)); });
+      renderTargetDetail(payload.targets.find((target) => target.target_id === selectedTargetId));
+      if (window.matchMedia("(max-width: 800px)").matches) { detailEl.scrollIntoView({ behavior: "smooth", block: "start" }); detailEl.focus({ preventScroll: true }); }
+    }));
+  };
+
+  const renderProteinGroups = () => {
+    const scopedTargets = payload.targets.filter((target) => selectedScope === "all" || target.landscape_scope === selectedScope);
+    const scopedIds = new Set(scopedTargets.map((target) => target.target_id));
+    const counts = scopedTargets.reduce((acc, target) => { const group = target.protein_group || "Unclassified"; acc[group] = (acc[group] || 0) + 1; return acc; }, {});
+    const drugCounts = payload.drug_targets.reduce((acc, link) => {
+      if (!scopedIds.has(link.target_id)) return acc;
+      const target = payload.targets.find((item) => item.target_id === link.target_id);
+      const group = target?.protein_group || "Unclassified";
+      acc[group] = acc[group] || new Set();
+      acc[group].add(link.drug_id);
+      return acc;
+    }, {});
+    const targetGroups = new Map(scopedTargets.map((target) => [target.target_id, target.protein_group || "Unclassified"]));
+    const clinicalCounts = payload.programs.reduce((acc, program) => {
+      if (!scopedIds.has(program.primary_target_id)) return acc;
+      const group = targetGroups.get(program.primary_target_id) || "Unclassified";
+      acc[group] = (acc[group] || 0) + 1;
+      return acc;
+    }, {});
+    const groups = ["All", ...groupOrder.filter((group) => counts[group]), ...Object.keys(counts).filter((group) => group !== "Unclassified" && !groupOrder.includes(group)), ...(counts.Unclassified ? ["Unclassified"] : [])];
+    const allDrugCount = new Set(payload.drug_targets.filter((link) => scopedIds.has(link.target_id)).map((link) => link.drug_id)).size;
+    const allClinicalCount = payload.programs.filter((program) => scopedIds.has(program.primary_target_id)).length;
+    groupsEl.innerHTML = groups.map((group) => { const targetCount = group === "All" ? scopedTargets.length : counts[group] || 0; const linkedDrugCount = group === "All" ? allDrugCount : (drugCounts[group]?.size || 0); const clinicalCount = group === "All" ? allClinicalCount : clinicalCounts[group] || 0; return `<button class="protein-group-button${group === selectedGroup ? " active" : ""}" data-group="${escapeHtml(group)}" aria-controls="group-targets" aria-pressed="${group === selectedGroup}">${escapeHtml(group)}<span class="protein-group-count">${formatNumber(targetCount)} targets · ${formatNumber(linkedDrugCount)} drugs · ${formatNumber(clinicalCount)} clinical</span></button>`; }).join("");
+    groupsEl.querySelectorAll("[data-group]").forEach((button) => button.addEventListener("click", () => { searchEl.value = ""; selectedGroup = button.dataset.group; selectedTargetId = null; updateExplorerHash(); renderProteinGroups(); renderGroupTargets(); renderTargets(); renderTargetDetail(null); [...groupsEl.querySelectorAll("[data-group]")].find((item) => item.dataset.group === selectedGroup)?.focus({ preventScroll: true }); }));
+  };
+
+  const renderStatus = () => {
+    const coverage = payload.coverage_report || {};
+    const includedCount = payload.programs.filter((program) => program.inclusion_status === "included").length;
+    const linkedPairs = new Set(payload.drug_targets.map((link) => `${link.drug_id}|${link.target_id}`));
+    const missingProgramLinks = payload.programs.filter((program) => program.primary_target_id && !linkedPairs.has(`${program.drug_id}|${program.primary_target_id}`)).length;
+    statusEl.innerHTML = `<p><strong>Release:</strong> ${payload.release.version}</p><p><strong>As of:</strong> ${payload.release.as_of_date}</p><p><strong>Clinical programs:</strong> ${formatNumber(payload.programs.length)} pilot rows · ${formatNumber(includedCount)} included · ${formatNumber(payload.programs.length - includedCount)} needing review.</p><p><strong>Coverage QA:</strong> ${formatNumber(coverage.drugs_with_multiple_target_links || 0)} drugs have multiple target links · ${formatNumber(coverage.review_queue_rows || 0)} target review rows · ${formatNumber(missingProgramLinks)} clinical program drug–target links still need curation.</p><p class="landscape-muted">The core target count reconciles to the paper’s 686-biomolecule definition. CGT-only targets and unresolved approval labels are kept in separate scopes.</p>`;
+  };
+
+  const renderEvidence = () => {
+    const rows = payload.evidence_review || [];
+    const counts = rows.reduce((acc, row) => {
+      const key = row.candidate_reason || "no_registry_reason";
+      acc[key] = (acc[key] || 0) + 1;
+      return acc;
+    }, {});
+    const summary = [`all`, ...Object.keys(counts)].map((key) => { const value = key === "all" ? rows.length : counts[key]; const label = key === "all" ? "all evidence" : key; return `<button class="landscape-badge reason-filter${evidenceFilter === key ? " active" : ""}" data-reason="${escapeHtml(key)}" aria-pressed="${evidenceFilter === key}">${escapeHtml(label)}: ${formatNumber(value)}</button>`; }).join(" ");
+    const filteredRows = rows.filter((row) => row.why_stopped && (evidenceFilter === "all" || (row.candidate_reason || "no_registry_reason") === evidenceFilter));
+    const visibleRows = filteredRows.slice(0, evidenceVisible);
+    const sample = visibleRows.map((row) => {
+      const program = payload.programs.find((item) => item.program_id === row.program_id);
+      const target = program && payload.targets.find((item) => item.target_id === program.primary_target_id);
+      const trialCell = /^NCT\d{8}$/.test(row.trial_id) ? `<a href="https://clinicaltrials.gov/study/${row.trial_id}" target="_blank" rel="noopener">${escapeHtml(row.trial_id)}</a>` : escapeHtml(row.trial_id);
+      const targetCell = target ? `<a href="#target=${encodeURIComponent(target.target_id)}">${escapeHtml(target.gene_symbol || target.preferred_name)}</a>` : "—";
+      return `<tr><td>${trialCell}</td><td>${targetCell}</td><td>${escapeHtml(row.candidate_reason || "—")}</td><td>${escapeHtml(row.candidate_confidence || "—")}</td><td>${escapeHtml(row.why_stopped)}</td></tr>`;
+    }).join("");
+    const tableOpen = "<" + "table class=\"landscape-table\">";
+    const tableClose = "<" + "/table>";
+    const remainder = filteredRows.length - visibleRows.length;
+    evidenceEl.innerHTML = `<p>${summary || "No registry evidence loaded."}</p><p class="landscape-muted">Showing ${formatNumber(visibleRows.length)} of ${formatNumber(filteredRows.length)} records with registry stopping text for this filter.</p><div class="evidence-table-wrap" tabindex="0" aria-label="Scrollable registry evidence table">${tableOpen}<thead><tr><th>Trial</th><th>Target</th><th>Candidate reason</th><th>Confidence</th><th>Registry stopping text</th></tr></thead><tbody>${sample || '<tr><td colspan="5">No stopping-reason text available for this filter.</td></tr>'}</tbody>${tableClose}</div>${remainder > 0 ? `<p><button type="button" class="load-more-button" id="more-evidence-results">Show ${formatNumber(Math.min(12, remainder))} more records</button></p>` : ""}`;
+    evidenceEl.querySelector("#more-evidence-results")?.addEventListener("click", () => { evidenceVisible += 12; renderEvidence(); });
+    evidenceEl.querySelectorAll("[data-reason]").forEach((button) => button.addEventListener("click", () => {
+      evidenceFilter = button.dataset.reason;
+      evidenceVisible = 12;
+      const params = new URLSearchParams(window.location.hash.replace(/^#/, ""));
+      if (evidenceFilter === "all") params.delete("reason"); else params.set("reason", evidenceFilter);
+      history.replaceState(null, "", `#${params.toString()}`);
+      renderEvidence();
+    }));
+  };
+
+  fetch("/data/generated/landscape.json", { cache: "no-store" })
+    .then((response) => { if (!response.ok) throw new Error(`HTTP ${response.status}`); return response.json(); })
+    .then((data) => {
+      payload = data;
+      firstApprovalYearByDrug = new Map();
+      payload.approvals.forEach((approval) => {
+        const year = (approval.approval_date || "").slice(0, 4);
+        if (!/^\d{4}$/.test(year)) return;
+        const firstYear = firstApprovalYearByDrug.get(approval.drug_id);
+        if (!firstYear || year < firstYear) firstApprovalYearByDrug.set(approval.drug_id, year);
+      });
+      const approvalYears = [...new Set(firstApprovalYearByDrug.values())].sort((a, b) => Number(b) - Number(a));
+      drugYearEl.insertAdjacentHTML("beforeend", approvalYears.map((year) => `<option value="${escapeHtml(year)}">${escapeHtml(year)}</option>`).join(""));
+      const addClinicalOptions = (select, values, label) => {
+        select.insertAdjacentHTML("beforeend", values.map((value) => `<option value="${escapeHtml(value)}">${escapeHtml(label(value))}</option>`).join(""));
+      };
+      addClinicalOptions(clinicalPhaseEl, [...new Set(payload.programs.map((program) => program.lifecycle_status).filter(Boolean))].sort(), phaseLabel);
+      const clinicalTargetGroups = [...new Set(payload.programs.map((program) => payload.targets.find((target) => target.target_id === program.primary_target_id)?.protein_group || "Unclassified"))];
+      addClinicalOptions(clinicalGroupEl, clinicalTargetGroups.sort(), (value) => value);
+      addClinicalOptions(clinicalOutcomeEl, [...new Set(payload.outcomes.map((outcome) => outcome.event_type).filter(Boolean))].sort(), readableLabel);
+      addClinicalOptions(clinicalModalityEl, [...new Set(payload.programs.map((program) => program.modality).filter(Boolean))].sort(), readableLabel);
+      const hashParams = new URLSearchParams(window.location.hash.replace(/^#/, ""));
+      drugYearEl.value = approvalYears.includes(hashParams.get("drug_year")) ? hashParams.get("drug_year") : "all";
+      const hashDrug = payload.drugs.find((drug) => drug.drug_id === hashParams.get("drug"));
+      focusedDrugId = hashDrug?.drug_id || null;
+      if (hashDrug) { drugSearchEl.value = hashDrug.preferred_name || hashDrug.generic_name || hashDrug.drug_id; drugYearEl.value = "all"; }
+      if (hashDrug && hashParams.has("drug_year")) updateDrugHash();
+      restoreClinicalFilters(hashParams);
+      evidenceFilter = hashParams.get("reason") || "all";
+      const hashTarget = hashParams.get("target");
+      const hashGroup = hashParams.get("group");
+      const hashScope = hashParams.get("scope");
+      selectedScope = [...scopeEl.options].some((option) => option.value === hashScope) ? hashScope : "all";
+      scopeEl.value = selectedScope;
+      const targetFromHash = payload.targets.find((target) => target.target_id === hashTarget);
+      if (targetFromHash) { selectedTargetId = targetFromHash.target_id; selectedGroup = targetFromHash.protein_group || "Unclassified"; alignScopeToTarget(targetFromHash); }
+      else if (hashGroup && new Set(payload.targets.map((target) => target.protein_group || "Unclassified")).has(hashGroup)) { selectedGroup = hashGroup; }
+      renderMetrics(); renderAnalytics(); renderPhaseOutcomeMatrix(); renderProteinGroups(); renderGroupTargets(); renderTargets(); renderDrugResults(); renderClinicalExplorer(); renderStatus(); renderEvidence(); renderTargetDetail(targetFromHash);
+      if (targetFromHash || hashGroup || hashScope || hashDrug || hashParams.has("clinical_status") || hashParams.has("clinical_group") || hashParams.has("clinical_phase") || hashParams.has("clinical_outcome") || hashParams.has("clinical_query")) {
+        requestAnimationFrame(() => {
+          const destination = targetFromHash && window.matchMedia("(max-width: 800px)").matches ? detailEl
+            : targetFromHash || hashGroup || hashScope ? document.getElementById("target-explorer")
+            : hashDrug ? document.querySelector(".landscape-drugs") : document.getElementById("clinical-explorer");
+          destination?.scrollIntoView({ block: "start" });
+        });
+      }
+    })
+    .catch((error) => { statusEl.innerHTML = `<p>Data could not be loaded in this preview.</p><p class="landscape-muted">${error.message}</p>`; });
+
+  window.addEventListener("hashchange", () => {
+    if (!payload) return;
+    const previousFocusedDrugId = focusedDrugId;
+    const hashParams = new URLSearchParams(window.location.hash.replace(/^#/, ""));
+    const hashDrug = payload.drugs.find((drug) => drug.drug_id === hashParams.get("drug"));
+    focusedDrugId = hashDrug?.drug_id || null;
+    if (hashDrug) drugSearchEl.value = hashDrug.preferred_name || hashDrug.generic_name || hashDrug.drug_id;
+    else if (previousFocusedDrugId) drugSearchEl.value = "";
+    if (hashDrug && hashParams.has("drug_year")) updateDrugHash();
+    const hashDrugYear = hashParams.get("drug_year");
+    drugYearEl.value = hashDrug ? "all" : [...drugYearEl.options].some((option) => option.value === hashDrugYear) ? hashDrugYear : "all";
+    drugResultsVisible = 25;
+    renderDrugResults();
+    restoreClinicalFilters(hashParams);
+    evidenceFilter = hashParams.get("reason") || "all";
+    const hashTarget = hashParams.get("target");
+    const hashGroup = hashParams.get("group");
+    const hashScope = hashParams.get("scope");
+    selectedScope = [...scopeEl.options].some((option) => option.value === hashScope) ? hashScope : "all";
+    scopeEl.value = selectedScope;
+    const targetFromHash = payload.targets.find((target) => target.target_id === hashTarget);
+    renderClinicalExplorer();
+    renderEvidence();
+    if (targetFromHash) {
+      searchEl.value = "";
+      selectedTargetId = targetFromHash.target_id;
+      selectedGroup = targetFromHash.protein_group || "Unclassified";
+      alignScopeToTarget(targetFromHash);
+      renderProteinGroups();
+      renderGroupTargets();
+      renderTargetDetail(targetFromHash);
+    } else if (hashGroup && new Set(payload.targets.map((target) => target.protein_group || "Unclassified")).has(hashGroup)) {
+      searchEl.value = "";
+      selectedTargetId = null;
+      selectedGroup = hashGroup;
+      renderProteinGroups();
+      renderGroupTargets();
+      renderTargetDetail(null);
+    } else {
+      selectedTargetId = null;
+      selectedGroup = "All";
+      renderProteinGroups();
+      renderGroupTargets();
+      renderTargetDetail(null);
+    }
+    renderTargets();
+  });
+
+  scopeEl.addEventListener("change", () => {
+    if (!payload) return;
+    selectedScope = scopeEl.value;
+    selectedGroup = "All";
+    selectedTargetId = null;
+    updateExplorerHash();
+    renderProteinGroups(); renderGroupTargets(); renderTargetDetail(null);
+  });
+  searchEl.addEventListener("input", () => { if (payload) { targetResultsVisible = 50; selectedGroup = "All"; selectedTargetId = null; updateExplorerHash(); renderProteinGroups(); renderTargets(); renderGroupTargets(); renderTargetDetail(null); } });
+  drugSearchEl.addEventListener("input", () => { if (payload) { focusedDrugId = null; drugResultsVisible = 25; updateDrugHash(); renderDrugResults(); } });
+  drugYearEl.addEventListener("change", () => { if (payload) { if (focusedDrugId) drugSearchEl.value = ""; focusedDrugId = null; drugResultsVisible = 25; updateDrugHash(); renderDrugResults(); } });
+  drugExportEl.addEventListener("click", () => {
+    if (!payload || !currentDrugMatches.length) return;
+    const targetById = new Map(payload.targets.map((target) => [target.target_id, target]));
+    const sourceById = new Map(payload.sources.map((source) => [source.source_id, source]));
+    const approvalDrugIds = new Set(payload.approvals.map((approval) => approval.drug_id));
+    const linksByDrug = new Map();
+    payload.drug_targets.forEach((link) => {
+      if (!linksByDrug.has(link.drug_id)) linksByDrug.set(link.drug_id, []);
+      linksByDrug.get(link.drug_id).push(link);
+    });
+    const programsByDrug = new Map();
+    payload.programs.forEach((program) => {
+      if (!programsByDrug.has(program.drug_id)) programsByDrug.set(program.drug_id, []);
+      programsByDrug.get(program.drug_id).push(program);
+    });
+    const headers = ["release_version", "release_as_of", "drug_id", "drug_name", "generic_name", "drug_modality", "drug_source_name", "drug_has_approval_record", "first_documented_approval_year", "drug_pilot_program_count", "drug_included_pilot_program_count", "drug_target_link_id", "target_id", "target_name", "target_gene", "target_class", "target_scope", "target_role", "moa_status", "evidence_grade", "link_source_id", "link_source_title", "link_source_url"];
+    const rows = currentDrugMatches.flatMap((drug) => {
+      const programs = programsByDrug.get(drug.drug_id) || [];
+      const base = [payload.release.version, payload.release.as_of_date, drug.drug_id, drug.preferred_name, drug.generic_name, drug.modality, drug.source_name, approvalDrugIds.has(drug.drug_id) ? "yes" : "no", firstApprovalYearByDrug.get(drug.drug_id) || "", programs.length, programs.filter((program) => program.inclusion_status === "included").length];
+      return (linksByDrug.get(drug.drug_id) || [null]).map((link) => {
+        const target = link ? targetById.get(link.target_id) : null;
+        const source = link ? sourceById.get(link.source_id) : null;
+        return [...base, link?.drug_target_id || "", link?.target_id || "", target?.preferred_name || "", target?.gene_symbol || "", target?.protein_group || "", target?.landscape_scope || "", link?.target_role || "", link?.moa_status || "", link?.evidence_grade || "", link?.source_id || "", source?.title || "", /^https:\/\//.test(source?.url || "") ? source.url : ""];
+      });
+    });
+    downloadCsv("drug-target-links", headers, rows);
+  });
+  [clinicalInclusionEl, clinicalGroupEl, clinicalPhaseEl, clinicalOutcomeEl, clinicalModalityEl].forEach((select) => select.addEventListener("change", () => { if (payload) { updateClinicalHash(); renderClinicalExplorer(); } }));
+  clinicalQueryEl.addEventListener("input", () => { if (payload) { updateClinicalHash(); renderClinicalExplorer(); } });
+  clinicalResetEl.addEventListener("click", () => {
+    clinicalFilterFields.forEach(([, select, fallback]) => { select.value = fallback; });
+    clinicalQueryEl.value = "";
+    if (payload) { updateClinicalHash(); renderClinicalExplorer(); }
+  });
+  clinicalExportEl.addEventListener("click", () => {
+    if (!payload || !currentClinicalPrograms.length) return;
+    const drugById = new Map(payload.drugs.map((drug) => [drug.drug_id, drug]));
+    const targetById = new Map(payload.targets.map((target) => [target.target_id, target]));
+    const sourceById = new Map(payload.sources.map((source) => [source.source_id, source]));
+    const trialsByProgram = new Map();
+    payload.trials.forEach((trial) => {
+      if (!trialsByProgram.has(trial.program_id)) trialsByProgram.set(trial.program_id, []);
+      trialsByProgram.get(trial.program_id).push(trial);
+    });
+    const outcomesByProgram = new Map();
+    payload.outcomes.forEach((outcome) => {
+      if (!outcomesByProgram.has(outcome.program_id)) outcomesByProgram.set(outcome.program_id, []);
+      outcomesByProgram.get(outcome.program_id).push(outcome);
+    });
+    const headers = ["release_version", "release_as_of", "program_id", "drug_id", "drug_name", "development_name", "primary_target_id", "target_gene", "target_name", "target_class", "target_scope", "target_status", "indication", "program_stage", "modality", "review_status", "trial_identifiers", "outcome_event_id", "outcome_type", "outcome_date", "outcome_description", "reason_stated_or_inferred", "outcome_confidence", "evidence_source_id", "evidence_url"];
+    const rows = currentClinicalPrograms.flatMap((program) => {
+      const drug = drugById.get(program.drug_id);
+      const target = targetById.get(program.primary_target_id);
+      const trials = (trialsByProgram.get(program.program_id) || []).map((trial) => trial.registry_identifier || trial.trial_id).join("; ");
+      const base = [payload.release.version, payload.release.as_of_date, program.program_id, program.drug_id, drug?.preferred_name || drug?.generic_name || "", program.development_name, program.primary_target_id, target?.gene_symbol || "", target?.preferred_name || "", target?.protein_group || "Unclassified", target?.landscape_scope || "", program.target_status, program.indication_name, program.lifecycle_status, program.modality, program.inclusion_status, trials];
+      return (outcomesByProgram.get(program.program_id) || [null]).map((outcome) => {
+        const source = outcome ? sourceById.get(outcome.source_id) : null;
+        return [...base, outcome?.outcome_event_id || "", outcome?.event_type || "", outcome?.event_date || "", outcome?.description || "", outcome?.stated_or_inferred || "", outcome?.confidence || "", outcome?.source_id || "", /^https:\/\//.test(source?.url || "") ? source.url : ""];
+      });
+    });
+    downloadCsv("drug-target-clinical-pilot", headers, rows);
+  });
+})();
+</script>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/ichunglo\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 I-Chung Lo. Article text and cover artwork: all rights reserved.</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="mailto:ichunglo@protonmail.com">
+<p>Email iLo</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.linkedin.com/in/ichunglo/">
+<p>LinkedIn</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../editorial-notes.html">
+<p>Editorial notes</p>
+</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
