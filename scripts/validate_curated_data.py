@@ -4,7 +4,9 @@ from __future__ import annotations
 
 import csv
 import json
+from datetime import date
 from pathlib import Path
+from urllib.parse import urlparse
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -31,6 +33,7 @@ def main() -> None:
     programs = read("programs.csv")
     trials = read("trials.csv")
     outcomes = read("outcomes.csv")
+    fda_indications = read("fda-approved-indications.csv")
 
     target_ids = {row["target_id"] for row in targets}
     drug_ids = {row["drug_id"] for row in drugs}
@@ -47,6 +50,7 @@ def main() -> None:
         ("programs", programs, "program_id"),
         ("trials", trials, "trial_id"),
         ("outcomes", outcomes, "outcome_event_id"),
+        ("fda-approved-indications", fda_indications, "fda_indication_id"),
     ]:
         if not unique(rows, field):
             errors.append(f"duplicate {field} values in {name}.csv")
@@ -62,6 +66,24 @@ def main() -> None:
             errors.append(f"drug-target link references missing source: {row['source_id']}")
         if row["target_role"] == "primary" and row["moa_status"] == "unclear" and not row["target_id"].startswith("TGT-unknown-"):
             errors.append(f"unclear primary drug-target link names a protein: {row['drug_target_id']}")
+
+    for row in fda_indications:
+        row_id = row["fda_indication_id"]
+        if row["drug_id"] not in drug_ids:
+            errors.append(f"FDA indication references missing drug: {row_id}")
+        if not row["application_number"].startswith(("NDA", "BLA")):
+            errors.append(f"invalid FDA application number: {row_id}")
+        if not row["indication"] or not row["qualifying_population"]:
+            errors.append(f"FDA indication or population missing: {row_id}")
+        for field in ("approval_date", "verified_date"):
+            try:
+                date.fromisoformat(row[field])
+            except ValueError:
+                errors.append(f"invalid {field}: {row_id}")
+        for field in ("label_url", "approval_source_url"):
+            parsed = urlparse(row[field])
+            if parsed.scheme != "https" or parsed.hostname not in {"www.accessdata.fda.gov", "www.fda.gov"}:
+                errors.append(f"non-FDA {field}: {row_id}")
 
     for row in programs:
         if row["drug_id"] not in drug_ids:
@@ -117,7 +139,7 @@ def main() -> None:
 
     result = {
         "status": "pass" if not errors else "fail",
-        "counts": {"targets": len(targets), "drugs": len(drugs), "drug_target_links": len(links), "programs": len(programs), "trials": len(trials), "outcomes": len(outcomes)},
+        "counts": {"targets": len(targets), "drugs": len(drugs), "drug_target_links": len(links), "programs": len(programs), "trials": len(trials), "outcomes": len(outcomes), "fda_approved_indications": len(fda_indications)},
         "programs_missing_drug_target_link": programs_missing_drug_target_link,
         "targets_without_drug_target_link": unlinked_target_ids,
         "errors": errors,

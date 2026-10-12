@@ -31,10 +31,12 @@ def main() -> None:
     drug_targets = read("drug-targets.csv")
     sources = read("sources.csv")
     programs = read("programs.csv")
+    fda_indications = read("fda-approved-indications.csv")
     as_of_date = max(
         [baseline["as_of_date"]]
         + [row["retrieval_date"] for row in sources if row["retrieval_date"]]
         + [row["last_verified_date"] for row in programs if row["last_verified_date"]]
+        + [row["verified_date"] for row in fda_indications if row["verified_date"]]
     )
     metrics = dict(baseline["counts"])
     # Preserve paper-comparable baseline counts while exposing the complete
@@ -50,6 +52,7 @@ def main() -> None:
         "drugs": read("drugs.csv"),
         "drug_targets": drug_targets,
         "approvals": read("approvals.csv"),
+        "fda_approved_indications": fda_indications,
         "sources": sources,
         "programs": programs,
         "trials": read("trials.csv"),
