@@ -92108,6 +92108,61 @@
       "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/212608s020lbl.pdf",
       "approval_source_url": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=506515",
       "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-sotorasib-nsclc",
+      "drug_id": "DRG-sotorasib",
+      "application_number": "NDA214665",
+      "indication": "KRAS G12C-mutated locally advanced or metastatic non-small cell lung cancer (NSCLC)",
+      "approval_date": "2021-05-28",
+      "qualifying_population": "Adults with KRAS G12C-mutated NSCLC confirmed by an FDA-approved test after at least one prior systemic therapy; single-agent use",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/214665s009lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/214665Orig1s000Approv.pdf",
+      "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-sotorasib-mcrc",
+      "drug_id": "DRG-sotorasib",
+      "application_number": "NDA214665",
+      "indication": "KRAS G12C-mutated metastatic colorectal cancer (mCRC)",
+      "approval_date": "2025-01-16",
+      "qualifying_population": "Adults with KRAS G12C-mutated mCRC confirmed by an FDA-approved test after fluoropyrimidine- and oxaliplatin- and irinotecan-based chemotherapy; use with panitumumab",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/214665s009lbl.pdf",
+      "approval_source_url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-sotorasib-panitumumab-kras-g12c-mutated-colorectal-cancer",
+      "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-lecanemab-alzheimer",
+      "drug_id": "DRG-lecanemab",
+      "application_number": "BLA761269",
+      "indication": "Alzheimer's disease",
+      "approval_date": "2023-01-06",
+      "qualifying_population": "Initiate in patients with mild cognitive impairment or mild dementia stage of Alzheimer's disease; confirm amyloid beta pathology before treatment",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/761269s012s015lbl.pdf",
+      "approval_source_url": "https://www.fda.gov/drugs/drug-trials-snapshots/drug-trials-snapshots-leqembi",
+      "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-donanemab-alzheimer",
+      "drug_id": "DRG-donanemab",
+      "application_number": "BLA761248",
+      "indication": "Alzheimer's disease",
+      "approval_date": "2024-07-02",
+      "qualifying_population": "Initiate in patients with mild cognitive impairment or mild dementia stage of Alzheimer's disease; confirm amyloid beta pathology before treatment",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/761248s004lbl.pdf",
+      "approval_source_url": "https://www.fda.gov/drugs/drug-trials-snapshots/drug-trials-snapshots-kisunla",
+      "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-tofersen-als",
+      "drug_id": "DRG-tofersen",
+      "application_number": "NDA215887",
+      "indication": "Amyotrophic lateral sclerosis (ALS) associated with a SOD1 mutation",
+      "approval_date": "2023-04-25",
+      "qualifying_population": "Adults with ALS who have a mutation in the superoxide dismutase 1 (SOD1) gene",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/215887Orig1s000Correctedlbl.pdf",
+      "approval_source_url": "https://www.fda.gov/drugs/drug-trials-snapshots/drug-trials-snapshots-qalsody",
+      "verified_date": "2026-10-12"
     }
   ],
   "sources": [
