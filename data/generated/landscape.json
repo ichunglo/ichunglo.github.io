@@ -1,7 +1,7 @@
 {
   "release": {
     "version": "0.1.0",
-    "as_of_date": "2026-10-09",
+    "as_of_date": "2026-10-12",
     "paper_baseline_date": "2026-10-02",
     "source": "The evolving landscape of drug targets, supplementary tables"
   },
@@ -92073,6 +92073,41 @@
       "approval_date": "",
       "approval_type": "first approval year",
       "source_id": "SRC-MOESM4"
+    }
+  ],
+  "fda_approved_indications": [
+    {
+      "fda_indication_id": "FDAI-avapritinib-gist",
+      "drug_id": "DRG-avapritinib",
+      "application_number": "NDA212608",
+      "indication": "Unresectable or metastatic gastrointestinal stromal tumor (GIST)",
+      "approval_date": "2020-01-09",
+      "qualifying_population": "Adults with a PDGFRA exon 18 mutation including D842V",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/212608s020lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=500415",
+      "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-avapritinib-advsm",
+      "drug_id": "DRG-avapritinib",
+      "application_number": "NDA212608",
+      "indication": "Advanced systemic mastocytosis (AdvSM)",
+      "approval_date": "2021-06-16",
+      "qualifying_population": "Adults with aggressive systemic mastocytosis or systemic mastocytosis with an associated hematological neoplasm or mast cell leukemia; not recommended if platelet count is below 50 \u00d7 10^9/L",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/212608s020lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=506515",
+      "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-avapritinib-ism",
+      "drug_id": "DRG-avapritinib",
+      "application_number": "NDA212608",
+      "indication": "Indolent systemic mastocytosis (ISM)",
+      "approval_date": "2023-05-22",
+      "qualifying_population": "Adults with indolent systemic mastocytosis; not recommended if platelet count is below 50 \u00d7 10^9/L",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/212608s020lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=506515",
+      "verified_date": "2026-10-12"
     }
   ],
   "sources": [
