@@ -1,0 +1,12 @@
+{
+  "source_api": "https://api.fda.gov/drug/label.json",
+  "retrieval_date": "2026-10-12",
+  "source_queue_snapshot_date": "2026-10-09",
+  "warning": "Current FDA label candidates do not verify drug association, all indications, or indication-specific approval dates.",
+  "catalog_drugs": 1766,
+  "unique_candidate_applications": 3344,
+  "drug_application_candidate_rows": 3438,
+  "rows_with_indication_text": 1721,
+  "drugs_with_indication_text_candidate": 949,
+  "drugs_without_application_candidate": 355
+}

@@ -92284,6 +92284,116 @@
       "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/216386s007lbl.pdf",
       "approval_source_url": "https://www.fda.gov/drugs/drug-approvals-and-databases/drug-trials-snapshots-zavzpret",
       "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-acoltremon-ded",
+      "drug_id": "DRG-acoltremon",
+      "application_number": "NDA217370",
+      "indication": "Signs and symptoms of dry eye disease",
+      "approval_date": "2025-05-28",
+      "qualifying_population": "Adults with dry eye disease; pediatric safety and effectiveness have not been established",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/217370s000lbl.pdf",
+      "approval_source_url": "https://www.fda.gov/drugs/drug-trials-snapshots/drug-trials-snapshot-tryptyr",
+      "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-aprocitentan-hypertension",
+      "drug_id": "DRG-aprocitentan",
+      "application_number": "NDA217686",
+      "indication": "Hypertension",
+      "approval_date": "2024-03-19",
+      "qualifying_population": "Adults with hypertension not adequately controlled on other drugs; use in combination with other antihypertensive drugs",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217686s005lbl.pdf",
+      "approval_source_url": "https://www.fda.gov/drugs/drug-approvals-and-databases/drug-trials-snapshots-tryvio",
+      "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-danicopan-evh",
+      "drug_id": "DRG-danicopan",
+      "application_number": "NDA218037",
+      "indication": "Extravascular hemolysis in paroxysmal nocturnal hemoglobinuria",
+      "approval_date": "2024-03-29",
+      "qualifying_population": "Adults with paroxysmal nocturnal hemoglobinuria; add-on to ravulizumab or eculizumab; not monotherapy",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/218037s000lbl.pdf",
+      "approval_source_url": "https://www.fda.gov/drugs/drug-approvals-and-databases/drug-trials-snapshots-voydeya",
+      "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-delgocitinib-che",
+      "drug_id": "DRG-delgocitinib",
+      "application_number": "NDA219155",
+      "indication": "Moderate to severe chronic hand eczema",
+      "approval_date": "2025-07-23",
+      "qualifying_population": "Adults with inadequate response to topical corticosteroids or for whom topical corticosteroids are not advisable",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/219155s004lbl.pdf",
+      "approval_source_url": "https://www.fda.gov/drugs/drug-trials-snapshots/drug-trials-snapshots-anzupgo",
+      "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-elafibranor-pbc",
+      "drug_id": "DRG-elafibranor",
+      "application_number": "NDA218860",
+      "indication": "Primary biliary cholangitis",
+      "approval_date": "2024-06-10",
+      "qualifying_population": "Adults with inadequate response to ursodeoxycholic acid (UDCA) treated in combination with UDCA or adults unable to tolerate UDCA treated with elafibranor alone; accelerated approval",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/218860s003lbl.pdf",
+      "approval_source_url": "https://www.fda.gov/drugs/drug-trials-snapshots/drug-trials-snapshots-iqirvo",
+      "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-ensifentrine-copd",
+      "drug_id": "DRG-ensifentrine",
+      "application_number": "NDA217389",
+      "indication": "Maintenance treatment of chronic obstructive pulmonary disease (COPD)",
+      "approval_date": "2024-06-26",
+      "qualifying_population": "Adults with COPD; maintenance treatment and not rescue therapy for acute bronchospasm",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/217389s000lbl.pdf",
+      "approval_source_url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2024",
+      "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-mavorixafor-whim",
+      "drug_id": "DRG-mavorixafor",
+      "application_number": "NDA218709",
+      "indication": "WHIM syndrome",
+      "approval_date": "2024-04-26",
+      "qualifying_population": "Patients 12 years and older with WHIM syndrome; treatment to increase circulating mature neutrophils and lymphocytes",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/218709s000lbl.pdf",
+      "approval_source_url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-first-drug-whim-syndrome-rare-disorder-can-lead-recurrent-life-threatening-infections",
+      "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-palopegteriparatide-hypopara",
+      "drug_id": "DRG-palopegteriparatide",
+      "application_number": "NDA216490",
+      "indication": "Hypoparathyroidism",
+      "approval_date": "2024-08-09",
+      "qualifying_population": "Adults with hypoparathyroidism",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/216490s011lbl.pdf",
+      "approval_source_url": "https://www.fda.gov/drugs/drug-trials-snapshots/drug-trials-snapshots-yorvipath",
+      "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-sofpironium-bromide-hyperhidrosis",
+      "drug_id": "DRG-sofpironium-bromide",
+      "application_number": "NDA217347",
+      "indication": "Primary axillary hyperhidrosis",
+      "approval_date": "2024-06-18",
+      "qualifying_population": "Adults and children 9 years and older with primary axillary hyperhidrosis",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/217347s000lbl.pdf",
+      "approval_source_url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2024",
+      "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-vadadustat-ckd-anemia",
+      "drug_id": "DRG-vadadustat",
+      "application_number": "NDA215192",
+      "indication": "Anemia due to chronic kidney disease",
+      "approval_date": "2024-03-27",
+      "qualifying_population": "Adults with chronic kidney disease who have been receiving dialysis for at least three months; not indicated for patients not on dialysis",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215192s003lbl.pdf",
+      "approval_source_url": "https://www.fda.gov/drugs/drug-trials-snapshots/drug-trials-snapshots-vafseo",
+      "verified_date": "2026-10-12"
     }
   ],
   "sources": [
