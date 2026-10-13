@@ -23,6 +23,7 @@ from urllib.parse import urlsplit, urlunsplit
 ROOT = Path(__file__).resolve().parents[1]
 DRUGS = ROOT / "data/curated/drugs.csv"
 CURATED = ROOT / "data/curated/fda-approved-indications.csv"
+DECISIONS = ROOT / "data/curated/fda-review-decisions.csv"
 QUEUE = ROOT / "data/generated/fda-application-review-queue.csv"
 SUMMARY = ROOT / "data/generated/fda-application-review-summary.json"
 EFFICACY = ROOT / "data/generated/fda-efficacy-supplement-candidates.csv"
@@ -65,6 +66,10 @@ def build_queue(
     curated_by_drug: dict[str, int] = defaultdict(int)
     for item in read_csv(curated_path):
         curated_by_drug[item["drug_id"]] += 1
+    review_decisions = {
+        row["drug_id"]: row["review_status"]
+        for row in read_csv(DECISIONS)
+    } if DECISIONS.exists() else {}
 
     with zipfile.ZipFile(archive_path) as archive:
         applications = {r["ApplNo"]: r["ApplType"] for r in read_zip_table(archive, "Applications.txt")}
@@ -129,7 +134,9 @@ def build_queue(
                 "drug_id": drug["drug_id"],
                 "generic_name": drug["generic_name"],
                 "indication_rows_present": "yes" if curated_by_drug[drug["drug_id"]] else "no",
-                "completeness_review_status": "needs_full_indication_audit",
+                "completeness_review_status": review_decisions.get(
+                    drug["drug_id"], "needs_full_indication_audit"
+                ),
                 "curated_indication_count": str(curated_by_drug[drug["drug_id"]]),
                 "candidate_match_basis": basis,
                 "candidate_application_count": str(len(candidates)),
@@ -165,7 +172,9 @@ def build_queue(
         "total_catalog_drugs": len(queue),
         "drugs_with_curated_rows": sum(r["indication_rows_present"] == "yes" for r in queue),
         "drugs_without_curated_rows": sum(r["indication_rows_present"] == "no" for r in queue),
-        "drugs_with_completed_indication_audit": 0,
+        "drugs_with_completed_indication_audit": sum(
+            r["completeness_review_status"] == "verified_complete" for r in queue
+        ),
         "exact_ingredient_candidate_drugs": sum(
             r["candidate_match_basis"] == "exact_active_ingredient" for r in queue
         ),

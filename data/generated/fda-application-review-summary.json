@@ -7,7 +7,7 @@
   "total_catalog_drugs": 1766,
   "drugs_with_curated_rows": 26,
   "drugs_without_curated_rows": 1740,
-  "drugs_with_completed_indication_audit": 0,
+  "drugs_with_completed_indication_audit": 4,
   "exact_ingredient_candidate_drugs": 804,
   "exact_product_name_only_candidate_drugs": 3,
   "ingredient_prefix_candidate_drugs": 604,

@@ -1,0 +1,9 @@
+{
+  "total_catalog_drugs": 1766,
+  "verified_complete": 4,
+  "unresolved_after_review": 0,
+  "pending": 1762,
+  "all_drugs_reviewed": false,
+  "warning": "A curated indication row alone is not a complete drug audit; an unresolved disposition is not proof of no U.S. approval.",
+  "errors": []
+}
