@@ -181,7 +181,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">October 12, 2026</p>
+      <p class="date-modified">October 13, 2026</p>
     </div>
   </div>
     
@@ -192,11 +192,11 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is an early working view of the drug-target landscape. The approved-drug baseline is imported from the paper supplements. This release extends the paper dataset with normalized drug–target relationships, target-class browsing, a separately sourced clinical pilot, and an initial U.S. FDA-approved-indication layer. The FDA layer covers a selected, verified subset of drugs, not the full catalog. The live counts below distinguish included programs from those still needing evidence review; the pilot is not a claim that every outcome is fully curated.</p>
+<p>This is an early working view of the drug-target landscape. The approved-drug baseline is imported from the paper supplements. This release extends the paper dataset with normalized drug–target relationships, target-class browsing, a separately sourced clinical pilot, and an initial U.S. FDA primary-indication layer. FDA review covers a selected subset of drugs; counts below distinguish verified primary indications from indications awaiting review. The clinical pilot is not a claim that every outcome is fully curated.</p>
 <div id="landscape-app" class="landscape-app page-columns page-full">
   <div id="landscape-metrics" class="landscape-metrics"></div>
   <section class="landscape-panel landscape-attribution" aria-label="Data sources">
-    <p><strong>Paper baseline:</strong> <a href="https://doi.org/10.1038/s41573-026-01530-3" target="_blank" rel="noopener"><em>The evolving landscape of drug targets</em></a>. This release also adds a separately sourced clinical pilot and a separately verified U.S. FDA indication pilot.</p>
+    <p><strong>Paper baseline:</strong> <a href="https://doi.org/10.1038/s41573-026-01530-3" target="_blank" rel="noopener"><em>The evolving landscape of drug targets</em></a>. This release also adds a separately sourced clinical pilot and a primary-indication layer sourced from FDA approval records and labels.</p>
     <details><summary>What has been added, and what is still uncertain?</summary>
       <p class="landscape-muted">Beyond the paper supplements, this release adds normalized target and drug identifiers, primary/secondary target roles, target-protein classification, registry-linked clinical programs and trial protocols (including one merged <a href="https://clinicaltrials.gov/" target="_blank" rel="noopener">ClinicalTrials.gov</a> NCT alias), outcome-review records, coverage-quality reporting, and an initial indication-level U.S. FDA layer for selected drugs. The cards above show current release counts. When a drug's primary mechanism cannot be assigned to one protein, it appears under an explicit unclear-target entry rather than a speculative protein. Clinical records are a separate, selected pilot evidence layer, not paper-derived data; their outcome evidence also draws on linked publications, sponsor disclosures, and regulatory records.</p>
       <p class="landscape-muted"><strong>Interpretation limits:</strong> Target classes include non-core and unresolved-scope records, so all-target counts are not the paper's approved-target count. Approval records belong to drugs, not automatically to every linked protein or indication. Clinical event labels describe cited trial or program events, not unique failed drugs or proof that a protein target failed. Nine pilot programs remain held from headline analyses pending evidence review; an unknown stopping cause remains unknown.</p>
@@ -240,7 +240,7 @@ ul.task-list li input[type="checkbox"] {
   <section class="landscape-panel landscape-drugs" aria-labelledby="drug-explorer-title">
     <h2 id="drug-explorer-title" class="anchored">Explore by drug</h2>
     <p class="landscape-muted">Search by drug name or browse a first documented approval year to find linked targets and any pilot clinical programs. A drug selected from a target profile is saved in the page link. A drug-level approval record does not establish approval for every linked target mechanism.</p>
-    <p class="landscape-muted"><strong>U.S. FDA-approved indications:</strong> This separate, manually verified layer lists each curated indication with its first FDA approval date, eligible patient group or mutation, and FDA label. <span id="fda-coverage">Coverage is loading.</span> Other drugs are marked <em>not yet curated</em>, which does not mean they lack U.S. approval. The paper-derived year is not an indication-specific FDA approval date. Later conversions from accelerated to traditional approval are not separate indications. Linked labels are dated snapshots; consult FDA for subsequent revisions.</p>
+    <p class="landscape-muted"><strong>U.S. FDA-approved indication:</strong> The dashboard shows one earliest documented indication per drug, with its approval date, eligible patient group or mutation, and FDA label. <span id="fda-coverage">Coverage is loading.</span> Some entries are still being checked against the original approval record; other drugs are marked <em>not yet curated</em>, which does not mean they lack U.S. approval. Linked labels are dated snapshots; consult FDA for subsequent revisions.</p>
     <label for="drug-search">Search drug names</label>
     <input id="drug-search" type="search" maxlength="120" placeholder="e.g., verubecestat, momelotinib">
     <label for="drug-year">First documented approval year</label>
@@ -817,6 +817,7 @@ ul.task-list li input[type="checkbox"] {
       if (!fdaByDrug.has(record.drug_id)) fdaByDrug.set(record.drug_id, []);
       fdaByDrug.get(record.drug_id).push(record);
     });
+    const fdaReviewByDrug = new Map((payload.fda_primary_indication_review || []).map((record) => [record.drug_id, record.review_status]));
     const linksByDrug = new Map();
     payload.drug_targets.forEach((link) => {
       if (!linksByDrug.has(link.drug_id)) linksByDrug.set(link.drug_id, []);
@@ -844,7 +845,9 @@ ul.task-list li input[type="checkbox"] {
       const programCell = programs.length ? `<button type="button" class="target-table-button" data-drug-programs="${escapeHtml(drug.drug_id)}">View ${formatNumber(programs.length)} pilot program${programs.length === 1 ? "" : "s"}</button> <span class="landscape-muted">(${formatNumber(included)} included)</span>` : "None in pilot";
       const approvalYear = firstApprovalYearByDrug.get(drug.drug_id);
       const fdaRecords = (fdaByDrug.get(drug.drug_id) || []).sort((a, b) => a.approval_date.localeCompare(b.approval_date));
-      const fdaCell = fdaRecords.length ? `<details class="fda-indications"><summary>${formatNumber(fdaRecords.length)} curated FDA-approved indication${fdaRecords.length === 1 ? "" : "s"}</summary><ul>${fdaRecords.map((record) => `<li><strong>${escapeHtml(record.indication)}</strong><br>FDA approval: ${escapeHtml(record.approval_date)}<br>Eligible group: ${escapeHtml(record.qualifying_population)}<br><a href="${escapeHtml(record.label_url)}" target="_blank" rel="noopener">FDA label</a> · <a href="${escapeHtml(record.approval_source_url)}" target="_blank" rel="noopener">FDA approval record</a></li>`).join("")}</ul></details>` : '<span class="landscape-muted">FDA indications not yet curated</span>';
+      const fdaPrimary = fdaRecords[0];
+      const fdaReviewStatus = fdaReviewByDrug.get(drug.drug_id);
+      const fdaCell = fdaPrimary ? `<details class="fda-indications"><summary>${fdaReviewStatus === "verified_primary_indication" ? "Verified earliest FDA indication" : "Earliest currently curated indication"}</summary><ul><li><strong>${escapeHtml(fdaPrimary.indication)}</strong><br>FDA approval: ${escapeHtml(fdaPrimary.approval_date)}<br>Eligible group: ${escapeHtml(fdaPrimary.qualifying_population)}<br><a href="${escapeHtml(fdaPrimary.label_url)}" target="_blank" rel="noopener">FDA label</a> · <a href="${escapeHtml(fdaPrimary.approval_source_url)}" target="_blank" rel="noopener">FDA approval record</a></li></ul>${fdaReviewStatus === "verified_primary_indication" ? "" : '<p class="landscape-muted">Earliest indication review is in progress; earlier approvals may not yet be represented.</p>'}</details>` : '<span class="landscape-muted">FDA indication not yet curated</span>';
       return `<tr><td>${escapeHtml(drug.preferred_name || drug.generic_name || drug.drug_id)}</td><td>${approvalYear ? `First documented ${escapeHtml(approvalYear)}` : approvalDrugIds.has(drug.drug_id) ? "Record linked; year unknown" : "No record in this release"}</td><td>${fdaCell}</td><td><div class="drug-link-list">${targets || "No target assigned in this release"}</div></td><td>${programCell}</td></tr>`;
     }).join("");
     const remainder = matches.length - Math.min(matches.length, drugResultsVisible);
@@ -1096,11 +1099,11 @@ ul.task-list li input[type="checkbox"] {
     const coverage = payload.coverage_report || {};
     const fdaRows = payload.fda_approved_indications || [];
     const fdaDrugCount = new Set(fdaRows.map((row) => row.drug_id)).size;
-    document.getElementById("fda-coverage").textContent = `Curated coverage: ${formatNumber(fdaDrugCount)} of ${formatNumber(payload.drugs.length)} catalog drugs and ${formatNumber(fdaRows.length)} FDA indication records.`;
+    document.getElementById("fda-coverage").textContent = `An indication is curated for ${formatNumber(fdaDrugCount)} of ${formatNumber(payload.drugs.length)} catalog drugs; ${formatNumber((payload.fda_primary_indication_review || []).filter((row) => row.review_status === "verified_primary_indication").length)} have a verified earliest indication.`;
     const includedCount = payload.programs.filter((program) => program.inclusion_status === "included").length;
     const linkedPairs = new Set(payload.drug_targets.map((link) => `${link.drug_id}|${link.target_id}`));
     const missingProgramLinks = payload.programs.filter((program) => program.primary_target_id && !linkedPairs.has(`${program.drug_id}|${program.primary_target_id}`)).length;
-    statusEl.innerHTML = `<p><strong>Release:</strong> ${payload.release.version}</p><p><strong>As of:</strong> ${payload.release.as_of_date}</p><p><strong>FDA indication curation:</strong> ${formatNumber(fdaDrugCount)} of ${formatNumber(payload.drugs.length)} drugs · ${formatNumber(fdaRows.length)} indication records.</p><p><strong>Clinical programs:</strong> ${formatNumber(payload.programs.length)} pilot rows · ${formatNumber(includedCount)} included · ${formatNumber(payload.programs.length - includedCount)} needing review.</p><p><strong>Coverage QA:</strong> ${formatNumber(coverage.drugs_with_multiple_target_links || 0)} drugs have multiple target links · ${formatNumber(coverage.review_queue_rows || 0)} target review rows · ${formatNumber(missingProgramLinks)} clinical program drug–target links still need curation.</p><p class="landscape-muted">The core target count reconciles to the paper’s 686-biomolecule definition. CGT-only targets and unresolved approval labels are kept in separate scopes.</p>`;
+    statusEl.innerHTML = `<p><strong>Release:</strong> ${payload.release.version}</p><p><strong>As of:</strong> ${payload.release.as_of_date}</p><p><strong>FDA primary-indication review:</strong> ${formatNumber((payload.fda_primary_indication_review || []).filter((row) => row.review_status === "verified_primary_indication").length)} verified of ${formatNumber(payload.drugs.length)} catalog drugs · ${formatNumber(fdaDrugCount)} have at least one curated indication.</p><p><strong>Clinical programs:</strong> ${formatNumber(payload.programs.length)} pilot rows · ${formatNumber(includedCount)} included · ${formatNumber(payload.programs.length - includedCount)} needing review.</p><p><strong>Coverage QA:</strong> ${formatNumber(coverage.drugs_with_multiple_target_links || 0)} drugs have multiple target links · ${formatNumber(coverage.review_queue_rows || 0)} target review rows · ${formatNumber(missingProgramLinks)} clinical program drug–target links still need curation.</p><p class="landscape-muted">The core target count reconciles to the paper’s 686-biomolecule definition. CGT-only targets and unresolved approval labels are kept in separate scopes.</p>`;
   };
 
   const renderEvidence = () => {
