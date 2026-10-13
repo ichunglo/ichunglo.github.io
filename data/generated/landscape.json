@@ -92196,6 +92196,94 @@
       "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217369Orig1s003lbl.pdf",
       "approval_source_url": "https://www.fda.gov/drugs/drug-approvals-and-databases/drug-trials-snapshots-zurzuvae",
       "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-elacestrant-breast",
+      "drug_id": "DRG-elacestrant",
+      "application_number": "NDA217639",
+      "indication": "ER-positive HER2-negative ESR1-mutated advanced or metastatic breast cancer",
+      "approval_date": "2023-01-27",
+      "qualifying_population": "Postmenopausal women or adult men with an ESR1 mutation detected by an FDA-authorized test and disease progression after at least one line of endocrine therapy",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217639s007lbl.pdf",
+      "approval_source_url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-elacestrant-er-positive-her2-negative-esr1-mutated-advanced-or-metastatic-breast-cancer",
+      "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-fezolinetant-vms",
+      "drug_id": "DRG-fezolinetant",
+      "application_number": "NDA216578",
+      "indication": "Moderate to severe vasomotor symptoms due to menopause",
+      "approval_date": "2023-05-12",
+      "qualifying_population": "Menopausal patients with moderate to severe vasomotor symptoms",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/216578s004lbl.pdf",
+      "approval_source_url": "https://www.fda.gov/news-events/press-announcements/fda-approves-novel-drug-treat-moderate-severe-hot-flashes-caused-menopause",
+      "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-nirogacestat-desmoid",
+      "drug_id": "DRG-nirogacestat",
+      "application_number": "NDA217677",
+      "indication": "Progressing desmoid tumors",
+      "approval_date": "2023-11-27",
+      "qualifying_population": "Adults with progressing desmoid tumors who require systemic treatment",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217677s009lbl.pdf",
+      "approval_source_url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-nirogacestat-desmoid-tumors",
+      "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-resmetirom-mash",
+      "drug_id": "DRG-resmetirom",
+      "application_number": "NDA217785",
+      "indication": "Noncirrhotic MASH (formerly NASH) with moderate to advanced liver fibrosis",
+      "approval_date": "2024-03-14",
+      "qualifying_population": "Adults with noncirrhotic MASH and F2 to F3 fibrosis; use in conjunction with diet and exercise; accelerated approval",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217785s006lbl.pdf",
+      "approval_source_url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-patients-liver-scarring-due-fatty-liver-disease",
+      "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-ritlecitinib-aa",
+      "drug_id": "DRG-ritlecitinib",
+      "application_number": "NDA215830",
+      "indication": "Severe alopecia areata",
+      "approval_date": "2023-06-23",
+      "qualifying_population": "Adults and adolescents 12 years and older with severe alopecia areata",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215830s001lbl.pdf",
+      "approval_source_url": "https://www.fda.gov/drugs/development-approval-process-drugs/drug-trials-snapshots-litfulo",
+      "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-suzetrigine-pain",
+      "drug_id": "DRG-suzetrigine",
+      "application_number": "NDA219209",
+      "indication": "Moderate to severe acute pain",
+      "approval_date": "2025-01-30",
+      "qualifying_population": "Adults with moderate to severe acute pain including postoperative pain",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/219209s009lbl.pdf",
+      "approval_source_url": "https://www.fda.gov/news-events/press-announcements/fda-approves-novel-non-opioid-treatment-moderate-severe-acute-pain",
+      "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-vorasidenib-glioma",
+      "drug_id": "DRG-vorasidenib",
+      "application_number": "NDA218784",
+      "indication": "Grade 2 astrocytoma or oligodendroglioma",
+      "approval_date": "2024-08-06",
+      "qualifying_population": "Adults and children 12 years and older with susceptible IDH1 or IDH2 mutation detected by an FDA-approved test following surgery including biopsy or resection",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/218784s004lbl.pdf",
+      "approval_source_url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-vorasidenib-grade-2-astrocytoma-or-oligodendroglioma-susceptible-idh1-or-idh2-mutation",
+      "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-zavegepant-migraine",
+      "drug_id": "DRG-zavegepant",
+      "application_number": "NDA216386",
+      "indication": "Acute treatment of migraine with or without aura",
+      "approval_date": "2023-03-09",
+      "qualifying_population": "Adults with migraine with or without aura; not indicated for preventive treatment",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/216386s007lbl.pdf",
+      "approval_source_url": "https://www.fda.gov/drugs/drug-approvals-and-databases/drug-trials-snapshots-zavzpret",
+      "verified_date": "2026-10-12"
     }
   ],
   "sources": [
