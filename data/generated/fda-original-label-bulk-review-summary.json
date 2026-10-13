@@ -1,0 +1,16 @@
+{
+  "retrieval_date": "2026-10-13",
+  "source_queue_snapshot_date": "2026-10-09",
+  "source_queue_url": "https://www.fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files",
+  "catalog_drugs_in_bulk_batch": 241,
+  "status_counts": {
+    "manual_approval_letter_review": 36,
+    "extracted_needs_identity_and_primary_use_check": 73,
+    "verified_primary_indication": 105,
+    "manual_label_section_review": 25,
+    "fetch_or_extract_error": 2
+  },
+  "curated_decisions_synced": 105,
+  "this_command_created_or_promoted_no_curation_decisions": true,
+  "warning": "Decision sync mirrors the canonical curated review ledger; it does not independently verify or promote indications."
+}
