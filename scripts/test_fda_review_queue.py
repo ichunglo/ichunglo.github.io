@@ -6,7 +6,7 @@ import unittest
 import zipfile
 from pathlib import Path
 
-from build_fda_review_queue import build_queue, normalized
+from build_fda_review_queue import build_queue, efficacy_candidates, normalized
 
 
 def write_csv(path: Path, rows: list[dict[str, str]]) -> None:
@@ -58,15 +58,17 @@ class FdaReviewQueueTests(unittest.TestCase):
                     {"ApplNo": "000004", "DrugName": "BRAND-DELTA", "ActiveIngredient": "DELTA HYDROCHLORIDE"},
                 ]))
                 handle.writestr("Submissions.txt", tsv([
-                    {"ApplNo": "000001", "SubmissionType": "ORIG", "SubmissionStatus": "AP", "SubmissionStatusDate": "2020-01-01 00:00:00"},
+                    {"ApplNo": "000001", "SubmissionType": "ORIG", "SubmissionNo": "1", "SubmissionStatus": "AP", "SubmissionStatusDate": "2020-01-01 00:00:00", "SubmissionClassCodeID": "7"},
                     {"ApplNo": "000002", "SubmissionType": "ORIG", "SubmissionStatus": "AP", "SubmissionStatusDate": "2021-01-01 00:00:00"},
                     {"ApplNo": "000003", "SubmissionType": "ORIG", "SubmissionStatus": "AP", "SubmissionStatusDate": "2022-01-01 00:00:00"},
                     {"ApplNo": "000004", "SubmissionType": "ORIG", "SubmissionStatus": "AP", "SubmissionStatusDate": "2023-01-01 00:00:00"},
+                    {"ApplNo": "000001", "SubmissionType": "SUPPL", "SubmissionNo": "2", "SubmissionStatus": "AP", "SubmissionStatusDate": "2024-01-01 00:00:00", "SubmissionClassCodeID": "2"},
                 ]))
                 handle.writestr("ApplicationDocs.txt", tsv([
-                    {"ApplicationDocsTypeID": "2", "ApplNo": "000001", "ApplicationDocsURL": "http://www.accessdata.fda.gov/label-old.pdf", "ApplicationDocsDate": "2020-01-01 00:00:00"},
+                    {"ApplicationDocsTypeID": "2", "ApplNo": "000001", "SubmissionType": "ORIG", "SubmissionNo": "1", "ApplicationDocsURL": "http://www.accessdata.fda.gov/label-old.pdf", "ApplicationDocsDate": "2020-01-01 00:00:00"},
                     {"ApplicationDocsTypeID": "2", "ApplNo": "000001", "ApplicationDocsURL": "https://www.accessdata.fda.gov/label-new.pdf", "ApplicationDocsDate": "2022-01-01 00:00:00"},
                     {"ApplicationDocsTypeID": "2", "ApplNo": "000002", "ApplicationDocsURL": "https://untrusted.example/label.pdf", "ApplicationDocsDate": "2021-01-01 00:00:00"},
+                    {"ApplicationDocsTypeID": "1", "ApplNo": "000001", "SubmissionType": "SUPPL", "SubmissionNo": "2", "ApplicationDocsURL": "https://www.accessdata.fda.gov/supplement-letter.pdf", "ApplicationDocsDate": "2024-01-01 00:00:00"},
                 ]))
             rows, summary = build_queue(archive, "2026-10-09", drugs, curated)
             by_id = {row["drug_id"]: row for row in rows}
@@ -78,6 +80,10 @@ class FdaReviewQueueTests(unittest.TestCase):
             self.assertEqual(by_id["DRG-a"]["candidate_latest_label_urls"], "https://www.accessdata.fda.gov/label-new.pdf")
             self.assertEqual(by_id["DRG-b"]["candidate_latest_label_urls"], "")
             self.assertEqual(summary["drugs_with_completed_indication_audit"], 0)
+            efficacy = efficacy_candidates(archive, rows)
+            self.assertEqual(len(efficacy), 1)
+            self.assertEqual(efficacy[0]["fda_approved_submission_date"], "2024-01-01")
+            self.assertEqual(efficacy[0]["review_status"], "candidate_not_indication_verified")
 
 
 if __name__ == "__main__":

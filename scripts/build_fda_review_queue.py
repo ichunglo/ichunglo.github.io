@@ -25,6 +25,7 @@ DRUGS = ROOT / "data/curated/drugs.csv"
 CURATED = ROOT / "data/curated/fda-approved-indications.csv"
 QUEUE = ROOT / "data/generated/fda-application-review-queue.csv"
 SUMMARY = ROOT / "data/generated/fda-application-review-summary.json"
+EFFICACY = ROOT / "data/generated/fda-efficacy-supplement-candidates.csv"
 SOURCE_URL = "https://www.fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files"
 DOWNLOAD_URL = "https://www.fda.gov/media/89850/download?attachment="
 
@@ -45,6 +46,13 @@ def read_zip_table(archive: zipfile.ZipFile, name: str) -> list[dict[str, str]]:
         # FDA's tab-delimited download contains Windows-1252 punctuation.
         with io.TextIOWrapper(raw, encoding="cp1252", newline="") as text:
             return list(csv.DictReader(text, delimiter="\t"))
+
+
+def fda_url(value: str) -> str:
+    parts = urlsplit(value.strip())
+    if parts.hostname not in {"www.accessdata.fda.gov", "accessdata.fda.gov", "www.fda.gov"}:
+        return ""
+    return urlunsplit(("https", parts.netloc, parts.path, parts.query, parts.fragment))
 
 
 def build_queue(
@@ -75,10 +83,9 @@ def build_queue(
     for row in application_docs:
         if row["ApplicationDocsTypeID"] != "2":
             continue
-        parts = urlsplit(row["ApplicationDocsURL"].strip())
-        if parts.hostname not in {"www.accessdata.fda.gov", "accessdata.fda.gov", "www.fda.gov"}:
+        url = fda_url(row["ApplicationDocsURL"])
+        if not url:
             continue
-        url = urlunsplit(("https", parts.netloc, parts.path, parts.query, parts.fragment))
         date = row["ApplicationDocsDate"][:10]
         appl = row["ApplNo"]
         if date and (appl not in latest_label or date > latest_label[appl][0]):
@@ -176,6 +183,54 @@ def build_queue(
     return queue, summary
 
 
+def efficacy_candidates(archive_path: Path, queue: list[dict[str, str]]) -> list[dict[str, str]]:
+    """FDA EFFICACY supplements are review leads, not confirmed new indications."""
+    drugs_by_app: dict[str, list[dict[str, str]]] = defaultdict(list)
+    for drug in queue:
+        for candidate in drug["candidate_applications"].split("|"):
+            match = re.fullmatch(r"(?:NDA|BLA)(\d{6})", candidate)
+            if match:
+                drugs_by_app[match.group(1)].append(drug)
+    with zipfile.ZipFile(archive_path) as archive:
+        submissions = read_zip_table(archive, "Submissions.txt")
+        docs = read_zip_table(archive, "ApplicationDocs.txt")
+    docs_by_submission: dict[tuple[str, str, str], dict[str, set[str]]] = defaultdict(
+        lambda: {"label": set(), "letter": set()}
+    )
+    for doc in docs:
+        kind = {"1": "letter", "2": "label"}.get(doc["ApplicationDocsTypeID"])
+        url = fda_url(doc["ApplicationDocsURL"])
+        if kind and url:
+            key = (doc["ApplNo"], doc["SubmissionType"].strip(), doc["SubmissionNo"].strip())
+            docs_by_submission[key][kind].add(url)
+    rows = []
+    for sub in submissions:
+        appl = sub["ApplNo"]
+        if (
+            appl not in drugs_by_app
+            or sub["SubmissionType"].strip() != "SUPPL"
+            or sub["SubmissionStatus"] != "AP"
+            or sub["SubmissionClassCodeID"] != "2"
+        ):
+            continue
+        number = sub["SubmissionNo"].strip()
+        links = docs_by_submission.get((appl, "SUPPL", number), {"label": set(), "letter": set()})
+        for drug in drugs_by_app[appl]:
+            rows.append({
+                "drug_id": drug["drug_id"],
+                "generic_name": drug["generic_name"],
+                "application_number": next(
+                    x for x in drug["candidate_applications"].split("|") if x.endswith(appl)
+                ),
+                "supplement_number": number,
+                "fda_approved_submission_date": sub["SubmissionStatusDate"][:10],
+                "fda_approval_letter_urls": "|".join(sorted(links["letter"])),
+                "fda_label_urls": "|".join(sorted(links["label"])),
+                "review_status": "candidate_not_indication_verified",
+            })
+    return sorted(rows, key=lambda r: (r["generic_name"].casefold(), r["application_number"], r["fda_approved_submission_date"], r["supplement_number"]))
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--fda-zip", required=True, type=Path)
@@ -184,11 +239,20 @@ def main() -> None:
     if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", args.snapshot_date):
         parser.error("--snapshot-date must be YYYY-MM-DD")
     queue, summary = build_queue(args.fda_zip, args.snapshot_date)
+    supplements = efficacy_candidates(args.fda_zip, queue)
+    summary["approved_efficacy_supplement_candidates"] = len(supplements)
     QUEUE.parent.mkdir(parents=True, exist_ok=True)
     with QUEUE.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=list(queue[0]))
         writer.writeheader()
         writer.writerows(queue)
+    with EFFICACY.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=[
+            "drug_id", "generic_name", "application_number", "supplement_number",
+            "fda_approved_submission_date", "fda_approval_letter_urls", "fda_label_urls", "review_status",
+        ])
+        writer.writeheader()
+        writer.writerows(supplements)
     SUMMARY.write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(summary, indent=2))
 

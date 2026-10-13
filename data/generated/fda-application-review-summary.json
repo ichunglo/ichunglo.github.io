@@ -12,5 +12,6 @@
   "exact_product_name_only_candidate_drugs": 3,
   "ingredient_prefix_candidate_drugs": 604,
   "no_exact_match_drugs": 355,
-  "candidate_drugs_with_fda_label_url": 1259
+  "candidate_drugs_with_fda_label_url": 1259,
+  "approved_efficacy_supplement_candidates": 4245
 }
