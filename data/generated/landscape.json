@@ -93626,6 +93626,424 @@
       "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2016/208073s000lbl.pdf",
       "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2016/208073Orig1s000ltr.pdf",
       "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-ibritumomab-tiuxetan-b-cell-lymphoma",
+      "drug_id": "DRG-ibritumomab-tiuxetan",
+      "application_number": "BLA125019",
+      "indication": "Relapsed or refractory low-grade follicular or transformed B-cell non-Hodgkin lymphoma",
+      "approval_date": "2002-02-19",
+      "qualifying_population": "Patients including those with rituximab-refractory follicular non-Hodgkin lymphoma; as part of the Zevalin therapeutic regimen",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2002/ibriide021902LB.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2002/ibriide021902L.htm",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-bezlotoxumab-recurrent-c-difficile",
+      "drug_id": "DRG-bezlotoxumab",
+      "application_number": "BLA761046",
+      "indication": "Reduction of recurrence of Clostridium difficile infection",
+      "approval_date": "2016-10-21",
+      "qualifying_population": "Patients 18 years or older receiving antibacterial treatment for CDI and at high risk of recurrence; use with antibacterial treatment",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2016/761046s000lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2016/761046Orig1s000ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-sarilumab-rheumatoid-arthritis",
+      "drug_id": "DRG-sarilumab",
+      "application_number": "BLA761037",
+      "indication": "Moderately to severely active rheumatoid arthritis",
+      "approval_date": "2017-05-22",
+      "qualifying_population": "Adults with inadequate response or intolerance to one or more DMARDs",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/761037s000lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/761037Orig1s000ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-satralizumab-aqp4-positive-nmosd",
+      "drug_id": "DRG-satralizumab",
+      "application_number": "BLA761149",
+      "indication": "Neuromyelitis optica spectrum disorder",
+      "approval_date": "2020-08-14",
+      "qualifying_population": "Adults who are anti-aquaporin-4 antibody positive",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/761149s000lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2021/761149Orig1s000ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-obeticholic-acid-primary-biliary-cholangitis",
+      "drug_id": "DRG-obeticholic-acid",
+      "application_number": "NDA207999",
+      "indication": "Primary biliary cholangitis",
+      "approval_date": "2016-05-27",
+      "qualifying_population": "Adults with inadequate response to UDCA when combined with UDCA or adults unable to tolerate UDCA as monotherapy; accelerated approval",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2016/207999s000lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2016/207999Orig1s000ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-ramucirumab-advanced-gastric-cancer",
+      "drug_id": "DRG-ramucirumab",
+      "application_number": "BLA125477",
+      "indication": "Advanced gastric or gastro-esophageal junction adenocarcinoma",
+      "approval_date": "2014-04-21",
+      "qualifying_population": "Single-agent treatment after prior fluoropyrimidine- or platinum-containing chemotherapy; first-listed use in original label",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/125477lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2014/125477Orig1s000ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-tralokinumab-atopic-dermatitis",
+      "drug_id": "DRG-tralokinumab",
+      "application_number": "BLA761180",
+      "indication": "Moderate-to-severe atopic dermatitis",
+      "approval_date": "2021-12-27",
+      "qualifying_population": "Adults whose disease is not adequately controlled with topical prescription therapies or when these are inadvisable; with or without topical corticosteroids",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/761180lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/761180Orig1s000ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-abatacept-rheumatoid-arthritis",
+      "drug_id": "DRG-abatacept",
+      "application_number": "BLA125118",
+      "indication": "Moderately to severely active rheumatoid arthritis",
+      "approval_date": "2005-12-23",
+      "qualifying_population": "Adults with inadequate response to one or more DMARDs; monotherapy or with non-TNF DMARDs",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2005/125118lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2005/125118rev2.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-dupilumab-atopic-dermatitis",
+      "drug_id": "DRG-dupilumab",
+      "application_number": "BLA761055",
+      "indication": "Moderate-to-severe atopic dermatitis",
+      "approval_date": "2017-03-28",
+      "qualifying_population": "Adults whose disease is not adequately controlled with topical prescription therapies or when these are inadvisable; with or without topical corticosteroids",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/761055lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/761055Orig1s000ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-certolizumab-crohns-disease",
+      "drug_id": "DRG-certolizumab-pegol",
+      "application_number": "BLA125160",
+      "indication": "Moderately to severely active Crohn disease",
+      "approval_date": "2008-04-22",
+      "qualifying_population": "Adults with inadequate response to conventional therapy",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2008/125160s000lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2008/125160s000ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-obinutuzumab-previously-untreated-cll",
+      "drug_id": "DRG-obinutuzumab",
+      "application_number": "BLA125486",
+      "indication": "Previously untreated chronic lymphocytic leukemia",
+      "approval_date": "2013-11-01",
+      "qualifying_population": "In combination with chlorambucil",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2013/125486s000lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2013/125486Orig1s000ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-blinatumomab-relapsed-refractory-b-all",
+      "drug_id": "DRG-blinatumomab",
+      "application_number": "BLA125557",
+      "indication": "Philadelphia chromosome-negative relapsed or refractory B-cell precursor acute lymphoblastic leukemia",
+      "approval_date": "2014-12-03",
+      "qualifying_population": "Patients with relapsed or refractory disease; accelerated approval",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/125557lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2014/125557Orig1s000ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-efinaconazole-toenail-onychomycosis",
+      "drug_id": "DRG-efinaconazole",
+      "application_number": "NDA203567",
+      "indication": "Topical treatment of toenail onychomycosis",
+      "approval_date": "2014-06-06",
+      "qualifying_population": "Onychomycosis due to Trichophyton rubrum or Trichophyton mentagrophytes",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/203567s000lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2014/203567Orig1s000ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-tavaborole-toenail-onychomycosis",
+      "drug_id": "DRG-tavaborole",
+      "application_number": "NDA204427",
+      "indication": "Topical treatment of toenail onychomycosis",
+      "approval_date": "2014-07-07",
+      "qualifying_population": "Onychomycosis due to Trichophyton rubrum or Trichophyton mentagrophytes",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/204427s000lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2014/204427Orig1s000ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-anakinra-rheumatoid-arthritis",
+      "drug_id": "DRG-anakinra",
+      "application_number": "BLA103950",
+      "indication": "Reduction of signs and symptoms of rheumatoid arthritis",
+      "approval_date": "2001-11-14",
+      "qualifying_population": "Adults who failed one or more DMARDs; alone or with non-TNF DMARDs",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2001/anakamg111401LB.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2001/anakamg111401L.htm",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-teduglutide-short-bowel-syndrome",
+      "drug_id": "DRG-teduglutide",
+      "application_number": "NDA203441",
+      "indication": "Short bowel syndrome in adults dependent on parenteral support",
+      "approval_date": "2012-12-21",
+      "qualifying_population": "Adults dependent on parenteral support",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2012/203441Orig1s000lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2012/203441Orig1s000ltr_replacement.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-canagliflozin-type2-diabetes",
+      "drug_id": "DRG-canagliflozin",
+      "application_number": "NDA204042",
+      "indication": "Type 2 diabetes mellitus",
+      "approval_date": "2013-03-29",
+      "qualifying_population": "Adults; adjunct to diet and exercise to improve glycemic control",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2013/204042s000lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2013/204042Orig1s000ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-ixekizumab-plaque-psoriasis",
+      "drug_id": "DRG-ixekizumab",
+      "application_number": "BLA125521",
+      "indication": "Moderate-to-severe plaque psoriasis",
+      "approval_date": "2016-03-22",
+      "qualifying_population": "Adults who are candidates for systemic therapy or phototherapy",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2016/125521s000lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2016/125521Orig1s000ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-gabapentin-enacarbil-restless-legs",
+      "drug_id": "DRG-gabapentin-enacarbil",
+      "application_number": "NDA022399",
+      "indication": "Moderate-to-severe primary restless legs syndrome",
+      "approval_date": "2011-04-06",
+      "qualifying_population": "Adults",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2011/022399s000lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2011/022399s000ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-benralizumab-severe-eosinophilic-asthma",
+      "drug_id": "DRG-benralizumab",
+      "application_number": "BLA761070",
+      "indication": "Add-on maintenance treatment of severe asthma",
+      "approval_date": "2017-11-14",
+      "qualifying_population": "Patients aged 12 years and older with an eosinophilic phenotype",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/761070s000lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/761070Orig1s000ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-dapagliflozin-type2-diabetes",
+      "drug_id": "DRG-dapagliflozin",
+      "application_number": "NDA202293",
+      "indication": "Type 2 diabetes mellitus",
+      "approval_date": "2014-01-08",
+      "qualifying_population": "Adults; adjunct to diet and exercise to improve glycemic control",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/202293s000lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2014/202293Orig1s000ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-elvitegravir-treatment-experienced-hiv",
+      "drug_id": "DRG-elvitegravir",
+      "application_number": "NDA203093",
+      "indication": "Treatment of HIV-1 infection",
+      "approval_date": "2014-09-24",
+      "qualifying_population": "Antiretroviral treatment-experienced adults; in combination with an HIV protease inhibitor plus ritonavir and other antiretroviral drugs",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/203093s000lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2014/203093Orig1s000ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-peramivir-acute-influenza",
+      "drug_id": "DRG-peramivir",
+      "application_number": "NDA206426",
+      "indication": "Treatment of acute uncomplicated influenza",
+      "approval_date": "2014-12-19",
+      "qualifying_population": "Patients aged 18 years and older with symptoms for no more than two days",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/206426lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2014/206426Orig1s000ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-ceftaroline-absssi",
+      "drug_id": "DRG-ceftaroline-fosamil",
+      "application_number": "NDA200327",
+      "indication": "Acute bacterial skin and skin structure infections",
+      "approval_date": "2010-10-29",
+      "qualifying_population": "Infections caused by designated susceptible bacteria; first-listed of two original indications",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2010/200327s000lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2010/200327s000ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-spinosad-head-lice",
+      "drug_id": "DRG-spinosad",
+      "application_number": "NDA022408",
+      "indication": "Topical treatment of head lice infestations",
+      "approval_date": "2011-01-18",
+      "qualifying_population": "Patients 4 years of age and older",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2011/022408lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2011/022408s000ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-linagliptin-type2-diabetes",
+      "drug_id": "DRG-linagliptin",
+      "application_number": "NDA201280",
+      "indication": "Type 2 diabetes mellitus",
+      "approval_date": "2011-05-02",
+      "qualifying_population": "Adults; adjunct to diet and exercise to improve glycemic control",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2011/201280lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2011/201280s000ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-lusutrombopag-procedure-thrombocytopenia",
+      "drug_id": "DRG-lusutrombopag",
+      "application_number": "NDA210923",
+      "indication": "Treatment of thrombocytopenia in chronic liver disease",
+      "approval_date": "2018-07-31",
+      "qualifying_population": "Adults with chronic liver disease scheduled to undergo a procedure",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2018/210923s000lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/210923Orig1s000Ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-brodalumab-plaque-psoriasis",
+      "drug_id": "DRG-brodalumab",
+      "application_number": "BLA761032",
+      "indication": "Moderate to severe plaque psoriasis",
+      "approval_date": "2017-02-15",
+      "qualifying_population": "Adults who are candidates for systemic therapy or phototherapy and failed or lost response to other systemic therapies",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/761032lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/761032Orig1s000Ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-alitretinoin-aids-kaposi-sarcoma",
+      "drug_id": "DRG-alitretinoin",
+      "application_number": "NDA020886",
+      "indication": "Topical treatment of cutaneous lesions in AIDS-related Kaposi sarcoma",
+      "approval_date": "1999-02-02",
+      "qualifying_population": "Patients with AIDS-related Kaposi sarcoma when systemic anti-KS therapy is not required",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/1999/20886lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/1999/20886ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-durvalumab-urothelial-carcinoma",
+      "drug_id": "DRG-durvalumab",
+      "application_number": "BLA761069",
+      "indication": "Locally advanced or metastatic urothelial carcinoma",
+      "approval_date": "2017-05-01",
+      "qualifying_population": "Patients with progression during or after platinum chemotherapy or within 12 months of perioperative platinum treatment; accelerated approval",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/761069s000lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/761069Orig1s000ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-etelcalcetide-secondary-hyperparathyroidism",
+      "drug_id": "DRG-etelcalcetide",
+      "application_number": "NDA208325",
+      "indication": "Secondary hyperparathyroidism in chronic kidney disease",
+      "approval_date": "2017-02-07",
+      "qualifying_population": "Adults with chronic kidney disease on hemodialysis",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/208325Orig1s000Lbledt.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/208325Orig1s000ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-belinostat-relapsed-refractory-ptcl",
+      "drug_id": "DRG-belinostat",
+      "application_number": "NDA206256",
+      "indication": "Relapsed or refractory peripheral T-cell lymphoma",
+      "approval_date": "2014-07-03",
+      "qualifying_population": "Patients with relapsed or refractory PTCL; accelerated approval",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/206256lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2014/206256Orig1s000ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-cannabidiol-lgs-dravet-seizures",
+      "drug_id": "DRG-cannabidiol",
+      "application_number": "NDA210365",
+      "indication": "Seizures associated with Lennox-Gastaut syndrome or Dravet syndrome",
+      "approval_date": "2018-06-25",
+      "qualifying_population": "Patients 2 years of age and older",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2018/210365lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/210365Orig1s000Ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-ramelteon-sleep-onset-insomnia",
+      "drug_id": "DRG-ramelteon",
+      "application_number": "NDA021782",
+      "indication": "Treatment of insomnia characterized by difficulty with sleep onset",
+      "approval_date": "2005-07-22",
+      "qualifying_population": "Patients with sleep-onset difficulty",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2005/021782lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2005/021782ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-moxidectin-onchocerciasis",
+      "drug_id": "DRG-moxidectin",
+      "application_number": "NDA210867",
+      "indication": "Treatment of onchocerciasis due to Onchocerca volvulus",
+      "approval_date": "2018-06-13",
+      "qualifying_population": "Patients aged 12 years and older",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2018/210867lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/210867Orig1s000Ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-linaclotide-ibs-c",
+      "drug_id": "DRG-linaclotide",
+      "application_number": "NDA202811",
+      "indication": "Irritable bowel syndrome with constipation",
+      "approval_date": "2012-08-30",
+      "qualifying_population": "Adults; selected first-listed use from original label which also includes chronic idiopathic constipation",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2012/202811s000lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2012/202811Orig1s000ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-ofatumumab-fludarabine-alemtuzumab-refractory-cll",
+      "drug_id": "DRG-ofatumumab",
+      "application_number": "BLA125326",
+      "indication": "Chronic lymphocytic leukemia refractory to fludarabine and alemtuzumab",
+      "approval_date": "2009-10-26",
+      "qualifying_population": "Patients with CLL refractory to fludarabine and alemtuzumab",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2009/125326lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2009/125326s000ltr.pdf",
+      "verified_date": "2026-10-13"
+    },
+    {
+      "fda_indication_id": "FDAI-plecanatide-chronic-idiopathic-constipation",
+      "drug_id": "DRG-plecanatide",
+      "application_number": "NDA208745",
+      "indication": "Chronic idiopathic constipation",
+      "approval_date": "2017-01-19",
+      "qualifying_population": "Adults",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/208745lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/208745Orig1s000ltr.pdf",
+      "verified_date": "2026-10-13"
     }
   ],
   "fda_primary_indication_review": [
@@ -93671,15 +94089,15 @@
     {
       "drug_id": "DRG-abatacept",
       "generic_name": "abatacept",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "BLA125118",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "BLA125118",
+      "supplement_review_note": "Original FDA BLA label and approval letter establish the initial adult rheumatoid-arthritis use",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2005/125118lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2005/125118rev2.pdf",
+      "review_note": "Exact ingredient and unique earliest BLA; label and letter agree on adult active RA after inadequate response to DMARDs"
     },
     {
       "drug_id": "DRG-abciximab",
@@ -94308,15 +94726,15 @@
     {
       "drug_id": "DRG-alitretinoin",
       "generic_name": "alitretinoin",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "NDA020886",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "NDA020886",
+      "supplement_review_note": "Original FDA NDA approval documents establish the initial topical use",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/1999/20886lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/1999/20886ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest NDA; label and letter agree on topical treatment of cutaneous AIDS-related Kaposi sarcoma lesions"
     },
     {
       "drug_id": "DRG-allopurinol",
@@ -94711,15 +95129,15 @@
     {
       "drug_id": "DRG-anakinra",
       "generic_name": "anakinra",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "BLA103950",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "BLA103950",
+      "supplement_review_note": "Original FDA BLA approval label and letter establish the initial rheumatoid-arthritis use",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2001/anakamg111401LB.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2001/anakamg111401L.htm",
+      "review_note": "Exact ingredient and unique earliest BLA; label and letter agree on adult active RA after failure of one or more DMARDs"
     },
     {
       "drug_id": "DRG-anamorelin",
@@ -95699,15 +96117,15 @@
     {
       "drug_id": "DRG-belinostat",
       "generic_name": "belinostat",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "NDA206256",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "NDA206256",
+      "supplement_review_note": "Original FDA NDA approval documents establish the initial accelerated-approval use",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/206256lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2014/206256Orig1s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest NDA; original label and letter agree on relapsed or refractory peripheral T-cell lymphoma"
     },
     {
       "drug_id": "DRG-belumosudil",
@@ -95790,15 +96208,15 @@
     {
       "drug_id": "DRG-benralizumab",
       "generic_name": "benralizumab",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "BLA761070",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "BLA761070",
+      "supplement_review_note": "Original FDA BLA label and approval letter establish the initial add-on maintenance use",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/761070s000lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/761070Orig1s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest BLA; original label and letter agree on severe eosinophilic asthma from age 12 years"
     },
     {
       "drug_id": "DRG-benzatropine",
@@ -96076,15 +96494,15 @@
     {
       "drug_id": "DRG-bezlotoxumab",
       "generic_name": "bezlotoxumab",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "BLA761046",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "BLA761046",
+      "supplement_review_note": "Original FDA BLA approval label and letter establish the initial recurrence-reduction use; later supplements excluded",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2016/761046s000lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2016/761046Orig1s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest BLA; label and letter agree on adult high-risk patients receiving antibacterial treatment for CDI"
     },
     {
       "drug_id": "DRG-bicalutamide",
@@ -96219,15 +96637,15 @@
     {
       "drug_id": "DRG-blinatumomab",
       "generic_name": "blinatumomab",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "BLA125557",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "BLA125557",
+      "supplement_review_note": "Original FDA BLA label and letter establish the initial accelerated-approval use",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/125557lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2014/125557Orig1s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest BLA; original label and letter agree on Philadelphia chromosome-negative relapsed or refractory B-cell precursor ALL"
     },
     {
       "drug_id": "DRG-blonanserin",
@@ -96440,15 +96858,15 @@
     {
       "drug_id": "DRG-brodalumab",
       "generic_name": "brodalumab",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "BLA761032",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "BLA761032",
+      "supplement_review_note": "Original FDA BLA label and approval letter establish the initial adult plaque-psoriasis use",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/761032lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/761032Orig1s000Ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest BLA; label and letter agree on prior systemic-therapy failure or loss of response and phototherapy/systemic candidacy"
     },
     {
       "drug_id": "DRG-brolucizumab",
@@ -96830,15 +97248,15 @@
     {
       "drug_id": "DRG-canagliflozin",
       "generic_name": "canagliflozin",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "NDA204042",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "NDA204042",
+      "supplement_review_note": "Original FDA NDA approval documents establish the initial type 2 diabetes use; later cardiovascular and renal indications are excluded",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2013/204042s000lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2013/204042Orig1s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest NDA; label and letter agree on glycemic control in adults with type 2 diabetes"
     },
     {
       "drug_id": "DRG-canakinumab",
@@ -96882,15 +97300,15 @@
     {
       "drug_id": "DRG-cannabidiol",
       "generic_name": "cannabidiol",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "NDA210365",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "NDA210365",
+      "supplement_review_note": "Original FDA NDA approval documents establish the initial seizure indication",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2018/210365lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/210365Orig1s000Ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest NDA; label and approval letter agree on seizures associated with Lennox-Gastaut or Dravet syndrome from age two"
     },
     {
       "drug_id": "DRG-capecitabine",
@@ -97259,15 +97677,15 @@
     {
       "drug_id": "DRG-ceftaroline-fosamil",
       "generic_name": "ceftaroline fosamil",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "NDA200327",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "NDA200327",
+      "supplement_review_note": "Selected the first-listed infection in the original FDA label as the consistent primary-use index because the initial label included two infections",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2010/200327s000lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2010/200327s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest NDA; original label and approval letter agree on the two initial infection indications with susceptible bacteria"
     },
     {
       "drug_id": "DRG-ceftazidime",
@@ -97402,15 +97820,15 @@
     {
       "drug_id": "DRG-certolizumab-pegol",
       "generic_name": "certolizumab pegol",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "BLA125160",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "BLA125160",
+      "supplement_review_note": "Original FDA BLA label and approval letter establish Crohn disease as the initial U.S. use",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2008/125160s000lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2008/125160s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest BLA; label and letter agree on adult moderately-to-severely active Crohn disease after inadequate conventional therapy"
     },
     {
       "drug_id": "DRG-cetilistat",
@@ -98546,15 +98964,15 @@
     {
       "drug_id": "DRG-dapagliflozin",
       "generic_name": "dapagliflozin",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "NDA202293",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "NDA202293",
+      "supplement_review_note": "Original FDA NDA approval establishes the initial type 2 diabetes use; later heart failure and kidney indications are outside scope",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/202293s000lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2014/202293Orig1s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest NDA; label and letter agree on glycemic control in adults with type 2 diabetes"
     },
     {
       "drug_id": "DRG-dapiprazole",
@@ -100015,15 +100433,15 @@
     {
       "drug_id": "DRG-dupilumab",
       "generic_name": "dupilumab",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "BLA761055",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "BLA761055",
+      "supplement_review_note": "Original FDA BLA label and approval letter establish the initial adult atopic-dermatitis use; later age expansions are excluded",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/761055lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/761055Orig1s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest BLA; original label and letter agree on adult disease with topical-therapy inadequate response or inadvisability"
     },
     {
       "drug_id": "DRG-durlobactam",
@@ -100041,15 +100459,15 @@
     {
       "drug_id": "DRG-durvalumab",
       "generic_name": "durvalumab",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "BLA761069",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "BLA761069",
+      "supplement_review_note": "Original FDA BLA label and approval letter establish the initial accelerated-approval urothelial-carcinoma use",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/761069s000lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/761069Orig1s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest BLA; label and letter agree on locally advanced or metastatic urothelial carcinoma after specified platinum-treatment progression"
     },
     {
       "drug_id": "DRG-dutasteride",
@@ -100236,15 +100654,15 @@
     {
       "drug_id": "DRG-efinaconazole",
       "generic_name": "efinaconazole",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "NDA203567",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "NDA203567",
+      "supplement_review_note": "Original FDA NDA approval documents establish the initial topical use",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/203567s000lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2014/203567Orig1s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest NDA; original label and letter agree on toenail onychomycosis due to the listed Trichophyton species"
     },
     {
       "drug_id": "DRG-eflapegrastim",
@@ -100483,15 +100901,15 @@
     {
       "drug_id": "DRG-elvitegravir",
       "generic_name": "elvitegravir",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "NDA203093",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "NDA203093",
+      "supplement_review_note": "Original FDA NDA approval documents establish the initial treatment-experienced HIV use",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/203093s000lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2014/203093Orig1s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest NDA; label and letter agree on combination use for HIV-1 in antiretroviral-experienced adults"
     },
     {
       "drug_id": "DRG-emapalumab",
@@ -101276,15 +101694,15 @@
     {
       "drug_id": "DRG-etelcalcetide",
       "generic_name": "etelcalcetide",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "NDA208325",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "NDA208325",
+      "supplement_review_note": "Original FDA NDA approval documents establish the initial use",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/208325Orig1s000Lbledt.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/208325Orig1s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest NDA; label and letter agree on secondary hyperparathyroidism in adults with CKD on hemodialysis"
     },
     {
       "drug_id": "DRG-eteplirsen",
@@ -102771,15 +103189,15 @@
     {
       "drug_id": "DRG-gabapentin-enacarbil",
       "generic_name": "gabapentin enacarbil",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "NDA022399",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "NDA022399",
+      "supplement_review_note": "Original FDA NDA approval documents establish the initial indication; later supplements are outside this one-primary-use review",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2011/022399s000lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2011/022399s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest NDA; original label and letter agree on moderate-to-severe primary restless legs syndrome in adults"
     },
     {
       "drug_id": "DRG-galantamine",
@@ -103772,15 +104190,15 @@
     {
       "drug_id": "DRG-ibritumomab-tiuxetan",
       "generic_name": "ibritumomab tiuxetan",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "BLA125019",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "BLA125019",
+      "supplement_review_note": "Original FDA BLA label and approval letter establish the first approved regimen and indication",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2002/ibriide021902LB.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2002/ibriide021902L.htm",
+      "review_note": "Exact ingredient and unique earliest BLA; label and letter agree on relapsed or refractory B-cell non-Hodgkin lymphoma and regimen context"
     },
     {
       "drug_id": "DRG-ibrutinib",
@@ -104669,15 +105087,15 @@
     {
       "drug_id": "DRG-ixekizumab",
       "generic_name": "ixekizumab",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "BLA125521",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "BLA125521",
+      "supplement_review_note": "Original FDA BLA label and letter establish the initial adult plaque-psoriasis use",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2016/125521s000lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2016/125521Orig1s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest BLA; label and letter agree on adults who are candidates for systemic therapy or phototherapy"
     },
     {
       "drug_id": "DRG-ketamine",
@@ -105410,28 +105828,28 @@
     {
       "drug_id": "DRG-linaclotide",
       "generic_name": "linaclotide",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "NDA202811",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "NDA202811",
+      "supplement_review_note": "Selected the first-listed original-label indication as the consistent primary-use index; the original label also listed chronic idiopathic constipation",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2012/202811s000lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2012/202811Orig1s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest NDA; original label and approval letter support IBS-C as the first-listed adult indication"
     },
     {
       "drug_id": "DRG-linagliptin",
       "generic_name": "linagliptin",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "NDA201280",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "NDA201280",
+      "supplement_review_note": "Original FDA NDA approval documents establish the initial type 2 diabetes use",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2011/201280lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2011/201280s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest NDA; label and letter agree on adjunctive glycemic control in adults with type 2 diabetes"
     },
     {
       "drug_id": "DRG-linifanib",
@@ -105917,15 +106335,15 @@
     {
       "drug_id": "DRG-lusutrombopag",
       "generic_name": "lusutrombopag",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "NDA210923",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "NDA210923",
+      "supplement_review_note": "Original FDA NDA approval documents establish the initial procedural thrombocytopenia use",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2018/210923s000lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/210923Orig1s000Ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest NDA; label and letter agree on adults with chronic liver disease scheduled for a procedure"
     },
     {
       "drug_id": "DRG-lutetium-177lu-oxodotreotide",
@@ -107438,15 +107856,15 @@
     {
       "drug_id": "DRG-moxidectin",
       "generic_name": "moxidectin",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "NDA210867",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "NDA210867",
+      "supplement_review_note": "Original FDA NDA approval documents establish the initial use",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2018/210867lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/210867Orig1s000Ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest NDA; label and letter agree on onchocerciasis in patients aged 12 years and older"
     },
     {
       "drug_id": "DRG-moxifloxacin",
@@ -108361,15 +108779,15 @@
     {
       "drug_id": "DRG-obeticholic-acid",
       "generic_name": "obeticholic acid",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "NDA207999",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "NDA207999",
+      "supplement_review_note": "Original FDA NDA label and letter document the initial accelerated-approval use; later withdrawals or supplements do not change initial approval history",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2016/207999s000lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2016/207999Orig1s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest NDA; label and approval letter agree on PBC and UDCA response or intolerance groups"
     },
     {
       "drug_id": "DRG-obiltoxaximab",
@@ -108387,15 +108805,15 @@
     {
       "drug_id": "DRG-obinutuzumab",
       "generic_name": "obinutuzumab",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "BLA125486",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "BLA125486",
+      "supplement_review_note": "Original FDA BLA approval documents establish the initial CLL combination use",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2013/125486s000lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2013/125486Orig1s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest BLA; original label and letter agree on previously untreated CLL with chlorambucil"
     },
     {
       "drug_id": "DRG-ocrelizumab",
@@ -108478,15 +108896,15 @@
     {
       "drug_id": "DRG-ofatumumab",
       "generic_name": "ofatumumab",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "BLA125326",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "BLA125326",
+      "supplement_review_note": "Original FDA BLA label and approval letter establish the initial refractory-CLL use",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2009/125326lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2009/125326s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest BLA; label and letter agree on CLL refractory to alemtuzumab and fludarabine"
     },
     {
       "drug_id": "DRG-ofloxacin",
@@ -109700,15 +110118,15 @@
     {
       "drug_id": "DRG-peramivir",
       "generic_name": "peramivir",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "NDA206426",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "NDA206426",
+      "supplement_review_note": "Original FDA NDA approval documents establish the initial acute-influenza use",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/206426lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2014/206426Orig1s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest NDA; label and letter agree on acute uncomplicated influenza and adult symptom-duration qualifier"
     },
     {
       "drug_id": "DRG-perampanel",
@@ -110194,15 +110612,15 @@
     {
       "drug_id": "DRG-plecanatide",
       "generic_name": "plecanatide",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "NDA208745",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "NDA208745",
+      "supplement_review_note": "Original FDA NDA approval documents establish the initial use",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/208745lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/208745Orig1s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest NDA; label and letter agree on chronic idiopathic constipation in adults"
     },
     {
       "drug_id": "DRG-plerixafor",
@@ -111039,15 +111457,15 @@
     {
       "drug_id": "DRG-ramelteon",
       "generic_name": "ramelteon",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "NDA021782",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "NDA021782",
+      "supplement_review_note": "Original FDA NDA approval documents establish the initial use",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2005/021782lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2005/021782ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest NDA; original label and letter agree on insomnia characterized by difficulty with sleep onset"
     },
     {
       "drug_id": "DRG-ramipril",
@@ -111078,15 +111496,15 @@
     {
       "drug_id": "DRG-ramucirumab",
       "generic_name": "ramucirumab",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "BLA125477",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "BLA125477",
+      "supplement_review_note": "Selected the first-listed indication in the original FDA BLA label as the consistent primary-use index because the initial action included several cancers",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/125477lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2014/125477Orig1s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest BLA; label and letter support single-agent use for advanced gastric or GEJ adenocarcinoma after specified chemotherapy"
     },
     {
       "drug_id": "DRG-ranibizumab",
@@ -112235,28 +112653,28 @@
     {
       "drug_id": "DRG-sarilumab",
       "generic_name": "sarilumab",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "BLA761037",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "BLA761037",
+      "supplement_review_note": "Original FDA BLA approval label and letter establish the initial rheumatoid-arthritis use; later supplements excluded",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/761037s000lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/761037Orig1s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest BLA; label and letter agree on adults with active RA and prior DMARD inadequacy or intolerance"
     },
     {
       "drug_id": "DRG-satralizumab",
       "generic_name": "satralizumab",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "BLA761149",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "BLA761149",
+      "supplement_review_note": "Original FDA BLA label establishes the initial NMOSD use and qualifying antibody group; linked FDA approval letter establishes BLA authorization",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/761149s000lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2021/761149Orig1s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest BLA candidate; label identifies satralizumab-mwge and AQP4-positive adults while original letter authorizes Enspryng"
     },
     {
       "drug_id": "DRG-saxagliptin",
@@ -112963,15 +113381,15 @@
     {
       "drug_id": "DRG-spinosad",
       "generic_name": "spinosad",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "NDA022408",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "NDA022408",
+      "supplement_review_note": "Original FDA NDA approval documents establish the initial topical head-lice use",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2011/022408lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2011/022408s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest NDA; label and letter agree on head lice treatment from age four"
     },
     {
       "drug_id": "DRG-spirapril",
@@ -113691,15 +114109,15 @@
     {
       "drug_id": "DRG-tavaborole",
       "generic_name": "tavaborole",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "NDA204427",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "NDA204427",
+      "supplement_review_note": "Original FDA NDA approval documents establish the initial topical use",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2014/204427s000lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2014/204427Orig1s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest NDA; label and letter agree on toenail onychomycosis due to the listed Trichophyton species"
     },
     {
       "drug_id": "DRG-tazarotene",
@@ -113795,15 +114213,15 @@
     {
       "drug_id": "DRG-teduglutide",
       "generic_name": "teduglutide",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "NDA203441",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "NDA203441",
+      "supplement_review_note": "Original FDA NDA label and approval letter establish the initial short-bowel use",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2012/203441Orig1s000lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2012/203441Orig1s000ltr_replacement.pdf",
+      "review_note": "Exact ingredient and unique earliest NDA; label and approval letter agree on adults with short bowel syndrome dependent on parenteral support"
     },
     {
       "drug_id": "DRG-tegaserod",
@@ -114926,15 +115344,15 @@
     {
       "drug_id": "DRG-tralokinumab",
       "generic_name": "tralokinumab",
-      "review_status": "pending",
-      "reviewed_date": "",
-      "curated_indication_count": "0",
+      "review_status": "verified_primary_indication",
+      "reviewed_date": "2026-10-13",
+      "curated_indication_count": "1",
       "candidate_match_basis": "exact_active_ingredient",
       "candidate_applications": "BLA761180",
-      "applications_reviewed": "",
-      "supplement_review_note": "",
-      "source_urls": "",
-      "review_note": ""
+      "applications_reviewed": "BLA761180",
+      "supplement_review_note": "Original FDA BLA label and approval letter establish the initial adult atopic-dermatitis use",
+      "source_urls": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/761180lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/761180Orig1s000ltr.pdf",
+      "review_note": "Exact ingredient and unique earliest BLA; label and letter agree on topical-therapy inadequate response or inadvisability"
     },
     {
       "drug_id": "DRG-tramadol",
