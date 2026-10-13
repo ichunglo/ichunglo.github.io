@@ -1,8 +1,8 @@
 {
   "total_catalog_drugs": 1766,
-  "verified_primary_indication": 126,
+  "verified_primary_indication": 164,
   "unresolved_after_review": 0,
-  "pending": 1640,
+  "pending": 1602,
   "primary_indication_audit_complete": false,
   "warning": "A candidate row alone does not verify an FDA indication. Unresolved cases are not confirmed nonapprovals.",
   "errors": []

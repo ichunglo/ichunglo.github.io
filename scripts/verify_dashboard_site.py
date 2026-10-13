@@ -47,7 +47,7 @@ REQUIRED_MARKERS = (
     "clinical_group",
     "Explore by drug",
     "U.S. FDA-approved indications",
-    "FDA indications not yet curated",
+    "FDA indication not yet curated",
     "FDA approval record",
     "drug-search",
     "drug-year",
