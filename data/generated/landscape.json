@@ -92163,6 +92163,39 @@
       "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/215887Orig1s000Correctedlbl.pdf",
       "approval_source_url": "https://www.fda.gov/drugs/drug-trials-snapshots/drug-trials-snapshots-qalsody",
       "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-acoramidis-attrcm",
+      "drug_id": "DRG-acoramidis",
+      "application_number": "NDA216540",
+      "indication": "Cardiomyopathy of wild-type or variant transthyretin-mediated amyloidosis (ATTR-CM)",
+      "approval_date": "2024-11-22",
+      "qualifying_population": "Adults with wild-type or variant ATTR-CM; treatment to reduce cardiovascular death and cardiovascular-related hospitalization",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/216540s000lbl.pdf",
+      "approval_source_url": "https://www.fda.gov/drugs/drug-trials-snapshots/drug-trials-snapshot-attruby",
+      "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-momelotinib-mf",
+      "drug_id": "DRG-momelotinib",
+      "application_number": "NDA216873",
+      "indication": "Intermediate- or high-risk myelofibrosis (MF)",
+      "approval_date": "2023-09-15",
+      "qualifying_population": "Adults with anemia and intermediate- or high-risk primary MF or secondary MF after polycythemia vera or essential thrombocythemia",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/216873s006lbl.pdf",
+      "approval_source_url": "https://www.fda.gov/drugs/drug-trials-snapshots/drug-trials-snapshots-ojjaara",
+      "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-zuranolone-ppd",
+      "drug_id": "DRG-zuranolone",
+      "application_number": "NDA217369",
+      "indication": "Postpartum depression (PPD)",
+      "approval_date": "2023-08-04",
+      "qualifying_population": "Adults with postpartum depression",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217369Orig1s003lbl.pdf",
+      "approval_source_url": "https://www.fda.gov/drugs/drug-approvals-and-databases/drug-trials-snapshots-zurzuvae",
+      "verified_date": "2026-10-12"
     }
   ],
   "sources": [
