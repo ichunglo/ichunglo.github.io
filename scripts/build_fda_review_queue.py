@@ -61,6 +61,7 @@ def build_queue(
     snapshot_date: str,
     drugs_path: Path = DRUGS,
     curated_path: Path = CURATED,
+    decisions_path: Path = DECISIONS,
 ) -> tuple[list[dict[str, str]], dict]:
     drugs = read_csv(drugs_path)
     curated_by_drug: dict[str, int] = defaultdict(int)
@@ -68,8 +69,8 @@ def build_queue(
         curated_by_drug[item["drug_id"]] += 1
     review_decisions = {
         row["drug_id"]: row["review_status"]
-        for row in read_csv(DECISIONS)
-    } if DECISIONS.exists() else {}
+        for row in read_csv(decisions_path)
+    } if decisions_path.exists() else {}
 
     with zipfile.ZipFile(archive_path) as archive:
         applications = {r["ApplNo"]: r["ApplType"] for r in read_zip_table(archive, "Applications.txt")}

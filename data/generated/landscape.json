@@ -92394,6 +92394,39 @@
       "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215192s003lbl.pdf",
       "approval_source_url": "https://www.fda.gov/drugs/drug-trials-snapshots/drug-trials-snapshots-vafseo",
       "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-daprodustat-ckd-anemia",
+      "drug_id": "DRG-daprodustat",
+      "application_number": "NDA216951",
+      "indication": "Anemia due to chronic kidney disease",
+      "approval_date": "2023-02-01",
+      "qualifying_population": "Adults with chronic kidney disease who have been receiving dialysis for at least four months; not indicated for patients not on dialysis",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/216951s000lbl.pdf",
+      "approval_source_url": "https://www.fda.gov/drugs/drug-approvals-and-databases/drug-trials-snapshots-jesduvroq",
+      "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-lotilaner-demodex-blepharitis",
+      "drug_id": "DRG-lotilaner",
+      "application_number": "NDA217603",
+      "indication": "Demodex blepharitis",
+      "approval_date": "2023-07-24",
+      "qualifying_population": "Patients with Demodex blepharitis; safety and effectiveness below age 18 have not been established",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/217603s000lbl.pdf",
+      "approval_source_url": "https://www.fda.gov/drugs/drug-approvals-and-databases/drug-trials-snapshots-xdemvy",
+      "verified_date": "2026-10-12"
+    },
+    {
+      "fda_indication_id": "FDAI-ensitrelvir-covid19-pep",
+      "drug_id": "DRG-ensitrelvir",
+      "application_number": "NDA220442",
+      "indication": "Post-exposure prophylaxis of COVID-19",
+      "approval_date": "2026-05-29",
+      "qualifying_population": "Adults and adolescents 12 years and older following contact with an individual who has COVID-19; this is prophylaxis and not a treatment indication",
+      "label_url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220442Orig1s000lbl.pdf",
+      "approval_source_url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/220442Orig1s000ltr.pdf",
+      "verified_date": "2026-10-12"
     }
   ],
   "sources": [

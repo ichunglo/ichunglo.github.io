@@ -36,6 +36,7 @@ class FdaReviewQueueTests(unittest.TestCase):
             folder = Path(directory)
             drugs = folder / "drugs.csv"
             curated = folder / "curated.csv"
+            decisions = folder / "decisions.csv"
             archive = folder / "fda.zip"
             write_csv(drugs, [
                 {"drug_id": "DRG-a", "generic_name": "alpha"},
@@ -70,7 +71,7 @@ class FdaReviewQueueTests(unittest.TestCase):
                     {"ApplicationDocsTypeID": "2", "ApplNo": "000002", "ApplicationDocsURL": "https://untrusted.example/label.pdf", "ApplicationDocsDate": "2021-01-01 00:00:00"},
                     {"ApplicationDocsTypeID": "1", "ApplNo": "000001", "SubmissionType": "SUPPL", "SubmissionNo": "2", "ApplicationDocsURL": "https://www.accessdata.fda.gov/supplement-letter.pdf", "ApplicationDocsDate": "2024-01-01 00:00:00"},
                 ]))
-            rows, summary = build_queue(archive, "2026-10-09", drugs, curated)
+            rows, summary = build_queue(archive, "2026-10-09", drugs, curated, decisions)
             by_id = {row["drug_id"]: row for row in rows}
             self.assertEqual(by_id["DRG-a"]["candidate_match_basis"], "exact_active_ingredient")
             self.assertEqual(by_id["DRG-b"]["candidate_match_basis"], "exact_product_name")
@@ -80,6 +81,10 @@ class FdaReviewQueueTests(unittest.TestCase):
             self.assertEqual(by_id["DRG-a"]["candidate_latest_label_urls"], "https://www.accessdata.fda.gov/label-new.pdf")
             self.assertEqual(by_id["DRG-b"]["candidate_latest_label_urls"], "")
             self.assertEqual(summary["drugs_with_completed_indication_audit"], 0)
+            write_csv(decisions, [{"drug_id": "DRG-a", "review_status": "verified_complete"}])
+            reviewed, reviewed_summary = build_queue(archive, "2026-10-09", drugs, curated, decisions)
+            self.assertEqual(reviewed[0]["completeness_review_status"], "verified_complete")
+            self.assertEqual(reviewed_summary["drugs_with_completed_indication_audit"], 1)
             efficacy = efficacy_candidates(archive, rows)
             self.assertEqual(len(efficacy), 1)
             self.assertEqual(efficacy[0]["fda_approved_submission_date"], "2024-01-01")
