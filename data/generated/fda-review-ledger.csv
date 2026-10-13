@@ -1,12 +1,12 @@
 drug_id,generic_name,review_status,reviewed_date,curated_indication_count,candidate_match_basis,candidate_applications,applications_reviewed,supplement_review_note,source_urls,review_note
 DRG-abacavir,abacavir,pending,,0,ingredient_prefix_candidate,NDA020977|NDA020978,,,,
-DRG-abaloparatide,abaloparatide,pending,,0,exact_active_ingredient,NDA208743,,,,
+DRG-abaloparatide,abaloparatide,verified_primary_indication,2026-10-13,1,exact_active_ingredient,NDA208743,NDA208743,The original FDA NDA approval letter establishes the first approved use; subsequent label supplements are outside this one-primary-indication scope,https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/208743lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/208743Orig1s000ltr.pdf,Exact active ingredient and one candidate NDA; original FDA letter and label establish the 2017 postmenopausal osteoporosis indication and its patient group
 DRG-abarelix,abarelix,pending,,0,exact_active_ingredient,NDA021320,,,,
 DRG-abatacept,abatacept,pending,,0,exact_active_ingredient,BLA125118,,,,
 DRG-abciximab,abciximab,pending,,0,exact_active_ingredient,BLA103575,,,,
 DRG-abemaciclib,abemaciclib,pending,,0,exact_active_ingredient,NDA208716|NDA208855,,,,
 DRG-abiraterone-acetate,abiraterone acetate,pending,,0,exact_active_ingredient,NDA202379|NDA210308,,,,
-DRG-abrocitinib,abrocitinib,pending,,0,exact_active_ingredient,NDA213871,,,,
+DRG-abrocitinib,abrocitinib,verified_primary_indication,2026-10-13,1,exact_active_ingredient,NDA213871,NDA213871,The FDA original approval label and letter document the initial adult atopic dermatitis indication; later age expansions are outside this one-primary-indication pass,https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/213871s000lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/213871Orig1s000ltr.pdf,Exact active ingredient and one candidate NDA; original FDA letter and label specify refractory moderate-to-severe atopic dermatitis and systemic-therapy criteria
 DRG-acalabrutinib,acalabrutinib,pending,,0,exact_active_ingredient,NDA210259|NDA216387,,,,
 DRG-acamprosate,acamprosate,pending,,0,ingredient_prefix_candidate,NDA021431,,,,
 DRG-acarbose,acarbose,pending,,0,exact_active_ingredient,NDA020482,,,,
@@ -19,12 +19,12 @@ DRG-acetyldigitoxin,acetyldigitoxin,pending,,0,no_exact_match,,,,,
 DRG-acetylsalicylic-acid,acetylsalicylic acid,pending,,0,no_exact_match,,,,,
 DRG-acitretin,acitretin,pending,,0,exact_active_ingredient,NDA019821,,,,
 DRG-aclidinium-bromide,aclidinium bromide,pending,,0,exact_active_ingredient,NDA202450,,,,
-DRG-acoltremon,acoltremon,verified_complete,2026-10-12,1,exact_active_ingredient,NDA217370,NDA217370,Only approved original submission in the 2026-10-09 Drugs@FDA snapshot,https://www.fda.gov/drugs/drug-trials-snapshots/drug-trials-snapshot-tryptyr|https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/217370s000lbl.pdf,Exact active ingredient and one NDA in the snapshot; current labeled use matches the sole original FDA approval
-DRG-acoramidis,acoramidis,verified_complete,2026-10-12,1,ingredient_prefix_candidate,NDA216540,NDA216540,Only approved original submission in the 2026-10-09 Drugs@FDA snapshot,https://www.fda.gov/drugs/drug-trials-snapshots/drug-trials-snapshot-attruby|https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/216540s000lbl.pdf,Exact active ingredient and one NDA in the snapshot; label has one ATTR-CM indication
+DRG-acoltremon,acoltremon,verified_primary_indication,2026-10-12,1,exact_active_ingredient,NDA217370,NDA217370,Only approved original submission in the 2026-10-09 Drugs@FDA snapshot,https://www.fda.gov/drugs/drug-trials-snapshots/drug-trials-snapshot-tryptyr|https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/217370s000lbl.pdf,Exact active ingredient and one NDA in the snapshot; current labeled use matches the sole original FDA approval
+DRG-acoramidis,acoramidis,verified_primary_indication,2026-10-12,1,ingredient_prefix_candidate,NDA216540,NDA216540,Only approved original submission in the 2026-10-09 Drugs@FDA snapshot,https://www.fda.gov/drugs/drug-trials-snapshots/drug-trials-snapshot-attruby|https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/216540s000lbl.pdf,Exact active ingredient and one NDA in the snapshot; label has one ATTR-CM indication
 DRG-acotiamide,acotiamide,pending,,0,no_exact_match,,,,,
 DRG-acrivastine,acrivastine,pending,,0,no_exact_match,,,,,
 DRG-acyclovir,acyclovir,pending,,0,exact_active_ingredient,NDA018603|NDA018604|NDA018828|NDA019909|NDA020089|NDA021478|NDA202408|NDA203791,,,,
-DRG-adagrasib,adagrasib,pending,,0,exact_active_ingredient,NDA216340,,,,
+DRG-adagrasib,adagrasib,verified_primary_indication,2026-10-13,1,exact_active_ingredient,NDA216340,NDA216340,The original FDA approval was accelerated and identifies the initial KRAS G12C NSCLC use; later supplements are outside the primary-indication scope,https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/216340Orig1s000Corrected_lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/216340Orig1s000ltr.pdf,Exact active ingredient and one candidate NDA; original FDA letter and label specify mutation
 DRG-adalimumab,adalimumab,pending,,0,exact_active_ingredient,BLA125057|BLA761024|BLA761058|BLA761059|BLA761071|BLA761118|BLA761154|BLA761216|BLA761219|BLA761255|BLA761299,,,,
 DRG-adapalene,adapalene,pending,,0,exact_active_ingredient,NDA020338|NDA020380|NDA020748|NDA021753|NDA022502,,,,
 DRG-adefovir-dipivoxil,adefovir dipivoxil,pending,,0,exact_active_ingredient,NDA021449,,,,
@@ -185,7 +185,7 @@ DRG-bethanechol,bethanechol,pending,,0,ingredient_prefix_candidate,NDA006536,,,,
 DRG-betibeglogene-autotemcel-zynteglo,Betibeglogene autotemcel (Zynteglo),pending,,0,no_exact_match,,,,,
 DRG-betrixaban,betrixaban,pending,,0,exact_active_ingredient,NDA208383,,,,
 DRG-bevacizumab,bevacizumab,pending,,0,exact_active_ingredient,BLA125085|BLA761028|BLA761099|BLA761175|BLA761198|BLA761231|BLA761268|BLA761320,,,,
-DRG-bexagliflozin,bexagliflozin,pending,,0,exact_active_ingredient,NDA214373,,,,
+DRG-bexagliflozin,bexagliflozin,verified_primary_indication,2026-10-13,1,exact_active_ingredient,NDA214373,NDA214373,The original FDA approval letter states the initial adult type 2 diabetes indication; later label changes are outside the primary-indication scope,https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/214373s000lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/214373Orig1s000ltr.pdf,Exact active ingredient and one candidate NDA; original FDA letter and label specify adjunctive glycemic-control use in adults with type 2 diabetes
 DRG-bexarotene,bexarotene,pending,,0,exact_active_ingredient,NDA021055|NDA021056,,,,
 DRG-bezlotoxumab,bezlotoxumab,pending,,0,exact_active_ingredient,BLA761046,,,,
 DRG-bicalutamide,bicalutamide,pending,,0,exact_active_ingredient,NDA020498|NDA022310,,,,
@@ -251,7 +251,7 @@ DRG-candesartan-cilexetil,candesartan cilexetil,pending,,0,exact_active_ingredie
 DRG-cangrelor,cangrelor,pending,,0,exact_active_ingredient,NDA204958,,,,
 DRG-cannabidiol,cannabidiol,pending,,0,exact_active_ingredient,NDA210365,,,,
 DRG-capecitabine,capecitabine,pending,,0,exact_active_ingredient,NDA020896,,,,
-DRG-capivasertib,capivasertib,pending,,0,exact_active_ingredient,NDA218197,,,,
+DRG-capivasertib,capivasertib,verified_primary_indication,2026-10-13,1,exact_active_ingredient,NDA218197,NDA218197,The original FDA NDA approval letter defines the initial use and effective date; later supplements are outside the primary-indication scope,https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/218197s000lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/218197Orig1s000ltr.pdf,Exact active ingredient and one candidate NDA; original FDA letter and label specify fulvestrant combination
 DRG-caplacizumab,caplacizumab,pending,,0,ingredient_prefix_candidate,BLA761112,,,,
 DRG-capmatinib,capmatinib,pending,,0,ingredient_prefix_candidate,NDA213591,,,,
 DRG-capsaicin,capsaicin,pending,,0,exact_active_ingredient,NDA022395,,,,
@@ -379,7 +379,7 @@ DRG-danicopan,danicopan,pending,,1,exact_active_ingredient,NDA218037,,,,
 DRG-dantrolene,dantrolene,pending,,0,ingredient_prefix_candidate,NDA017443|NDA018264|NDA205579,,,,
 DRG-dapagliflozin,dapagliflozin,pending,,0,exact_active_ingredient,NDA202293,,,,
 DRG-dapiprazole,dapiprazole,pending,,0,ingredient_prefix_candidate,NDA019849,,,,
-DRG-daprodustat,daprodustat,verified_complete,2026-10-12,1,exact_active_ingredient,NDA216951,NDA216951,Only approved original submission in the 2026-10-09 Drugs@FDA snapshot,https://www.fda.gov/drugs/drug-approvals-and-databases/drug-trials-snapshots-jesduvroq|https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/216951s000lbl.pdf,Exact active ingredient and one NDA in the snapshot; label has one dialysis-dependent CKD anemia indication with a four-month dialysis threshold
+DRG-daprodustat,daprodustat,verified_primary_indication,2026-10-12,1,exact_active_ingredient,NDA216951,NDA216951,Only approved original submission in the 2026-10-09 Drugs@FDA snapshot,https://www.fda.gov/drugs/drug-approvals-and-databases/drug-trials-snapshots-jesduvroq|https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/216951s000lbl.pdf,Exact active ingredient and one NDA in the snapshot; label has one dialysis-dependent CKD anemia indication with a four-month dialysis threshold
 DRG-dapsone,dapsone,pending,,0,exact_active_ingredient,NDA021794|NDA207154,,,,
 DRG-darapladib,darapladib,pending,,0,no_exact_match,,,,,
 DRG-daratumumab,daratumumab,pending,,0,exact_active_ingredient,BLA761036|BLA761145,,,,
@@ -412,7 +412,7 @@ DRG-desonide,desonide,pending,,0,exact_active_ingredient,NDA017010|NDA017426|NDA
 DRG-desoximetasone,desoximetasone,pending,,0,exact_active_ingredient,NDA017856|NDA018309|NDA018586|NDA018594|NDA018763|NDA204141,,,,
 DRG-desoxycorticosterone-acetate,desoxycorticosterone acetate,pending,,0,exact_active_ingredient,NDA001104|NDA005151,,,,
 DRG-desvenlafaxine,desvenlafaxine,pending,,0,exact_active_ingredient,NDA021992|NDA204150|NDA204683|NDA205208|NDA205583,,,,
-DRG-deucravacitinib,deucravacitinib,pending,,0,exact_active_ingredient,NDA214958,,,,
+DRG-deucravacitinib,deucravacitinib,verified_primary_indication,2026-10-13,1,exact_active_ingredient,NDA214958,NDA214958,The original FDA NDA approval letter documents the initial adult plaque-psoriasis use; later supplements are outside the primary-indication scope,https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/214958s000lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/214958Orig1s000ltr.pdf,Exact active ingredient and one candidate NDA; original FDA letter and label specify adult moderate-to-severe plaque psoriasis in systemic therapy or phototherapy candidates
 DRG-deuruxolitinib,deuruxolitinib,pending,,0,ingredient_prefix_candidate,NDA217900,,,,
 DRG-deutetrabenazine,deutetrabenazine,pending,,0,exact_active_ingredient,NDA208082|NDA209885|NDA216354,,,,
 DRG-deutivacaftor,deutivacaftor,pending,,0,no_exact_match,,,,,
@@ -542,8 +542,8 @@ DRG-enfuvirtide,enfuvirtide,pending,,0,exact_active_ingredient,NDA021481,,,,
 DRG-enmetazobactam,enmetazobactam,pending,,0,no_exact_match,,,,,
 DRG-enoxaparin-sodium,enoxaparin sodium,pending,,0,exact_active_ingredient,NDA020164|NDA022138,,,,
 DRG-ensartinib,ensartinib,pending,,0,ingredient_prefix_candidate,NDA218171,,,,
-DRG-ensifentrine,ensifentrine,verified_complete,2026-10-12,1,exact_active_ingredient,NDA217389,NDA217389,Only approved original submission in the 2026-10-09 Drugs@FDA snapshot,https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2024|https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/217389s000lbl.pdf,Exact active ingredient and one NDA in the snapshot; label has one adult COPD maintenance indication
-DRG-ensitrelvir,ensitrelvir,verified_complete,2026-10-12,1,exact_active_ingredient,NDA220442,NDA220442,Only approved original submission in the 2026-10-09 Drugs@FDA snapshot,https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026|https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220442Orig1s000lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/220442Orig1s000ltr.pdf,Exact active ingredient and one NDA in the snapshot; FDA-approved use is COVID-19 post-exposure prophylaxis and not treatment
+DRG-ensifentrine,ensifentrine,verified_primary_indication,2026-10-12,1,exact_active_ingredient,NDA217389,NDA217389,Only approved original submission in the 2026-10-09 Drugs@FDA snapshot,https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2024|https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/217389s000lbl.pdf,Exact active ingredient and one NDA in the snapshot; label has one adult COPD maintenance indication
+DRG-ensitrelvir,ensitrelvir,verified_primary_indication,2026-10-12,1,exact_active_ingredient,NDA220442,NDA220442,Only approved original submission in the 2026-10-09 Drugs@FDA snapshot,https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026|https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220442Orig1s000lbl.pdf|https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/220442Orig1s000ltr.pdf,Exact active ingredient and one NDA in the snapshot; FDA-approved use is COVID-19 post-exposure prophylaxis and not treatment
 DRG-entacapone,entacapone,pending,,0,exact_active_ingredient,NDA020796,,,,
 DRG-entecavir,entecavir,pending,,0,exact_active_ingredient,NDA021797|NDA021798,,,,
 DRG-entospletinib,entospletinib,pending,,0,no_exact_match,,,,,
@@ -930,7 +930,7 @@ DRG-lorcaserin,lorcaserin,pending,,0,no_exact_match,,,,,
 DRG-lorlatinib,lorlatinib,pending,,0,exact_active_ingredient,NDA210868,,,,
 DRG-losartan,losartan,pending,,0,ingredient_prefix_candidate,NDA020386|NDA218772,,,,
 DRG-loteprednol-etabonate,loteprednol etabonate,pending,,0,exact_active_ingredient,NDA020583|NDA020803|NDA020841|NDA200738|NDA202872|NDA208219|NDA210565|NDA210933,,,,
-DRG-lotilaner,lotilaner,verified_complete,2026-10-12,1,exact_active_ingredient,NDA217603,NDA217603,Only approved original submission in the 2026-10-09 Drugs@FDA snapshot,https://www.fda.gov/drugs/drug-approvals-and-databases/drug-trials-snapshots-xdemvy|https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/217603s000lbl.pdf,Exact active ingredient and one NDA in the snapshot; label has one Demodex blepharitis indication
+DRG-lotilaner,lotilaner,verified_primary_indication,2026-10-12,1,exact_active_ingredient,NDA217603,NDA217603,Only approved original submission in the 2026-10-09 Drugs@FDA snapshot,https://www.fda.gov/drugs/drug-approvals-and-databases/drug-trials-snapshots-xdemvy|https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/217603s000lbl.pdf,Exact active ingredient and one NDA in the snapshot; label has one Demodex blepharitis indication
 DRG-lovastatin,lovastatin,pending,,0,exact_active_ingredient,NDA019643|NDA021316,,,,
 DRG-lovotibeglogene-autotemcel-lyfgenia,Lovotibeglogene autotemcel (Lyfgenia),pending,,0,no_exact_match,,,,,
 DRG-loxapine,loxapine,pending,,0,exact_active_ingredient,NDA017525|NDA017658|NDA018039|NDA022549,,,,
@@ -960,7 +960,7 @@ DRG-margetuximab,margetuximab,pending,,0,ingredient_prefix_candidate,BLA761150,,
 DRG-maribavir,maribavir,pending,,0,exact_active_ingredient,NDA215596,,,,
 DRG-marstacimab,marstacimab,pending,,0,ingredient_prefix_candidate,BLA761369,,,,
 DRG-mavacamten,mavacamten,pending,,0,exact_active_ingredient,NDA214998,,,,
-DRG-mavorixafor,mavorixafor,verified_complete,2026-10-12,1,exact_active_ingredient,NDA218709,NDA218709,Only approved original submission in the 2026-10-09 Drugs@FDA snapshot,https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-first-drug-whim-syndrome-rare-disorder-can-lead-recurrent-life-threatening-infections|https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/218709s000lbl.pdf,Exact active ingredient and one NDA in the snapshot; label has one WHIM syndrome indication
+DRG-mavorixafor,mavorixafor,verified_primary_indication,2026-10-12,1,exact_active_ingredient,NDA218709,NDA218709,Only approved original submission in the 2026-10-09 Drugs@FDA snapshot,https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-first-drug-whim-syndrome-rare-disorder-can-lead-recurrent-life-threatening-infections|https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/218709s000lbl.pdf,Exact active ingredient and one NDA in the snapshot; label has one WHIM syndrome indication
 DRG-mazindol,mazindol,pending,,0,exact_active_ingredient,NDA017247|NDA017980,,,,
 DRG-mecamylamine,mecamylamine,pending,,0,ingredient_prefix_candidate,NDA010251,,,,
 DRG-mecasermin,mecasermin,pending,,0,ingredient_prefix_candidate,BLA021839|BLA021884,,,,
@@ -1469,7 +1469,7 @@ DRG-sitagliptin,sitagliptin,pending,,0,exact_active_ingredient,NDA021995|NDA2115
 DRG-sitaxentan,sitaxentan,pending,,0,no_exact_match,,,,,
 DRG-sodium-oxybate,sodium oxybate,pending,,0,exact_active_ingredient,NDA021196|NDA214755,,,,
 DRG-sofosbuvir,sofosbuvir,pending,,0,exact_active_ingredient,NDA204671|NDA212480,,,,
-DRG-sofpironium-bromide,sofpironium bromide,verified_complete,2026-10-12,1,exact_active_ingredient,NDA217347,NDA217347,Only approved original submission in the 2026-10-09 Drugs@FDA snapshot,https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2024|https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/217347s000lbl.pdf,Exact active ingredient and one NDA in the snapshot; label has one primary axillary hyperhidrosis indication
+DRG-sofpironium-bromide,sofpironium bromide,verified_primary_indication,2026-10-12,1,exact_active_ingredient,NDA217347,NDA217347,Only approved original submission in the 2026-10-09 Drugs@FDA snapshot,https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2024|https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/217347s000lbl.pdf,Exact active ingredient and one NDA in the snapshot; label has one primary axillary hyperhidrosis indication
 DRG-solanezumab,solanezumab,pending,,0,no_exact_match,,,,,
 DRG-solifenacin,solifenacin,pending,,0,ingredient_prefix_candidate,NDA021518|NDA209529,,,,
 DRG-somapacitan,somapacitan,pending,,0,ingredient_prefix_candidate,BLA761156,,,,
@@ -1620,7 +1620,7 @@ DRG-tizanidine,tizanidine,pending,,0,ingredient_prefix_candidate,NDA020397|NDA02
 DRG-tocainide,tocainide,pending,,0,ingredient_prefix_candidate,NDA018257,,,,
 DRG-tocilizumab,tocilizumab,pending,,0,exact_active_ingredient,BLA125276|BLA125472|BLA761275|BLA761354|BLA761420|BLA761449|BLA761498,,,,
 DRG-tofacitinib,tofacitinib,pending,,0,ingredient_prefix_candidate,NDA203214|NDA208246|NDA213082,,,,
-DRG-tofersen,tofersen,verified_complete,2026-10-12,1,exact_active_ingredient,NDA215887,NDA215887,Only approved original submission in the 2026-10-09 Drugs@FDA snapshot,https://www.fda.gov/drugs/drug-trials-snapshots/drug-trials-snapshots-qalsody|https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/215887Orig1s000Correctedlbl.pdf,Exact active ingredient and one NDA in the snapshot; label has one SOD1 mutation associated ALS indication
+DRG-tofersen,tofersen,verified_primary_indication,2026-10-12,1,exact_active_ingredient,NDA215887,NDA215887,Only approved original submission in the 2026-10-09 Drugs@FDA snapshot,https://www.fda.gov/drugs/drug-trials-snapshots/drug-trials-snapshots-qalsody|https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/215887Orig1s000Correctedlbl.pdf,Exact active ingredient and one NDA in the snapshot; label has one SOD1 mutation associated ALS indication
 DRG-tofogliflozin,tofogliflozin,pending,,0,no_exact_match,,,,,
 DRG-tolazamide,tolazamide,pending,,0,exact_active_ingredient,NDA015500|NDA018894,,,,
 DRG-tolazoline,tolazoline,pending,,0,ingredient_prefix_candidate,NDA006403,,,,

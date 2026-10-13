@@ -7,7 +7,7 @@
     "programs": 56,
     "trials": 90,
     "outcomes": 92,
-    "fda_approved_indications": 32
+    "fda_approved_indications": 38
   },
   "programs_missing_drug_target_link": [],
   "targets_without_drug_target_link": [],

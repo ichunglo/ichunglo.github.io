@@ -25,6 +25,7 @@ DRUGS = ROOT / "data/curated/drugs.csv"
 CURATED = ROOT / "data/curated/fda-approved-indications.csv"
 DECISIONS = ROOT / "data/curated/fda-review-decisions.csv"
 QUEUE = ROOT / "data/generated/fda-application-review-queue.csv"
+PRIMARY_QUEUE = ROOT / "data/generated/fda-primary-indication-review-queue.csv"
 SUMMARY = ROOT / "data/generated/fda-application-review-summary.json"
 EFFICACY = ROOT / "data/generated/fda-efficacy-supplement-candidates.csv"
 SOURCE_URL = "https://www.fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files"
@@ -78,23 +79,31 @@ def build_queue(
         submissions = read_zip_table(archive, "Submissions.txt")
         application_docs = read_zip_table(archive, "ApplicationDocs.txt")
 
-    approved_originals: dict[str, list[str]] = defaultdict(list)
+    approved_originals: dict[str, list[tuple[str, str]]] = defaultdict(list)
     for row in submissions:
         if row["SubmissionType"] == "ORIG" and row["SubmissionStatus"] == "AP":
             day = row["SubmissionStatusDate"][:10]
             if re.fullmatch(r"\d{4}-\d{2}-\d{2}", day):
-                approved_originals[row["ApplNo"]].append(day)
+                approved_originals[row["ApplNo"]].append((day, row["SubmissionNo"].strip()))
 
     latest_label: dict[str, tuple[str, str]] = {}
+    initial_submission_docs: dict[tuple[str, str], dict[str, list[tuple[str, str]]]] = defaultdict(
+        lambda: {"label": [], "letter": []}
+    )
     for row in application_docs:
-        if row["ApplicationDocsTypeID"] != "2":
-            continue
         url = fda_url(row["ApplicationDocsURL"])
         if not url:
             continue
         date = row["ApplicationDocsDate"][:10]
         appl = row["ApplNo"]
-        if date and (appl not in latest_label or date > latest_label[appl][0]):
+        doc_type = {"1": "letter", "2": "label"}.get(row["ApplicationDocsTypeID"])
+        if (
+            doc_type
+            and row["SubmissionType"].strip() == "ORIG"
+            and any(submission_no == row["SubmissionNo"].strip() for _, submission_no in approved_originals.get(appl, []))
+        ):
+            initial_submission_docs[(appl, row["SubmissionNo"].strip())][doc_type].append((date, url))
+        if row["ApplicationDocsTypeID"] == "2" and date and (appl not in latest_label or date > latest_label[appl][0]):
             latest_label[appl] = (date, url)
 
     by_ingredient: dict[str, set[str]] = defaultdict(set)
@@ -130,13 +139,35 @@ def build_queue(
             basis = "ingredient_prefix_candidate"
         else:
             basis = "no_exact_match"
+        first_approval_date = min(
+            (day for app in candidates for day, _ in approved_originals[app]),
+            default="",
+        )
+        first_approval_apps = sorted(
+            app for app in candidates
+            if min(day for day, _ in approved_originals[app]) == first_approval_date
+        )
+        first_approval_label_urls = sorted({
+            url
+            for app in first_approval_apps
+            for day, submission_no in approved_originals.get(app, [])
+            if day == first_approval_date
+            for _, url in initial_submission_docs.get((app, submission_no), {}).get("label", [])
+        })
+        first_approval_letter_urls = sorted({
+            url
+            for app in first_approval_apps
+            for day, submission_no in approved_originals.get(app, [])
+            if day == first_approval_date
+            for _, url in initial_submission_docs.get((app, submission_no), {}).get("letter", [])
+        })
         queue.append(
             {
                 "drug_id": drug["drug_id"],
                 "generic_name": drug["generic_name"],
                 "indication_rows_present": "yes" if curated_by_drug[drug["drug_id"]] else "no",
-                "completeness_review_status": review_decisions.get(
-                    drug["drug_id"], "needs_full_indication_audit"
+                "primary_indication_review_status": review_decisions.get(
+                    drug["drug_id"], "needs_primary_indication_review"
                 ),
                 "curated_indication_count": str(curated_by_drug[drug["drug_id"]]),
                 "candidate_match_basis": basis,
@@ -147,7 +178,7 @@ def build_queue(
                     f"?event=overview.process&ApplNo={a}" for a in candidates
                 ),
                 "candidate_original_approval_dates": "|".join(
-                    min(approved_originals[a]) for a in candidates
+                    min(day for day, _ in approved_originals[a]) for a in candidates
                 ),
                 "candidate_latest_label_dates": "|".join(
                     latest_label.get(a, ("", ""))[0] for a in candidates
@@ -155,6 +186,10 @@ def build_queue(
                 "candidate_latest_label_urls": "|".join(
                     latest_label.get(a, ("", ""))[1] for a in candidates
                 ),
+                "candidate_first_approved_applications": "|".join(first_approval_apps),
+                "candidate_first_approval_date": first_approval_date,
+                "candidate_first_approval_label_urls": "|".join(first_approval_label_urls),
+                "candidate_first_approval_letter_urls": "|".join(first_approval_letter_urls),
                 "source_snapshot_date": snapshot_date,
                 "source_dataset_url": SOURCE_URL,
             }
@@ -173,8 +208,8 @@ def build_queue(
         "total_catalog_drugs": len(queue),
         "drugs_with_curated_rows": sum(r["indication_rows_present"] == "yes" for r in queue),
         "drugs_without_curated_rows": sum(r["indication_rows_present"] == "no" for r in queue),
-        "drugs_with_completed_indication_audit": sum(
-            r["completeness_review_status"] == "verified_complete" for r in queue
+        "drugs_with_verified_primary_indication": sum(
+            r["primary_indication_review_status"] == "verified_primary_indication" for r in queue
         ),
         "exact_ingredient_candidate_drugs": sum(
             r["candidate_match_basis"] == "exact_active_ingredient" for r in queue
@@ -188,6 +223,13 @@ def build_queue(
         "no_exact_match_drugs": sum(r["candidate_match_basis"] == "no_exact_match" for r in queue),
         "candidate_drugs_with_fda_label_url": sum(
             bool(r["candidate_latest_label_urls"].strip("|")) for r in queue
+        ),
+        "drugs_with_first_approval_date_candidate": sum(bool(r["candidate_first_approval_date"]) for r in queue),
+        "drugs_with_first_approval_label_candidate": sum(bool(r["candidate_first_approval_label_urls"]) for r in queue),
+        "exact_ingredient_drugs_with_first_approval_label_candidate": sum(
+            r["candidate_match_basis"] == "exact_active_ingredient"
+            and bool(r["candidate_first_approval_label_urls"])
+            for r in queue
         ),
     }
     return queue, summary
@@ -256,6 +298,17 @@ def main() -> None:
         writer = csv.DictWriter(handle, fieldnames=list(queue[0]))
         writer.writeheader()
         writer.writerows(queue)
+    priority = sorted(queue, key=lambda row: (
+        row["primary_indication_review_status"] == "verified_primary_indication",
+        0 if row["candidate_match_basis"] == "exact_active_ingredient" and row["candidate_first_approval_label_urls"] else
+        1 if row["candidate_match_basis"] in {"exact_product_name", "ingredient_prefix_candidate"} and row["candidate_first_approval_label_urls"] else
+        2 if row["candidate_match_basis"] == "exact_active_ingredient" else 3,
+        row["generic_name"].casefold(),
+    ))
+    with PRIMARY_QUEUE.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=list(priority[0]))
+        writer.writeheader()
+        writer.writerows(priority)
     with EFFICACY.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=[
             "drug_id", "generic_name", "application_number", "supplement_number",

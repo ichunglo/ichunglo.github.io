@@ -1,4 +1,4 @@
-"""Build a complete-drug audit ledger without confusing curation with review completion.
+"""Build a primary-indication review ledger without promoting candidates to facts.
 
 Only a source-backed decision in fda-review-decisions.csv can move a drug out
 of pending. A no-name-match or label candidate never does so automatically.
@@ -19,7 +19,7 @@ from build_fda_review_queue import CURATED, QUEUE, ROOT, read_csv
 DECISIONS = ROOT / "data/curated/fda-review-decisions.csv"
 LEDGER = ROOT / "data/generated/fda-review-ledger.csv"
 SUMMARY = ROOT / "data/generated/fda-review-ledger-summary.json"
-ALLOWED = {"verified_complete", "unresolved_after_review"}
+ALLOWED = {"verified_primary_indication", "unresolved_after_review"}
 FDA_HOSTS = {"www.fda.gov", "www.accessdata.fda.gov"}
 
 
@@ -55,14 +55,14 @@ def compile_ledger(
             for url in urls
         ):
             errors.append(f"FDA review must cite at least two FDA links: {drug_id}")
-        if row["review_status"] == "verified_complete":
+        if row["review_status"] == "verified_primary_indication":
             recorded = set(filter(None, row["applications_reviewed"].split("|")))
             if not indication_apps.get(drug_id):
-                errors.append(f"complete review lacks curated indication: {drug_id}")
+                errors.append(f"primary-indication review lacks curated indication: {drug_id}")
             if not recorded or not indication_apps.get(drug_id, set()) <= recorded:
-                errors.append(f"complete review omits indication application: {drug_id}")
+                errors.append(f"primary-indication review omits indication application: {drug_id}")
             if drug_id in by_drug and recorded != set(filter(None, by_drug[drug_id]["candidate_applications"].split("|"))):
-                errors.append(f"complete review has not reconciled every candidate application: {drug_id}")
+                errors.append(f"primary-indication review has not reconciled every candidate application: {drug_id}")
 
     rows = []
     for drug in queue:
@@ -83,11 +83,11 @@ def compile_ledger(
     counts = Counter(row["review_status"] for row in rows)
     summary = {
         "total_catalog_drugs": len(rows),
-        "verified_complete": counts["verified_complete"],
+        "verified_primary_indication": counts["verified_primary_indication"],
         "unresolved_after_review": counts["unresolved_after_review"],
         "pending": counts["pending"],
-        "all_drugs_reviewed": len(rows) == 1766 and counts["pending"] == 0 and not errors,
-        "warning": "A curated indication row alone is not a complete drug audit; an unresolved disposition is not proof of no U.S. approval.",
+        "primary_indication_audit_complete": len(rows) == 1766 and counts["pending"] == 0 and not errors,
+        "warning": "A candidate row alone does not verify an FDA indication. Unresolved cases are not confirmed nonapprovals.",
         "errors": errors,
     }
     return rows, summary

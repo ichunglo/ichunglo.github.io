@@ -32,6 +32,11 @@ def main() -> None:
     sources = read("sources.csv")
     programs = read("programs.csv")
     fda_indications = read("fda-approved-indications.csv")
+    fda_review_ledger_path = GENERATED / "fda-review-ledger.csv"
+    fda_review_ledger = []
+    if fda_review_ledger_path.exists():
+        with fda_review_ledger_path.open(encoding="utf-8", newline="") as handle:
+            fda_review_ledger = list(csv.DictReader(handle))
     as_of_date = max(
         [baseline["as_of_date"]]
         + [row["retrieval_date"] for row in sources if row["retrieval_date"]]
@@ -53,6 +58,7 @@ def main() -> None:
         "drug_targets": drug_targets,
         "approvals": read("approvals.csv"),
         "fda_approved_indications": fda_indications,
+        "fda_primary_indication_review": fda_review_ledger,
         "sources": sources,
         "programs": programs,
         "trials": read("trials.csv"),
