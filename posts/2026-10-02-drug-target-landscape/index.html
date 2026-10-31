@@ -628,14 +628,14 @@ ul.task-list li input[type="checkbox"] {
     const layoutCloud = () => {
       const width = cloud.clientWidth;
       if (!width || !measure) return;
-      const fontMax = Math.min(52, Math.max(30, width * .065));
+      const fontMax = Math.min(32, Math.max(21, width * .045));
       const words = topTargets.map((row, i) => {
-        let size = Math.max(13, fontMax * (.35 + .65 * Math.sqrt(row.value / maxTargetCount)));
+        let size = Math.max(11, fontMax * (.35 + .65 * Math.sqrt(row.value / maxTargetCount)));
         measure.font = `700 ${size}px Arial`;
         if (measure.measureText(row.label).width > width - 16) { size *= (width - 16) / measure.measureText(row.label).width; measure.font = `700 ${size}px Arial`; }
         return { row, i, size, w: Math.ceil(measure.measureText(row.label).width) + 8, h: Math.ceil(size * 1.15) + 6 };
       });
-      let height = Math.max(260, width * .46);
+      let height = Math.max(200, width * .36);
       let placed = [];
       for (let attempt = 0; attempt < 12; attempt++, height *= 1.2) {
         placed = [];
