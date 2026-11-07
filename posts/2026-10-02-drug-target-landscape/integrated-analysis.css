@@ -1,0 +1,31 @@
+.integrated-landscape{margin:1.25rem 0;scroll-margin-top:5rem}
+.integrated-landscape h2{margin-top:0}
+.ia-intro{max-width:82ch;line-height:1.55;color:#405a6b}
+.ia-controls{display:flex;gap:.8rem;flex-wrap:wrap;align-items:end;margin:1rem 0;padding:1rem;background:#f3f8fa;border:1px solid #d7e6eb;border-radius:.6rem}
+.ia-controls label,.ia-inline-control{display:grid;gap:.25rem;font-size:.84rem;font-weight:650;color:#24495c}
+.ia-controls select,.ia-controls input,.ia-inline-control select,.ia-inline-control input{font:inherit;color:#17364b;border:1px solid #a9c1cb;border-radius:.35rem;padding:.45rem;background:white}
+.ia-inline-control{display:inline-grid;margin:.25rem .8rem .7rem 0}
+.ia-muted{color:#526c7c;font-size:.88rem;line-height:1.5}
+.ia-source-note{background:#f7fafb;border-left:3px solid #6ba3b8;padding:.75rem 1rem;line-height:1.5}
+.ia-section{border-top:1px solid #dbe8ed;padding:.9rem 0}
+.ia-section>summary{font-size:1.12rem;font-weight:720;color:#173f55;cursor:pointer}
+.ia-section[open]>summary{margin-bottom:.7rem}
+.ia-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,30rem),1fr));gap:1.3rem}
+.ia-grid article{min-width:0}
+.ia-grid h3,.ia-section h3{font-size:1rem;margin:.7rem 0 .3rem;color:#163c51}
+.ia-legend{display:flex;gap:.5rem 1rem;flex-wrap:wrap;font-size:.78rem;color:#435e6d;margin:.5rem 0 .75rem}
+.ia-legend span{display:inline-flex;align-items:center;gap:.35rem}
+.ia-legend i{display:inline-block;width:1.2rem;height:.55rem;border-radius:.2rem}
+.ia-blue{background:#286f96}.ia-orange{background:#c96a3b}.ia-green{background:#34816c}
+.ia-bar-list{display:grid;gap:.55rem}
+.ia-row{display:grid;grid-template-columns:minmax(7rem,1fr) minmax(8rem,1.5fr);gap:.7rem;align-items:center}
+.ia-target,.ia-text-button{padding:.1rem 0;border:0;background:transparent;color:#155f82;text-align:left;cursor:pointer;font:inherit;overflow-wrap:anywhere}
+.ia-target:hover,.ia-text-button:hover{text-decoration:underline}
+.ia-target:focus-visible,.ia-text-button:focus-visible,.ia-bar-line:focus-visible,.ia-simple-row:focus-visible,.ia-scatter g:focus-visible{outline:2px solid #307c9d;outline-offset:2px}
+.ia-bars{display:grid;gap:.18rem}.ia-bar-line{display:grid;grid-template-columns:minmax(0,1fr) 2.5rem;gap:.4rem;align-items:center;padding:0;border:0;background:transparent;cursor:pointer;text-align:right;font:inherit}
+.ia-bar-track{display:block;height:.6rem;background:#edf3f5;border-radius:.3rem;overflow:hidden}.ia-bar-fill{display:block;height:100%;border-radius:.3rem}.ia-bar-value{font-variant-numeric:tabular-nums;font-size:.8rem;color:#153e56}
+.ia-scatter{width:100%;max-width:850px;display:block;overflow:visible;font:12px system-ui,sans-serif;color:#254b5d}.ia-scatter g{cursor:pointer}.ia-scatter g:hover circle{stroke:#183c54;stroke-width:2}.ia-point-label{font-size:11px;fill:#24495b;paint-order:stroke;stroke:#fff;stroke-width:3px;stroke-linejoin:round}
+.ia-simple-list{display:grid;gap:.42rem;max-width:850px}.ia-simple-row{display:grid;grid-template-columns:minmax(9rem,1.2fr) minmax(5rem,2fr) 3rem;gap:.6rem;align-items:center;padding:.14rem;border:0;background:transparent;color:#174d69;text-align:left;font:inherit;cursor:pointer}.ia-simple-row strong{text-align:right;font-variant-numeric:tabular-nums}
+.ia-table-wrap{overflow:auto}.ia-table{border-collapse:collapse;width:100%;font-size:.88rem}.ia-table th,.ia-table td{padding:.5rem .6rem;border-bottom:1px solid #dce7eb;text-align:left;vertical-align:top}.ia-table th{background:#f0f7f9}.ia-table td:not(:first-child){font-variant-numeric:tabular-nums}
+#ia-detail{margin:1rem 0;padding:1rem;border:1px solid #b4d2df;border-radius:.6rem;background:#f8fcfd;scroll-margin-top:5rem}.ia-drug-list{max-height:36rem;overflow:auto}.ia-drug-list details{padding:.45rem;border-bottom:1px solid #dce9ee}.ia-drug-list summary{cursor:pointer;color:#175b7c;font-weight:650}.ia-drug-list p,.ia-drug-list ul{margin:.45rem 0;font-size:.87rem}
+@media(max-width:550px){.ia-row{grid-template-columns:minmax(6rem,1fr) minmax(7rem,1.2fr);gap:.4rem;font-size:.82rem}.ia-simple-row{grid-template-columns:minmax(7rem,1fr) minmax(4rem,1fr) 2.5rem;font-size:.82rem}.ia-legend{font-size:.74rem}}

@@ -1,0 +1,42 @@
+.audited-landscape { color:#19384a; }
+.audited-landscape .audited-lede { font-size:1.06rem; max-width:75ch; }
+.audited-note { color:#516876; font-size:.9rem; line-height:1.55; }
+.audited-controls { display:flex; flex-wrap:wrap; gap:.8rem; align-items:end; margin:1rem 0; }
+.audited-controls label { display:flex; flex-direction:column; gap:.25rem; font-size:.83rem; font-weight:650; }
+.audited-controls select, .audited-controls button, .audited-detail-title button { border:1px solid #a8bdc9; border-radius:.35rem; background:white; padding:.4rem .6rem; color:#19384a; }
+.audited-landscape details.audited-section { border-top:1px solid #dbe6eb; padding:.85rem 0; }
+.audited-landscape details.audited-section>summary { color:#163b53; font-size:1.08rem; font-weight:700; cursor:pointer; }
+.audited-landscape h3 { font-size:1rem; margin:1rem 0 .3rem; }
+.audited-chart { max-width:100%; overflow-x:auto; }
+.audited-svg { display:block; width:100%; min-width:620px; height:auto; font-family:system-ui,sans-serif; }
+.audited-label { font-size:15px; fill:#243f50; }
+.audited-axis { font-size:13px; fill:#526b79; }
+.audited-value { font-size:14px; font-weight:650; fill:#19384a; }
+.audited-svg-title { font-size:16px; font-weight:700; fill:#17384c; }
+.audited-footnote { font-size:11px; fill:#526b79; }
+.audited-heat-value { font-size:12px; font-weight:650; }
+.audited-disease-svg { display:block; width:100%; max-width:850px; min-width:580px; height:auto; background:#fafcfd; border:1px solid #dce8ed; }
+.audited-disease-svg g:focus circle,.audited-disease-svg g:hover circle { stroke:#122f42; stroke-width:3; }
+.audited-map-label { font:600 12px system-ui,sans-serif; fill:#19384a; paint-order:stroke; stroke:#fff; stroke-width:3px; stroke-linejoin:round; }
+.audited-download { border:1px solid #a8bdc9; border-radius:.3rem; padding:.25rem .55rem; background:white; color:#24556e; font-size:.75rem; margin:.25rem 0 .8rem; }
+.audited-map-legend { display:flex; flex-wrap:wrap; gap:.4rem .9rem; margin:.5rem 0 1rem; font-size:.76rem; color:#435f6c; }
+.audited-map-legend span { display:inline-flex; align-items:center; gap:.3rem; }
+.audited-map-legend i { width:.7rem; height:.7rem; border-radius:50%; display:inline-block; }
+.audited-download { border:1px solid #a8bdc9; border-radius:.3rem; padding:.25rem .55rem; background:white; color:#24556e; font-size:.75rem; margin:.25rem 0 .8rem; }
+.audited-chart-row { cursor:pointer; }
+.audited-chart-row:hover rect, .audited-chart-row:focus rect { stroke:#d48737; stroke-width:2; }
+.audited-chart-row:focus { outline:2px solid #d48737; }
+.audited-legend { display:flex; flex-wrap:wrap; align-items:center; gap:.4rem; color:#526b79; font-size:.8rem; }
+.audited-gradient { width:100px; height:8px; background:linear-gradient(90deg,#bedee7,#0e4064); }
+.audited-outline { width:22px; height:9px; border:1.5px solid #26566d; background:white; }
+.audited-detail { margin:1rem 0; padding:1rem; border:1px solid #bdd1db; background:#f7fbfc; border-radius:.4rem; }
+.audited-detail[hidden] { display:none; }
+.audited-detail-title { display:flex; gap:1rem; justify-content:space-between; align-items:center; }
+.audited-detail-title h3 { margin:.2rem 0; }
+.audited-detail-title small { font-size:.8rem; font-weight:400; }
+.audited-table-wrap { max-height:32rem; overflow:auto; }
+.audited-landscape table { border-collapse:collapse; font-size:.85rem; width:100%; }
+.audited-landscape th,.audited-landscape td { padding:.45rem .55rem; border-bottom:1px solid #dbe6eb; text-align:left; vertical-align:top; }
+.audited-landscape th { background:#edf4f6; position:sticky; top:0; z-index:1; }
+.audited-text-button { border:0; background:transparent; color:#12608b; text-decoration:underline; padding:0; cursor:pointer; text-align:left; }
+.audited-landscape details details { padding:.25rem 0; }

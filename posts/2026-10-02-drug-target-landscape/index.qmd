@@ -1,9 +1,9 @@
 ---
 title: "Drug-target landscape"
-description: "Browse the paper-derived approved-drug target landscape and a separately curated, source-linked clinical development pilot."
+description: "Explore investigated and approved drugs, their targets, disease areas, mechanisms and source evidence."
 author: "iLo"
 date: 2026-10-10
-date-modified: 2026-10-13
+date-modified: 2026-11-06
 categories:
   - Data Resource
   - Target Discovery
@@ -15,24 +15,127 @@ format:
     page-layout: full
 ---
 
-This public, versioned resource maps the approved-drug target landscape from the paper supplements and adds normalized drug–target relationships, target-class browsing, a separately sourced clinical pilot, and an initial U.S. FDA primary-indication layer. FDA indication coverage is partial: as of October 13, 2026, 164 of 1,766 catalog drugs have a verified earliest indication; 1,602 remain pending review. Pending records are not evidence that a drug lacks FDA approval. The clinical pilot is selected rather than comprehensive, and its outcome records should be read with their linked evidence.
+This resource explores the relationship between therapeutic targets and drugs, combining the approved-drug baseline from *The evolving landscape of drug targets* with an additional TTD clinical-development dataset and FDA evidence. The integrated analysis and the original paper-based explorer are separate views with different coverage. FDA indication coverage in the original catalog is partial: as of October 13, 2026, 164 of 1,766 catalog drugs have a verified earliest indication; 1,602 remain pending review. Pending records are not evidence that a drug lacks FDA approval.
 
 ```{=html}
+<link rel="stylesheet" href="/posts/2026-10-02-drug-target-landscape/integrated-analysis.css" />
+<link rel="stylesheet" href="/posts/2026-10-02-drug-target-landscape/audited-analysis.css" />
 <div id="landscape-app" class="landscape-app">
-  <div id="landscape-metrics" class="landscape-metrics"></div>
   <section class="landscape-panel landscape-attribution" aria-label="Data sources">
-    <p><strong>Paper baseline:</strong> <a href="https://doi.org/10.1038/s41573-026-01530-3" target="_blank" rel="noopener"><em>The evolving landscape of drug targets</em></a>. This release also adds a separately sourced clinical pilot and a primary-indication layer sourced from FDA approval records and labels.</p>
+    <p><strong>Paper baseline:</strong> <a href="https://doi.org/10.1038/s41573-026-01530-3" target="_blank" rel="noopener"><em>The evolving landscape of drug targets</em></a>. The integrated figures also use Therapeutic Target Database records and FDA evidence; the original explorer includes a separately sourced clinical pilot and FDA indication layer.</p>
     <details><summary>What has been added, and what is still uncertain?</summary>
       <p class="landscape-muted">Beyond the paper supplements, this release adds normalized target and drug identifiers, primary/secondary target roles, target-protein classification, registry-linked clinical programs and trial protocols (including one merged <a href="https://clinicaltrials.gov/" target="_blank" rel="noopener">ClinicalTrials.gov</a> NCT alias), outcome-review records, coverage-quality reporting, and an initial indication-level U.S. FDA layer for selected drugs. The cards above show current release counts. When a drug's primary mechanism cannot be assigned to one protein, it appears under an explicit unclear-target entry rather than a speculative protein. Clinical records are a separate, selected pilot evidence layer, not paper-derived data; their outcome evidence also draws on linked publications, sponsor disclosures, and regulatory records.</p>
       <p class="landscape-muted"><strong>Interpretation limits:</strong> Target classes include non-core and unresolved-scope records, so all-target counts are not the paper's approved-target count. Approval records belong to drugs, not automatically to every linked protein or indication. Clinical event labels describe cited trial or program events, not unique failed drugs or proof that a protein target failed. Nine pilot programs remain held from headline analyses pending evidence review; an unknown stopping cause remains unknown.</p>
       <p class="landscape-muted"><strong>Construction note:</strong> AI-assisted extraction, coding, and drafting contributed to this resource. The release passed scripted data and source-link checks, but its selected clinical pilot is not a systematic review; verify consequential interpretations against the linked primary sources.</p>
     </details>
   </section>
-  <nav class="landscape-jump-nav" aria-label="Explore this dashboard"><button type="button" data-jump="target-explorer">Browse target classes</button><button type="button" data-jump="drug-explorer-title">Find a drug</button><button type="button" data-jump="landscape-analytics-title">See analyses</button><button type="button" data-jump="clinical-explorer">Clinical pilot</button></nav>
+  <nav class="landscape-jump-nav" aria-label="Explore this dashboard"><button type="button" data-jump="audited-landscape">Drug–target analysis</button><button type="button" data-jump="target-explorer">Browse target classes</button><button type="button" data-jump="drug-explorer-title">Find a drug</button><button type="button" data-jump="clinical-explorer">Clinical pilot</button></nav>
+  <section id="audited-landscape" class="landscape-panel audited-landscape" aria-labelledby="audited-title">
+    <h2 id="audited-title">A wider view of drug targets</h2>
+    <p class="audited-lede">Which targets have the most linked drugs—and how many of those drugs have a recorded approval? Select any bar to inspect the underlying records.</p>
+    <p class="audited-note">This analysis uses the audited combined dataset: 27,932 drug records, 3,156 targets and 40,915 relationships. TTD source snapshots are from 2024; the paper-derived baseline and other annotations have different coverage. A drug can appear under multiple targets. Some shared names remain unresolved, and protein families, non-protein targets and unclear categories are included.</p>
+    <p class="audited-note"><strong>Reading the counts:</strong> Approval is reported for a drug, can be outside the U.S., and does not establish that every linked target explains an approved use. No recorded approval is not proof of failure or absence of approval. The broad view includes source-reported investigative and terminated records without a specified phase, research compounds and radiolabeled ligands; it is not a count of clinical-trial drugs. The default phase/approval view includes links with a source-reported phase or approval and links involving an approved drug; an approved drug's individual target link can still be investigative.</p>
+    <p class="audited-note">Sources: <a href="https://doi.org/10.1038/s41573-026-01530-3">The evolving landscape of drug targets</a>; the <a href="https://ttd.idrblab.cn/full-data-download">Therapeutic Target Database</a> (<a href="https://doi.org/10.1093/nar/gkad751">2024 resource publication</a>); <a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a>; <a href="https://www.uniprot.org/help/license">UniProt</a>; <a href="https://www.guidetopharmacology.org/about.jsp#license">IUPHAR/BPS Guide to PHARMACOLOGY</a>; <a href="https://www.ebi.ac.uk/chembl/">ChEMBL</a>; <a href="https://gsrs.ncats.nih.gov/">NCATS GSRS</a>; and <a href="https://www.fda.gov/drugs/drug-approvals-and-databases">FDA</a>. Review the source and date before drawing conclusions.</p>
+    <div class="audited-controls">
+      <label>Evidence view<select id="audit-scope"><option value="clinical" selected>Reported phase or approved drug</option><option value="broad">Broad source-reported links</option></select></label>
+      <label>Target class<select id="audit-category"><option value="all">All classes</option></select></label>
+      <label>Drug category<select id="audit-modality"><option value="all">All categories</option></select></label>
+      <label>Target rows<select id="audit-limit"><option value="20">20</option><option value="50" selected>50</option></select></label>
+      <button type="button" data-reset-audited>Reset filters</button>
+    </div>
+    <p id="audit-summary" class="audited-note" role="status">Loading audited analysis…</p>
+    <p id="audit-insight" class="audited-note" aria-live="polite"></p>
+    <div class="audited-legend"><span>Fewer records</span><span class="audited-gradient" aria-hidden="true"></span><span>More records</span><span class="audited-outline" aria-hidden="true"></span><span>Outlined bar: second measure (see caption)</span></div>
+    <div id="audit-target-detail" class="audited-detail" hidden aria-live="polite"></div>
+    <details class="audited-section" open><summary>Targets ranked by linked drugs</summary>
+      <p class="audited-note">Each target is ranked by distinct linked drug records in the selected evidence view. The shade and length of each bar reflect the count; scales are recalculated for each chart. Select a bar for drugs, recorded statuses and source links.</p>
+      <div id="audit-top" class="audited-chart" data-label="Targets ranked by distinct linked drugs"></div>
+    </details>
+    <details class="audited-section"><summary>Recorded approvals and targets with none recorded</summary>
+      <h3>Targets ranked by drugs with reported approval</h3><p class="audited-note">Distinct linked drugs with a source-reported approval, ranked by the approved-drug count. This is a drug-level status, not proof that each associated target explains an approved use.</p>
+      <div id="audit-approved-only" class="audited-chart" data-label="Targets ranked by drugs with reported approval"></div>
+      <h3>Linked drugs and drug-level approvals</h3><p class="audited-note">Filled bars show all linked drugs; outlined bars show those with a source-reported approval. The approval may be for a different indication or target.</p>
+      <div id="audit-approval" class="audited-chart" data-label="Linked drugs and drugs with a source-reported approval"></div>
+      <h3>Many linked drugs, no approval recorded</h3><p class="audited-note">Targets ranked by the number of linked records when none has a recorded approval in this dataset. This is not evidence of failure or proof that no approved drug exists.</p>
+      <div id="audit-no-approval" class="audited-chart" data-label="Targets with no drug approval recorded"></div>
+      <h3>Descriptive approval share</h3><p class="audited-note">Approved drug records divided by all linked drug records in the currently selected view. Switch evidence view to compare denominators. These are descriptive shares, not the probability of clinical success.</p><div id="audit-share"></div>
+    </details>
+    <details class="audited-section"><summary>Recent source evidence, 2015–2024</summary>
+      <p class="audited-note">Study-date candidates use one or more selected registry date proxies linked to a target–drug record. Dates are not verified first clinical entry, and registry matches can be uncertain. Approval-year counts use a drug's earliest recorded year in the paper-derived events. These are different source layers with incomplete and unequal coverage, not a matched development cohort or approval rate. The TTD source snapshot is from 2024; later developments are not comprehensively captured.</p>
+      <h3>When do linked study records appear?</h3><p class="audited-note">Each cell counts distinct drug records linked to the target with a selected study-date candidate in that year; it does not count trials. Rows are the top targets by distinct candidates across the period. A drug may appear in several years. A dash means no linked candidate in this dataset, not no research activity. Select a cell to inspect its drugs and candidate studies.</p>
+      <div id="audit-year-heatmap" class="audited-chart" data-label="Target by year: linked study-date candidates, 2015–2024"></div>
+      <h3>Targets with selected study-date candidates</h3><div id="audit-recent-trial" class="audited-chart" data-label="Targets with study-date candidate evidence in 2015 to 2024"></div>
+      <h3>Targets linked to drugs with a paper-recorded approval year</h3><div id="audit-recent-approval" class="audited-chart" data-label="Targets linked to drugs with a paper-recorded approval year in 2015 to 2024"></div>
+      <h3>Side-by-side source comparison</h3><p class="audited-note">Top 20 by the larger count. Filled bars are study-date candidates; outlined bars are paper-recorded approval years. A drug can occur in both series, and the figures should not be added or divided.</p>
+      <div id="audit-recent-combined" class="audited-chart" data-label="Comparison of study-date candidates and paper-recorded approvals"></div>
+    </details>
+    <details class="audited-section"><summary>Target classes and drug categories</summary>
+      <h3>Which kinds of drugs are linked to each target?</h3><p class="audited-note">Rows are the most connected targets in the selected view; columns are source-derived drug categories. Cells count distinct linked drug records, and darker colors indicate higher counts. “Unknown” is retained rather than guessed. Select a cell to see its drugs.</p>
+      <div id="audit-modality-heatmap" class="audited-chart" data-label="Most connected targets by drug category"></div>
+      <h3>Target classes</h3><p class="audited-note">Counts are distinct targets with at least one link in the selected view. Kinases are shown separately from other enzymes. Select a bar to filter.</p><div id="audit-classes" class="audited-chart" data-label="Distinct targets by class"></div>
+      <h3>Drug categories</h3><p class="audited-note">Counts are distinct linked drugs, including unknown classifications. Select a bar to filter.</p><div id="audit-modalities" class="audited-chart" data-label="Distinct drugs by category"></div>
+    </details>
+    <details class="audited-section"><summary>Disease areas</summary>
+      <p class="audited-note">Counts are distinct drugs with a source-reported disease and at least one target link in the selected view. In the phase/approval view the disease record must also have a qualifying source status. Broad groups use available ICD-11 codes; unsupported codes remain unclassified. Select a group to see original disease names and drugs. These separate associations do not establish a drug–target–disease mechanism; a drug may appear in several disease areas.</p>
+      <h3>Which disease terms share linked drugs?</h3><p class="audited-note">Circles are connected disease term/group pairs selected from the 120 most frequent in the broad source view. Circle size represents the number of distinct linked drug records; color represents the broad ICD-11 group. A line means the terms share at least three drug records, representing at least 3% of their combined distinct drugs. Filters recalculate the lines; some circles may then be isolated. Select a circle or line to inspect the drugs.</p>
+      <p class="audited-note">The force-directed layout is arranged for readability; proximity is not a biological distance. The network is not UMAP and does not count clinical trials or establish approved indications. Shared drug records do not prove that the terms were studied in the same trial or treated through the same target.</p>
+      <div id="audit-disease-map" class="audited-chart" aria-label="Map of shared drug records across disease terms"></div>
+      <div id="audit-disease" class="audited-chart" data-label="Distinct drugs by source-reported disease area"></div><div id="audit-disease-detail" class="audited-detail" hidden aria-live="polite"></div>
+    </details>
+  </section>
+  <details class="landscape-panel"><summary><strong>Earlier integrated analysis (different source subset)</strong></summary>
+  <section id="integrated-landscape" class="landscape-panel integrated-landscape" aria-labelledby="ia-title">
+    <h2 id="ia-title">Drug development across targets</h2>
+    <p class="ia-intro">Which targets are linked to the most drugs in this selected study-record dataset, and how many of those drugs have a reported approval? Select a target to inspect the records.</p>
+    <p class="ia-source-note"><strong>How to read these analyses.</strong> Trial-linked candidates combine the TTD set selected using study records from 2015–2024, exact-name registry candidates from the ChEMBL discovery layer, and directly reviewed study links. The name-matched candidates are not individually verified. Approved-only drugs from the paper baseline are also included, without restricting their approval dates. Approvals reported by TTD or the paper may be outside the U.S.; reviewed FDA evidence is shown separately. FDA labels may be historical, and approval of an individual indication can change. Approved drugs are included among developed drugs. Missing approval does not establish failure or lack of approval. Drug identities are partially deduplicated, and target links do not establish which target explains every approved indication.</p>
+    <p class="ia-muted">Sources: <a href="https://doi.org/10.1038/s41573-026-01530-3" target="_blank" rel="noopener">The evolving landscape of drug targets</a>; <a href="https://ttd.idrblab.cn/full-data-download" target="_blank" rel="noopener">Therapeutic Target Database</a> (2024 source snapshot); <a href="https://www.ebi.ac.uk/chembl/" target="_blank" rel="noopener">ChEMBL</a>; <a href="https://www.uniprot.org/" target="_blank" rel="noopener">UniProt</a> (protein classification, CC BY 4.0); <a href="https://clinicaltrials.gov/" target="_blank" rel="noopener">ClinicalTrials.gov</a>; and <a href="https://www.fda.gov/drugs/drug-approvals-and-databases" target="_blank" rel="noopener">FDA</a> records. FDA evidence coverage is incomplete.</p>
+    <div class="ia-controls">
+      <label>Show targets<select data-state="limit"><option value="10">10</option><option value="20" selected>20</option><option value="50">50</option></select></label>
+      <label>Drug–target designation<select data-state="role"><option value="all">All source-reported links</option><option value="primary">Known primary targets only</option></select></label>
+      <label>Target type<select data-state="type"><option value="all">All target types</option><option value="protein">Protein</option><option value="family">Family or complex</option><option value="nonprotein">Non-protein or process</option><option value="unclassified">Unclassified</option></select></label>
+      <label>Minimum drugs for scatter and hotspots<input data-state="minimum" type="number" min="1" max="100" value="5" /></label>
+    </div>
+    <p id="ia-summary" class="ia-muted" role="status">Loading integrated analysis…</p>
+    <div id="ia-detail" hidden aria-live="polite"></div>
+    <details class="ia-section" open><summary>Investigated and approved drugs by target</summary>
+      <p class="ia-muted">Blue counts distinct drugs associated with this target that were selected using the study-record sources; some study matches are unverified candidates. In the right chart, orange counts how many of those same drugs also have a source-reported approval. For example, blue 10 and orange 4 means four of those ten drugs have an approval recorded—it does not mean four of ten trials succeeded. Approvals can be outside the U.S., and approval of a drug does not establish the target responsible for its approved use.</p>
+      <div id="ia-comparison"></div>
+    </details>
+    <details class="ia-section"><summary>Most-developed targets</summary>
+      <p class="ia-muted">Ranked by distinct linked developed-drug records, including trial-selected and approved-only drugs. The approved count is a subset of the developed count.</p><div id="ia-developed"></div>
+    </details>
+    <details class="ia-section"><summary>Targets linked to approved drugs</summary>
+      <p class="ia-muted">Ranked by all linked drugs reported approved. FDA evidence is a subset and is incomplete; an FDA label does not establish the relevance of every linked target.</p><div id="ia-approved"></div>
+    </details>
+    <details class="ia-section"><summary>Scatterplot: investigation and approval</summary>
+      <label class="ia-inline-control">Approval view<select data-state="scatter"><option value="approved" selected>All linked drugs reported approved</option><option value="within">Approved within the selected trial set</option></select></label>
+      <div id="ia-scatter"></div>
+    </details>
+    <details class="ia-section"><summary>Highly investigated targets and recorded approvals</summary>
+      <label class="ia-inline-control">Approval view<select data-state="hotspot"><option value="approved" selected>All linked drugs reported approved</option><option value="within">Approved within selected trial set</option></select></label>
+      <label class="ia-inline-control">Ranking<select data-state="hotspotRank"><option value="none">No approval recorded; rank by trial count</option><option value="percentage">Lowest recorded-approval percentage</option></select></label>
+      <p class="ia-muted">The default checks all linked approved drugs, including approved drugs outside the selected trial set. The alternative percentage uses only the selected trial set as its denominator; it does not include approved drugs missing from that set and is not a success probability. “None recorded” is not proof that a target has no approved drug.</p><div id="ia-hotspots"></div>
+    </details>
+    <details class="ia-section"><summary>Disease areas</summary>
+      <label class="ia-inline-control">Disease association<select data-state="disease"><option value="drug">Disease reported for drugs</option><option value="target">Disease reported for targets</option></select></label>
+      <p class="ia-muted">Broad groups use a documented, conservative ICD-11 chapter mapping; terms without a supported mapping remain unclassified. Select a group to see the original disease terms. These two views do not establish a specific drug–target–disease mechanism.</p><div id="ia-diseases"></div>
+    </details>
+    <details class="ia-section"><summary>Target protein classes</summary><div id="ia-classes"></div><div id="ia-class-detail" hidden></div></details>
+    <details class="ia-section"><summary>Source-reported mechanisms</summary><div id="ia-mechanisms"></div><div id="ia-mechanism-detail"></div></details>
+    <details class="ia-section"><summary>Source-reported development status</summary><div id="ia-statuses"></div><div id="ia-status-detail"></div></details>
+    <details class="ia-section"><summary>Drug–target links without a primary or secondary label</summary>
+      <p class="ia-muted">“Primary” and “secondary” describe whether a <em>particular drug–target link</em> is labeled as a main or additional target. For example, a CD19 link here means its source did not assign that drug–CD19 relationship either label; it does not mean CD19 lacks a biological function or that the association is unknown. These links appear in the all-links view and remain visible here when the primary filter is selected.</p><div id="ia-unknown"></div>
+    </details>
+  </section>
+  </details>
   <section id="target-explorer" class="landscape-panel landscape-explorer">
+    <details><summary><strong>Original paper-based catalog summary</strong></summary>
+      <p class="landscape-muted">These counts describe the original paper-based dashboard, which has different coverage from the integrated analysis above.</p>
+      <div id="landscape-metrics" class="landscape-metrics"></div>
+    </details>
     <div class="landscape-explorer-intro">
       <h2>Explore by target protein class</h2>
-      <p class="landscape-muted">Start with a protein class, then select a target to see the drugs and development history connected to it. In a target profile, select a drug name to explore all of its linked targets.</p>
+      <p class="landscape-muted">Start with a protein class, then select a target to see the drugs and development history connected to it. In a target profile, select a drug name to explore all of its linked targets. Pilot-program counts describe the small, selected set in this dashboard; zero does not mean that no clinical trials or drug programs exist.</p>
       <div class="landscape-toolbar"><label for="target-search">Or search targets</label><input id="target-search" type="search" placeholder="Protein name, gene symbol, or accession" /></div>
       <label class="scope-filter" for="target-scope">Coverage scope <select id="target-scope"><option value="all">All targets</option><option value="core">Paper-comparable core</option><option value="clinical_only">Clinical-only additions</option><option value="cgt_only">Cell/gene-therapy-only</option><option value="unresolved">Unresolved scope</option></select></label>
       <p class="landscape-muted scope-note">Scope changes the class counts and target list below; the analysis figures later on this page always show their stated populations.</p>
@@ -51,7 +154,7 @@ This public, versioned resource maps the approved-drug target landscape from the
   </section>
   <section class="landscape-panel landscape-analytics" aria-labelledby="landscape-analytics-title">
     <details id="landscape-analytics-details">
-      <summary id="landscape-analytics-title"><strong>What the database shows · figures and interactive analyses</strong></summary>
+      <summary id="landscape-analytics-title"><strong>Paper baseline and previous release analyses</strong></summary>
       <p class="landscape-muted">Descriptive analyses of the current release. These are counts of records and relationships, not estimates of biological importance or clinical success. Coverage and protein-class charts include the separately labeled non-core target records; the clinical outcome chart uses included pilot programs. Provisional registry stopping reasons are shown separately in the evidence-review section.</p>
       <figure class="publication-figure">
         <img src="/data/generated/target-landscape-publication.svg" alt="Four-panel analysis figure showing target protein classes, connected primary targets, distinct drugs by first documented approval year, and clinical outcome event labels." />
@@ -73,6 +176,29 @@ This public, versioned resource maps the approved-drug target landscape from the
     <p class="landscape-muted">Download the matching drugs as one row per drug–target relationship. A drug with several targets appears on several rows; an approval record belongs to the drug, not automatically to every target link.</p>
     <button type="button" class="load-more-button" id="drug-export" disabled>Download matching drug–target links (CSV)</button>
     <div id="drug-results"></div>
+  </section>
+  <section class="landscape-panel" aria-label="Broader clinical-stage source discovery">
+    <details><summary><strong>Explore the broader clinical-stage source landscape</strong></summary>
+      <p class="landscape-muted"><strong>Exploratory source snapshot, not the 2000–June 2025 cohort.</strong> These are drugs with ChEMBL source-reported mechanisms and a maximum development phase of I or later, linked to human single proteins in this catalog. The current source release can include drugs or evidence after the historical cutoff. It includes drugs at source phase 4; this does not establish U.S. FDA approval. Counts do not establish the timing of clinical entry, trial-specific target relevance, or a drug's current status.</p>
+      <p class="landscape-muted">A drug can appear under multiple targets, and repeated mechanism records are counted once per drug–target pair in the chart. Family, complex, nonhuman, and unmatched target records are not represented here. Sources: <a href="https://www.ebi.ac.uk/chembl/" target="_blank" rel="noopener">ChEMBL</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>; <a href="https://clinicaltrials.gov/" target="_blank" rel="noopener">ClinicalTrials.gov</a>; and, where shown, existing FDA-curated records. Select a bar or search a target or drug to inspect the source records.</p>
+      <p class="landscape-muted"><strong>Trial and FDA links are name-match candidates.</strong> Registry trial dates are study-level, not necessarily the start of this drug or arm. Registry status is current at retrieval and does not establish a drug's outcome at the cutoff. FDA indication links require drug-identity review. No matching trial or FDA record does not mean the drug has no trials or approval.</p>
+      <label for="broad-source-search">Search broad source records</label>
+      <input id="broad-source-search" type="search" maxlength="120" placeholder="Target gene, protein name, or drug name" autocomplete="off">
+      <button type="button" class="load-more-button" id="broad-source-reset">Clear search</button>
+      <div id="broad-source-results"></div>
+    </details>
+  </section>
+  <section class="landscape-panel" aria-label="Investigational drug pilot">
+    <details><summary><strong>Investigational drug pilot: source candidates</strong></summary>
+      <p class="landscape-muted">Six-target discovery intake from ChEMBL, not a clinical-entry cohort or a count of drugs pursued between 2000 and June 2025. A source-reported phase or mechanism does not establish a qualifying trial, eligible monotherapy arm, first clinical entry, FDA approval, or a trial-specific target. Family and complex targets are not yet included. The broader ranking and matched FDA outcomes require further review.</p>
+      <p class="landscape-muted">Data: <a href="https://www.ebi.ac.uk/chembl/" target="_blank" rel="noopener">ChEMBL</a>, licensed <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>. Source records and their references are available through each drug link.</p>
+      <div id="investigational-reviewed"></div>
+      <label for="investigational-target">Pilot target</label>
+      <select id="investigational-target"><option value="all">All six targets</option><option value="PDCD1">PD-1 (PDCD1)</option><option value="CD274">PD-L1 (CD274)</option><option value="JAK1">JAK1</option><option value="JAK2">JAK2</option><option value="EGFR">EGFR</option><option value="GLP1R">GLP-1R (GLP1R)</option></select>
+      <label for="investigational-search">Search pilot drugs or targets</label>
+      <input id="investigational-search" type="search" placeholder="For example, fedratinib or JAK2" autocomplete="off">
+      <div id="investigational-results"></div>
+    </details>
   </section>
   <section id="clinical-explorer" class="landscape-panel landscape-clinical" aria-label="Clinical program explorer">
     <details>
@@ -148,10 +274,21 @@ This public, versioned resource maps the approved-drug target landscape from the
 .analysis-row-button:hover, .analysis-row-button:focus-visible { background: #f4f9fb; outline: 2px solid #9bbdcc; outline-offset: 2px; }
 .analysis-label { overflow-wrap: anywhere; font-size: .82rem; line-height: 1.15; }
 .analysis-track { height: .65rem; background: #edf2f5; border-radius: .25rem; overflow: hidden; }
-.analysis-bar { height: 100%; background: var(--bar-color); }
+.analysis-bar { display: block; height: 100%; background: var(--bar-color); }
 .analysis-value { font-variant-numeric: tabular-nums; font-size: .82rem; color: #17324d; }
 .analysis-scale { display: flex; align-items: center; gap: .45rem; margin: .15rem 0 .6rem; color: #657383; font-size: .72rem; }
 .analysis-scale-swatch { height: .45rem; flex: 1; max-width: 8rem; background: linear-gradient(90deg, #dceef5, #6a9db4, #17324d); }
+.recent-wide { grid-column: 1 / -1; padding: 1.1rem; border: 1px solid #d7e3e9; border-radius: .65rem; background: #fff; }
+.recent-wide h3 { font-size: 1.08rem; }
+.recent-name { background: none; color: #174f6b; border: 0; text-align: left; padding: .2rem; font-weight: 700; cursor: pointer; }
+.recent-name:hover, .recent-name:focus-visible { text-decoration: underline; outline: 2px solid #9bbdcc; }
+.recent-pilot-bars { max-width: 42rem; }
+.recent-data-note { margin-top: .8rem; padding: .7rem .85rem; border-left: .22rem solid #6a9db4; background: #f2f7f9; color: #304c5c; font-size: .84rem; }
+.recent-heatmap-wrap { overflow-x: auto; }
+.recent-heatmap { border-collapse: separate; border-spacing: 3px; min-width: 650px; width: 100%; font-size: .76rem; text-align: center; }
+.recent-heatmap th { color: #526676; font-weight: 600; }
+.recent-heatmap th:first-child { min-width: 8rem; text-align: left; }
+.recent-heatmap td { width: 3.2rem; padding: .25rem; border-radius: .16rem; font-variant-numeric: tabular-nums; }
 .phase-outcome-matrix { margin-top: 1.4rem; }
 .phase-outcome-matrix h3 { margin: .25rem 0 .2rem; font-size: 1rem; color: #17324d; }
 .phase-outcome-matrix p { margin: 0 0 .7rem; color: #657383; font-size: .82rem; }
@@ -419,7 +556,7 @@ This public, versioned resource maps the approved-drug target landscape from the
       classStats[group] = classStats[group] || { targets: 0, drugs: new Set(), clinical: 0 };
       classStats[group].clinical += 1;
     });
-    const classRows = Object.entries(classStats).map(([label, value]) => ({ label, group: label, value: value.targets, note: `${formatNumber(value.drugs.size)} drugs · ${formatNumber(value.clinical)} clinical` })).sort((a, b) => b.value - a.value);
+    const classRows = Object.entries(classStats).map(([label, value]) => ({ label, group: label, value: value.targets, note: `${formatNumber(value.drugs.size)} drugs · ${formatNumber(value.clinical)} selected pilot programs` })).sort((a, b) => b.value - a.value);
     const primaryCounts = {};
     payload.drug_targets.filter((link) => link.target_role === "primary").forEach((link) => { (primaryCounts[link.target_id] ||= new Set()).add(link.drug_id); });
     const topTargets = payload.targets.map((target) => ({ label: target.gene_symbol || target.preferred_name, target: target.target_id, value: primaryCounts[target.target_id]?.size || 0, note: target.preferred_name })).filter((row) => row.value > 0).sort((a, b) => b.value - a.value || a.label.localeCompare(b.label)).slice(0, 50);
@@ -439,9 +576,35 @@ This public, versioned resource maps the approved-drug target landscape from the
     const renderBars = (rows, formatter = formatNumber) => {
       const max = Math.max(...rows.map((row) => row.value), 1);
       const scale = `<div class="analysis-scale" aria-label="Color scale from lower to higher values"><span>Low</span><span class="analysis-scale-swatch" aria-hidden="true"></span><span>High</span></div>`;
-      return scale + rows.map((row) => { const ratio = row.value / max; const lightness = Math.round(88 - ratio * 48); const color = `hsl(198 58% ${lightness}%)`; const control = row.scope ? `data-analysis-scope="${escapeHtml(row.scope)}" aria-label="Browse ${formatNumber(row.value)} ${escapeHtml(row.label)} target records"` : row.group ? `data-analysis-group="${escapeHtml(row.group)}" aria-label="Open ${escapeHtml(row.group)} target class"` : row.target ? `data-analysis-target="${escapeHtml(row.target)}" aria-label="Open ${escapeHtml(row.note)} target profile"` : row.year ? `data-analysis-year="${escapeHtml(row.year)}" aria-label="Browse ${formatNumber(row.value)} drugs first documented in ${escapeHtml(row.year)}"` : row.phase ? `data-analysis-phase="${escapeHtml(row.phase)}" aria-label="Browse ${formatNumber(row.value)} ${escapeHtml(row.label)} pilot program${row.value === 1 ? "" : "s"}"` : row.outcome ? `data-analysis-outcome="${escapeHtml(row.outcome)}" aria-label="Browse programs with ${escapeHtml(row.label)} outcome events"` : ""; const tag = control ? "button" : "div"; const attrs = control ? ` type="button" class="analysis-row analysis-row-button" ${control}` : ` class="analysis-row"`; return `<${tag}${attrs} title="${escapeHtml(row.note)}"><span class="analysis-label">${escapeHtml(row.label)}</span><span class="analysis-track"><span class="analysis-bar" style="width:${Math.max(2, ratio * 100)}%;--bar-color:${color}"></span></span><span class="analysis-value">${formatter(row.value)}</span></${tag}>`; }).join("");
+      return scale + rows.map((row) => { const ratio = row.value / max; const lightness = Math.round(88 - ratio * 48); const color = `hsl(198 58% ${lightness}%)`; const control = row.scope ? `data-analysis-scope="${escapeHtml(row.scope)}" aria-label="Browse ${formatNumber(row.value)} ${escapeHtml(row.label)} target records"` : row.group ? `data-analysis-group="${escapeHtml(row.group)}" aria-label="Open ${escapeHtml(row.group)} target class"` : row.broad ? `data-proxy-target="${escapeHtml(row.broad)}" data-proxy-metric="${escapeHtml(row.proxyMetric)}" aria-label="Explore the candidate drugs for ${escapeHtml(row.label)}"` : row.target ? `data-analysis-target="${escapeHtml(row.target)}" aria-label="Open ${escapeHtml(row.note)} target profile"` : row.year ? `data-analysis-year="${escapeHtml(row.year)}" aria-label="Browse ${formatNumber(row.value)} drugs first documented in ${escapeHtml(row.year)}"` : row.phase ? `data-analysis-phase="${escapeHtml(row.phase)}" aria-label="Browse ${formatNumber(row.value)} ${escapeHtml(row.label)} pilot program${row.value === 1 ? "" : "s"}"` : row.outcome ? `data-analysis-outcome="${escapeHtml(row.outcome)}" aria-label="Browse programs with ${escapeHtml(row.label)} outcome events"` : ""; const tag = control ? "button" : "div"; const attrs = control ? ` type="button" class="analysis-row analysis-row-button" ${control}` : ` class="analysis-row"`; return `<${tag}${attrs} title="${escapeHtml(row.note)}"><span class="analysis-label">${escapeHtml(row.label)}</span><span class="analysis-track"><span class="analysis-bar" style="width:${ratio * 100}%;--bar-color:${color}"></span></span><span class="analysis-value">${formatter(row.value)}</span></${tag}>`; }).join("");
     };
     analyticsEl.innerHTML = `<article class="analysis-chart" aria-label="Target records by coverage scope"><h3>Target records by coverage scope</h3><p class="analysis-chart-caption">${formatNumber(payload.targets.length)} total records · click a bar to browse that scope. Only the core is paper-comparable</p>${renderBars(scopeRows)}</article><article class="analysis-chart" aria-label="Targets by protein class"><h3>Targets by protein class</h3><p class="analysis-chart-caption">All scopes by target count; clinical annotations cover all review states · click a bar to browse targets</p>${renderBars(classRows)}</article><article class="analysis-chart" aria-label="Most connected primary targets"><h3>Most connected primary targets</h3><p class="analysis-chart-caption">Primary drug-target relationships · click a bar for its target profile</p>${renderBars(topTargets)}</article><article class="analysis-chart" aria-label="Distinct drugs by first documented approval year"><h3>Drugs by first documented approval year</h3><p class="analysis-chart-caption">Each drug counted once, at its earliest dated approval record in this paper-derived release; click a bar to browse drugs. Not a complete global approval time series</p>${renderBars(approvalRows)}</article><article class="analysis-chart" aria-label="Clinical programs by development stage"><h3>Clinical programs by stage</h3><p class="analysis-chart-caption">${formatNumber(includedPrograms.length)} included programs; ${formatNumber(payload.programs.length - includedPrograms.length)} held from headline analysis · click a bar to browse included programs</p>${renderBars(phaseRows)}</article><article class="analysis-chart" aria-label="Outcome event labels in included programs"><h3>Outcome event labels in included programs</h3><p class="analysis-chart-caption">${formatNumber(includedOutcomes.length)} event records across ${formatNumber(includedProgramIds.size)} programs · click a bar to browse distinct matching programs; counts can differ</p>${renderBars(outcomeRows)}</article>`;
+    const recent = payload.recent_target_analysis;
+    if (recent) {
+      const recentTop = recent.targets.slice(0, 20).map((row) => ({ label: row.label, target: row.target_id, value: row.approved_linked_drugs, note: row.name }));
+      const years = Array.from({length: recent.last_year - recent.first_year + 1}, (_, i) => recent.first_year + i);
+      const heatRows = recent.targets.slice(0, 12);
+      const maxCell = Math.max(1, ...heatRows.flatMap((row) => years.map((year) => row.by_year[String(year)] || 0)));
+      const heatBody = heatRows.map((row) => `<tr><th scope="row"><button type="button" class="recent-name" data-analysis-target="${escapeHtml(row.target_id)}" title="${escapeHtml(row.name)}">${escapeHtml(row.label)}</button></th>${years.map((year) => { const value = row.by_year[String(year)] || 0; const light = value ? Math.round(91 - 48 * value / maxCell) : 97; return `<td style="background:hsl(198 58% ${light}%);color:${light < 58 ? '#fff' : '#17324d'}" aria-label="${escapeHtml(row.label)}, ${year}: ${value} drugs">${value}</td>`; }).join('')}</tr>`).join('');
+      const pilotRows = recent.pilot_genes.map((gene) => { const target = payload.targets.find((item) => item.gene_symbol === gene); const row = recent.targets.find((item) => item.gene === gene); return target ? { label: gene, target: target.target_id, note: target.preferred_name, value: row?.approved_linked_drugs || 0 } : null; }).filter(Boolean);
+      analyticsEl.insertAdjacentHTML('afterbegin', `<article class="analysis-chart recent-wide" aria-label="Approved drugs linked to six pilot targets"><h3>Approved drugs linked to six pilot targets, ${recent.first_year}–${recent.last_year}</h3><p class="analysis-chart-caption">Distinct drugs with a paper-derived approval record and a primary target link; the drug’s first recorded approval year falls within ${recent.first_year}–${recent.last_year}. Click a bar to open the target profile.</p><div class="recent-pilot-bars">${renderBars(pilotRows)}</div><p class="recent-data-note"><strong>Clinical-entry counts are still being curated and are not shown.</strong> Approved drugs generally have supporting clinical studies; unavailable counts do not mean that a target has no clinical trials. The future count will be distinct drugs entering clinical development, not the number of studies.</p><p class="analysis-chart-caption">The approved baseline is global/unspecified, not FDA-only; a primary link is not necessarily validated for the approved indication. These data cannot yet identify targets with high investigational activity and few or no approved drugs.</p></article><article class="analysis-chart" aria-label="Recent approval-linked targets"><h3>Top 20 approval-linked targets, ${recent.first_year}–${recent.last_year}</h3><p class="analysis-chart-caption">Distinct drugs per target with a paper-derived approval record and primary link; a multi-target drug can appear under multiple targets. Click a bar to explore.</p>${renderBars(recentTop)}</article><article class="analysis-chart recent-wide" aria-label="Recent approval-linked target heatmap"><h3>When approval-linked drugs appeared</h3><p class="analysis-chart-caption">Top 12 targets from the chart above · cells count distinct primary-linked drugs by first recorded approval year. Darker means more records; 0 means none in this dataset for that year.</p><div class="recent-heatmap-wrap" tabindex="0" aria-label="Scrollable approval-linked target heatmap"><table class="recent-heatmap"><thead><tr><th scope="col">Target</th>${years.map((year) => `<th scope="col">${year}</th>`).join('')}</tr></thead><tbody>${heatBody}</tbody></table></div><p class="analysis-chart-caption">These are the ten whole years before the pilot cutoff of June 30, 2025. The paper supplement records approval years, so 2025 cannot be split reliably at the cutoff and is excluded. Counts reflect the paper-derived release, not all worldwide or U.S. FDA approvals.</p></article>`);
+    }
+    const proxy = payload.recent_investigational_analysis;
+    if (proxy) {
+      const period = `${proxy.first_year}–${proxy.last_year}`;
+      const sorted = (key) => [...proxy.clinical_targets].filter((row) => row[key] > 0).sort((a, b) => b[key] - a[key] || a.label.localeCompare(b.label)).slice(0, 20).map((row) => ({ label: row.label, broad: row.target_id, proxyMetric: key, note: row.name, value: row[key] }));
+      const fdaRows = proxy.fda_targets.slice(0, 20).map((row) => ({ label: row.label, target: row.target_id, note: row.name, value: row.fda_approved_drugs }));
+      const heldItems = proxy.fda_timeline_held_drugs.map((row) => {
+        const fdaUrl = /^https:\/\/(?:www\.)?accessdata\.fda\.gov\//i.test(row.fda_source_url || '') ? `<a href="${escapeHtml(row.fda_source_url)}" target="_blank" rel="noopener">FDA source</a>` : 'FDA source unavailable';
+        const clinicalUrl = /^https:\/\/(?:www\.)?accessdata\.fda\.gov\//i.test(row.clinical_evidence_source_url || '') ? `<a href="${escapeHtml(row.clinical_evidence_source_url)}" target="_blank" rel="noopener">FDA clinical review</a>` : '';
+        const clinicalNote = clinicalUrl && row.clinical_evidence_by_date ? ` ${clinicalUrl}: clinical evidence existed by ${escapeHtml(row.clinical_evidence_by_date)} (inferred upper bound, not first-dose or study-start date).` : '';
+        return `<li>${escapeHtml(row.name)}: matched FDA approval candidate ${escapeHtml(row.candidate_fda_approval_date)}; earliest matched study ${escapeHtml(row.earliest_matched_study_start)} (<a href="https://clinicaltrials.gov/study/${encodeURIComponent(row.earliest_study_id)}" target="_blank" rel="noopener">${escapeHtml(row.earliest_study_id)}</a>; ${fdaUrl}). ${row.fda_basis === 'reviewed_catalog_fda_record_candidate_name_match' ? 'Reviewed catalog FDA record; drug identity match still requires review.' : 'FDA application and drug identity matches require review.'}${clinicalNote}</li>`;
+      }).join('');
+      analyticsEl.insertAdjacentHTML('afterbegin', `<article class="analysis-chart recent-wide" aria-label="Exploratory clinical and FDA rankings"><h3>Exploratory target rankings, ${period}</h3><p class="recent-data-note"><strong>Different populations and incomplete coverage.</strong> Clinical bars are unreviewed ChEMBL–ClinicalTrials.gov name matches, including drugs that may already have been approved. FDA bars use the ${formatNumber(proxy.reviewed_fda_drugs_total)} catalog drugs with a reviewed earliest FDA indication. Do not divide the charts to calculate a success rate or infer that a target has no approved drugs.</p><p class="analysis-chart-caption">The 10 full years precede the June 2025 cutoff. Current trial interventions and target mechanisms can have been added after the study began. Estimated, month-only and unspecified study-start dates are retained; missing and earlier trials may change the rankings. Multi-target drugs can appear under multiple targets. Select a clinical bar to see the drugs included and links to candidate studies.</p><details><summary>${formatNumber(proxy.clinical_drugs_held_by_fda_timeline_check)} candidate drugs held from the earliest-study ranking by the FDA timeline check</summary><p>Each has a candidate FDA approval before its earliest matched study. An FDA application or identity match can still require review. These drugs remain in study-activity counts when eligible; the hold does not imply a lack of development.</p><ul>${heldItems}</ul></details><div id="proxy-drilldown" aria-live="polite"></div></article><article class="analysis-chart" aria-label="Clinical study activity candidates"><h3>Targets with candidate study activity, ${period}</h3><p class="analysis-chart-caption">Top 20 targets by distinct source-linked drugs with at least one matched phase I–III study starting in the period. This is study activity, not the date a drug entered a study.</p>${renderBars(sorted('activity_drugs'))}</article><article class="analysis-chart" aria-label="Earliest matched study start candidates"><h3>Targets by earliest matched study start, ${period}</h3><p class="analysis-chart-caption">Top 20 by distinct drugs whose earliest dated matched phase I–III study starts in the period. Approximate registry proxy only: this is not a verified first clinical-entry date.</p>${renderBars(sorted('first_match_drugs'))}</article><article class="analysis-chart" aria-label="Reviewed FDA approval-linked targets"><h3>Reviewed FDA approvals by target, ${period}</h3><p class="analysis-chart-caption">Top 20 by distinct catalog drugs with a verified earliest FDA indication date in the period and a primary target link. FDA review is incomplete; indication-specific target relevance is not necessarily verified. Select a bar for the target profile.</p>${fdaRows.length ? renderBars(fdaRows) : '<p>No reviewed FDA records in this period.</p>'}</article>`);
+      const conditionRows = proxy.trial_conditions.slice(0, 20).map((row) => ({ label: row.label, value: row.candidate_drugs, note: `${formatNumber(row.studies)} matched studies` }));
+      const conditionSources = proxy.trial_conditions.slice(0, 20).map((row) => `<li>${escapeHtml(row.label)}: ${row.sample_study_ids.map((id) => `<a href="https://clinicaltrials.gov/study/${encodeURIComponent(id)}" target="_blank" rel="noopener">${escapeHtml(id)}</a>`).join(', ')}</li>`).join('');
+      analyticsEl.insertAdjacentHTML('beforeend', `<article class="analysis-chart recent-wide" aria-label="Conditions reported in candidate studies"><h3>Conditions reported in candidate studies, ${period}</h3><p class="analysis-chart-caption">Top 20 exact registry condition terms by distinct name-matched drugs in phase I–III studies starting during the period. A trial condition does not establish each drug’s indication, and names are not grouped by disease ontology; healthy-volunteer studies may appear. These are exploratory counts, including approved drugs.</p>${renderBars(conditionRows)}<details><summary>Example source studies for these terms</summary><ul>${conditionSources}</ul></details></article>`);
+    }
     const topCaption = analyticsEl.querySelector('[aria-label="Most connected primary targets"] .analysis-chart-caption');
     topCaption.textContent = "Top 50 by distinct drugs with a primary target link in this release; click a bar to open the target. This is not a ranking of all investigational therapeutics.";
     const maxTargetCount = Math.max(...topTargets.map((row) => row.value), 1);
@@ -488,6 +651,16 @@ This public, versioned resource maps the approved-drug target landscape from the
     };
     new ResizeObserver(layoutCloud).observe(cloud);
     layoutCloud();
+    analyticsEl.querySelectorAll("[data-proxy-target]").forEach((button) => button.addEventListener("click", () => {
+      const row = proxy.clinical_targets.find((item) => item.target_id === button.dataset.proxyTarget);
+      if (!row) return;
+      const isFirst = button.dataset.proxyMetric === 'first_match_drugs';
+      const drugs = isFirst ? row.first_match_drug_records : row.activity_drug_records;
+      const container = document.getElementById('proxy-drilldown');
+      const studyLink = (id) => `<a href="https://clinicaltrials.gov/study/${encodeURIComponent(id)}" target="_blank" rel="noopener">${escapeHtml(id)}</a>`;
+      container.innerHTML = `<h4>${escapeHtml(row.label)} · ${formatNumber(drugs.length)} candidate drugs</h4><p class="analysis-chart-caption">${isFirst ? 'Earliest dated matched study starts in the period; it may not be the first trial of this drug.' : 'At least one matched study started in the period; example links are shown.'} Matches and target relevance require review; study start is not necessarily drug start.</p><ul>${drugs.map((drug) => `<li><a href="https://www.ebi.ac.uk/chembl/explore/compound/${encodeURIComponent(drug.drug_chembl_id)}" target="_blank" rel="noopener">${escapeHtml(drug.name)}</a> · ${isFirst ? `earliest matched study: ${escapeHtml(drug.earliest_matched_study_start)} (${escapeHtml(drug.start_type || 'date type unspecified')}) ${studyLink(drug.earliest_study_id)}` : `${formatNumber(drug.period_studies)} matched studies; examples ${(drug.period_study_ids || []).map(studyLink).join(', ')}`}${drug.undated_study_candidates ? ' · includes undated candidate studies' : ''}</li>`).join('')}</ul>`;
+      container.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }));
     analyticsEl.querySelectorAll("[data-analysis-scope]").forEach((button) => button.addEventListener("click", () => {
       selectedScope = button.dataset.analysisScope;
       scopeEl.value = selectedScope;
@@ -935,7 +1108,7 @@ This public, versioned resource maps the approved-drug target landscape from the
       renderClinicalExplorer();
       document.querySelector(".landscape-clinical")?.scrollIntoView({ behavior: "smooth", block: "start" });
     });
-    groupTargetsEl.innerHTML = targets.map(({ target, drugCount, approvedDrugCount, clinicalCount, primaryCount }) => `<button class="target-button${target.target_id === selectedTargetId ? " active" : ""}" data-target-id="${escapeHtml(target.target_id)}" aria-pressed="${target.target_id === selectedTargetId}">${escapeHtml(target.preferred_name)}<small>${escapeHtml(target.gene_symbol || "No gene symbol")} · ${formatNumber(drugCount)} linked drugs · ${formatNumber(approvedDrugCount)} with approval records · ${formatNumber(clinicalCount)} clinical · ${formatNumber(primaryCount)} primary</small></button>`).join("") || '<p class="landscape-muted">No targets match this selection.</p>';
+    groupTargetsEl.innerHTML = targets.map(({ target, drugCount, approvedDrugCount, clinicalCount, primaryCount }) => `<button class="target-button${target.target_id === selectedTargetId ? " active" : ""}" data-target-id="${escapeHtml(target.target_id)}" aria-pressed="${target.target_id === selectedTargetId}">${escapeHtml(target.preferred_name)}<small>${escapeHtml(target.gene_symbol || "No gene symbol")} · ${formatNumber(drugCount)} linked drugs · ${formatNumber(approvedDrugCount)} with approval records · ${formatNumber(clinicalCount)} selected pilot programs · ${formatNumber(primaryCount)} primary</small></button>`).join("") || '<p class="landscape-muted">No targets match this selection.</p>';
     groupTargetsEl.querySelectorAll("[data-target-id]").forEach((button) => button.addEventListener("click", () => {
       selectedTargetId = button.dataset.targetId;
       updateExplorerHash();
@@ -967,7 +1140,7 @@ This public, versioned resource maps the approved-drug target landscape from the
     const groups = ["All", ...groupOrder.filter((group) => counts[group]), ...Object.keys(counts).filter((group) => group !== "Unclassified" && !groupOrder.includes(group)), ...(counts.Unclassified ? ["Unclassified"] : [])];
     const allDrugCount = new Set(payload.drug_targets.filter((link) => scopedIds.has(link.target_id)).map((link) => link.drug_id)).size;
     const allClinicalCount = payload.programs.filter((program) => scopedIds.has(program.primary_target_id)).length;
-    groupsEl.innerHTML = groups.map((group) => { const targetCount = group === "All" ? scopedTargets.length : counts[group] || 0; const linkedDrugCount = group === "All" ? allDrugCount : (drugCounts[group]?.size || 0); const clinicalCount = group === "All" ? allClinicalCount : clinicalCounts[group] || 0; return `<button class="protein-group-button${group === selectedGroup ? " active" : ""}" data-group="${escapeHtml(group)}" aria-controls="group-targets" aria-pressed="${group === selectedGroup}">${escapeHtml(group)}<span class="protein-group-count">${formatNumber(targetCount)} targets · ${formatNumber(linkedDrugCount)} drugs · ${formatNumber(clinicalCount)} clinical</span></button>`; }).join("");
+    groupsEl.innerHTML = groups.map((group) => { const targetCount = group === "All" ? scopedTargets.length : counts[group] || 0; const linkedDrugCount = group === "All" ? allDrugCount : (drugCounts[group]?.size || 0); const clinicalCount = group === "All" ? allClinicalCount : clinicalCounts[group] || 0; return `<button class="protein-group-button${group === selectedGroup ? " active" : ""}" data-group="${escapeHtml(group)}" aria-controls="group-targets" aria-pressed="${group === selectedGroup}">${escapeHtml(group)}<span class="protein-group-count">${formatNumber(targetCount)} targets · ${formatNumber(linkedDrugCount)} drugs · ${formatNumber(clinicalCount)} selected pilot programs</span></button>`; }).join("");
     groupsEl.querySelectorAll("[data-group]").forEach((button) => button.addEventListener("click", () => { searchEl.value = ""; selectedGroup = button.dataset.group; selectedTargetId = null; updateExplorerHash(); renderProteinGroups(); renderGroupTargets(); renderTargets(); renderTargetDetail(null); [...groupsEl.querySelectorAll("[data-group]")].find((item) => item.dataset.group === selectedGroup)?.focus({ preventScroll: true }); }));
   };
 
@@ -980,6 +1153,118 @@ This public, versioned resource maps the approved-drug target landscape from the
     const linkedPairs = new Set(payload.drug_targets.map((link) => `${link.drug_id}|${link.target_id}`));
     const missingProgramLinks = payload.programs.filter((program) => program.primary_target_id && !linkedPairs.has(`${program.drug_id}|${program.primary_target_id}`)).length;
     statusEl.innerHTML = `<p><strong>Release:</strong> ${payload.release.version}</p><p><strong>As of:</strong> ${payload.release.as_of_date}</p><p><strong>FDA primary-indication review:</strong> ${formatNumber((payload.fda_primary_indication_review || []).filter((row) => row.review_status === "verified_primary_indication").length)} verified of ${formatNumber(payload.drugs.length)} catalog drugs · ${formatNumber(fdaDrugCount)} have at least one curated indication.</p><p><strong>Clinical programs:</strong> ${formatNumber(payload.programs.length)} pilot rows · ${formatNumber(includedCount)} included · ${formatNumber(payload.programs.length - includedCount)} needing review.</p><p><strong>Coverage QA:</strong> ${formatNumber(coverage.drugs_with_multiple_target_links || 0)} drugs have multiple target links · ${formatNumber(coverage.review_queue_rows || 0)} target review rows · ${formatNumber(missingProgramLinks)} clinical program drug–target links still need curation.</p><p class="landscape-muted">The core target count reconciles to the paper’s 686-biomolecule definition. CGT-only targets and unresolved approval labels are kept in separate scopes.</p>`;
+  };
+
+  const renderBroadSourceDiscovery = () => {
+    const source = payload.investigational_landscape_discovery || {};
+    const summary = source.summary || {};
+    const registry = source.registry || {};
+    const trialIndex = registry.drugs || {};
+    const triageIndex = new Map((source.history_triage || []).map((row) => [row.drug_chembl_id, row]));
+    const fdaIndex = new Map((source.fda_name_candidates || []).map((row) => [row.drug_chembl_id, row]));
+    const destination = document.getElementById('broad-source-results');
+    const query = document.getElementById('broad-source-search').value.trim().toLowerCase();
+    const rows = (source.mechanisms || []).filter((row) => `${row.drug_name} ${row.drug_chembl_id} ${row.target_gene} ${row.target_name}`.toLowerCase().includes(query));
+    if (!source.mechanisms?.length) { destination.innerHTML = '<p class="landscape-muted">Broad source snapshot is unavailable.</p>'; return; }
+    const groups = new Map();
+    rows.forEach((row) => {
+      if (!groups.has(row.target_id)) groups.set(row.target_id, {id: row.target_id, label: row.target_gene || row.target_name, name: row.target_name, drugs: new Set()});
+      groups.get(row.target_id).drugs.add(row.drug_chembl_id);
+    });
+    const ranked = [...groups.values()].sort((a, b) => b.drugs.size - a.drugs.size || a.label.localeCompare(b.label));
+    const max = ranked[0]?.drugs.size || 1;
+    const bars = ranked.slice(0, 20).map((row) => {
+      const ratio = row.drugs.size / max;
+      const color = `hsl(198 58% ${Math.round(88 - ratio * 48)}%)`;
+      return `<button type="button" class="analysis-row analysis-row-button" data-broad-target="${escapeHtml(row.id)}" aria-label="Show source records for ${escapeHtml(row.label)}, ${formatNumber(row.drugs.size)} distinct drug identifiers"><span class="analysis-label">${escapeHtml(row.label)}</span><span class="analysis-track"><span class="analysis-bar" style="width:${ratio * 100}%;--bar-color:${color}"></span></span><span class="analysis-value">${formatNumber(row.drugs.size)}</span></button>`;
+    }).join('');
+    const visible = rows.slice().sort((a, b) => a.target_gene.localeCompare(b.target_gene) || a.drug_name.localeCompare(b.drug_name)).slice(0, 100);
+    const body = visible.map((row) => {
+      const candidate = trialIndex[row.drug_chembl_id];
+      const triage = triageIndex.get(row.drug_chembl_id);
+      const earliest = triage?.earliest_candidate_study_id ? `<p>Earliest dated matching phase I–III study: <a href="https://clinicaltrials.gov/study/${encodeURIComponent(triage.earliest_candidate_study_id)}" target="_blank" rel="noopener">${escapeHtml(triage.earliest_candidate_study_id)}</a> · study start ${escapeHtml(triage.earliest_candidate_study_start)} ${escapeHtml(triage.earliest_candidate_study_start_type || '(date type not specified)')}. <strong>This is not a verified drug-entry date.</strong> ${Number(triage.candidate_studies_without_parseable_start) ? `${formatNumber(Number(triage.candidate_studies_without_parseable_start))} matching studies have an unparseable or missing start and could be earlier.` : ''} ${Number(triage.conflicting_study_observations) ? 'Conflicting study snapshots also need review.' : ''}</p>` : '';
+      const trialCell = candidate ? `<details><summary>${formatNumber(candidate.candidate_study_count)} name-matched studies</summary><small>${formatNumber(candidate.phase_1_to_3_study_candidates)} are interventional records listing phase I–III. The sample contains up to six studies sorted by NCT ID and two with registry stopping text; it is not a first-entry list. Identity and target relevance require review.</small>${earliest}<ul>${candidate.sample_studies.map((trial) => `<li><a href="https://clinicaltrials.gov/study/${encodeURIComponent(trial.nct_id)}" target="_blank" rel="noopener">${escapeHtml(trial.nct_id)}</a> · study start ${escapeHtml(trial.start_date || 'unknown')} ${escapeHtml(trial.start_type || '')} · ${escapeHtml(trial.phase || 'phase unknown')} · current status ${escapeHtml(trial.current_status || 'unknown')}${trial.why_stopped ? `<br><small>Registry stopping text: ${escapeHtml(trial.why_stopped)}. This is a study-level statement, not proof that the drug or target failed.</small>` : ''}</li>`).join('')}</ul><button type="button" class="load-more-button" data-load-study-drug="${escapeHtml(row.drug_chembl_id)}">Explore all matching phase I–III studies</button><div class="broad-study-detail" aria-live="polite"></div></details>` : 'No match shown; name and registry coverage are incomplete.';
+      const fda = fdaIndex.get(row.drug_chembl_id);
+      const label = fda && /^https:\/\/[^/]*\.fda\.gov\//i.test(fda.candidate_fda_label_url) ? `<a href="${escapeHtml(fda.candidate_fda_label_url)}" target="_blank" rel="noopener">FDA label</a>` : '';
+      const letter = fda && /^https:\/\/[^/]*\.fda\.gov\//i.test(fda.candidate_fda_approval_url) ? `<a href="${escapeHtml(fda.candidate_fda_approval_url)}" target="_blank" rel="noopener">FDA approval record</a>` : '';
+      const review = fda?.existing_fda_review_status === 'verified_primary_indication' ? 'Existing catalog indication marked verified' : 'Existing catalog indication still needs review';
+      const fdaCell = fda ? `<details><summary>Possible FDA indication match</summary><small>Exact-name candidate; verify drug identity and indication. ${review}; this does not verify the cross-database match. Initial indications may have changed or been withdrawn, and the label may be a later revision.</small><p>${escapeHtml(fda.candidate_fda_indication)} · ${escapeHtml(fda.candidate_fda_approval_date)}<br>${escapeHtml(fda.candidate_fda_population)}<br>${label} ${letter}</p></details>` : 'No FDA indication match shown.';
+      return `<tr><td>${escapeHtml(row.target_gene || row.target_name)}</td><td><a href="${escapeHtml(row.source_url)}" target="_blank" rel="noopener">${escapeHtml(row.drug_name || row.drug_chembl_id)}</a></td><td>${escapeHtml(row.mechanism)}</td><td>${escapeHtml(row.max_phase_source)}</td><td><a href="https://www.ebi.ac.uk/chembl/api/data/mechanism.json?mec_id=${encodeURIComponent(row.mechanism_id)}" target="_blank" rel="noopener">Source mechanism</a></td><td>${trialCell}</td><td>${fdaCell}</td></tr>`;
+    }).join('');
+    const regSummary = registry.registry_summary || {};
+    const rejectedNames = (regSummary.alias_search_names_rejected_by_api || []).length;
+    destination.innerHTML = `<p class="landscape-muted">${escapeHtml(summary.source?.release || 'ChEMBL')} · source release ${escapeHtml(summary.source?.release_date || 'date unavailable')} · ${formatNumber(summary.distinct_drugs || 0)} distinct drug identifiers and ${formatNumber(summary.distinct_catalog_targets || 0)} catalog targets in this source slice. ${formatNumber(rows.length)} matching mechanism records shown in the analysis.</p><p class="landscape-muted">ClinicalTrials.gov preferred-name searches completed for ${formatNumber(regSummary.drugs_with_completed_search_batch || 0)} of ${formatNumber(regSummary.total_drugs_planned || 0)} source drugs. Selected source-reported aliases were also searched for ${formatNumber(regSummary.drugs_with_completed_alias_batch || 0)} drugs; ${formatNumber(rejectedNames)} alias terms were rejected by the registry search. ${formatNumber(regSummary.distinct_studies || 0)} distinct studies have at least one candidate name match. Registry snapshot built ${escapeHtml((regSummary.built_utc || '').slice(0, 10) || 'date unavailable')}. Search coverage and study selection are incomplete.</p><h3>Top 20 targets in matching source records</h3><p class="landscape-muted">Bar length and color indicate the number of distinct ChEMBL parent drug identifiers with a source-reported mechanism for each target. This is a source-coverage view, not a clinical-entry or FDA-approval ranking.</p><div class="analysis-scale" aria-label="Color scale from lower to higher values"><span>Low</span><span class="analysis-scale-swatch" aria-hidden="true"></span><span>High</span></div>${bars || '<p>No source records match this search.</p>'}<h3>Source records</h3><p class="landscape-muted">Showing ${formatNumber(visible.length)} of ${formatNumber(rows.length)} mechanism records. Search to narrow the list; multiple mechanisms may refer to the same drug and target. Maximum phase is ChEMBL's drug-level maximum across indications.</p><div class="drug-table-wrap" tabindex="0" aria-label="Scrollable broad source mechanisms"><table class="landscape-table"><thead><tr><th>Target</th><th>Drug</th><th>Source-reported mechanism</th><th>Source max phase</th><th>Evidence</th><th>Registry candidates</th><th>FDA name match</th></tr></thead><tbody>${body || '<tr><td colspan="7">No matching records.</td></tr>'}</tbody></table></div>`;
+    destination.querySelectorAll('[data-broad-target]').forEach((button) => button.addEventListener('click', () => {
+      const selected = ranked.find((row) => row.id === button.dataset.broadTarget);
+      if (selected) { document.getElementById('broad-source-search').value = selected.label; renderBroadSourceDiscovery(); }
+    }));
+    destination.querySelectorAll('[data-load-study-drug]').forEach((button) => button.addEventListener('click', async () => {
+      const drug = button.dataset.loadStudyDrug;
+      const detail = button.nextElementSibling;
+      if (!/^CHEMBL\d+$/.test(drug)) return;
+      button.disabled = true;
+      detail.textContent = 'Loading source-matched studies…';
+      try {
+        const bucket = String(Number(drug.slice(6)) % 64).padStart(2, '0');
+        const response = await fetch(`/data/generated/investigational-trials-v1/${bucket}.json`);
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data = await response.json();
+        const studies = data.drugs?.[drug] || [];
+        detail.innerHTML = `<p><strong>Study-start window</strong> <select aria-label="Study-start window"><option value="within">2000–June 2025, all date types</option><option value="all">All starts, including missing dates</option><option value="other">Outside window or unknown</option></select></p><p class="landscape-muted">The window classifies the overall study start, not when this drug was added. Estimated and unspecified dates are labeled. Current interventions, phases, status and stopping text may have changed after the cutoff; links are unreviewed name matches.</p><div class="broad-study-list"></div>`;
+        const select = detail.querySelector('select');
+        const list = detail.querySelector('.broad-study-list');
+        let limit = 40;
+        const draw = () => {
+          const rows = studies.filter((study) => select.value === 'all' || (select.value === 'within' ? (study.study_start_scope || '').startsWith('within_window_') : !(study.study_start_scope || '').startsWith('within_window_')));
+          const items = rows.slice(0, limit).map((study) => `<li><a href="https://clinicaltrials.gov/study/${encodeURIComponent(study.nct_id)}" target="_blank" rel="noopener">${escapeHtml(study.nct_id)}</a> · ${escapeHtml(study.title || 'Study details need review')}<br><small>Study start ${escapeHtml(study.start_date || 'unknown')} · ${escapeHtml(study.start_type || 'date type unspecified')} · ${escapeHtml(study.phase || 'phase unresolved')} · current status ${escapeHtml(study.current_status || 'unresolved')}${study.why_stopped ? `<br>Registry stopping text: ${escapeHtml(study.why_stopped)} (study-level statement)` : ''}</small></li>`).join('');
+          list.innerHTML = `<p class="landscape-muted">Showing ${formatNumber(Math.min(limit, rows.length))} of ${formatNumber(rows.length)} matched studies. A missing match is not evidence of no clinical development.</p><ul>${items || '<li>No matching records in this view.</li>'}</ul>${rows.length > limit ? '<button type="button" class="load-more-button">Show 40 more studies</button>' : ''}`;
+          list.querySelector('button')?.addEventListener('click', () => { limit += 40; draw(); });
+        };
+        select.addEventListener('change', () => { limit = 40; draw(); });
+        draw();
+        button.hidden = true;
+      } catch (error) {
+        detail.textContent = 'Study details could not be loaded. Please try again.';
+        button.disabled = false;
+      }
+    }));
+  };
+
+  const renderInvestigationalPilot = () => {
+    const pilot = payload.investigational_pilot || {};
+    const targetSelect = document.getElementById('investigational-target');
+    const destination = document.getElementById('investigational-results');
+    const query = document.getElementById('investigational-search').value.trim().toLowerCase();
+    const matches = (name, gene) => (!query || `${name} ${gene}`.toLowerCase().includes(query));
+    const reviewed = (pilot.reviewed_examples || []).filter((row) => (targetSelect.value === 'all' || row.target_gene === targetSelect.value) && matches(row.drug_name, row.target_gene));
+    const safeLink = (url, label) => /^https:\/\//.test(url || '') ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(label)}</a>` : escapeHtml(label);
+    document.getElementById('investigational-reviewed').innerHTML = `<h3>Source-reviewed examples</h3><p class="landscape-muted">Selected examples only—not a complete cohort or a target ranking. Study start is not necessarily first dose; FDA approval is drug-level and does not automatically establish approval for every studied indication. Initial indications may have changed or been withdrawn.</p>${reviewed.length ? `<ul>${reviewed.map((row) => `<li><strong>${escapeHtml(row.drug_name)}</strong> · ${escapeHtml(row.target_gene)} · ${escapeHtml(row.trial_phase === 'phase_1_2' ? 'phase I/II' : 'phase I')} first-in-human study ${safeLink(row.trial_source_url, row.trial_id)} started ${escapeHtml(row.trial_start_date)} · FDA approval ${escapeHtml(row.fda_approval_date)} (${safeLink(row.fda_approval_url, row.fda_application)}). ${safeLink(row.first_in_human_evidence_url, 'First-in-human evidence')} · ${safeLink(row.fda_original_label_url, 'Original FDA label')}<br><small>${escapeHtml(row.scope_note)} Same-indication and target-mechanism approval match: not yet evaluated.</small></li>`).join('')}</ul>` : '<p class="landscape-muted">No FDA-linked reviewed example matches these filters.</p>'}`;
+    const firstTrials = (pilot.first_trial_reviews || []).filter((row) => (targetSelect.value === 'all' || row.target_gene === targetSelect.value) && matches(row.drug_name, row.target_gene));
+    if (firstTrials.length) {
+      document.getElementById('investigational-reviewed').insertAdjacentHTML('beforeend', `<h3>First documented study: reviewed evidence</h3><p class="landscape-muted">These selected records are part of the examples above, not additional drugs. Searches are incomplete and these records cannot be used as a comprehensive target ranking. Study start is not necessarily first dose or monotherapy-arm start.</p><ul>${firstTrials.map((row) => `<li><strong>${escapeHtml(row.drug_name)}</strong> · ${escapeHtml(row.target_gene)} · ${safeLink(row.trial_source_url, row.trial_id)} · study start ${escapeHtml(row.trial_start_date)}. ${safeLink(row.first_in_human_evidence_url, 'First-in-human evidence')} · ${safeLink(row.target_source_url, 'Target evidence')}<br><small>${escapeHtml(row.review_note)} First eligible monotherapy-arm start: unresolved.</small></li>`).join('')}</ul>`);
+    }
+    const reviewedStudies = (pilot.reviewed_studies || []).filter((row) => (targetSelect.value === 'all' || row.target_gene === targetSelect.value) && matches(row.drug_name, row.target_gene));
+    if (reviewedStudies.length) {
+      document.getElementById('investigational-reviewed').insertAdjacentHTML('beforeend', `<h3>Source-reviewed study examples · FDA status not evaluated</h3><p class="landscape-muted">These examples document individual clinical studies. FDA status is unknown; unknown does not mean unapproved. They are not a complete cohort and are not included in a target ranking.</p><ul>${reviewedStudies.map((row) => `<li><strong>${escapeHtml(row.drug_name)}</strong> · ${escapeHtml(row.target_gene)} · ${escapeHtml(row.trial_phase === 'phase_1_2' ? 'phase I/II' : 'phase I')} study ${safeLink(row.trial_source_url, row.trial_id)} started ${escapeHtml(row.trial_start_date)} · FDA approval status not evaluated. ${safeLink(row.study_evidence_url, 'Study report')} · ${safeLink(row.target_evidence_url, 'Target evidence')}<br><small>${escapeHtml(row.scope_note)}</small></li>`).join('')}</ul>`);
+    }
+    const rows = (pilot.candidates || []).filter((row) => (targetSelect.value === 'all' || row.target_gene === targetSelect.value) && matches(row.drug_name, row.target_gene));
+    const queue = new Map((pilot.review_queue || []).map((row) => [row.drug_chembl_id, row]));
+    const firstTrialKeys = new Set((pilot.first_trial_reviews || []).map((row) => `${row.drug_chembl_id}|${row.target_gene}`));
+    const visibleDrugIds = new Set(rows.map((row) => row.drug_chembl_id));
+    const issues = (pilot.evidence_issues || []).filter((row) => row.status === 'unresolved' && (visibleDrugIds.has(row.drug_chembl_id) || ((targetSelect.value === 'all' || row.target_gene.split('|').includes(targetSelect.value)) && matches(row.drug_name, row.target_gene))));
+    const summary = pilot.summary || {};
+    const body = rows.map((row) => {
+      const id = /^CHEMBL\d+$/.test(row.drug_chembl_id) ? row.drug_chembl_id : '';
+      const drug = escapeHtml(row.drug_name || row.drug_chembl_id);
+      const review = queue.get(row.drug_chembl_id);
+      const warning = review && Number(review.known_unresolved_issue_count) > 0 ? '<br><strong>Known evidence issue; see details above.</strong>' : '';
+      const reviewText = firstTrialKeys.has(`${row.drug_chembl_id}|${row.target_gene}`) ? 'First documented study reviewed; cohort and monotherapy start unresolved' : 'Source candidate; clinical history and cohort unreviewed';
+      return `<tr><td>${id ? `<a href="https://www.ebi.ac.uk/chembl/explore/compound/${id}" target="_blank" rel="noopener">${drug}</a>` : drug}</td><td>${escapeHtml(row.target_gene)}</td><td>${escapeHtml(row.mechanism)}</td><td>${escapeHtml(row.max_phase_source)}</td><td>${reviewText}${warning}</td></tr>`;
+    }).join('');
+    const version = summary.source_status?.chembl_db_version || 'unknown';
+    const snapshot = (summary.retrieved_utc || '').slice(0, 10) || 'unknown';
+    const issueSection = issues.length ? `<details><summary>Known unresolved evidence issues (${formatNumber(issues.length)})</summary><p class="landscape-muted">These notes identify documented questions for review. Absence from this list does not mean a candidate has been verified.</p><ul>${issues.map((row) => `<li><strong>${escapeHtml(row.drug_name)}</strong> · ${escapeHtml(row.target_gene)} · ${escapeHtml(row.trial_id)}: ${escapeHtml(row.review_note)} ${safeLink(row.source_url, 'Source 1')} · ${safeLink(row.additional_source_url, 'Source 2')}</li>`).join('')}</ul></details>` : '';
+    destination.innerHTML = `${issueSection}<p class="landscape-muted">${escapeHtml(version)} · retrieved ${escapeHtml(snapshot)} UTC · ${formatNumber(rows.length)} candidate mechanism records shown. Drugs may appear for more than one target. Source-reported maximum phase is not necessarily indication-specific or current.</p><div class="drug-table-wrap" tabindex="0" aria-label="Scrollable investigational source candidates"><table class="landscape-table"><thead><tr><th>Drug</th><th>Target</th><th>Source-reported mechanism</th><th>Source-reported max phase</th><th>Review status</th></tr></thead><tbody>${body || '<tr><td colspan="5">No candidates match these filters.</td></tr>'}</tbody></table></div>`;
   };
 
   const renderEvidence = () => {
@@ -1051,7 +1336,7 @@ This public, versioned resource maps the approved-drug target landscape from the
       const targetFromHash = payload.targets.find((target) => target.target_id === hashTarget);
       if (targetFromHash) { selectedTargetId = targetFromHash.target_id; selectedGroup = targetFromHash.protein_group || "Unclassified"; alignScopeToTarget(targetFromHash); }
       else if (hashGroup && new Set(payload.targets.map((target) => target.protein_group || "Unclassified")).has(hashGroup)) { selectedGroup = hashGroup; }
-      renderMetrics(); renderAnalytics(); renderPhaseOutcomeMatrix(); renderProteinGroups(); renderGroupTargets(); renderTargets(); renderDrugResults(); renderClinicalExplorer(); renderStatus(); renderEvidence(); renderTargetDetail(targetFromHash);
+      renderMetrics(); renderAnalytics(); renderPhaseOutcomeMatrix(); renderProteinGroups(); renderGroupTargets(); renderTargets(); renderDrugResults(); renderClinicalExplorer(); renderStatus(); renderEvidence(); renderBroadSourceDiscovery(); renderInvestigationalPilot(); renderTargetDetail(targetFromHash);
       if (targetFromHash || hashGroup || hashScope || hashDrug || hashParams.has("clinical_status") || hashParams.has("clinical_group") || hashParams.has("clinical_phase") || hashParams.has("clinical_outcome") || hashParams.has("clinical_query")) {
         requestAnimationFrame(() => {
           const destination = targetFromHash && window.matchMedia("(max-width: 800px)").matches ? detailEl
@@ -1122,6 +1407,10 @@ This public, versioned resource maps the approved-drug target landscape from the
   searchEl.addEventListener("input", () => { if (payload) { targetResultsVisible = 50; selectedGroup = "All"; selectedTargetId = null; updateExplorerHash(); renderProteinGroups(); renderTargets(); renderGroupTargets(); renderTargetDetail(null); } });
   drugSearchEl.addEventListener("input", () => { if (payload) { focusedDrugId = null; drugResultsVisible = 25; updateDrugHash(); renderDrugResults(); } });
   drugYearEl.addEventListener("change", () => { if (payload) { if (focusedDrugId) drugSearchEl.value = ""; focusedDrugId = null; drugResultsVisible = 25; updateDrugHash(); renderDrugResults(); } });
+  document.getElementById('investigational-target').addEventListener('change', () => { if (payload) renderInvestigationalPilot(); });
+  document.getElementById('investigational-search').addEventListener('input', () => { if (payload) renderInvestigationalPilot(); });
+  document.getElementById('broad-source-search').addEventListener('input', () => { if (payload) renderBroadSourceDiscovery(); });
+  document.getElementById('broad-source-reset').addEventListener('click', () => { document.getElementById('broad-source-search').value = ''; if (payload) renderBroadSourceDiscovery(); });
   drugExportEl.addEventListener("click", () => {
     if (!payload || !currentDrugMatches.length) return;
     const targetById = new Map(payload.targets.map((target) => [target.target_id, target]));
@@ -1186,4 +1475,6 @@ This public, versioned resource maps the approved-drug target landscape from the
   });
 })();
 </script>
+<script src="/posts/2026-10-02-drug-target-landscape/audited-analysis.js?v=20261106-2" defer></script>
+<script src="/posts/2026-10-02-drug-target-landscape/integrated-analysis.js?v=20261106-2" defer></script>
 ```

@@ -3,7 +3,15 @@ project:
   output-dir: _site
   resources:
     - data/generated/landscape.json
+    - data/generated/blog-target-analysis.json
+    - data/generated/audited-landscape-analysis.json
+    - data/generated/disease-similarity-layout.json
     - data/generated/target-landscape-publication.svg
+    - data/generated/investigational-trials-v1/*.json
+    - posts/2026-10-02-drug-target-landscape/integrated-analysis.js
+    - posts/2026-10-02-drug-target-landscape/integrated-analysis.css
+    - posts/2026-10-02-drug-target-landscape/audited-analysis.js
+    - posts/2026-10-02-drug-target-landscape/audited-analysis.css
   render:
     - "*.qmd"
     - "posts/**/*.qmd"
