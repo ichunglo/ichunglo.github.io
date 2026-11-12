@@ -10,7 +10,18 @@
 <atom:link href="https://ichunglo.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Scientific commentary by iLo</description>
 <generator>quarto-1.11.9</generator>
-<lastBuildDate>Sun, 25 Oct 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 12 Nov 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>AI Biotech, Mapped</title>
+  <dc:creator>iLo </dc:creator>
+  <link>https://ichunglo.github.io/posts/2026-11-10-ai-biotech-landscape/</link>
+  <description><![CDATA[ A sourced, exploratory guide to AI-native companies across drug discovery and development. ]]></description>
+  <category>Drug Discovery</category>
+  <category>Artificial Intelligence</category>
+  <category>Biotechnology</category>
+  <guid>https://ichunglo.github.io/posts/2026-11-10-ai-biotech-landscape/</guid>
+  <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>TRI-611 and the Serendipity of Molecular-Glue Discovery</title>
   <dc:creator>iLo </dc:creator>
