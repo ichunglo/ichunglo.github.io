@@ -1,0 +1,59 @@
+---
+title: "Are We in an AI Hype Cycle for Drug Discovery?"
+description: "A drug discovery scientist reflects on AI's practical value, the gap between predictions and medicines, and the need for clinically meaningful evidence."
+author: "iLo"
+date: "2026-11-13"
+categories: [Perspective, Drug Discovery, Artificial Intelligence]
+image: ai-drug-discovery-cover.png
+image-alt: "A stylized laboratory scene combining a computer chip, molecular model, capsule, and magnifying glass"
+toc: true
+toc-title: "In this perspective"
+---
+
+In meetings with venture capitalists and other investors, I sometimes feel that the question “Do you use AI?” receives more attention than the science behind our platform, programs, and pipeline.
+
+We use machine learning and AI tools at different stages of drug discovery. They can be useful, and I expect their role to grow. But I hesitate to describe our company as an “AI biotech.” In my experience, using AI does not automatically translate into a meaningful improvement in drug development. The more important question is what those tools help us accomplish.
+
+A recent perspective by [Andreas Bender and colleagues in *Nature Reviews Drug Discovery*](https://doi.org/10.1038/s41573-026-01496-2) captures the tension well. AI has made remarkable technical progress, but evidence that it has substantially improved the delivery of medicines to patients remains limited. That distinction resonates with me.
+
+## Better predictions are not the same as better medicines
+
+One experience in particular has shaped my view. We have tested AI-designed compound libraries and found that, in our hands, the hit rate was not much better than that of libraries designed by human scientists.
+
+That observation comes with limits: it reflects our experience with particular libraries, models, and assays. It does not prove that AI-designed libraries cannot outperform other approaches. But it does make me cautious when a compelling model or a large number of generated molecules is presented as evidence of better drug discovery.
+
+A hit is a starting point, not a medicine. A compound may show activity in an assay and still fail because of poor selectivity, toxicity, unsuitable pharmacokinetics, or a lack of efficacy in patients. Even a well-designed molecule cannot rescue a therapeutic strategy built on the wrong understanding of a disease.
+
+Bender and colleagues make a related point: finding a molecule that binds to a target is a different challenge from discovering a drug that is safe and effective in people. AI may help with the former, but the latter depends on a much longer chain of biological and clinical decisions.
+
+## The promise is real, but so is the gap
+
+The authors survey AI applications across drug research and development, including molecular synthesis, ADMET prediction, generative molecular design, protein structure prediction, peptide and antibody design, high-content imaging, transcriptomics, and clinical development.
+
+From my own experience, I see practical value in areas such as ADMET prediction and high-content imaging. These tools can help scientists prioritize experiments and extract information from complex datasets. Their usefulness, however, depends on the question, the quality and relevance of the training data, and how their predictions are validated. I do not have enough direct experience in manufacturing, regulation, or clinical trial design to judge AI's impact in those areas.
+
+The perspective also highlights a deeper challenge: biological data are highly dependent on context. A result can change with the cell type, experimental conditions, genetic background, or disease state. An assay may be reproducible and still be a poor predictor of what happens in a patient. Chemical datasets also cover only a small portion of possible molecules, making it difficult to know when a model will generalize to compounds it has not encountered before.
+
+This is why a strong benchmark score is only a beginning. A model can predict an endpoint accurately without improving the decision a drug discovery team needs to make. The question is whether its use changes which experiments are run, which compounds are advanced, or which patients are selected—and whether those changes lead to better outcomes.
+
+## A lesson from the Human Genome Project
+
+The current excitement reminds me of the optimism surrounding the Human Genome Project. In a [2000 interview](https://www.pbs.org/wnet/religionandethics/2000/06/16/transcript-bob-abernethys-interview-with-dr-francis-collins-director-of-the-human-genome-project-at-the-national-institutes-of-health/15204/), Dr. Francis Collins anticipated that within 20 to 25 years, advances in genetics could allow us to prevent or cure many, perhaps most, cases of several common diseases.
+
+More than 25 years later, those diseases remain major challenges. At the same time, genomics has transformed biomedical research and contributed to important advances in diagnosis and treatment. The lesson is not that the Human Genome Project failed. It is that a powerful new source of information does not immediately translate into an equally rapid ability to treat complex diseases.
+
+I think AI deserves the same balance of optimism and patience. Its scientific capabilities are advancing quickly. Whether those capabilities can consistently overcome the bottlenecks in drug development is a harder question, and one that needs evidence.
+
+## Start with the scientific question
+
+The most useful idea in Bender and colleagues' perspective is their call for a **“science pull”** approach. Instead of beginning with a fashionable algorithm and looking for an available dataset, start with a consequential scientific or clinical question. Then determine what data, experiments, and computational tools are needed to answer it.
+
+For example, can a tool help us choose a target with a stronger connection to human disease? Can it identify a biomarker that helps us select patients more likely to respond? Can it improve a decision about dose, safety, or which compound to advance? Those are difficult questions, but they are closer to the decisions that determine whether a medicine succeeds.
+
+The authors' analysis suggests that improving success at the first major stage of clinical efficacy testing—usually phase II—could have a particularly large effect on the cost of bringing a medicine to market. That does not make early discovery unimportant. It means that improvements in early discovery should be assessed, wherever possible, in relation to the clinical outcomes they are intended to support.
+
+I am not against AI in drug discovery. We use it because it can help us do our work. But I would like to see less emphasis on whether a company has AI and more discussion of **where it adds value, how that value is measured, and what the limitations are**.
+
+The standard should be meaningful scientific and clinical progress: better decisions, better experiments, and, ultimately, safer and more effective medicines for patients.
+
+*Disclosure: This article was edited with AI assistance, and its cover is AI-generated.*
