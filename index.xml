@@ -10,7 +10,19 @@
 <atom:link href="https://ichunglo.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Scientific commentary by iLo</description>
 <generator>quarto-1.11.9</generator>
-<lastBuildDate>Thu, 12 Nov 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 13 Nov 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Are We in an AI Hype Cycle for Drug Discovery?</title>
+  <dc:creator>iLo </dc:creator>
+  <link>https://ichunglo.github.io/posts/2026-11-13-ai-hype-drug-discovery/</link>
+  <description><![CDATA[ A drug discovery scientist reflects on AI’s practical value, the gap between predictions and medicines, and the need for clinically meaningful evidence. ]]></description>
+  <category>Perspective</category>
+  <category>Drug Discovery</category>
+  <category>Artificial Intelligence</category>
+  <guid>https://ichunglo.github.io/posts/2026-11-13-ai-hype-drug-discovery/</guid>
+  <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://ichunglo.github.io/posts/2026-11-13-ai-hype-drug-discovery/ai-drug-discovery-cover.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
 <item>
   <title>AI Biotech, Mapped</title>
   <dc:creator>iLo </dc:creator>
